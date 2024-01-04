@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Company from '../Components/Company'
 import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (

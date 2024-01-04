@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Company from '../Components/Company'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
     const [currentContentIndex, setCurrentContentIndex] = useState(0);
