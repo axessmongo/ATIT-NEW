@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
 function Home() {
   useEffect(() => {
