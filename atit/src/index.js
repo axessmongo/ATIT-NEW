@@ -4,8 +4,10 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import './index.css';
-import "./css/animation.css"
+import "./css/pap.css"
+import "./css/animation.css";
+import './css/index.css';
+
 import { BrowserRouter } from 'react-router-dom';
 
 
