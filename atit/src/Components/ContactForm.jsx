@@ -96,7 +96,7 @@ export default function ContactForm() {
             </div>
         </div>
 
-        <button className='primary-btn d-none' data-bs-toggle="modal" data-bs-target="#contact">OPen</button>
+        {/* <button className='primary-btn d-none' data-bs-toggle="modal" data-bs-target="#contact">OPen</button> */}
         </div>
     )
 }

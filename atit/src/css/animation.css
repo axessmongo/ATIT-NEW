@@ -273,6 +273,8 @@
 .popup span {
   animation: 2s infinite forwards letterAnimation;
   font-weight: 600;
+  width: 12.5px;
+  letter-spacing: 0;
 }
 @keyframes inout {
   0%,

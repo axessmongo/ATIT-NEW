@@ -1,0 +1,163 @@
+a {
+  text-decoration: none;
+}
+
+.course .pap-card {
+  border-radius: 0 30px;
+  animation: 6s linear infinite border;
+}
+
+.course .tab-content > .active {
+  opacity: 1 !important;
+}
+
+@keyframes border {
+  0%, 100% {
+      border-radius: 0 30px;
+  }
+  50% {
+      border-radius: 30px 0;
+  }
+}
+
+.course .card-1 {
+  box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+  transition: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 0;
+}
+
+.course .rating-star img {
+  width: 15px;
+  display: inline-block;
+}
+
+.course .course-card1 {
+  background: linear-gradient(90deg, #053833 0, #0ae6d7 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card2 {
+  background: linear-gradient(90deg, #3c76d6 0, #b8cef0 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card3 {
+  background: linear-gradient(90deg, #f5921a 0, #f7c27c 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card4 {
+  background: linear-gradient(90deg, #374e8e 0, #a5b6d7 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card5 {
+  background: linear-gradient(90deg, #fc2d3d 0, #f293a2 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card6 {
+  background: linear-gradient(90deg, #024f2c 0, #b5f0d6 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card7 {
+  background: linear-gradient(90deg, #781e1e 0, #d18484 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card8 {
+  background: linear-gradient(90deg, #942065 0, #ead2e0 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card9 {
+  background: linear-gradient(90deg, #ff5802 0, #f3a680 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card10 {
+  background: linear-gradient(90deg, #ed0c4e 0, #f3afc3 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card11 {
+  background: linear-gradient(90deg, #dc0bef 0, #fccddb 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card12 {
+  background: linear-gradient(90deg, #030182 0, #7b79ec 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card13 {
+  background: linear-gradient(90deg, #145196 0, #86b2e3 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card14 {
+  background: linear-gradient(90deg, #520bd7 0, #94bbe9 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card15 {
+  background: linear-gradient(90deg, #ff5722 0, #f8cc6c 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card16 {
+  background: linear-gradient(90deg, #3cbcfe 0, #e44da3 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card17 {
+  background: linear-gradient(90deg, #d4080f 0, #f0b0d6 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card18 {
+  background: linear-gradient(90deg, #2b3ff3 0, #a7aff7 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card19 {
+  background: linear-gradient(90deg, #fd9e29 0, #fee0ba 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card20 {
+  background: linear-gradient(90deg, #f87b7e 0, #ebc555 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card21 {
+  background: linear-gradient(90deg, #02f89e 0, #026b0e 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card22 {
+  background: linear-gradient(90deg, #024827 0, #a6efcd 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card23 {
+  background: linear-gradient(90deg, #f38f14 0, #f2b565 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card24 {
+  background: linear-gradient(90deg, #833ab4 0, #fd1d1d 50%, #fcb045 100%);
+  padding: 50px 10px;
+}
+
+.course .course-card25 {
+  background: linear-gradient(90deg, #e10707 0, #dfcaca 100%);
+  padding: 50px 10px;
+}
+
+.course .nav-pills .nav-link.active,
+.course .nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color) !important;
+  background-color: var(--bs-nav-pills-link-active-bg) !important;
+}
