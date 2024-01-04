@@ -4,6 +4,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Courses from './Pages/Courses';
 import Pap from './Pages/Pay-after-placement';
+import Emerging from './Blog-page/Emerging';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
@@ -22,6 +23,7 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/Pap" element={<Pap/>}/>
         <Route path='/Courses' element={<Courses />} />
+        <Route path='/Emerging' element={<Emerging />} />
       </Routes>
     </div>
   );
