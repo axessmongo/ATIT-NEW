@@ -5,6 +5,7 @@ import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
 import Courses from './Pages/Courses';
 import Pap from './Pages/Pay-after-placement';
+import Emerging from './Blog-page/Emerging';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
