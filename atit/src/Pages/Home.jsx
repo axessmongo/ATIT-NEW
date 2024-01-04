@@ -2,8 +2,19 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
+import ContactForm from '../Components/ContactForm'
+import Rocket from '../Components/Rocket'
 import Company from '../Components/Company'
+import LeftBar from '../Components/LeftBar'
 function Home() {
+  useEffect(() => {
+    var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
+    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';
+  }, [])
+
+  setTimeout(() => {
+    document.querySelector('[data-bs-target="#contact"]').click();
+  }, 500);
   return (
     <div>
       <Navbar />
@@ -440,7 +451,7 @@ function Home() {
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>
-          
+
         </div>
       </div>
       {/* DevelopmentProgram */}
@@ -643,9 +654,16 @@ function Home() {
         </div>
       </section>
       {/* Our Trained Students are Hired By */}
-      <Company/>
+
+      <Company />
       {/* footer */}
       <Footer />
+      {/* {contact Form} */}
+      <ContactForm />
+      {/* {Rocket} */}
+      <Rocket />
+      {/* {LeftBar} */}
+      <LeftBar/>
     </div>
   )
 }
