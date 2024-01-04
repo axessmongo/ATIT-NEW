@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import ContactForm from '../Components/ContactForm'
 import Rocket from '../Components/Rocket'
 import Company from '../Components/Company'
+import LeftBar from '../Components/LeftBar'
 function Home() {
   useEffect(() => {
     var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
@@ -13,7 +14,7 @@ function Home() {
 
   setTimeout(() => {
     document.querySelector('[data-bs-target="#contact"]').click();
-  }, 1000);
+  }, 500);
   return (
     <div>
       <Navbar />
@@ -661,6 +662,8 @@ function Home() {
       <ContactForm />
       {/* {Rocket} */}
       <Rocket />
+      {/* {LeftBar} */}
+      <LeftBar/>
     </div>
   )
 }
