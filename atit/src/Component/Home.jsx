@@ -1,10 +1,13 @@
-import React, {useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 function Home() {
-
-const [active, setactive] = useState(true)
+  useEffect(() => {
+    var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
+    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';// Initialize AOS when the component mounts
+  }, [])
+  const [active, setactive] = useState(true)
   return (
     <div>
       <Navbar />
@@ -12,7 +15,7 @@ const [active, setactive] = useState(true)
         <div className="position-relative overflow-hidden overflow-lg-visible">
           <section
             className="hero-banner d-flex justify-content-center align-items-end align-items-md-center position-relative overflow-hidden header finisher-header text-center text-lg-start text-white"
-            style={{background:"linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)"}}
+            style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
           >
             <div className="container z-3">
               <div
@@ -171,7 +174,7 @@ const [active, setactive] = useState(true)
         </div>
       </div>
       {/* content banner */}
-      <div class="">
+      <div class="primary-mb">
         <section class="whatwedo overflow-hidden" id="whatwedo">
           <div class="container overflow-hidden overflow-lg-visible">
             <div class="position-relative">
@@ -441,7 +444,7 @@ const [active, setactive] = useState(true)
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>
-          
+
         </div>
       </div>
       {/* DevelopmentProgram */}
