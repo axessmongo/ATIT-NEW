@@ -449,7 +449,7 @@ function Home() {
         </div>
         <div data-aos="fade-up" data-aos-duration="700" class="d-flex pt-4">
           <Link
-            to="pay-after-placement.html"
+            to="/pap"
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>

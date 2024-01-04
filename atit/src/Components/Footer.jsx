@@ -52,13 +52,13 @@ function Footer() {
                             <div className="text-decoration-none">
                                 <h4>Courses</h4>
                                 <div className="text-decoration-none courses-links">
-                                    <Link href="courses.html" onClick={() => sessionStorage.setItem('courseList', '2')} className="text-decoration-none"><strong>Software Developement</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '2')} className="text-decoration-none"><strong>Software Developement</strong></Link>
                                     <br />
-                                    <Link href="courses.html" onClick={() => sessionStorage.setItem('courseList', '1')} className="text-decoration-none"><strong>Software Testing</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '1')} className="text-decoration-none"><strong>Software Testing</strong></Link>
                                     <br />
-                                    <Link href="courses.html" onClick={() => sessionStorage.setItem('courseList', '3')} className="text-decoration-none"><strong>Devops</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '3')} className="text-decoration-none"><strong>Devops</strong></Link>
                                     <br />
-                                    <Link href="courses.html" onClick={() => sessionStorage.setItem('courseList', '4')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '4')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
                                 </div>
                             </div>
                         </div>
@@ -66,9 +66,9 @@ function Footer() {
                             <h4 className="text-center text-md-start">Follow Us</h4>
                             <div className="social-links d-flex justify-content-center justify-content-md-start">
                                 {/* <Link href="#" className="twitter"><i className="bi bi-twitter"></i></a> */}
-                                <Link href="https://www.facebook.com/atitchennai/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></Link>
-                                <Link href="https://www.instagram.com/atitchennai/" target="_blank" className="instagram"><i className="bi bi-instagram"></i></Link>
-                                <Link href="https://www.youtube.com/@ATITchennai" target="_blank" className="youtube"><i className="bi bi-youtube"></i></Link>
+                                <Link to="https://www.facebook.com/atitchennai/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></Link>
+                                <Link to="https://www.instagram.com/atitchennai/" target="_blank" className="instagram"><i className="bi bi-instagram"></i></Link>
+                                <Link to="https://www.youtube.com/@ATITchennai" target="_blank" className="youtube"><i className="bi bi-youtube"></i></Link>
 
                             </div>
                         </div>
@@ -76,7 +76,7 @@ function Footer() {
                 </div>
                 <div className="container">
                     <div className="copyright">
-                        Copyrights  &copy; <strong><span>ATIT. </span></strong>All Rights Reserved. <Link href="./privacy-policy.html" className="d-block d-md-inline position-relative">Privacy policy</Link>
+                        Copyrights  &copy; <strong><span>ATIT. </span></strong>All Rights Reserved. <Link to="/privacy-policy" className="d-block d-md-inline position-relative">Privacy policy</Link>
                     </div>
                 </div>
             </footer>

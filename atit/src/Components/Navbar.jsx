@@ -108,7 +108,7 @@ function Navbar() {
                 <div className="offcanvas-header p-0 px-2">
                     <NavLink
                         className="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white"
-                        to="index.html"
+                        to="/"
                     >
                         <img src="assets/imagesandvectors/vectors/atit_logo.png" alt="logo" />
                     </NavLink>
