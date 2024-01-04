@@ -516,10 +516,10 @@ function Pap() {
                     </div>
                 </section>
                 <div>
-                    <Company/>
+                    <Company />
                 </div>
                 <div>
-                    <Footer/>
+                    <Footer />
                 </div>
             </div>
         </div>
