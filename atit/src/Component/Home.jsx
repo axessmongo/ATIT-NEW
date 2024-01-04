@@ -4,11 +4,6 @@ import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 function Home() {
 
-  useEffect(() => {
-    var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
-    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';
-}, []);
-
 
   return (
     <div>
@@ -75,7 +70,7 @@ function Home() {
                   data-aos-easing="ease-in-sine"
                 >
                   <Link
-                    href="courses.html"
+                    to="/Courses"
                     onclick="sessionStorage.setItem('cousrelist', '1')"
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -101,7 +96,7 @@ function Home() {
                   className="h-100"
                 >
                   <Link
-                    href="courses.html"
+                    to="/Courses"
                     onclick="sessionStorage.setItem('cousrelist', '2')"
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -127,7 +122,7 @@ function Home() {
                   className="h-100"
                 >
                   <Link
-                    href="courses.html"
+                    to="/Courses"
                     onclick="sessionStorage.setItem('cousrelist', '4')"
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -154,7 +149,7 @@ function Home() {
                   className="h-100"
                 >
                   <Link
-                    href="courses.html"
+                    to="/Courses"
                     onclick="sessionStorage.setItem('cousrelist', '3')"
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -176,7 +171,7 @@ function Home() {
         </div>
       </div>
       {/* content banner */}
-      <div class="primary-mb">
+      <div class="">
         <section class="whatwedo overflow-hidden" id="whatwedo">
           <div class="container overflow-hidden overflow-lg-visible">
             <div class="position-relative">
@@ -202,7 +197,7 @@ function Home() {
                   <div data-aos="fade-right" data-aos-duration="400">
                     <div
                       class="card border-0 mb-5"
-                      href="#smokemodelling"
+                      to="#smokemodelling"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -220,7 +215,7 @@ function Home() {
                   <div data-aos="fade-right" data-aos-duration="800">
                     <div
                       class="card left-go border-0 mb-5"
-                      href="#firestategies"
+                      to="#firestategies"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -242,7 +237,7 @@ function Home() {
                   <div data-aos="fade-right" data-aos-duration="900">
                     <div
                       class="card border-0 mb-5"
-                      href="#smokemodelling"
+                      to="#smokemodelling"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -277,7 +272,7 @@ function Home() {
                   <div data-aos="fade-left" data-aos-duration="600">
                     <div
                       class="card border-0 mb-5"
-                      href="#strecturalfire"
+                      to="#strecturalfire"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -295,7 +290,7 @@ function Home() {
                   <div data-aos="fade-left" data-aos-duration="700">
                     <div
                       class="card right-go border-0 mb-5"
-                      href="#firesuppression"
+                      to="#firesuppression"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -313,7 +308,7 @@ function Home() {
                   <div data-aos="fade-left" data-aos-duration="00">
                     <div
                       class="card border-0 mb-5"
-                      href="#sprinklersystem"
+                      to="#sprinklersystem"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -334,7 +329,7 @@ function Home() {
                     class="card border-0 mb-1"
                     data-aos="fade-up"
                     data-aos-duration="900"
-                    href="#pressrisation"
+                    to="#pressrisation"
                     data-bs-toggle="offcanvas"
                   >
                     <div class="d-flex align-items-center">
@@ -441,11 +436,12 @@ function Home() {
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="700" class="d-flex pt-4">
-          <a
-            href="pay-after-placement.html"
+          <Link
+            to="pay-after-placement.html"
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
-          >About PAP</a
-          >
+          >About PAP
+          </Link>
+          
         </div>
       </div>
       {/* DevelopmentProgram */}
