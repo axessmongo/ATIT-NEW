@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 function Home() {
-  const [active, setactive] = useState(true)
   return (
     <div>
       <Navbar />
@@ -170,7 +169,7 @@ function Home() {
         </div>
       </div>
       {/* content banner */}
-      <div class="">
+      <div class="primary-mb">
         <section class="whatwedo overflow-hidden" id="whatwedo">
           <div class="container overflow-hidden overflow-lg-visible">
             <div class="position-relative">
@@ -440,6 +439,7 @@ function Home() {
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>
+          
         </div>
       </div>
       {/* DevelopmentProgram */}

@@ -9,9 +9,6 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   useEffect(() => {
     AOS.init(); 
-    
-    var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
-    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';// Initialize AOS when the component mounts
   }, []);
 
   return (
