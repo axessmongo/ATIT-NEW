@@ -4,11 +4,6 @@ import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
 import Company from '../Components/Company'
 function Home() {
-  useEffect(() => {
-    var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
-    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';// Initialize AOS when the component mounts
-  }, [])
-  const [active, setactive] = useState(true)
   return (
     <div>
       <Navbar />
@@ -445,7 +440,7 @@ function Home() {
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>
-
+          
         </div>
       </div>
       {/* DevelopmentProgram */}
