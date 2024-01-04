@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import Home from './Component/Home';
-import About from './Component/About';
-import Contact from './Component/Contact';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
