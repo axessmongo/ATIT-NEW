@@ -1,10 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import "../css/Courses.css"
 
 
 const Courses = () => {
+  useEffect(() => {
+    const handleNavLinkClick = () => {
+      AOS.refresh();
+    };
+
+    // Assuming you have a similar HTML structure and class names in your React component
+    const navLinks = document.querySelectorAll('.nav-pills .nav-link');
+
+    navLinks.forEach((navLink) => {
+      navLink.addEventListener('click', handleNavLinkClick);
+    });
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      navLinks.forEach((navLink) => {
+        navLink.removeEventListener('click', handleNavLinkClick);
+      });
+    };
+  }, []);
   return (
     <div className='course'>
       <Navbar />
@@ -119,7 +140,7 @@ const Courses = () => {
                 <div class="row g-5">
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/advancejava.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card14 text-white text-center">Advance Java</h4>
                       </div>
@@ -148,7 +169,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/api-postman.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card15 text-white text-center">API-Postman</h4>
                       </div>
@@ -177,7 +198,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/apirestassured.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">API-Rest Assured</h4>
                       </div>
@@ -206,7 +227,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/db-testing.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card16 text-white text-center">DB Testing</h4>
                       </div>
@@ -235,7 +256,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/docker.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card13 text-white text-center">Docker</h4>
                       </div>
@@ -264,7 +285,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/git.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card5 text-white text-center">GIT</h4>
                       </div>
@@ -293,7 +314,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/jenkins.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card6 text-white text-center">Jenkins</h4>
                       </div>
@@ -322,7 +343,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/manualtesting.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card3 text-white text-center">Manual Testing</h4>
                       </div>
@@ -351,7 +372,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/maven.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">Maven</h4>
                       </div>
@@ -380,7 +401,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/pageobject.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card4 text-white text-center">Page Object Model</h4>
                       </div>
@@ -409,7 +430,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/selenium.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card21 text-white text-center">Selenium</h4>
                       </div>
@@ -438,7 +459,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/test-ng.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card20 text-white text-center">TestNG</h4>
                       </div>
@@ -467,7 +488,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaredevelopment/java.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card11 text-white text-center">Java Fullstack</h4>
                       </div>
@@ -496,7 +517,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaredevelopment/mean.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card12 text-white text-center">MEAN Stack</h4>
                       </div>
@@ -525,7 +546,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaredevelopment/mern.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">MERN Stack</h4>
                       </div>
@@ -554,7 +575,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaredevelopment/python.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card9 text-white text-center">Python Fullstack</h4>
                       </div>
@@ -583,7 +604,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/datascience-ai/artificial.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card22 text-white text-center">Artificial-Intelligence</h4>
                       </div>
@@ -612,7 +633,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/datascience-ai/datascience.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card10 text-white text-center">Data Science</h4>
                       </div>
@@ -641,7 +662,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/datascience-ai/deeplearning.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card18 text-white text-center">Deep Learning</h4>
                       </div>
@@ -670,7 +691,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="courses/devops/devops.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card23 text-white text-center">DevOps</h4>
                       </div>
@@ -707,7 +728,7 @@ const Courses = () => {
                 <div class="row g-5">
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/apirestassured.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">API-Rest Assured</h4>
                       </div>
@@ -736,7 +757,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/aws-service.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card17 text-white text-center">AWS-Service</h4>
                       </div>
@@ -765,7 +786,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/corejava.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card1 text-white text-center">Core Java</h4>
                       </div>
@@ -794,7 +815,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/cucumber.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card2 text-white text-center">Cucumber</h4>
                       </div>
@@ -823,7 +844,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/advancejava.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card14 text-white text-center">Advance Java</h4>
                       </div>
@@ -852,7 +873,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/api-postman.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card15 text-white text-center">API-Postman</h4>
                       </div>
@@ -881,7 +902,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/db-testing.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card16 text-white text-center">DB Testing</h4>
                       </div>
@@ -910,7 +931,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/docker.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card13 text-white text-center">Docker</h4>
                       </div>
@@ -939,7 +960,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/git.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card5 text-white text-center">GIT</h4>
                       </div>
@@ -968,7 +989,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/jenkins.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card6 text-white text-center">Jenkins</h4>
                       </div>
@@ -997,7 +1018,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/manualtesting.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card3 text-white text-center">Manual Testing</h4>
                       </div>
@@ -1026,7 +1047,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/maven.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">Maven</h4>
                       </div>
@@ -1055,7 +1076,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/pageobject.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card4 text-white text-center">Page Object Model</h4>
                       </div>
@@ -1084,7 +1105,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/selenium.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card21 text-white text-center">Selenium</h4>
                       </div>
@@ -1113,7 +1134,7 @@ const Courses = () => {
                   </div>
                   <div class="col-md-6 col-lg-4">
                     <a href="./courses/softwaretesting/test-ng.html"
-                      class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                      class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card20 text-white text-center">Testing</h4>
                       </div>
@@ -1149,7 +1170,7 @@ const Courses = () => {
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/softwaredevelopment/java.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card11 text-white text-center">Java Fullstack</h4>
                     </div>
@@ -1178,7 +1199,7 @@ const Courses = () => {
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/softwaredevelopment/mean.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card12 text-white text-center">MEAN Stack</h4>
                     </div>
@@ -1207,7 +1228,7 @@ const Courses = () => {
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/softwaredevelopment/mern.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card7 text-white text-center">MERN Stack</h4>
                     </div>
@@ -1236,7 +1257,7 @@ const Courses = () => {
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/softwaredevelopment/python.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card9 text-white text-center">Python FullStack</h4>
                     </div>
@@ -1271,7 +1292,7 @@ const Courses = () => {
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/datascience-ai/artificial.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card22 text-white text-center">Artificial-Intelligence</h4>
                     </div>
@@ -1300,7 +1321,7 @@ const Courses = () => {
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/datascience-ai/datascience.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card10 text-white text-center">Data Science</h4>
                     </div>
@@ -1329,7 +1350,7 @@ const Courses = () => {
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/datascience-ai/deeplearning.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card18 text-white text-center">Deep Learning</h4>
                     </div>
@@ -1364,7 +1385,7 @@ const Courses = () => {
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
                   <a href="./courses/devops/devops.html"
-                    class="card pap-card overflow-hidden border-0 shadow1 d-block">
+                    class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card23 text-white text-center">DevOps</h4>
                     </div>

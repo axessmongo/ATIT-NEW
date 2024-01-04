@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -6,6 +6,29 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 function Navbar() {
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY;
+
+            if (scrollPosition >= 100) {
+                document.querySelector('.nav-holder').classList.add('nav-animate');
+
+                if (scrollPosition > 500) {
+                    document.querySelector('.nav-holder').classList.add('nav-fixed');
+                }
+            } else {
+                // Scrolling up
+                document.querySelector('.nav-holder').classList.remove('nav-animate', 'nav-fixed');
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            // Clean up the event listener when the component unmounts
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     return (
         <div>
             <div className="nav-holder">
@@ -55,25 +78,25 @@ function Navbar() {
                                 className="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3"
                             >
                                 <li className="nav-item">
-                                    
+
                                     <NavLink
-                                exact
-                                activeClassName="navbar__link--active"
-                                className="nav-link"
-                                to="/"
-                            >
-                                Home
-                            </NavLink>
+                                        exact
+                                        activeClassName="navbar__link--active"
+                                        className="nav-link"
+                                        to="/"
+                                    >
+                                        Home
+                                    </NavLink>
 
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink                               
-                                activeClassName="navbar__link--active"
-                                className="nav-link"
-                                to="/about"
-                            >
-                                About
-                            </NavLink>
+                                    <NavLink
+                                        activeClassName="navbar__link--active"
+                                        className="nav-link"
+                                        to="/about"
+                                    >
+                                        About
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact">Contact</NavLink>
@@ -118,13 +141,13 @@ function Navbar() {
                         data-bs-dismiss="offcanvas"
                         aria-label="Close"
                     >
-                       <FontAwesomeIcon icon={faTimes} className="fa-xl" />
+                        <FontAwesomeIcon icon={faTimes} className="fa-xl" />
                     </button>
                 </div>
                 <div className="offcanvas-body px-0 py-5 text-center">
                     <ul className="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
                         <li className="nav-item">
-                           
+
                             <NavLink
                                 exact
                                 activeClassName="navbar__link--active"
@@ -137,7 +160,7 @@ function Navbar() {
 
                         <li className="nav-item">
                             <NavLink
-                            
+
                                 activeClassName="navbar__link--active"
                                 className="nav-link"
                                 to="/about"
@@ -155,7 +178,7 @@ function Navbar() {
                             <NavLink className="nav-link" activeClassName="navbar__link--active" to="/pay-after-placement">PAP</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link"activeClassName="navbar__link--active"  to="/blog">Blog</NavLink>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/blog">Blog</NavLink>
                         </li>
                     </ul>
                 </div>

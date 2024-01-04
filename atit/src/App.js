@@ -2,11 +2,13 @@ import React, { useEffect } from 'react';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+// import Blog from './Pages/Blog';
 import Courses from './Pages/Courses';
 import Pap from './Pages/Pay-after-placement';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
+// import Privacy from './Pages/Privacy-Policy';
 
 function App() {
   useEffect(() => {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/Pap" element={<Pap/>}/>
+        {/* <Route path="/Blog" element={<Blog/>}/> */}
+        {/* <Route path='/privacy-policy' element={<Privacy/>}/> */}
       </Routes>
     </div>
   );
