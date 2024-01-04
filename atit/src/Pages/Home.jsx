@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 import ContactForm from '../Components/ContactForm'
 import Rocket from '../Components/Rocket'
 import Company from '../Components/Company'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 function Home() {
   useEffect(() => {
     var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
@@ -616,7 +618,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-left" data-aos-duration="1000">
                     <div class="arrow1">
-                      <i class="fa fa-long-arrow-right arror-icon" aria-hidden="true"></i>
+                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
                     </div>
                     <div class="primary-text ps-3">Hand-Picked Trainers</div>
                   </div>
@@ -624,7 +626,8 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-left" data-aos-duration="1000">
                     <div class="arrow1">
-                      <i class="fa fa-long-arrow-right arrow-icon" aria-hidden="true"></i>
+                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+ 
                     </div>
                     <div class="primary-text ps-3">Real-Time Scenarios</div>
                   </div>
@@ -634,7 +637,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
                     <div class="arrow1">
-                      <i class="fa fa-long-arrow-right arrow-icon" aria-hidden="true"></i>
+                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
                     </div>
                     <div class="primary-text ps-3">Easy to Follow Curriculum</div>
                   </div>
@@ -642,7 +645,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
                     <div class="arrow1">
-                      <i class="fa fa-long-arrow-right arrow-icon" aria-hidden="true"></i>
+                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
                     </div>
                     <div class="primary-text ps-3">Hands-On Live Projects</div>
                   </div>
