@@ -77,7 +77,7 @@ function Home() {
                     <img
                       src="https://img.freepik.com/free-vector/flat-computer-engineering-concept_23-2148156679.jpg?size=626&ext=jpg&uid=R88793194&ga=GA1.1.1133761637.1698651682&semt=ais"
                       className="card-img h-100"
-                      alt="software Testing image"
+                      alt="software Testing"
                     />
                     <div
                       className="card-img-overlay d-flex align-items-end justify-content-center"
@@ -103,7 +103,7 @@ function Home() {
                     <img
                       src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&uid=R88793194&ga=GA1.1.1133761637.1698651682&semt=ais"
                       className="card-img h-100"
-                      alt="software Development image"
+                      alt="software Development"
                     />
                     <div
                       className="card-img-overlay d-flex align-items-end justify-content-center"
@@ -130,7 +130,7 @@ function Home() {
 
                       src="https://img.freepik.com/free-vector/artificial-intelligence-background-abstract-style_23-2147879547.jpg?size=626&ext=jpg&uid=R88793194&ga=GA1.1.1133761637.1698651682&semt=ais"
                       className="card-img h-100"
-                      alt="Artificial Intelligence image"
+                      alt="Artificial Intelligence"
                     />
                     <div
                       className="card-img-overlay d-flex align-items-end justify-content-center"
@@ -156,7 +156,7 @@ function Home() {
                     <img
                       src="https://img.freepik.com/free-vector/isometric-devops-illustration_52683-84175.jpg?size=626&ext=jpg&uid=R88793194&ga=GA1.1.1133761637.1698651682&semt=ais"
                       className="card-img h-100"
-                      alt="Devops image"
+                      alt="Devops"
                     />
                     <div
                       className="card-img-overlay d-flex align-items-end justify-content-center"
@@ -202,7 +202,7 @@ function Home() {
                     >
                       <div class="d-flex align-items-center">
                         <div class="card-icon p-3">
-                          <img src="./assets/img/step1.jpg" alt="step 1 image" />
+                          <img src="./assets/img/step1.jpg" alt="step 1" />
                         </div>
                         <div class="card-body px-2 py-4 pe-3">
                           <h5 class="card-title text-capitalize mb-0">
@@ -223,7 +223,7 @@ function Home() {
                           <img
                             src="./assets/img/step2.jpg"
                             class="rounded-circle display-6"
-                            alt="step 2 image"
+                            alt="step 2"
                           />
                         </div>
                         <div class="card-body px-2 py-4 pe-3">
@@ -242,7 +242,7 @@ function Home() {
                     >
                       <div class="d-flex align-items-center">
                         <div class="card-icon p-3">
-                          <img src="./assets/img/step3.jpg" alt="step 3 image" />
+                          <img src="./assets/img/step3.jpg" alt="step 3" />
                         </div>
                         <div class="card-body px-2 py-4 pe-3">
                           <h5 class="card-title text-capitalize mb-0">
@@ -262,7 +262,7 @@ function Home() {
                       src="./assets/imagesandvectors/bg/bg-5.png"
                       data-aos="flip-left"
                       data-aos-duration="1200"
-                      alt="steps image"
+                      alt="steps"
                       class="w-100 h-100"
                     />
                   </div>
@@ -277,7 +277,7 @@ function Home() {
                     >
                       <div class="d-flex align-items-center">
                         <div class="card-icon p-3">
-                          <img src="./assets/img/step4.jpg" alt="step 4 image" />
+                          <img src="./assets/img/step4.jpg" alt="step 4 " />
                         </div>
                         <div class="card-body px-2 py-4 pe-3">
                           <h5 class="card-title text-capitalize mb-0">
@@ -295,7 +295,7 @@ function Home() {
                     >
                       <div class="d-flex align-items-center">
                         <div class="card-icon p-3">
-                          <img src="./assets/img/step5.jpg" alt="step 5 image" />
+                          <img src="./assets/img/step5.jpg" alt="step 5" />
                         </div>
                         <div class="card-body px-2 py-4 pe-3">
                           <h5 class="card-title text-capitalize mb-0">
@@ -313,7 +313,7 @@ function Home() {
                     >
                       <div class="d-flex align-items-center">
                         <div class="card-icon p-3">
-                          <img src="./assets/img/step6.jpg" alt="step 6 image" />
+                          <img src="./assets/img/step6.jpg" alt="step 6" />
                         </div>
                         <div class="card-body px-2 py-4 pe-3">
                           <h5 class="card-title text-capitalize mb-0">
@@ -334,7 +334,7 @@ function Home() {
                   >
                     <div class="d-flex align-items-center">
                       <div class="card-icon p-3">
-                        <img src="./assets/img/step7.jpg" alt="step 7 image" />
+                        <img src="./assets/img/step7.jpg" alt="step 7" />
                       </div>
                       <div class="card-body px-2 py-4 pe-3">
                         <h5 class="card-title text-capitalize mb-0">
@@ -385,7 +385,7 @@ function Home() {
               >
                 <img
                   src="./assets/imagesandvectors/pap/profits.png"
-                  alt="profits image"
+                  alt="profits"
                   class="img-fluid pap-img mb-2"
                 />
                 <p class="pap-text m-0 text-white fs-5">Cost-Effective</p>
@@ -399,7 +399,7 @@ function Home() {
               >
                 <img
                   src="./assets/imagesandvectors/pap/job.png"
-                  alt="job image"
+                  alt="job"
                   class="img-fluid pap-img mb-2"
                 />
                 <p class="pap-text m-0 text-white fs-5">100% Job Security</p>
@@ -413,7 +413,7 @@ function Home() {
               >
                 <img
                   src="./assets/imagesandvectors/pap/attention.png"
-                  alt="attention image"
+                  alt="attention "
                   class="img-fluid pap-img mb-2"
                 />
                 <p class="pap-text m-0 text-white fs-5">1 on 1 attention</p>
@@ -427,7 +427,7 @@ function Home() {
               >
                 <img
                   src="./assets/imagesandvectors/pap/analysis.png"
-                  alt="analysis image"
+                  alt="analysis "
                   class="img-fluid pap-img mb-2"
                 />
                 <p class="pap-text m-0 text-white fs-5">Job-Oriented Training</p>
@@ -487,7 +487,7 @@ function Home() {
                   src="./assets/img/announcement.jpg"
                   width="70px"
                   height="70px"
-                  alt="startRocket image"
+                  alt="startRocket "
                 />
               </p>
               <h3
@@ -517,7 +517,7 @@ function Home() {
                   src="./assets/img/settings.jpg"
                   width="70px"
                   height="70px"
-                  alt="startRocket image"
+                  alt="startRocket "
                 />
               </p>
               <h3
@@ -547,7 +547,7 @@ function Home() {
                   src="./assets/img/endRocket.png"
                   width="100px"
                   height="100px"
-                  alt="startRocket image"
+                  alt="startRocket "
                 />
               </p>
               <h3
@@ -654,22 +654,22 @@ function Home() {
         </p>
         <div class="row">
           <div class="col-md-2" data-aos="fade-right" data-aos-duration="1000">
-            <img src="./assets/img/1.png" class="img-fluid" alt="company image" />
+            <img src="./assets/img/1.png" class="img-fluid" alt="company " />
           </div>
           <div class="col-md-2" data-aos="fade-right" data-aos-duration="1000">
-            <img src="./assets/img/2.png" class="img-fluid" alt="company image" />
+            <img src="./assets/img/2.png" class="img-fluid" alt="company " />
           </div>
           <div class="col-md-2" data-aos="fade-right" data-aos-duration="1000">
-            <img src="./assets/img/3.png" class="img-fluid" alt="company image" />
+            <img src="./assets/img/3.png" class="img-fluid" alt="company " />
           </div>
           <div class="col-md-2" data-aos="fade-left" data-aos-duration="1000">
-            <img src="./assets/img/4.png" class="img-fluid" alt="company image" />
+            <img src="./assets/img/4.png" class="img-fluid" alt="company " />
           </div>
           <div class="col-md-2" data-aos="fade-left" data-aos-duration="1000">
-            <img src="./assets/img/5.png" class="img-fluid" alt="company image" />
+            <img src="./assets/img/5.png" class="img-fluid" alt="company " />
           </div>
           <div class="col-md-2" data-aos="fade-left" data-aos-duration="1000">
-            <img src="./assets/img/6.png" class="img-fluid" alt="company image" />
+            <img src="./assets/img/6.png" class="img-fluid" alt="company " />
           </div>
         </div>
       </div>
