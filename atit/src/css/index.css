@@ -4,6 +4,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap); 
 
+a{
+  text-decoration: none;
+}
+
 .primary-btn,
 .primary-color,
 footer a:hover {
