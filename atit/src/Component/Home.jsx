@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 function Home() {
-
-
+  const [active, setactive] = useState(true)
   return (
     <div>
       <Navbar />
@@ -12,7 +11,7 @@ function Home() {
         <div className="position-relative overflow-hidden overflow-lg-visible">
           <section
             className="hero-banner d-flex justify-content-center align-items-end align-items-md-center position-relative overflow-hidden header finisher-header text-center text-lg-start text-white"
-            style={{background:"linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)"}}
+            style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
           >
             <div className="container z-3">
               <div
@@ -441,7 +440,6 @@ function Home() {
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>
-          
         </div>
       </div>
       {/* DevelopmentProgram */}
