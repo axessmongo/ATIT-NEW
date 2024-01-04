@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 
 function Navbar() {
     return (
@@ -39,7 +43,9 @@ function Navbar() {
                             data-bs-target="#navbar"
                             aria-controls="navbar"
                         >
-                            <i className="fa-solid fa-bars fa-xl text-white"></i>
+                            {/* <i className="fa-solid fa-bars fa-xl text-white"></i> */}
+
+                            <FontAwesomeIcon icon={faBars} className="fa-xl text-white" />
                         </button>
                         <div
                             className="collapse navbar-collapse position-relative"
@@ -112,19 +118,17 @@ function Navbar() {
                         data-bs-dismiss="offcanvas"
                         aria-label="Close"
                     >
-                        <i className="fa-solid fa-xmark fa-xl"></i>
+                       <FontAwesomeIcon icon={faTimes} className="fa-xl" />
                     </button>
                 </div>
                 <div className="offcanvas-body px-0 py-5 text-center">
                     <ul className="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
                         <li className="nav-item">
-                            {/* <NavLink className="nav-link active" aria-current="page" to="index.html"
-                            >Home
-                            </NavLink> */}
+                           
                             <NavLink
                                 exact
                                 activeClassName="navbar__link--active"
-                                className="navbar__link"
+                                className="nav-link"
                                 to="/"
                             >
                                 Home
@@ -132,27 +136,26 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            {/* <NavLink className="nav-link" to="about.html">About</NavLink> */}
                             <NavLink
                             
                                 activeClassName="navbar__link--active"
-                                className="navbar__link"
+                                className="nav-link"
                                 to="/about"
                             >
                                 About
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="contact.html">Contact</NavLink>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/contact">Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="courses.html">Courses</NavLink>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/courses">Courses</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="./pay-after-placement.html">PAP</NavLink>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/pay-after-placement">PAP</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link"activeClassName="navbar__link--active"  to="blog.html">Blog</NavLink>
+                            <NavLink className="nav-link"activeClassName="navbar__link--active"  to="/blog">Blog</NavLink>
                         </li>
                     </ul>
                 </div>
