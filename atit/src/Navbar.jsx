@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
-function Navber() {
+function Navbar() {
     return (
         <div>
             <div className="nav-holder">
@@ -12,7 +12,7 @@ function Navber() {
                         data-aos-anchor-placement="bottom-bottom"
                         data-aos-duration="500"
                     >
-                        <Link
+                        <NavLink
                             className="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white shadow1"
                             to="/"
                         >
@@ -20,7 +20,7 @@ function Navber() {
                                 src="assets/imagesandvectors/vectors/atit_logo.png"
                                 alt="logo"
                             />
-                        </Link>
+                        </NavLink>
                         <button
                             className="navbar-toggler d-none shadow-none ms-auto"
                             type="button"
@@ -49,30 +49,44 @@ function Navber() {
                                 className="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3"
                             >
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to="/"
-                                    >Home</Link>
+                                    
+                                    <NavLink
+                                exact
+                                activeClassName="navbar__link--active"
+                                className="nav-link"
+                                to="/"
+                            >
+                                Home
+                            </NavLink>
 
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/About">About</Link>
+                                    <NavLink                               
+                                activeClassName="navbar__link--active"
+                                className="nav-link"
+                                to="/about"
+                            >
+                                About
+                            </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Contact">Contact</Link>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Courses">Courses</Link>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Courses">Courses</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link
+                                    <NavLink
                                         title="Pay after Placement"
                                         className="nav-link"
+                                        activeClassName="navbar__link--active"
                                         to="/Pap"
                                     >PAP
-                                    </Link>
+                                    </NavLink>
 
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Blog">Blog</Link>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Blog">Blog</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -86,12 +100,12 @@ function Navber() {
                 aria-labelledby="navbar"
             >
                 <div className="offcanvas-header p-0 px-2">
-                    <Link
+                    <NavLink
                         className="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white"
                         to="index.html"
                     >
                         <img src="assets/imagesandvectors/vectors/atit_logo.png" alt="logo" />
-                    </Link>
+                    </NavLink>
                     <button
                         type="button"
                         className="m-2 p-0 btn shadow-none border-0 text-danger me-0"
@@ -104,24 +118,41 @@ function Navber() {
                 <div className="offcanvas-body px-0 py-5 text-center">
                     <ul className="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="index.html"
+                            {/* <NavLink className="nav-link active" aria-current="page" to="index.html"
                             >Home
-                            </Link>
+                            </NavLink> */}
+                            <NavLink
+                                exact
+                                activeClassName="navbar__link--active"
+                                className="navbar__link"
+                                to="/"
+                            >
+                                Home
+                            </NavLink>
+                        </li>
+
+                        <li className="nav-item">
+                            {/* <NavLink className="nav-link" to="about.html">About</NavLink> */}
+                            <NavLink
+                            
+                                activeClassName="navbar__link--active"
+                                className="navbar__link"
+                                to="/about"
+                            >
+                                About
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="about.html">About</Link>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="contact.html">Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="contact.html">Contact</Link>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="courses.html">Courses</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="courses.html">Courses</Link>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="./pay-after-placement.html">PAP</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="./pay-after-placement.html">PAP</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="blog.html">Blog</Link>
+                            <NavLink className="nav-link"activeClassName="navbar__link--active"  to="blog.html">Blog</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -130,4 +161,4 @@ function Navber() {
     )
 }
 
-export default Navber
+export default Navbar
