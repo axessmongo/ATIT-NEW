@@ -34,13 +34,13 @@ export default function LeftBar() {
             New
           </span>
           <div className="cloud">
-            <a
-              href="pay-after-placement.html"
+            <Link
+              to="Pap"
               className="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light"
             >
               Pay After Placement
               <i className="fa-solid fa-caret-left" />
-            </a>
+            </Link>
           </div>
         </div>
         <Link to="pap" className="popup pop-ani text-decoration-none">
@@ -82,8 +82,8 @@ export default function LeftBar() {
           ></dotlottie-player>
         </div>
       </div>
-      <a
-        href="https://api.whatsapp.com/send/?phone=%2B917845721438&text&app_absent=0"
+      <Link
+        to="https://api.whatsapp.com/send/?phone=%2B917845721438&text&app_absent=0"
         target="_blank"
         id="wa"
         className="cursor"
@@ -95,7 +95,7 @@ export default function LeftBar() {
           className="img-fluid"
           style={{ width: 70 }}
         />
-      </a>
+      </Link>
     </div>
   );
 }
