@@ -5,8 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import "./css/animation.css";
-import "./css/Courses.css"
-import "./css/Pay-after-placement.css"
+import "./css/Pay-after-placement.css";
 import './css/index.css';
 
 
