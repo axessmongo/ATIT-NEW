@@ -2,12 +2,17 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
+import ContactForm from '../Components/ContactForm'
+import Rocket from '../Components/Rocket'
 function Home() {
   useEffect(() => {
     var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
-    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';// Initialize AOS when the component mounts
+    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';
   }, [])
-  const [active, setactive] = useState(true)
+
+  setTimeout(() => {
+    document.querySelector('[data-bs-target="#contact"]').click();
+  }, 1000);
   return (
     <div>
       <Navbar />
@@ -678,6 +683,10 @@ function Home() {
       </div>
       {/* footer */}
       <Footer />
+      {/* {contact Form} */}
+      <ContactForm />
+      {/* {Rocket} */}
+      <Rocket/>
     </div>
   )
 }
