@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import Pap from './Pages/Pap';
 import Blog from './Pages/Blog';
 import Courses from './Pages/Courses';
 import Pap from './Pages/Pay-after-placement';
