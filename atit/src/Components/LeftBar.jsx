@@ -3,21 +3,23 @@ import { Link } from 'react-router-dom';
 
 export default function LeftBar() {
   useEffect(() => {
-    // Use document.querySelector directly without wrapping it
-    if (document.querySelector('.popup')) {
+    const popupElement = document.querySelector('.popup');
+  
+    if (popupElement) {
       setTimeout(function () {
-        document.querySelector('.popup').classList.remove('pop-ani');
+        popupElement.classList.remove('pop-ani');
       }, 2000);
-
+  
       setInterval(function () {
-        document.querySelector('.popup').classList.add('pop-ani');
+        popupElement.classList.add('pop-ani');
       }, 5000);
-
+  
       setInterval(function () {
-        document.querySelector('.popup').classList.remove('pop-ani');
+        popupElement.classList.remove('pop-ani');
       }, 10000);
     }
   }, []);
+  
 
   return (
     <div className="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify-content-center overflow-visible">
