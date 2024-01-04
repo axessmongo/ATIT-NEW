@@ -1,34 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-
 
 function Navbar() {
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window.scrollY;
-
-            if (scrollPosition >= 100) {
-                document.querySelector('.nav-holder').classList.add('nav-animate');
-
-                if (scrollPosition > 500) {
-                    document.querySelector('.nav-holder').classList.add('nav-fixed');
-                }
-            } else {
-                // Scrolling up
-                document.querySelector('.nav-holder').classList.remove('nav-animate', 'nav-fixed');
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            // Clean up the event listener when the component unmounts
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
     return (
         <div>
             <div className="nav-holder">
@@ -66,9 +39,7 @@ function Navbar() {
                             data-bs-target="#navbar"
                             aria-controls="navbar"
                         >
-                            {/* <i className="fa-solid fa-bars fa-xl text-white"></i> */}
-
-                            <FontAwesomeIcon icon={faBars} className="fa-xl text-white" />
+                            <i className="fa-solid fa-bars fa-xl text-white"></i>
                         </button>
                         <div
                             className="collapse navbar-collapse position-relative"
@@ -78,25 +49,25 @@ function Navbar() {
                                 className="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3"
                             >
                                 <li className="nav-item">
-
+                                    
                                     <NavLink
-                                        exact
-                                        activeClassName="navbar__link--active"
-                                        className="nav-link"
-                                        to="/"
-                                    >
-                                        Home
-                                    </NavLink>
+                                exact
+                                activeClassName="navbar__link--active"
+                                className="nav-link"
+                                to="/"
+                            >
+                                Home
+                            </NavLink>
 
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink
-                                        activeClassName="navbar__link--active"
-                                        className="nav-link"
-                                        to="/about"
-                                    >
-                                        About
-                                    </NavLink>
+                                    <NavLink                               
+                                activeClassName="navbar__link--active"
+                                className="nav-link"
+                                to="/about"
+                            >
+                                About
+                            </NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact">Contact</NavLink>
@@ -131,7 +102,7 @@ function Navbar() {
                 <div className="offcanvas-header p-0 px-2">
                     <NavLink
                         className="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white"
-                        to="/"
+                        to="index.html"
                     >
                         <img src="assets/imagesandvectors/vectors/atit_logo.png" alt="logo" />
                     </NavLink>
@@ -141,17 +112,19 @@ function Navbar() {
                         data-bs-dismiss="offcanvas"
                         aria-label="Close"
                     >
-                        <FontAwesomeIcon icon={faTimes} className="fa-xl" />
+                        <i className="fa-solid fa-xmark fa-xl"></i>
                     </button>
                 </div>
                 <div className="offcanvas-body px-0 py-5 text-center">
                     <ul className="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
                         <li className="nav-item">
-
+                            {/* <NavLink className="nav-link active" aria-current="page" to="index.html"
+                            >Home
+                            </NavLink> */}
                             <NavLink
                                 exact
                                 activeClassName="navbar__link--active"
-                                className="nav-link"
+                                className="navbar__link"
                                 to="/"
                             >
                                 Home
@@ -159,26 +132,27 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
+                            {/* <NavLink className="nav-link" to="about.html">About</NavLink> */}
                             <NavLink
-
+                            
                                 activeClassName="navbar__link--active"
-                                className="nav-link"
+                                className="navbar__link"
                                 to="/about"
                             >
                                 About
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/contact">Contact</NavLink>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="contact.html">Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/courses">Courses</NavLink>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="courses.html">Courses</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/pay-after-placement">PAP</NavLink>
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="./pay-after-placement.html">PAP</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/blog">Blog</NavLink>
+                            <NavLink className="nav-link"activeClassName="navbar__link--active"  to="blog.html">Blog</NavLink>
                         </li>
                     </ul>
                 </div>

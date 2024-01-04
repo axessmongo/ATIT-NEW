@@ -1,22 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
+import React, {useState } from 'react'
+import Navbar from '../Navbar'
+import Footer from '../Footer'
 import { Link } from 'react-router-dom'
-import ContactForm from '../Components/ContactForm'
-import Rocket from '../Components/Rocket'
-import Company from '../Components/Company'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
-import LeftBar from '../Components/LeftBar'
 function Home() {
-  useEffect(() => {
-    var mbnew = document.querySelector('.card-img-overlay').offsetHeight + 100;
-    document.querySelector('.hero-banner').style.marginBottom = mbnew + 'px';
-  }, [])
 
-  setTimeout(() => {
-    document.querySelector('[data-bs-target="#contact"]').click();
-  }, 500);
+const [active, setactive] = useState(true)
   return (
     <div>
       <Navbar />
@@ -24,7 +12,7 @@ function Home() {
         <div className="position-relative overflow-hidden overflow-lg-visible">
           <section
             className="hero-banner d-flex justify-content-center align-items-end align-items-md-center position-relative overflow-hidden header finisher-header text-center text-lg-start text-white"
-            style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
+            style={{background:"linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)"}}
           >
             <div className="container z-3">
               <div
@@ -183,7 +171,7 @@ function Home() {
         </div>
       </div>
       {/* content banner */}
-      <div class="primary-mb">
+      <div class="">
         <section class="whatwedo overflow-hidden" id="whatwedo">
           <div class="container overflow-hidden overflow-lg-visible">
             <div class="position-relative">
@@ -449,11 +437,11 @@ function Home() {
         </div>
         <div data-aos="fade-up" data-aos-duration="700" class="d-flex pt-4">
           <Link
-            to="/pap"
+            to="pay-after-placement.html"
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>
-
+          
         </div>
       </div>
       {/* DevelopmentProgram */}
@@ -619,7 +607,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-left" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+                      <i class="fa fa-long-arrow-right arror-icon" aria-hidden="true"></i>
                     </div>
                     <div class="primary-text ps-3">Hand-Picked Trainers</div>
                   </div>
@@ -627,8 +615,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-left" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
- 
+                      <i class="fa fa-long-arrow-right arrow-icon" aria-hidden="true"></i>
                     </div>
                     <div class="primary-text ps-3">Real-Time Scenarios</div>
                   </div>
@@ -638,7 +625,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+                      <i class="fa fa-long-arrow-right arrow-icon" aria-hidden="true"></i>
                     </div>
                     <div class="primary-text ps-3">Easy to Follow Curriculum</div>
                   </div>
@@ -646,7 +633,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+                      <i class="fa fa-long-arrow-right arrow-icon" aria-hidden="true"></i>
                     </div>
                     <div class="primary-text ps-3">Hands-On Live Projects</div>
                   </div>
@@ -657,16 +644,37 @@ function Home() {
         </div>
       </section>
       {/* Our Trained Students are Hired By */}
-
-      <Company />
+      <div class="container company-logos mb-5 overflow-hidden">
+        <p
+          class="text-center text-capitalize justify-content-center mt-4 display-6 linear-gradient-text fw-semibold"
+          data-aos="fade-up"
+          data-aos-duration="7000"
+        >
+          Our Trained Students are Hired By
+        </p>
+        <div class="row">
+          <div class="col-md-2" data-aos="fade-right" data-aos-duration="1000">
+            <img src="./assets/img/1.png" class="img-fluid" alt="company " />
+          </div>
+          <div class="col-md-2" data-aos="fade-right" data-aos-duration="1000">
+            <img src="./assets/img/2.png" class="img-fluid" alt="company " />
+          </div>
+          <div class="col-md-2" data-aos="fade-right" data-aos-duration="1000">
+            <img src="./assets/img/3.png" class="img-fluid" alt="company " />
+          </div>
+          <div class="col-md-2" data-aos="fade-left" data-aos-duration="1000">
+            <img src="./assets/img/4.png" class="img-fluid" alt="company " />
+          </div>
+          <div class="col-md-2" data-aos="fade-left" data-aos-duration="1000">
+            <img src="./assets/img/5.png" class="img-fluid" alt="company " />
+          </div>
+          <div class="col-md-2" data-aos="fade-left" data-aos-duration="1000">
+            <img src="./assets/img/6.png" class="img-fluid" alt="company " />
+          </div>
+        </div>
+      </div>
       {/* footer */}
       <Footer />
-      {/* {contact Form} */}
-      <ContactForm />
-      {/* {Rocket} */}
-      <Rocket />
-      {/* {LeftBar} */}
-      <LeftBar/>
     </div>
   )
 }

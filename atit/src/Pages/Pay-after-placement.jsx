@@ -13,7 +13,7 @@ function Pap() {
                 <section
                     style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
                     class="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white overflow-hidden"
-                >   
+                >
                     <div class="container z-3 text-center">
                         <div
                             class="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row"
@@ -45,7 +45,7 @@ function Pap() {
                                     aria-label="breadcrumb"
                                 >
                                     <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><Link to="/">Home</Link></li>
                                         <li
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
@@ -516,10 +516,10 @@ function Pap() {
                     </div>
                 </section>
                 <div>
-                    <Company/>
+                    <Company />
                 </div>
                 <div>
-                    <Footer/>
+                    <Footer />
                 </div>
             </div>
         </div>
