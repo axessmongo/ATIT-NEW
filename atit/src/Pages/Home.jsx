@@ -9,6 +9,30 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 import LeftBar from '../Components/LeftBar'
 function Home() {
+
+  useEffect(() => {
+    // This will run after the component has been rendered
+
+    // Get the elements by class name
+    const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
+    const heroBannerElements = document.getElementsByClassName("hero-banner");
+    const contactElement = document.querySelector('[data-bs-target="#contact"]');
+
+    // Check if elements exist before trying to access their properties
+    if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
+      // Calculate the new margin-bottom value
+      const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
+
+      // Update the style of the hero-banner element
+      heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
+
+      setTimeout(() => {
+        if (contactElement) {
+          contactElement.click();
+        }
+      }, 500);
+    }
+  }, []);
   return (
     <div>
       <Navbar />
@@ -445,7 +469,7 @@ function Home() {
             class="btn primary-btn bg-primary text-white mb-5 mx-auto"
           >About PAP
           </Link>
-          
+
         </div>
       </div>
       {/* DevelopmentProgram */}
@@ -611,7 +635,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-left" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+                      <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
                     </div>
                     <div class="primary-text ps-3">Hand-Picked Trainers</div>
                   </div>
@@ -619,8 +643,8 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-left" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
- 
+                      <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+
                     </div>
                     <div class="primary-text ps-3">Real-Time Scenarios</div>
                   </div>
@@ -630,7 +654,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+                      <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
                     </div>
                     <div class="primary-text ps-3">Easy to Follow Curriculum</div>
                   </div>
@@ -638,7 +662,7 @@ function Home() {
                 <div class="col-6">
                   <div class="d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
                     <div class="arrow1">
-                    <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
+                      <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon" />
                     </div>
                     <div class="primary-text ps-3">Hands-On Live Projects</div>
                   </div>
@@ -679,7 +703,13 @@ function Home() {
         </div>
       </div>
       {/* footer */}
+      {/* contcat form */}
+      <ContactForm />
       <Footer />
+      {/* leftbar */}
+      <LeftBar />
+      {/* Rocket */}
+      <Rocket />
     </div>
   )
 }
