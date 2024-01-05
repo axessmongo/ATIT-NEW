@@ -2,8 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 
 export default function ContactForm() {
-    // const scriptURLAdmin = "https://script.google.com/macros/s/AKfycbyxtcehxZwNx77I0QYUOqLC8ZAOG9jWRVZIDoP_24nR0bWKUR2FQN7YQ8AuSuQZUT2x/exec"
-    // const scriptURLMD = "https://script.google.com/macros/s/AKfycbzFSSWqyZDoefkXarZgjDd26X2J4tPzotfkEpHsq_Oy7ES2neY8OXxTykxAroOKANWu/exec"
+    const scriptURLAdmin = "https://script.google.com/macros/s/AKfycbyxtcehxZwNx77I0QYUOqLC8ZAOG9jWRVZIDoP_24nR0bWKUR2FQN7YQ8AuSuQZUT2x/exec"
+    const scriptURLMD = "https://script.google.com/macros/s/AKfycbzFSSWqyZDoefkXarZgjDd26X2J4tPzotfkEpHsq_Oy7ES2neY8OXxTykxAroOKANWu/exec"
     const jaiurl = "https://script.google.com/macros/s/AKfycbxHha_XQ3qKAYbsGZoeK0VtaMJsIvkW1i0yaMqYtsQLPcd9q_Y5N_bYJNJT2ug1p-LaXg/exec"
     const [formData, setFormData] = useState({
         name: '',
@@ -82,15 +82,17 @@ export default function ContactForm() {
     
         try {
           // Make the first API call
-          const responseAdmin = await fetch(jaiurl, { method: 'POST', body: new FormData(e.target) });
+          const responseAdmin = await fetch(scriptURLAdmin, { method: 'POST', body: new FormData(e.target) });
           const resultAdmin = await responseAdmin.json();
-    
+          const responseMD = await fetch(scriptURLMD, { method: 'POST', body: new FormData(e.target) });
+          const resultMD = await responseMD.json();
+
           // Make the second API call
           const responseJai = await fetch(jaiurl, { method: 'POST', body: new FormData(e.target) });
           const resultJai = await responseJai.json();
     
           // Check the results of both API calls
-          if (resultAdmin.result === 'success' && resultJai.result === 'success') {
+          if (resultAdmin.result === 'success' && resultMD.result === 'success' && resultJai.result === 'success') {
             alert('Thank you! Your form is submitted successfully.');
             setFormData({
               name: '',

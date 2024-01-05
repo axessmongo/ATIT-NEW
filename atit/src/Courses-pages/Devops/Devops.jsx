@@ -507,7 +507,7 @@ function Devops() {
 
                 </div>
             </div>
-            <div><Swiper /></div>
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>
