@@ -1,12 +1,19 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
-function Navbar({coursePage}) {
-    console.log({coursePage})
+function Navbar({ coursePage }) {
+
+    const [isButtonClicked, setButtonClicked] = useState(false);
+
+    const canvasButton = () => {
+        setButtonClicked(true);
+        alert('working')
+    };
+
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
@@ -45,7 +52,7 @@ function Navbar({coursePage}) {
                             to="/"
                         >
                             <img
-                                src={`${coursePage ? `../../` :` `}assets/imagesandvectors/vectors/atit_logo.png`}
+                                src={`${coursePage ? `../../` : ` `}assets/imagesandvectors/vectors/atit_logo.png`}
                                 alt="logo"
                             />
                         </NavLink>
@@ -85,6 +92,7 @@ function Navbar({coursePage}) {
                                         activeClassName="navbar__link--active"
                                         className="nav-link"
                                         to="/"
+                                        onClick="canvasButton()"
                                     >
                                         Home
                                     </NavLink>
@@ -95,15 +103,18 @@ function Navbar({coursePage}) {
                                         activeClassName="navbar__link--active"
                                         className="nav-link"
                                         to="/about"
+                                        onClick="canvasButton()"
                                     >
                                         About
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact">Contact</NavLink>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact"
+                                        onClick="canvasButton()">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Courses">Courses</NavLink>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Courses"
+                                        onClick="canvasButton()">Courses</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink
@@ -111,12 +122,14 @@ function Navbar({coursePage}) {
                                         className="nav-link"
                                         activeClassName="navbar__link--active"
                                         to="/Pap"
+                                        onClick="canvasButton()"
                                     >PAP
                                     </NavLink>
 
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Blog">Blog</NavLink>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Blog"
+                                        onClick="canvasButton()">Blog</NavLink>
                                 </li>
                             </ul>
                         </div>

@@ -26,11 +26,11 @@ function Home() {
       // Update the style of the hero-banner element
       heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
 
-      setTimeout(() => {
-        if (contactElement) {
-          contactElement.click();
-        }
-      }, 500);
+      // setTimeout(() => {
+      //   if (contactElement) {
+      //     contactElement.click();
+      //   }
+      // }, 500);
     }
   }, []);
   return (

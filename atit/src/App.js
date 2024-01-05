@@ -31,6 +31,10 @@ import Jenkins from './Courses-pages/Softwaretesting/Jenkins';
 import Manualtesting from './Courses-pages/Softwaretesting/Manualtesting';
 import Apipostman from './Courses-pages/Softwaretesting/Apipostman';
 import Dbtesting from './Courses-pages/Softwaretesting/Db-testing';
+import Selenium from './Courses-pages/Softwaretesting/Selenium';
+import Maven from './Courses-pages/Softwaretesting/Maven';
+import Pageobject from './Courses-pages/Softwaretesting/Pageobject';
+import Testng from './Courses-pages/Softwaretesting/Testng';
 
 function App() {
   useEffect(() => {
@@ -62,8 +66,12 @@ function App() {
           <Route path='Dbtesting' element={<Dbtesting />} />
           <Route path='Docker' element={<Docker />} />
           <Route path='Git' element={<Git />} />
-          <Route path='Python' element={<Jenkins />} />
+          <Route path='Jenkins' element={<Jenkins />} />
           <Route path='Manualtesting' element={<Manualtesting />} />
+          <Route path='Maven' element={<Maven />} />
+          <Route path='Pageobject' element={<Pageobject />} />
+          <Route path='Selenium' element={<Selenium />} />
+          <Route path='Testng' element={<Testng />} />
         </Route>
         <Route path="/Pap" element={<Pap/>}/>
         <Route path="/Artificial" element={<Artificial/>}/>

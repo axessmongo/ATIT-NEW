@@ -3,11 +3,11 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
-function testng() {
+function Testng() {
   return (
     <div>
       <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{
@@ -348,4 +348,4 @@ function testng() {
   )
 }
 
-export default testng
+export default Testng
