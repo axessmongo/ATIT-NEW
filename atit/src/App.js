@@ -5,7 +5,7 @@ import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
 import Courses from './Pages/Courses';
 import Pap from './Pages/Pay-after-placement';
-import Emerging from './Blog-page/Emerging';
+import EmergingTechnologies from './Blog-page/EmergingTechnologies';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
@@ -17,7 +17,7 @@ function App() {
     AOS.init(); 
   }, []);
 
-  return (
+  return ( 
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,6 +28,7 @@ function App() {
         <Route path="/A" element={<Artificial/>}/>
         <Route path="/Blog" element={<Blog/>}/>
         <Route path='/privacy-policy' element={<Privacy/>}/>
+        <Route path='/EmergingTechnologies' element={<EmergingTechnologies/>}/>
       </Routes>
     </div>
   );
