@@ -5,8 +5,7 @@ import Footer from '../../Components/Footer'
 
 function Artificial() {
     return (
-        <div>
-            <Navbar />
+        <div className='overflow-x-hidden'>
             <div>
                 <section
                     style={{

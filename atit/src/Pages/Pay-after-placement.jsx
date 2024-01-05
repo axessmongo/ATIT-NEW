@@ -527,7 +527,7 @@ function Pap() {
             {/* contcat form */}
             <ContactForm />
             {/* leftbar */}
-            <LeftBar />
+            <LeftBar noPap={true}/>
             {/* Rocket */}
             <Rocket />
         </div>
