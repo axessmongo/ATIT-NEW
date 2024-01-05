@@ -3,9 +3,10 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
-function Artificial() {
+function Mern() {
     return (
-        <div className='overflow-x-hidden'>
+        <div>
+            <Navbar />
             <div>
                 <section
                     style={{
@@ -23,14 +24,14 @@ function Artificial() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Artificial <span class="primary-color">Intelligence </span>Training
+                                    Mern<span class="primary-color">Stack</span>
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    Average salary for Artifical Intelligence engineers in India - Rs.12 Lakhs Per Annum.
+                                    Average Salary For Mern Stack Engineers In India - Rs.12 Lakhs Per Annum
                                 </p>
                                 <nav
                                     data-aos="fade-up"
@@ -47,7 +48,7 @@ function Artificial() {
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
-                                            Artificial Intellingence
+                                            Mern Stack
                                         </li>
                                     </ol>
                                 </nav>
@@ -61,24 +62,9 @@ function Artificial() {
                     <div class="container-fluid ">
                         <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-                            About
-                            Artificial Intelligence Training Course</p>
+                            About Mern Stack Course</p>
                         <div class="mt-4 text-center text-capitalize g-3">
-                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"> ATIT Artificial Intelligence Training will help you
-                                master and build your Artificial Intelligence skills with tools that
-                                matter -
-                                Docker
-                                Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, and more.
-                                Instructors
-                                of
-                                ATIT are experts at teaching both the essentials and finer points of Artificial Intelligence Concepts.
-                                This course
-                                will
-                                take through the practical aspects of Artificial Intelligence and help you to apply these practices in
-                                real-world
-                                project
-                                examples. Enroll in our Artificial Intelligence certification course to transform your career into a
-                                Artificial Intelligence Engineer.
+                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT Presents For The First Time Ever: Offline Classroom Program On Full Stack Development. You Will Learn To Build Dynamic, Scalable Web Applications Using MongoDB, Express.Js, React, And Node.Js - In Offline Classes And In An Interactive Manner. So Join The Classes Today To Become A MEAN Stack Developer!
                             </p>
                             <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">Experience the unparalleled edge of
                                 real-time project training – exclusive to us, as no
@@ -148,22 +134,15 @@ function Artificial() {
                     <div class="container-fluid mt-5 py-4">
                         <p class="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
-                            Artificial Intelligence Training Course Content</p>
+                            MERN Stack Training Course Content</p>
                         <div class="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
                             data-aos-duration="500">
-                            <p> This  Artificial Intelligence, training curriculum covers the introduction to  Artificial Intelligence, Continuous
-                                Integration
-                                Automation,
-                                Continuous Deployment, understanding of various categories of  Artificial Intelligence tools like
-                                Development Life
-                                Cycle
-                                Management, configuration management tools, Source code management, Automation tool, and
-                                Continuous
-                                monitoring tools. It also covers essential tools like Chef, Introduction to Docker,
-                                Integration of
-                                Docker, Docker Swarm, Jenkins, Nagios, etc.</p>
+                            <p>The MERN Stack Is A Popular And Open-Source Technology Stack For Building Full-Stack Web Applications Using MongoDB, Express, React, And Node.Js. It Is Known For Its Flexibility, Scalability, And Efficiency In Building Modern Web Applications, Making It A Preferred Choice For Developers Looking To Build Dynamic, Responsive, And High-Performing Web Applications.
+                            </p>
                         </div>
                     </div>
+
+
 
                     <section class="container my-3 pt-3">
                         <div class="mt-4">
@@ -173,10 +152,7 @@ function Artificial() {
                                 Choose your own comfortable learning
                                 experience.</p>
                             <p class="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
-                                data-aos-delay="400">Whether you choose to learn online or
-                                offline, we're excited to have you as part of our Artificial Intelligence community and look forward to
-                                helping you
-                                advance your career in the world of Artificial Intelligence!</p>
+                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our MEAN Community And Look Forward To Helping You Advance Your Career In The World Of MERN!</p>
                         </div>
                     </section>
                     <section>
@@ -194,24 +170,9 @@ function Artificial() {
                                                     <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
-                                                    data-aos-duration="800" data-aos-delay="600">In today's digital
-                                                    age, Artificial Intelligence
-                                                    has
-                                                    become an
-                                                    essential
-                                                    practice for
-                                                    organizations looking to streamline their software development and
-                                                    IT
-                                                    operations.
-                                                    This
-                                                    online
-                                                    course is designed to provide you with the knowledge and skills
-                                                    needed to excel
-                                                    in
-                                                    the
-                                                    world
-                                                    of
-                                                    Artificial Intelligence, all from the comfort of your own home or office.</p>
+                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, MERN Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of MERN, All From The Comfort Of Your Own Home Or Office.
+
+                                                </p>
                                                 <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                     <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                     <p>✔️ Flexible Learning: Learn at your own pace, and access course
@@ -258,19 +219,7 @@ function Artificial() {
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"
                                                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-                                                        In a world
-                                                        dominated by
-                                                        screens and virtual interactions, there's something
-                                                        special about coming together in person to learn and
-                                                        collaborate. Our Artificial Intelligence
-                                                        class is
-                                                        designed
-                                                        to provide you with a hands-on, immersive experience that will
-                                                        empower you
-                                                        to
-                                                        become a
-                                                        Artificial Intelligence
-                                                        expert..</p>
+                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our MERN Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A MERN Expert.</p>
                                                     <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                         <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                         <p>✔️ Face-to-Face Interaction: Interact directly with instructors
@@ -308,7 +257,6 @@ function Artificial() {
                             <p
                                 class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text" data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
                                 For Corporates</p>
-
                             <p style={{
                                 textAlign: 'center',
                                 padding: '20px',
@@ -373,7 +321,7 @@ function Artificial() {
                             <div class="my-5">
                                 <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
                                     data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
-                                    AI
+                                    Mern Stack
                                     Certification</p>
 
                                 <p style={{
@@ -394,7 +342,7 @@ function Artificial() {
 
                 </div>
             </div>
-            {/* <div><Swiper/></div> */}
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>
@@ -402,4 +350,4 @@ function Artificial() {
     )
 }
 
-export default Artificial
+export default Mern

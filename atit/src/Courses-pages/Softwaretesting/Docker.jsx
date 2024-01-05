@@ -3,9 +3,10 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
-function Artificial() {
+function Docker() {
     return (
-        <div className='overflow-x-hidden'>
+        <div>
+            <Navbar />
             <div>
                 <section
                     style={{
@@ -23,14 +24,14 @@ function Artificial() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Artificial <span class="primary-color">Intelligence </span>Training
+                                    Doc<span class="primary-color">ker</span>
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    Average salary for Artifical Intelligence engineers in India - Rs.12 Lakhs Per Annum.
+                                    Average Salary For Docker Engineers In India - Rs.12 Lakhs Per Annum
                                 </p>
                                 <nav
                                     data-aos="fade-up"
@@ -47,7 +48,7 @@ function Artificial() {
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
-                                            Artificial Intellingence
+                                            Docker
                                         </li>
                                     </ol>
                                 </nav>
@@ -61,24 +62,9 @@ function Artificial() {
                     <div class="container-fluid ">
                         <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-                            About
-                            Artificial Intelligence Training Course</p>
+                            About Docker Course</p>
                         <div class="mt-4 text-center text-capitalize g-3">
-                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"> ATIT Artificial Intelligence Training will help you
-                                master and build your Artificial Intelligence skills with tools that
-                                matter -
-                                Docker
-                                Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, and more.
-                                Instructors
-                                of
-                                ATIT are experts at teaching both the essentials and finer points of Artificial Intelligence Concepts.
-                                This course
-                                will
-                                take through the practical aspects of Artificial Intelligence and help you to apply these practices in
-                                real-world
-                                project
-                                examples. Enroll in our Artificial Intelligence certification course to transform your career into a
-                                Artificial Intelligence Engineer.
+                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT Docker Training Will Help You Master And Build Your Docker Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of Docker Concepts. This Course Will Take Through The Practical Aspects Of Docker And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our Docker Certification Course To Transform Your Career Into A Docker Engineer.
                             </p>
                             <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">Experience the unparalleled edge of
                                 real-time project training – exclusive to us, as no
@@ -148,20 +134,11 @@ function Artificial() {
                     <div class="container-fluid mt-5 py-4">
                         <p class="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
-                            Artificial Intelligence Training Course Content</p>
+                            Docker Course Content</p>
                         <div class="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
                             data-aos-duration="500">
-                            <p> This  Artificial Intelligence, training curriculum covers the introduction to  Artificial Intelligence, Continuous
-                                Integration
-                                Automation,
-                                Continuous Deployment, understanding of various categories of  Artificial Intelligence tools like
-                                Development Life
-                                Cycle
-                                Management, configuration management tools, Source code management, Automation tool, and
-                                Continuous
-                                monitoring tools. It also covers essential tools like Chef, Introduction to Docker,
-                                Integration of
-                                Docker, Docker Swarm, Jenkins, Nagios, etc.</p>
+                            <p>This Docker, Training Curriculum Covers The Introduction To Docker, Continuous Integration Automation, Continuous Deployment, Understanding Of Various Categories Of Docker Tools Like Development Life Cycle Management, Configuration Management Tools, Source Code Management, Automation Tool, And Continuous Monitoring Tools. It Also Covers Essential Tools Like Chef, Introduction To Docker, Integration Of Docker, Docker Swarm, Jenkins, Nagios, Etc.
+                            </p>
                         </div>
                     </div>
 
@@ -173,10 +150,7 @@ function Artificial() {
                                 Choose your own comfortable learning
                                 experience.</p>
                             <p class="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
-                                data-aos-delay="400">Whether you choose to learn online or
-                                offline, we're excited to have you as part of our Artificial Intelligence community and look forward to
-                                helping you
-                                advance your career in the world of Artificial Intelligence!</p>
+                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our Docker Community And Look Forward To Helping You Advance Your Career In The World Of Docker!</p>
                         </div>
                     </section>
                     <section>
@@ -194,24 +168,8 @@ function Artificial() {
                                                     <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
-                                                    data-aos-duration="800" data-aos-delay="600">In today's digital
-                                                    age, Artificial Intelligence
-                                                    has
-                                                    become an
-                                                    essential
-                                                    practice for
-                                                    organizations looking to streamline their software development and
-                                                    IT
-                                                    operations.
-                                                    This
-                                                    online
-                                                    course is designed to provide you with the knowledge and skills
-                                                    needed to excel
-                                                    in
-                                                    the
-                                                    world
-                                                    of
-                                                    Artificial Intelligence, all from the comfort of your own home or office.</p>
+                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, Docker Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of Docker, All From The Comfort Of Your Own Home Or Office.
+                                                </p>
                                                 <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                     <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                     <p>✔️ Flexible Learning: Learn at your own pace, and access course
@@ -258,19 +216,7 @@ function Artificial() {
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"
                                                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-                                                        In a world
-                                                        dominated by
-                                                        screens and virtual interactions, there's something
-                                                        special about coming together in person to learn and
-                                                        collaborate. Our Artificial Intelligence
-                                                        class is
-                                                        designed
-                                                        to provide you with a hands-on, immersive experience that will
-                                                        empower you
-                                                        to
-                                                        become a
-                                                        Artificial Intelligence
-                                                        expert..</p>
+                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our Docker Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A Docker Expert.</p>
                                                     <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                         <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                         <p>✔️ Face-to-Face Interaction: Interact directly with instructors
@@ -308,7 +254,6 @@ function Artificial() {
                             <p
                                 class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text" data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
                                 For Corporates</p>
-
                             <p style={{
                                 textAlign: 'center',
                                 padding: '20px',
@@ -373,7 +318,7 @@ function Artificial() {
                             <div class="my-5">
                                 <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
                                     data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
-                                    AI
+                                    Docker
                                     Certification</p>
 
                                 <p style={{
@@ -394,7 +339,7 @@ function Artificial() {
 
                 </div>
             </div>
-            {/* <div><Swiper/></div> */}
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>
@@ -402,4 +347,4 @@ function Artificial() {
     )
 }
 
-export default Artificial
+export default Docker

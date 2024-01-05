@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 function Java() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{
@@ -342,7 +342,7 @@ function Java() {
 
                 </div>
             </div>
-            <div><Swiper /></div>
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>

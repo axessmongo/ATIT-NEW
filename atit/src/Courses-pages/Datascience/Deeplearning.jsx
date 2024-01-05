@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 function Deeplearning() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{
@@ -340,7 +340,7 @@ function Deeplearning() {
 
                 </div>
             </div>
-            <div><Swiper /></div>
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>

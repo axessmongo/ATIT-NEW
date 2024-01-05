@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 function Datascience() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{
@@ -343,7 +343,7 @@ function Datascience() {
 
                 </div>
             </div>
-            <div><Swiper /></div>
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>
