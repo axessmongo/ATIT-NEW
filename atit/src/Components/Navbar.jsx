@@ -92,7 +92,7 @@ function Navbar({ coursePage }) {
                                         activeClassName="navbar__link--active"
                                         className="nav-link"
                                         to="/"
-                                        onClick="canvasButton()"
+                                        onClick={canvasButton}
                                     >
                                         Home
                                     </NavLink>
@@ -103,18 +103,18 @@ function Navbar({ coursePage }) {
                                         activeClassName="navbar__link--active"
                                         className="nav-link"
                                         to="/about"
-                                        onClick="canvasButton()"
+                                        onClick={canvasButton}
                                     >
                                         About
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact"
-                                        onClick="canvasButton()">Contact</NavLink>
+                                        onClick={canvasButton}>Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Courses"
-                                        onClick="canvasButton()">Courses</NavLink>
+                                        onClick={canvasButton}>Courses</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink
@@ -122,14 +122,14 @@ function Navbar({ coursePage }) {
                                         className="nav-link"
                                         activeClassName="navbar__link--active"
                                         to="/Pap"
-                                        onClick="canvasButton()"
+                                        onClick={canvasButton}
                                     >PAP
                                     </NavLink>
 
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Blog"
-                                        onClick="canvasButton()">Blog</NavLink>
+                                        onClick={canvasButton}>Blog</NavLink>
                                 </li>
                             </ul>
                         </div>
