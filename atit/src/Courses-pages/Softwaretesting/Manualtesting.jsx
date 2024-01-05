@@ -142,6 +142,144 @@ function Manualtesting() {
                         </div>
                     </div>
 
+                    <div class="container mt-3" id="placement-accordion">
+                        <div class="row">
+                            <div class="col-md-6" data-aos="fade-right" data-aos-delay="600" data-aos-duration="600">
+                                <div class="accordion" id="accordion1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne">
+                                                Introduction to Software Testing
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>What is software testing?</li>
+                                                    <li>Importance of software testing in the SDLC (Software Development Life Cycle)</li>
+                                                    <li>Types of testing: manual vs. automated</li>
+                                                    <li>Common testing terminology and concepts</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                Fundamentals of Manual Testing
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Testing principles and fundamentals</li>
+                                                    <li> Testing life cycle</li>
+                                                    <li>Testing levels (unit testing, integration testing, system </li>
+                                                    <li>testing, user acceptance testing)</li>
+                                                    <li> Testing types (functional, non-functional, etc.)</li>
+                                                    <li> Test Planning and Test Strategy</li>
+                                                    <li>Test planning process</li>
+                                                    <li> Creating a test strategy</li>
+                                                    <li> Test plan documentation</li>
+                                                    <li>Test environment setup</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseThree">
+                                                Test Case Design
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Test case development process</li>
+                                                    <li> Test case design techniques (equivalence partitioning, boundary value analysis, decision tables, etc.)</li>
+                                                    <li> Writing effective and clear test cases</li>
+                                                    <li>   Traceability between requirements and test cases</li>
+                                                    <li> Test Execution and Defect Management</li>
+                                                    <li>Test execution process</li>
+                                                    <li>  Executing test cases manually</li>
+                                                    <li> Defect identification and reporting</li>
+                                                    <li> Defect life cycle</li>
+                                                    <li>  Regression testing</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-left" data-aos-delay="600" data-aos-duration="600">
+                                <div class="accordion" id="accordion2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                Functional Testing
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Understanding functional requirements</li>
+                                                    <li>Black-box testing techniques</li>
+                                                    <li>Positive and negative testing</li>
+                                                    <li>Smoke testing and sanity testing</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                Non-Functional Testing
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li> Performance testing</li>
+                                                    <li>Load testing</li>
+                                                    <li>Stress testing</li>
+                                                    <li>Usability testing</li>
+                                                    <li>Compatibility testing</li>
+                                                    <li>Security testing</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                Test Documentation and Reporting
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>  Test summary reports</li>
+                                                    <li> Defect reports</li>
+                                                    <li>Test metrics and measurement</li>
+                                                    <li>Test closure activities</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <section class="container my-3 pt-3">
                         <div class="mt-4">
                             <h2 class="linear-gradient-text fw-semibold text-center mb-2" data-aos="flip-right"
