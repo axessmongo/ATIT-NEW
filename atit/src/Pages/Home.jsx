@@ -99,7 +99,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onclick="sessionStorage.setItem('cousrelist', '1')"
+                    onClick="sessionStorage.setItem('cousrelist', '1')"
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -125,7 +125,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onclick="sessionStorage.setItem('cousrelist', '2')"
+                    onClick="sessionStorage.setItem('cousrelist', '2')"
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -151,7 +151,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onclick="sessionStorage.setItem('cousrelist', '4')"
+                    onClick="sessionStorage.setItem('cousrelist', '4')"
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -178,7 +178,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onclick="sessionStorage.setItem('cousrelist', '3')"
+                    onClick="sessionStorage.setItem('cousrelist', '3')"
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
