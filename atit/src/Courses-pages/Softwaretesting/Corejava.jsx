@@ -3,9 +3,10 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
-function Artificial() {
+function Corejava() {
     return (
-        <div className='overflow-x-hidden'>
+        <div>
+            <Navbar />
             <div>
                 <section
                     style={{
@@ -23,14 +24,14 @@ function Artificial() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Artificial <span class="primary-color">Intelligence </span>Training
+                                    Core <span class="primary-color">Java</span>
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    Average salary for Artifical Intelligence engineers in India - Rs.12 Lakhs Per Annum.
+                                    Average Salary For Core Java Engineers In India - Rs.12 Lakhs Per Annum
                                 </p>
                                 <nav
                                     data-aos="fade-up"
@@ -47,7 +48,7 @@ function Artificial() {
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
-                                            Artificial Intellingence
+                                            Core Java
                                         </li>
                                     </ol>
                                 </nav>
@@ -61,30 +62,12 @@ function Artificial() {
                     <div class="container-fluid ">
                         <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-                            About
-                            Artificial Intelligence Training Course</p>
+                            About Core Java Course</p>
                         <div class="mt-4 text-center text-capitalize g-3">
-                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"> ATIT Artificial Intelligence Training will help you
-                                master and build your Artificial Intelligence skills with tools that
-                                matter -
-                                Docker
-                                Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, and more.
-                                Instructors
-                                of
-                                ATIT are experts at teaching both the essentials and finer points of Artificial Intelligence Concepts.
-                                This course
-                                will
-                                take through the practical aspects of Artificial Intelligence and help you to apply these practices in
-                                real-world
-                                project
-                                examples. Enroll in our Artificial Intelligence certification course to transform your career into a
-                                Artificial Intelligence Engineer.
+                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT’s Core Java Course Is An Educational Program Designed To Teach Students Or Professionals The Fundamentals Of The Java Programming Language. Java Is A Widely Used, Versatile, And Platform-Independent Language Known For Its Flexibility, Robustness, And Extensive Libraries. Core Java Courses Typically Cover The Basics Of Java Programming, Object-Oriented Principles, And Essential Java Libraries.
+
                             </p>
-                            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">Experience the unparalleled edge of
-                                real-time project training – exclusive to us, as no
-                                other
-                                institutes
-                                can match our offering.</p>
+                            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">This Course Is Your Gateway To The World Of Java Programming. Whether You're A Beginner With No Prior Coding Experience Or An Experienced Developer Looking To Expand Your Skills, This Course Will Provide You With A Solid Foundation In Java, Equipping You With The Knowledge And Skills.</p>
                         </div>
                     </div>
                     <div class="container">
@@ -148,20 +131,145 @@ function Artificial() {
                     <div class="container-fluid mt-5 py-4">
                         <p class="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
-                            Artificial Intelligence Training Course Content</p>
+                            Core Java Course Content</p>
                         <div class="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
                             data-aos-duration="500">
-                            <p> This  Artificial Intelligence, training curriculum covers the introduction to  Artificial Intelligence, Continuous
-                                Integration
-                                Automation,
-                                Continuous Deployment, understanding of various categories of  Artificial Intelligence tools like
-                                Development Life
-                                Cycle
-                                Management, configuration management tools, Source code management, Automation tool, and
-                                Continuous
-                                monitoring tools. It also covers essential tools like Chef, Introduction to Docker,
-                                Integration of
-                                Docker, Docker Swarm, Jenkins, Nagios, etc.</p>
+                            <p>ATIT’s Java Training Is Designed By Experts To Provide Students With The Abilities Required To Effectively Use Java Language. Our Highly Skilled Trainers Will Help Learners With The Knowledge And Guidance Needed For Quickly Improving Their Programming Abilities And Get Steady Career Growth.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="container mt-3" id="placement-accordion">
+                        <div class="row">
+                            <div class="col-md-6" data-aos="fade-right" data-aos-delay="600" data-aos-duration="600">
+                                <div class="accordion" id="accordion1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne">
+                                                Basic of Java
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>What is Java?</li>
+                                                    <li>History and Features of Java</li>
+                                                    <li>C++ vs. Java</li>
+                                                    <li> Hello Java Program</li>
+                                                    <li>Internal How to set the path?</li>
+                                                    <li>JDK, JRE, and JVM (Java Virtual Machine)</li>
+                                                    <li> JVM Memory Management</li>
+                                                    <li>  Internal Details of JVM</li>
+                                                    <li>Unicode System, Operators, Keywords, and Control Statements like if-else, switch, for loop, and while loop</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                Class, Objects, and Types of Classes
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>  Naming conventions of Java</li>
+                                                    <li>Classes, objects, and features</li>
+                                                    <li>Object declaration and initialization</li>
+                                                    <li>The life cycle of an object</li>
+                                                    <li>Anonymous object in Java</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseThree">
+                                                Packages in Java
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>  How to declare a package in a company project</li>
+                                                    <li>  Package naming conventions</li>
+                                                    <li>Sub packages</li>
+                                                    <li>Types of packages such as user-defined packages, built-in packages</li>
+                                                    <li>Importing packages in Java</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-left" data-aos-delay="600" data-aos-duration="600">
+                                <div class="accordion" id="accordion2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                Data Types in Java
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li> Data types in Java</li>
+                                                    <li> Primitive data types</li>
+                                                    <li>Non-primitive data types</li>
+                                                    <li> Memory allocation of primitive and non-primitive data types</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                Variables, Constraints, and Literals
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>  Variable declaration and initialization</li>
+                                                    <li> Naming convention</li>
+                                                    <li> Types of variables such as local variables, instance variables, and static variables</li>
+                                                    <li>  Scope and memory allocation of variables</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                Methods in Java
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li> Methods in Java</li>
+                                                    <li> Use of method in Java</li>
+                                                    <li> Method declaration, the method signature</li>
+                                                    <li>Types of methods in Java: predefined method, user-defined methods: instance method, static method</li>
+                                                    <li>Calling of method</li>
+                                                    <li>Java main method</li>
+                                                    <li>Return type in Java</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -173,10 +281,7 @@ function Artificial() {
                                 Choose your own comfortable learning
                                 experience.</p>
                             <p class="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
-                                data-aos-delay="400">Whether you choose to learn online or
-                                offline, we're excited to have you as part of our Artificial Intelligence community and look forward to
-                                helping you
-                                advance your career in the world of Artificial Intelligence!</p>
+                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our Core Java Community And Look Forward To Helping You Advance Your Career In The World Of Core Java!</p>
                         </div>
                     </section>
                     <section>
@@ -194,24 +299,8 @@ function Artificial() {
                                                     <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
-                                                    data-aos-duration="800" data-aos-delay="600">In today's digital
-                                                    age, Artificial Intelligence
-                                                    has
-                                                    become an
-                                                    essential
-                                                    practice for
-                                                    organizations looking to streamline their software development and
-                                                    IT
-                                                    operations.
-                                                    This
-                                                    online
-                                                    course is designed to provide you with the knowledge and skills
-                                                    needed to excel
-                                                    in
-                                                    the
-                                                    world
-                                                    of
-                                                    Artificial Intelligence, all from the comfort of your own home or office.</p>
+                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, Core Java Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of Core Java, All From The Comfort Of Your Own Home Or Office.
+                                                </p>
                                                 <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                     <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                     <p>✔️ Flexible Learning: Learn at your own pace, and access course
@@ -258,19 +347,7 @@ function Artificial() {
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"
                                                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-                                                        In a world
-                                                        dominated by
-                                                        screens and virtual interactions, there's something
-                                                        special about coming together in person to learn and
-                                                        collaborate. Our Artificial Intelligence
-                                                        class is
-                                                        designed
-                                                        to provide you with a hands-on, immersive experience that will
-                                                        empower you
-                                                        to
-                                                        become a
-                                                        Artificial Intelligence
-                                                        expert..</p>
+                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our Core Java Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A Core Java Expert.</p>
                                                     <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                         <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                         <p>✔️ Face-to-Face Interaction: Interact directly with instructors
@@ -308,7 +385,6 @@ function Artificial() {
                             <p
                                 class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text" data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
                                 For Corporates</p>
-
                             <p style={{
                                 textAlign: 'center',
                                 padding: '20px',
@@ -373,7 +449,7 @@ function Artificial() {
                             <div class="my-5">
                                 <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
                                     data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
-                                    AI
+                                    Core Java
                                     Certification</p>
 
                                 <p style={{
@@ -391,10 +467,9 @@ function Artificial() {
                             </div>
                         </div>
                     </section>
-
                 </div>
             </div>
-            <div><Swiper/></div>
+            <div><Swiper /></div>
             <div>
                 <Footer />
             </div>
@@ -402,4 +477,4 @@ function Artificial() {
     )
 }
 
-export default Artificial
+export default Corejava
