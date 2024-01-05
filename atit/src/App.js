@@ -8,10 +8,11 @@ import Pap from './Pages/Pay-after-placement';
 import Emerging from './Blog-page/Emerging';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Artificial from './Courses-pages/Datascience/Artificial';
 import Privacy from './Pages/Privacy-Policy';
 import NoPage from './Pages/NoPage';
+import MainCourse from './Pages/MainCourse';
 
 function App() {
   useEffect(() => {
@@ -24,9 +25,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses" element={<MainCourse />} >
+          <Route index element={<Courses coursePage = {true}/>} />
+          <Route path='Artificial' element={<Artificial />} />
+        </Route>
         <Route path="/Pap" element={<Pap/>}/>
-        <Route path="/A" element={<Artificial/>}/>
+        <Route path="/Artificial" element={<Artificial/>}/>
         <Route path="/Blog" element={<Blog/>}/>
         <Route path='/privacy-policy' element={<Privacy/>}/>
         <Route path='*' element={<NoPage/>}/>
