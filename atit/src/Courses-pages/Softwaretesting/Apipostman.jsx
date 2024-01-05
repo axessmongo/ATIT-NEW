@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 function Apipostman() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{

@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 function Docker() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{

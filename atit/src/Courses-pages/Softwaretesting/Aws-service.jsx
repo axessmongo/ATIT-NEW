@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 function Awsservice() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{
