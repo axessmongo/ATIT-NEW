@@ -1,35 +1,37 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Company from '../Components/Company'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import ContactForm from '../Components/ContactForm'
+import LeftBar from '../Components/LeftBar'
+import Rocket from '../Components/Rocket'
+import AOS from 'aos'
+
 
 const Blog = () => {
-    const [currentContentIndex, setCurrentContentIndex] = useState(0);
-    const itemsToShow = 2;
-    const [additionalContent, setAdditionalContent] = useState([
-    
-    ]);
+    useEffect(() => {
+        const handleNavLinkClick = () => {
+            AOS.refresh();
+        };
 
-    const showMoreContent = () => {
-        const newContentIndex = currentContentIndex + itemsToShow;
-        setCurrentContentIndex(newContentIndex);
+        // Assuming you have a similar HTML structure and class names in your React component
+        const navLinks = document.querySelectorAll('.nav-pills .nav-link');
 
-        // You can use the newContentIndex to determine the content to show
-        // For simplicity, I'll show all content up to newContentIndex
-        const contentToShow = additionalContent.slice(currentContentIndex, newContentIndex);
+        navLinks.forEach((navLink) => {
+            navLink.addEventListener('click', handleNavLinkClick);
+        });
 
-        // Update state to re-render with new content
-        setAdditionalContent((prevContent) => [...prevContent, ...contentToShow]);
-    };
-
-      
-    
-    
-
+        return () => {
+            // Cleanup event listeners when the component unmounts
+            navLinks.forEach((navLink) => {
+                navLink.removeEventListener('click', handleNavLinkClick);
+            });
+        };
+    }, []);
     return (
-        <div>
+        <div className='overflow-x-hidden blog'>
             <Navbar />
             <div>
                 {/* blog banner */}
@@ -46,11 +48,11 @@ const Blog = () => {
                                     marked by the transition from classrooms to boardrooms. We will explore the significance of
                                     placement and training, providing valuable insights for both students and organizations.</p>
                                 <nav data-aos="fade-up" data-aos-duration="800"
-                                   style={{
-                                    '--bs-breadcrumb-divider':
-                                      "url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'8\' height=\'8\'%3E%3Cpath d=\'M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z\' fill=\'%236c757d\'/%3E%3C/svg%3E')",
-                                  }}
-                                   aria-label="breadcrumb">
+                                    style={{
+                                        '--bs-breadcrumb-divider':
+                                            "url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'8\' height=\'8\'%3E%3Cpath d=\'M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z\' fill=\'%236c757d\'/%3E%3C/svg%3E')",
+                                    }}
+                                    aria-label="breadcrumb">
                                     <ol class="breadcrumb justify-content-center">
                                         <li class="breadcrumb-item"><Link to="/">Home</Link></li>
                                         <li class="breadcrumb-item active text-white" aria-current="page">Blog</li>
@@ -131,7 +133,7 @@ const Blog = () => {
                             tabindex="0">
                             <div class="container">
                                 <div class="row" id="loadMoreSection">
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/emerging-technologies-to-watch.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog4.png" alt=" Emerging Technologies image" />
@@ -145,7 +147,7 @@ const Blog = () => {
                                             Emerging Technologies
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link to="" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog2.png" alt=" Job-Hunting Lessons chandrayaan 3 image" />
@@ -158,7 +160,7 @@ const Blog = () => {
                                             Job-Hunting Lessons chandrayaan 3
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/exploring-lucrative-it-job-opportunities-in-india.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog3.png" alt="Lucrative IT Jobs image" />
@@ -172,7 +174,7 @@ const Blog = () => {
                                             Lucrative IT Jobs
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/how-to-craft-a-stellar-resume.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog10.png" alt=" Polishing Up Your Resume " />
@@ -187,7 +189,7 @@ const Blog = () => {
                                             Polishing Up Your Resume
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/understanding-the-it-industry.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog5.png" alt="Change In Career" />
@@ -201,7 +203,7 @@ const Blog = () => {
                                             Change In Career
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog10.png" alt=" Common Pitfalls In Interviews" />
@@ -217,111 +219,111 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     {/* more content */}
-                                    <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-            <Link href="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="">
-            <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog5.png" alt="Employment opportunities image"/>
-                <div class="box-content">                           
-                   <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">  IT Jobs</h2>                   
-                </div>
-            </div>
-            </Link>
-            <Link to="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="text-decoration-none blog-title blog-title">
-            Employment opportunities
-            </Link>
-        </div>
-        <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-            <Link href="./blog/what-is-this-post-about.html" class="">
-            <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog8.png" alt="The Job Market In 2023 image"/>
-                <div class="box-content">                           
-                   <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>                   
-                </div>
-            </div>
-            </Link>
-            <Link href="./blog/what-is-this-post-about.html" class="text-decoration-none blog-title blog-title">
-               The Job Market In 2023
-            </Link>
-        </div>
-        <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-            <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="">
-            <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog6.png" alt="Get Ahead Of The Job Race image"/>
-                <div class="box-content">                           
-                   <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category"> IT Jobs</h2>                   
-                </div>
-            </div>
-            </Link>
-            <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="text-decoration-none blog-title blog-title">
-              Get Ahead Of The Job Race
-            </Link>
-        </div>
-        <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-            <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="">
-            <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/blogimg.jpg" alt=" Clear Any Professional Exam"/>
-                <div class="box-content">                           
-                   <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Others</h2>                   
-                </div>
-            </div>
-            </Link>
-            <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="text-decoration-none blog-title blog-title">
-            Clear Any Professional Exam
-            </Link>
-        </div>
-        <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-            <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="">
-            <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog7.png" alt="Your First IT Job Interview image"/>
-                <div class="box-content">                           
-                   <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">  IT Jobs</h2>                   
-                </div>
-            </div>
-            </Link>
-            <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="text-decoration-none blog-title blog-title">
-            Your First IT Job Interview
-            </Link>
-        </div>
-        <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-        <Link href="./blog/the-booming-it-sector-in-india.html" class="">
-        <div class="box rounded-5 ">
-            <img src="./assets/img/Blog/Blog4.png" alt="Dynamic Indian Job Market image"/>
-            <div class="box-content">                           
-               <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>                   
-            </div>
-        </div>
-        </Link>
-        <Link href="./blog/the-booming-it-sector-in-india.html" class="text-decoration-none blog-title blog-title">
-            Dynamic Indian Job Market
-        </Link>
-    </div>
-    <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="">
-        <div class="box rounded-5 ">
-            <img src="./assets/img/Blog/Blog11.png" alt="Dynamics Of IT "/>
-            <div class="box-content">                           
-               <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">IT Jobs</h2>                   
-            </div>
-        </div>
-        </Link>
-        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="text-decoration-none blog-title blog-title">
-        Dynamics Of IT 
-        
-        </Link>
-    </div>
-    <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-        <Link href="./blog/mastering-technical-interviews.html" class="">
-        <div class="box rounded-5 ">
-            <img src="./assets/img/Blog/Blog12.png" alt="Clear Technical Interviews image"/>
-            <div class="box-content">                           
-               <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>                   
-            </div>
-        </div>
-        </Link>
-        <Link href="./blog/mastering-technical-interviews.html" class="text-decoration-none blog-title blog-title">
-        Clear Technical Interviews
-        </Link>
-    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/Blog5.png" alt="Employment opportunities image" />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">  IT Jobs</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link to="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="text-decoration-none blog-title blog-title">
+                                            Employment opportunities
+                                        </Link>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/what-is-this-post-about.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/Blog8.png" alt="The Job Market In 2023 image" />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href="./blog/what-is-this-post-about.html" class="text-decoration-none blog-title blog-title">
+                                            The Job Market In 2023
+                                        </Link>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/Blog6.png" alt="Get Ahead Of The Job Race image" />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category"> IT Jobs</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="text-decoration-none blog-title blog-title">
+                                            Get Ahead Of The Job Race
+                                        </Link>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/blogimg.jpg" alt=" Clear Any Professional Exam" />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Others</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="text-decoration-none blog-title blog-title">
+                                            Clear Any Professional Exam
+                                        </Link>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/Blog7.png" alt="Your First IT Job Interview image" />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">  IT Jobs</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="text-decoration-none blog-title blog-title">
+                                            Your First IT Job Interview
+                                        </Link>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/the-booming-it-sector-in-india.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/Blog4.png" alt="Dynamic Indian Job Market image" />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href="./blog/the-booming-it-sector-in-india.html" class="text-decoration-none blog-title blog-title">
+                                            Dynamic Indian Job Market
+                                        </Link>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/Blog11.png" alt="Dynamics Of IT " />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">IT Jobs</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="text-decoration-none blog-title blog-title">
+                                            Dynamics Of IT
+
+                                        </Link>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
+                                        <Link href="./blog/mastering-technical-interviews.html" class="">
+                                            <div class="box rounded-5 ">
+                                                <img src="./assets/img/Blog/Blog12.png" alt="Clear Technical Interviews image" />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href="./blog/mastering-technical-interviews.html" class="text-decoration-none blog-title blog-title">
+                                            Clear Technical Interviews
+                                        </Link>
+                                    </div>
                                 </div>
                                 {/* <div data-aos="fade-up" data-aos-duration="700" class="d-flex mt-3">
                                     <button id="loadMoreBtn" onClick={()=>{showMoreContent()}} class="btn primary-btn mb-5 mx-auto">Load More</button>
@@ -331,7 +333,7 @@ const Blog = () => {
                         <div class="tab-pane fade" id="pills-IT" role="tabpanel" aria-labelledby="pills-IT-tab" tabindex="0">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/exploring-lucrative-it-job-opportunities-in-india.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog3.png" alt="Lucrative IT Job Opportunities " />
@@ -345,7 +347,7 @@ const Blog = () => {
                                             Lucrative IT Job Opportunities
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog4.png" alt="Employment opportunities" />
@@ -358,7 +360,7 @@ const Blog = () => {
                                             Employment opportunities
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog4.png" alt="Get Ahead Of The Job Race" />
@@ -371,7 +373,7 @@ const Blog = () => {
                                             Get Ahead Of The Job Race
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog6.png" alt="Your First IT Job Interview" />
@@ -384,7 +386,7 @@ const Blog = () => {
                                             Your First IT Job Interview
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog11.png" alt="Dynamics of the IT job market" />
@@ -405,7 +407,7 @@ const Blog = () => {
                             tabindex="0">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog10.png" alt="Common Pitfalls
@@ -422,7 +424,7 @@ const Blog = () => {
                                             in Interviews
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/how-to-craft-a-stellar-resume.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog7.png" alt=" Polishing Up Your Resume" />
@@ -436,7 +438,7 @@ const Blog = () => {
                                             Polishing Up Your Resume
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/what-is-this-post-about.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/blogimg.jpg" alt="The Job Market In 2023" />
@@ -450,7 +452,7 @@ const Blog = () => {
                                             The Job Market In 2023
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/the-booming-it-sector-in-india.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog9.png" alt="Dynamic Indian Job Market" />
@@ -464,7 +466,7 @@ const Blog = () => {
                                             Dynamic Indian Job Market
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/mastering-technical-interviews.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog8.png" alt=" Clear Technical Interviews" />
@@ -486,7 +488,7 @@ const Blog = () => {
                             tabindex="0">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/emerging-technologies-to-watch.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog4.png" alt="Emerging Technologies" />
@@ -500,7 +502,7 @@ const Blog = () => {
                                             Emerging Technologies
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/understanding-the-it-industry.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog7.png" alt=" Change in career" />
@@ -521,7 +523,7 @@ const Blog = () => {
                             tabindex="0">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/lessons-from-the-chandrayaan-3-project.html" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog2.png" alt="Job-Hunting Chandrayaan 3" />
@@ -534,7 +536,7 @@ const Blog = () => {
                                             Job-Hunting Chandrayaan 3
                                         </Link>
                                     </div>
-                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-right" data-aos-duration="900">
+                                    <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
                                         <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/blogimg.jpg" alt="Clear Any Professional Exam" />
@@ -554,13 +556,18 @@ const Blog = () => {
                 </div>
             </div>
             <div>
-                <Company/>
+                <Company />
             </div>
-            <div>
-                <Footer/>
-            </div>
+            {/* footer */}
+            <Footer />
+            {/* contcat form */}
+            <ContactForm />
+            {/* leftbar */}
+            <LeftBar />
+            {/* Rocket */}
+            <Rocket />
         </div>
     )
 }
 
-export default Blog
+export default Blog;
