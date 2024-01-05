@@ -5,6 +5,9 @@ import Navbar from '../Components/Navbar'
 // import Artificial from '../Courses-pages/Datascience/Artificial'
 import Footer from '../Components/Footer'
 import "../css/Courses.css"
+import ContactForm from '../Components/ContactForm';
+import LeftBar from '../Components/LeftBar';
+import Rocket from '../Components/Rocket';
 
 
 const Courses = () => {
@@ -66,7 +69,7 @@ const Courses = () => {
                   aria-label="breadcrumb"
                 >
                   <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a to="/">Home</a></li>
+                    <li class="breadcrumb-item text-primary"><a to="/">Home</a></li>
                     <li
                       class="breadcrumb-item active text-white"
                       aria-current="page"
@@ -1418,11 +1421,14 @@ const Courses = () => {
           </div>
         </section>
       </div>
-      <div>
         {/* footer */}
         <Footer />
-      </div>
-
+        {/* contcat form */}
+        <ContactForm />
+        {/* leftbar */}
+        <LeftBar />
+        {/* Rocket */}
+        <Rocket />
     </div>
   )
 }

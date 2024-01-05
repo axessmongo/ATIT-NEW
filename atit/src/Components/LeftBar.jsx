@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function LeftBar() {
+export default function LeftBar({Contact}) {
   useEffect(() => {
     const popupElement = document.querySelector('.popup');
   
@@ -65,7 +65,7 @@ export default function LeftBar() {
           <span>t</span>
         </Link>
         <div
-          className="overflow-visible class-ico"
+          className={`overflow-visible class-ico ${Contact && 'd-none'}`}
           data-aos="fade-right"
           data-aos-duration={1000}
           data-bs-toggle="modal"

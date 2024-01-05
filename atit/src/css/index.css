@@ -643,6 +643,7 @@ img {
 .atit-box .slide-service-item h3 {
   color: #585757;
   margin: 0 0 10px;
+  font-weight: 600;
 }
 .atit-box .atit-card-1.active .slide-service-item,
 .atit-box .atit-card-1:hover .slide-service-item,
@@ -676,7 +677,7 @@ img {
   height: 100%;
 }
 .atit-box .slide-service-item i {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   display: inline-block;
   font-size: 30px;
 }
@@ -1120,9 +1121,9 @@ img {
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
 #atit-HowItWorks .icon {
-  padding: 19px 0;
+  padding: 12px 0;
   font-size: 30px;
-  color: #000;
+  color: #ffffff;
 }
 #atit-HowItWorks .head {
   font-size: 20px;

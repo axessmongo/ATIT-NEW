@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Components/Navbar'
 import Company from '../Components/Company'
 import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
+import ContactForm from '../Components/ContactForm'
+import LeftBar from '../Components/LeftBar'
+import Rocket from '../Components/Rocket'
 
 function About() {
+  const [activeCard, setActiveCard] = useState(1);
+
+  const handleMouseOver = (index) => {
+    setActiveCard(index);
+  };
   return (
     <div>
       <Navbar />
@@ -21,7 +29,9 @@ function About() {
                   embrace everyone's journey, from novices launching careers to experts
                   elevating skills.</p>
                 <nav data-aos="fade-up" data-aos-duration="800"
-                  // style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                  style={{
+                    '--bs-breadcrumb-divider': 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'8\' height=\'8\'%3E%3Cpath d=\'M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z\' fill=\'%236c757d\'/%3E%3C/svg%3E")'
+                  }}
                   aria-label="breadcrumb">
                   <ol class="breadcrumb justify-content-center">
                     <li class="breadcrumb-item"><Link to="/">Home</Link></li>
@@ -40,37 +50,37 @@ function About() {
             <div className="container">
               <div className="card-container">
                 <div className="atit-card row">
-                  <div className="atit-card-1 col-md-3 active" data-aos="fade-up" data-aos-duration="600">
+                  <div className={`atit-card-1 col-md-3 aos-init aos-animate ${activeCard === 1 ? 'active' : ''}`} onMouseOver={() => handleMouseOver(1)} data-aos="fade-up" data-aos-duration="600">
                     <div className="slide-service-item">
                       <div className="glyph">
-                        <i className="fa-solid fa-rocket fa-lg"></i>
+                        <i class="bi bi-rocket-takeoff-fill"></i>
                       </div>
                       <h3>Dedications</h3>
                       <p>We are dedicated to helping you achieve your goals and reach your highest potential.</p>
                     </div>
                   </div>
-                  <div className="atit-card-1  col-md-3" data-aos="fade-up" data-aos-duration="700">
+                  <div className={`atit-card-1 col-md-3 aos-init aos-animate ${activeCard === 2 ? 'active' : ''}`} onMouseOver={() => handleMouseOver(2)} data-aos="fade-up" data-aos-duration="700">
                     <div className="slide-service-item">
                       <div className="glyph">
-                        <i className="fa-solid fa-diagram-successor fa-lg"></i>
+                        <i class="bi bi-pc-display-horizontal"></i>
                       </div>
                       <h3>Practical Approach</h3>
                       <p>We reinforce your understanding while also preparing you for the challenges.</p>
                     </div>
                   </div>
-                  <div className="atit-card-1  col-md-3" data-aos="fade-up" data-aos-duration="800">
+                  <div className={`atit-card-1 col-md-3 aos-init aos-animate ${activeCard === 3 ? 'active' : ''}`} onMouseOver={() => handleMouseOver(3)} data-aos="fade-up" data-aos-duration="800">
                     <div className="slide-service-item">
                       <div className="glyph">
-                        <i className="fa-regular fa-pen-to-square"></i>
+                        <i class="bi bi-pencil-square"></i>
                       </div>
                       <h3>Experiences</h3>
                       <p>What sets us apart is our commitment to providing a dynamic and immersive learning experience.</p>
                     </div>
                   </div>
-                  <div className="atit-card-1  col-md-3" data-aos="fade-up" data-aos-duration="900">
+                  <div className={`atit-card-1 col-md-3 aos-init aos-animate ${activeCard === 4 ? 'active' : ''}`} onMouseOver={() => handleMouseOver(4)} data-aos="fade-up" data-aos-duration="900">
                     <div className="slide-service-item">
                       <div className="glyph">
-                        <i className="fa-solid fa-business-time"></i>
+                        <i class="bi bi-briefcase"></i>
                       </div>
                       <h3>Technology Trends</h3>
                       <p>At ATIT, we understand the importance of staying at the forefront of technology.</p>
@@ -82,7 +92,7 @@ function About() {
           </section>
         </div>
         {/* atit-HowItWorks */}
-        <div>
+        <div className='pb-5'>
           <div id="atit-HowItWorks" class="atit-HowItWorks">
             <div class="cube"></div>
             <div class="cube"></div>
@@ -107,7 +117,7 @@ function About() {
                     <div class="col-lg-6 HowItWorks-margin">
                       <div class="HowItWorks-content">
                         <div class="HowItWorks-item">
-                          <div class="icon">
+                          <div class="icon" data-aos="fade-up" data-aos-duration="500">
                             <i class="ri-team-fill"></i>
                           </div>
                           <p class="head" data-aos="fade-up" data-aos-duration="600">1. Learn</p>
@@ -119,8 +129,8 @@ function About() {
                       </div>
                       <div class="HowItWorks-content">
                         <div class="HowItWorks-item">
-                          <div class="icon">
-                            <i class="ri-graduation-cap-line"></i>
+                          <div class="icon" data-aos="fade-up" data-aos-duration="500">
+                            <i class="bi bi-rocket-takeoff-fill"></i>
                           </div>
                           <p class="head" data-aos="fade-up" data-aos-duration="600">2. Get Certificate</p>
                           <p data-aos="fade-up" data-aos-duration="800">
@@ -133,7 +143,7 @@ function About() {
                     <div class="col-lg-6">
                       <div class="HowItWorks-content">
                         <div class="HowItWorks-item">
-                          <div class="icon">
+                          <div class="icon" data-aos="fade-up" data-aos-duration="500">
                             <i class="ri-computer-line"></i>
                           </div>
                           <p class="head" data-aos="fade-up" data-aos-duration="600">3. Work</p>
@@ -152,12 +162,16 @@ function About() {
           </div>
         </div>
         {/* company */}
-        <Company/>
-        <div>
-          {/* footer */}
-          <Footer/>
-        </div>
+        <Company />
       </div>
+      {/* footer */}
+      <Footer />
+      {/* contcat form */}
+      <ContactForm />
+      {/* leftbar */}
+      <LeftBar />
+      {/* Rocket */}
+      <Rocket />
     </div>
   )
 }

@@ -3,6 +3,9 @@ import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
 import Company from '../Components/Company'
 import Footer from '../Components/Footer'
+import ContactForm from '../Components/ContactForm'
+import LeftBar from '../Components/LeftBar'
+import Rocket from '../Components/Rocket'
 
 function Pap() {
     return (
@@ -518,10 +521,15 @@ function Pap() {
                 <div>
                     <Company />
                 </div>
-                <div>
-                    <Footer />
-                </div>
             </div>
+            {/* footer */}
+            <Footer />
+            {/* contcat form */}
+            <ContactForm />
+            {/* leftbar */}
+            <LeftBar />
+            {/* Rocket */}
+            <Rocket />
         </div>
 
     )
