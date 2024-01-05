@@ -9,6 +9,7 @@ import Emerging from './Blog-page/Emerging';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
+import Artificial from './Courses-pages/Datascience/Artificial';
 import Privacy from './Pages/Privacy-Policy';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/Pap" element={<Pap/>}/>
+        <Route path="/A" element={<Artificial/>}/>
         <Route path="/Blog" element={<Blog/>}/>
         <Route path='/privacy-policy' element={<Privacy/>}/>
       </Routes>
