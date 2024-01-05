@@ -1,6 +1,79 @@
 import React from 'react'
+import { useState } from 'react'
 
 export default function ContactForm() {
+        const [name , setName] = useState("")
+        const [email, setEmail] = useState("")
+        const [formData, setFormData] = useState({
+            name: '',
+            email: '',
+            phone: '',
+            message: '',
+          });
+        
+          const [errors, setErrors] = useState({
+            name: '',
+            email: '',
+            phone: '',
+          });
+        
+          const handleChange = (e) => {
+            const { name, value } = e.target;
+            setFormData({
+              ...formData,
+              [name]: value,
+            });
+        
+            // Perform validation
+            validateField(name, value);
+          };
+        
+          const validateField = (name, value) => {
+            switch (name) {
+              case 'name':
+                setErrors({
+                  ...errors,
+                  name: value.length === 0 || /\d/.test(value) ? 'Invalid name' : '',
+                });
+                break;
+              case 'email':
+                setErrors({
+                  ...errors,
+                  email:
+                    value.length === 0 ||
+                    !/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(value)
+                      ? 'Invalid email'
+                      : '',
+                });
+                break;
+              case 'phone':
+                setErrors({
+                  ...errors,
+                  phone:
+                    value.length !== 10 || !/^\d+$/.test(value) ? 'Invalid phone' : '',
+                });
+                break;
+              default:
+                break;
+            }
+          };
+        
+          const handleSubmit = (e) => {
+            e.preventDefault();
+        
+            // Check if there are no errors
+            if (Object.values(errors).every((error) => error === '')) {
+              // Process the form data
+              console.log('Form submitted:', formData);
+            } else {
+              console.log('Form has errors. Please correct them.');
+            }
+          };
+
+
+
+
+
     return (
         <div><div
             className="modal fade"
@@ -37,6 +110,8 @@ export default function ContactForm() {
                                     name="name"
                                     placeholder="Enter your name"
                                     required=""
+                                    value={formData.name}
+                                    onChange={handleChange}
                                 />
                                 <label htmlFor="name">
                                     Name <span className="text"> *</span>
@@ -50,6 +125,8 @@ export default function ContactForm() {
                                     name="email"
                                     placeholder="Enter your email"
                                     required=""
+                                    value={formData.email}
+                                    onChange={handleChange}
                                 />
                                 <label htmlFor="email">
                                     Email <span className="text"> *</span>
@@ -65,6 +142,8 @@ export default function ContactForm() {
                                     oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                                     maxLength={10}
                                     required=""
+                                    value={formData.phone}
+                                    onChange={handleChange}
                                 />
                                 <label htmlFor="phone">
                                     Phone Number <span className="text"> *</span>
@@ -79,6 +158,8 @@ export default function ContactForm() {
                                     placeholder="Enter your message"
                                     style={{ height: 80 }}
                                     defaultValue={""}
+                                    value={formData.message}
+                                    onChange={handleChange}
                                 />
                                 <label htmlFor="message">
                                     Message <span>(Optional)</span>
