@@ -24,7 +24,7 @@ function Artificial() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Artificial<span class="primary-color">Intelligence </span>Training
+                                    Artificial <span class="primary-color">Intelligence </span>Training
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"

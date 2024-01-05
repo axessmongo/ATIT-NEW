@@ -3,7 +3,7 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
-function Mean() {
+function Mern() {
     return (
         <div>
             <Navbar />
@@ -24,14 +24,14 @@ function Mean() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Mean<span class="primary-color">Stack</span>
+                                    Mern<span class="primary-color">Stack</span>
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    Average Salary For Mean Stack Engineers In India - Rs.12 Lakhs Per Annum
+                                    Average Salary For Mern Stack Engineers In India - Rs.12 Lakhs Per Annum
                                 </p>
                                 <nav
                                     data-aos="fade-up"
@@ -48,7 +48,7 @@ function Mean() {
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
-                                            Mean Stack
+                                            Mern Stack
                                         </li>
                                     </ol>
                                 </nav>
@@ -62,7 +62,7 @@ function Mean() {
                     <div class="container-fluid ">
                         <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-                            About Mean Stack Course</p>
+                            About Mern Stack Course</p>
                         <div class="mt-4 text-center text-capitalize g-3">
                             <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT Presents For The First Time Ever: Offline Classroom Program On Full Stack Development. You Will Learn To Build Dynamic, Scalable Web Applications Using MongoDB, Express.Js, React, And Node.Js - In Offline Classes And In An Interactive Manner. So Join The Classes Today To Become A MEAN Stack Developer!
                             </p>
@@ -134,10 +134,10 @@ function Mean() {
                     <div class="container-fluid mt-5 py-4">
                         <p class="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
-                            MEAN Stack Training Course Content</p>
+                            MERN Stack Training Course Content</p>
                         <div class="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
                             data-aos-duration="500">
-                            <p>The MEAN Stack Is A Popular And Open-Source Technology Stack For Building Full-Stack Web Applications Using MongoDB, Express, React, And Node.Js. It Is Known For Its Flexibility, Scalability, And Efficiency In Building Modern Web Applications, Making It A Preferred Choice For Developers Looking To Build Dynamic, Responsive, And High-Performing Web Applications.
+                            <p>The MERN Stack Is A Popular And Open-Source Technology Stack For Building Full-Stack Web Applications Using MongoDB, Express, React, And Node.Js. It Is Known For Its Flexibility, Scalability, And Efficiency In Building Modern Web Applications, Making It A Preferred Choice For Developers Looking To Build Dynamic, Responsive, And High-Performing Web Applications.
                             </p>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ function Mean() {
                                 Choose your own comfortable learning
                                 experience.</p>
                             <p class="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
-                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our MEAN Community And Look Forward To Helping You Advance Your Career In The World Of MEAN!</p>
+                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our MEAN Community And Look Forward To Helping You Advance Your Career In The World Of MERN!</p>
                         </div>
                     </section>
                     <section>
@@ -170,7 +170,9 @@ function Mean() {
                                                     <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
-                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, MEAN Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of MEAN, All From The Comfort Of Your Own Home Or Office.</p>
+                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, MERN Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of MERN, All From The Comfort Of Your Own Home Or Office.
+
+                                                </p>
                                                 <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                     <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                     <p>✔️ Flexible Learning: Learn at your own pace, and access course
@@ -217,7 +219,7 @@ function Mean() {
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"
                                                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our MEAN Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A MEAN Expert.</p>
+                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our MERN Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A MERN Expert.</p>
                                                     <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                         <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                         <p>✔️ Face-to-Face Interaction: Interact directly with instructors
@@ -255,7 +257,6 @@ function Mean() {
                             <p
                                 class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text" data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
                                 For Corporates</p>
-
                             <p style={{
                                 textAlign: 'center',
                                 padding: '20px',
@@ -320,7 +321,7 @@ function Mean() {
                             <div class="my-5">
                                 <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
                                     data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
-                                    Mean Stack
+                                    Mern Stack
                                     Certification</p>
 
                                 <p style={{
@@ -349,4 +350,4 @@ function Mean() {
     )
 }
 
-export default Mean
+export default Mern
