@@ -3,9 +3,10 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
-function Maven() {
-    return (
-        <div>
+function testng() {
+  return (
+    <div>
+      <div>
             <Navbar />
             <div>
                 <section
@@ -24,14 +25,14 @@ function Maven() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Ma<span class="primary-color">ven</span>
+                                    Test<span class="primary-color">NG</span>
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    Average Salary For Maven Engineers In India - Rs.12 Lakhs Per Annum
+                                    Average Salary For TestNG Engineers In India - Rs.12 Lakhs Per Annum
                                 </p>
                                 <nav
                                     data-aos="fade-up"
@@ -48,7 +49,7 @@ function Maven() {
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
-                                            Maven
+                                            TestNG
                                         </li>
                                     </ol>
                                 </nav>
@@ -62,9 +63,9 @@ function Maven() {
                     <div class="container-fluid ">
                         <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-                            About Maven Course</p>
+                            About TestNG Course</p>
                         <div class="mt-4 text-center text-capitalize g-3">
-                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT Maven Training Will Help You Master And Build Your Maven Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of Maven Concepts. This Course Will Take Through The Practical Aspects Of Maven And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our Maven Certification Course To Transform Your Career Into A Maven Engineer.
+                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT TestNG Training Will Help You Master And Build Your TestNG Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of TestNG Concepts. This Course Will Take Through The Practical Aspects Of TestNG And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our TestNG Certification Course To Transform Your Career Into A TestNG Engineer.
                             </p>
                             <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">Experience the unparalleled edge of
                                 real-time project training – exclusive to us, as no
@@ -134,10 +135,10 @@ function Maven() {
                     <div class="container-fluid mt-5 py-4">
                         <p class="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
-                            Maven Course Content</p>
+                            TestNG Course Content</p>
                         <div class="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
                             data-aos-duration="500">
-                            <p>This Maven, Training Curriculum Covers The Introduction To Maven, Continuous Integration Automation, Continuous Deployment, Understanding Of Various Categories Of Maven Tools Like Development Life Cycle Management, Configuration Management Tools, Source Code Management, Automation Tool, And Continuous Monitoring Tools. It Also Covers Essential Tools Like Chef, Introduction To Docker, Integration Of Docker, Docker Swarm, Jenkins, Nagios, Etc.
+                            <p>This TestNG, Training Curriculum Covers The Introduction To TestNG, Continuous Integration Automation, Continuous Deployment, Understanding Of Various Categories Of TestNG Tools Like Development Life Cycle Management, Configuration Management Tools, Source Code Management, Automation Tool, And Continuous Monitoring Tools. It Also Covers Essential Tools Like Chef, Introduction To Docker, Integration Of Docker, Docker Swarm, Jenkins, Nagios, Etc.
                             </p>
                         </div>
                     </div>
@@ -150,7 +151,7 @@ function Maven() {
                                 Choose your own comfortable learning
                                 experience.</p>
                             <p class="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
-                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our Maven Community And Look Forward To Helping You Advance Your Career In The World Of Maven!</p>
+                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our TestNG Community And Look Forward To Helping You Advance Your Career In The World Of TestNG!</p>
                         </div>
                     </section>
                     <section>
@@ -168,7 +169,7 @@ function Maven() {
                                                     <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
-                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, Maven Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of Maven, All From The Comfort Of Your Own Home Or Office.
+                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, TestNG Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of TestNG, All From The Comfort Of Your Own Home Or Office.
                                                 </p>
                                                 <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                     <p class="fs-2 fw-semibold">Course Highlights:</p>
@@ -216,7 +217,7 @@ function Maven() {
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"
                                                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our Maven Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A Maven Expert.</p>
+                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our TestNG Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A TestNG Expert.</p>
                                                     <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                         <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                         <p>✔️ Face-to-Face Interaction: Interact directly with instructors
@@ -318,7 +319,7 @@ function Maven() {
                             <div class="my-5">
                                 <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
                                     data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
-                                    Maven
+                                    TestNG
                                     Certification</p>
                                 <p style={{
                                     textAlign: 'center',
@@ -343,7 +344,8 @@ function Maven() {
                 <Footer />
             </div>
         </div>
-    )
+    </div>
+  )
 }
 
-export default Maven
+export default testng
