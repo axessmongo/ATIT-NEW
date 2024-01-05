@@ -1,9 +1,12 @@
 import React from 'react'
+import Swiper from 'swiper'
+import Footer from '../../Components/Footer'
+
 
 function Mean() {
   return (
     <div>
-    <Navbar />
+    {/* <Navbar /> */}
     <div>
         <section
             style={{
@@ -21,7 +24,7 @@ function Mean() {
                             data-aos-duration="500"
                             class="primary-header"
                         >
-                            Mean<span class="primary-color">Stack</span>
+                            Mean<span class="primary-color"> Stack</span>
                         </h1>
                         <p
                             class="text-light fs-6 text-capitalize fw-light"
@@ -338,7 +341,7 @@ function Mean() {
 
         </div>
     </div>
-    <div><Swiper /></div>
+    {/* <div><Swiper /></div> */}
     <div>
         <Footer />
     </div>

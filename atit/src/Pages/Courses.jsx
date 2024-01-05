@@ -32,7 +32,7 @@ const Courses = () => {
   }, []);
   return (
     <div className='course'>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* {Head topic} */}
       <div>
         <section

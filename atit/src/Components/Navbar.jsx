@@ -6,7 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 function Navbar({coursePage}) {
-    // console.log({coursePage})
+    console.log({coursePage})
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
@@ -45,7 +45,7 @@ function Navbar({coursePage}) {
                             to="/"
                         >
                             <img
-                                src="assets/imagesandvectors/vectors/atit_logo.png"
+                                src={`${coursePage ? `../../` :` `}assets/imagesandvectors/vectors/atit_logo.png`}
                                 alt="logo"
                             />
                         </NavLink>
