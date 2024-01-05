@@ -13,6 +13,11 @@ import Artificial from './Courses-pages/Datascience/Artificial';
 import Privacy from './Pages/Privacy-Policy';
 import NoPage from './Pages/NoPage';
 import MainCourse from './Pages/MainCourse';
+import Datascience from './Courses-pages/Datascience/Datascience';
+import Deeplearning from './Courses-pages/Datascience/Deeplearning';
+import Devops from './Courses-pages/Devops/Devops';
+import Java from './Courses-pages/Softwaredeveloment/Java';
+import Mean from './Courses-pages/Softwaredeveloment/Mean';
 
 function App() {
   useEffect(() => {
@@ -26,8 +31,13 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<MainCourse />} >
-          <Route index element={<Courses coursePage = {true}/>} />
+          <Route index element={<Courses />} />
           <Route path='Artificial' element={<Artificial />} />
+          <Route path='Datascience' element={<Datascience/>} />
+          <Route path='Deeplearning' element={<Deeplearning/>} />
+          <Route path='Devops' element={<Devops/>} />
+          <Route path='Java' element={<Java/>} />
+          <Route path='Mean' element={<Mean />} />
         </Route>
         <Route path="/Pap" element={<Pap/>}/>
         <Route path="/Artificial" element={<Artificial/>}/>

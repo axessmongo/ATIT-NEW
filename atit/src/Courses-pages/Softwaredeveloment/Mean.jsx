@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar'
-import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
 function Mean() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{
@@ -341,7 +340,7 @@ function Mean() {
 
                 </div>
             </div>
-            <div><Swiper /></div>
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>
