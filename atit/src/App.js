@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
 import Privacy from './Pages/Privacy-Policy';
+import NoPage from './Pages/NoPage';
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Pap" element={<Pap/>}/>
         <Route path="/Blog" element={<Blog/>}/>
         <Route path='/privacy-policy' element={<Privacy/>}/>
+        <Route path='*' element={<NoPage/>}/>
       </Routes>
     </div>
   );

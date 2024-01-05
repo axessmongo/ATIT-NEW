@@ -135,7 +135,7 @@ function Contact() {
       {/* contcat form */}
       <ContactForm/>
       {/* leftbar */}
-      <LeftBar  Contact= {true}/>
+      <LeftBar  noContact= {true}/>
       {/* Rocket */}
       <Rocket />
     </div>
