@@ -3,10 +3,11 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 
-function Manualtesting() {
-    return (
-        <div>
-            {/* <Navbar /> */}
+function testng() {
+  return (
+    <div>
+      <div>
+            <Navbar />
             <div>
                 <section
                     style={{
@@ -24,14 +25,14 @@ function Manualtesting() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Manual <span class="primary-color">Testing</span>
+                                    Test<span class="primary-color">NG</span>
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    Average Salary For Manual Testing Engineers In India - Rs.12 Lakhs Per Annum
+                                    Average Salary For TestNG Engineers In India - Rs.12 Lakhs Per Annum
                                 </p>
                                 <nav
                                     data-aos="fade-up"
@@ -48,7 +49,7 @@ function Manualtesting() {
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
-                                            Manual Testing
+                                            TestNG
                                         </li>
                                     </ol>
                                 </nav>
@@ -62,9 +63,9 @@ function Manualtesting() {
                     <div class="container-fluid ">
                         <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-                            About Manual Testing Course</p>
+                            About TestNG Course</p>
                         <div class="mt-4 text-center text-capitalize g-3">
-                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Through ATIT’s Manual Testing Training You'll Embark On A Journey To Master The Art Of Manual Testing. Throughout This Course, You'll Delve Into The Core Principles Of Software Testing, Encompassing Test Planning, Test Case Design, Execution, And Defect Management. By Actively Participating In Real-World Examples And Hands-On Labs, You'll Develop A Profound Understanding Of A Variety Of Testing Techniques, Including Functional, Regression, And Exploratory Testing Join ATIT As We Guide You Towards Becoming A Skilled Manual Software Tester With Practical Experience That Will Pave The Way For A Rewarding And Fulfilling Career In The Field Of Software Quality Assurance.
+                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT TestNG Training Will Help You Master And Build Your TestNG Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of TestNG Concepts. This Course Will Take Through The Practical Aspects Of TestNG And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our TestNG Certification Course To Transform Your Career Into A TestNG Engineer.
                             </p>
                             <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">Experience the unparalleled edge of
                                 real-time project training – exclusive to us, as no
@@ -134,149 +135,11 @@ function Manualtesting() {
                     <div class="container-fluid mt-5 py-4">
                         <p class="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
-                            Manual Testing Course Content</p>
+                            TestNG Course Content</p>
                         <div class="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
                             data-aos-duration="500">
-                            <p>Manual Testing Is A Crucial Aspect Of Software Quality Assurance, Ensuring That Software Applications Meet Their Intended Functionality And Are Free Of Defects Before Reaching Users. In This Course, You Will Explore The Key Concepts, Techniques, And Best Practices In Manual Testing Through A Structured Curriculum That Includes Lectures, Hands-On Exercises, Real-World Examples, And Interactive Discussions.
+                            <p>This TestNG, Training Curriculum Covers The Introduction To TestNG, Continuous Integration Automation, Continuous Deployment, Understanding Of Various Categories Of TestNG Tools Like Development Life Cycle Management, Configuration Management Tools, Source Code Management, Automation Tool, And Continuous Monitoring Tools. It Also Covers Essential Tools Like Chef, Introduction To Docker, Integration Of Docker, Docker Swarm, Jenkins, Nagios, Etc.
                             </p>
-                        </div>
-                    </div>
-
-                    <div class="container mt-3" id="placement-accordion">
-                        <div class="row">
-                            <div class="col-md-6" data-aos="fade-right" data-aos-delay="600" data-aos-duration="600">
-                                <div class="accordion" id="accordion1">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                                aria-controls="panelsStayOpen-collapseOne">
-                                                Introduction to Software Testing
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>What is software testing?</li>
-                                                    <li>Importance of software testing in the SDLC (Software Development Life Cycle)</li>
-                                                    <li>Types of testing: manual vs. automated</li>
-                                                    <li>Common testing terminology and concepts</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                                aria-controls="panelsStayOpen-collapseTwo">
-                                                Fundamentals of Manual Testing
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>Testing principles and fundamentals</li>
-                                                    <li> Testing life cycle</li>
-                                                    <li>Testing levels (unit testing, integration testing, system </li>
-                                                    <li>testing, user acceptance testing)</li>
-                                                    <li> Testing types (functional, non-functional, etc.)</li>
-                                                    <li> Test Planning and Test Strategy</li>
-                                                    <li>Test planning process</li>
-                                                    <li> Creating a test strategy</li>
-                                                    <li> Test plan documentation</li>
-                                                    <li>Test environment setup</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                                aria-controls="panelsStayOpen-collapseThree">
-                                                Test Case Design
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>Test case development process</li>
-                                                    <li> Test case design techniques (equivalence partitioning, boundary value analysis, decision tables, etc.)</li>
-                                                    <li> Writing effective and clear test cases</li>
-                                                    <li>   Traceability between requirements and test cases</li>
-                                                    <li> Test Execution and Defect Management</li>
-                                                    <li>Test execution process</li>
-                                                    <li>  Executing test cases manually</li>
-                                                    <li> Defect identification and reporting</li>
-                                                    <li> Defect life cycle</li>
-                                                    <li>  Regression testing</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6" data-aos="fade-left" data-aos-delay="600" data-aos-duration="600">
-                                <div class="accordion" id="accordion2">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                                Functional Testing
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>Understanding functional requirements</li>
-                                                    <li>Black-box testing techniques</li>
-                                                    <li>Positive and negative testing</li>
-                                                    <li>Smoke testing and sanity testing</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                Non-Functional Testing
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li> Performance testing</li>
-                                                    <li>Load testing</li>
-                                                    <li>Stress testing</li>
-                                                    <li>Usability testing</li>
-                                                    <li>Compatibility testing</li>
-                                                    <li>Security testing</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                Test Documentation and Reporting
-                                            </button>
-                                        </h2>
-                                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>  Test summary reports</li>
-                                                    <li> Defect reports</li>
-                                                    <li>Test metrics and measurement</li>
-                                                    <li>Test closure activities</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -288,7 +151,7 @@ function Manualtesting() {
                                 Choose your own comfortable learning
                                 experience.</p>
                             <p class="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
-                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our Manual Testing Community And Look Forward To Helping You Advance Your Career In The World Of Manual Testing!</p>
+                                data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our TestNG Community And Look Forward To Helping You Advance Your Career In The World Of TestNG!</p>
                         </div>
                     </section>
                     <section>
@@ -306,7 +169,7 @@ function Manualtesting() {
                                                     <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
-                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, Manual Testing Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of Manual Testing, All From The Comfort Of Your Own Home Or Office.
+                                                    data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, TestNG Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of TestNG, All From The Comfort Of Your Own Home Or Office.
                                                 </p>
                                                 <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                     <p class="fs-2 fw-semibold">Course Highlights:</p>
@@ -354,7 +217,7 @@ function Manualtesting() {
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"
                                                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our Manual Testing Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A Manual Testing Expert.</p>
+                                                        In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our TestNG Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A TestNG Expert.</p>
                                                     <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
                                                         <p class="fs-2 fw-semibold">Course Highlights:</p>
                                                         <p>✔️ Face-to-Face Interaction: Interact directly with instructors
@@ -456,7 +319,7 @@ function Manualtesting() {
                             <div class="my-5">
                                 <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
                                     data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
-                                    Manual Testing
+                                    TestNG
                                     Certification</p>
                                 <p style={{
                                     textAlign: 'center',
@@ -476,12 +339,13 @@ function Manualtesting() {
 
                 </div>
             </div>
-            {/* <div><Swiper /></div> */}
+            <div><Swiper /></div>
             <div>
                 <Footer />
             </div>
         </div>
-    )
+    </div>
+  )
 }
 
-export default Manualtesting
+export default testng
