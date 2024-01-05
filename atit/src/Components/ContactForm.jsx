@@ -155,7 +155,7 @@ export default function ContactForm() {
                                 <label htmlFor="name">
                                     Name <span className="text"> *</span>
                                 </label>
-                                <div style={{ color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.name}</div>
+                                <div style={{position:"absolute",zIndex:"2",left:"50%",transform:"translateX(-50%)" , color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.name}</div>
 
                             </div>
                             <div className="form-floating">
@@ -172,8 +172,9 @@ export default function ContactForm() {
                                 <label htmlFor="email">
                                     Email <span className="text"> *</span>
                                 </label>
+                                <div style={{ position:"absolute",zIndex:"2",left:"50%",transform:"translateX(-50%)" ,color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.email}</div>
+                           
                             </div>
-                            <div style={{ color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.email}</div>
                             <div className="form-floating">
                                 <input
                                     type="number"
@@ -189,9 +190,10 @@ export default function ContactForm() {
                                 <label htmlFor="phone">
                                     Phone Number <span className="text"> *</span>
                                 </label>
+                                <div style={{position:"absolute",zIndex:"2",left:"50%",transform:"translateX(-50%)" , color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.phone}</div>
+                          
                             </div>
-                            <div style={{ color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.phone}</div>
-                            <div className="form-floating">
+                             <div className="form-floating">
                                 <textarea
                                     className="form-control"
                                     id="message"
