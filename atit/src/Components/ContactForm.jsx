@@ -2,8 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 
 export default function ContactForm() {
-        const [name , setName] = useState("")
-        const [email, setEmail] = useState("")
         const [formData, setFormData] = useState({
             name: '',
             email: '',
@@ -101,7 +99,7 @@ export default function ContactForm() {
                         />
                     </div>
                     <div className="modal-body p-3">
-                        <form id="contactForm" name="contactForm">
+                        <form id="contactForm" name="contactForm" onSubmit={handleSubmit}>
                             <div className="form-floating">
                                 <input
                                     type="text"
@@ -117,6 +115,7 @@ export default function ContactForm() {
                                     Name <span className="text"> *</span>
                                 </label>
                             </div>
+                            <span style={{ color: 'red' }}>{errors.name}</span>
                             <div className="form-floating">
                                 <input
                                     type="email"
@@ -132,6 +131,7 @@ export default function ContactForm() {
                                     Email <span className="text"> *</span>
                                 </label>
                             </div>
+                            <span style={{ color: 'red' }}>{errors.email}</span>
                             <div className="form-floating">
                                 <input
                                     type="number"
@@ -149,6 +149,7 @@ export default function ContactForm() {
                                     Phone Number <span className="text"> *</span>
                                 </label>
                             </div>
+                            <span style={{ color: 'red' }}>{errors.phone}</span>
                             <div className="form-floating">
                                 <textarea
                                     className="form-control"
@@ -177,7 +178,6 @@ export default function ContactForm() {
             </div>
         </div>
 
-        {/* <button className='primary-btn d-none' data-bs-toggle="modal" data-bs-target="#contact">OPen</button> */}
-        </div>
+          </div>
     )
 }
