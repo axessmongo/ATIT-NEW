@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+// import Artificial from '../Courses-pages/Datascience/Artificial'
 import Footer from '../Components/Footer'
 import "../css/Courses.css"
 

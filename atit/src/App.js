@@ -7,6 +7,7 @@ import Pap from './Pages/Pay-after-placement';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Route, Routes } from 'react-router-dom';
+import Artificial from './Courses-pages/Datascience/Artificial';
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/Pap" element={<Pap/>}/>
+        <Route path="/A" element={<Artificial/>}/>
       </Routes>
     </div>
   );
