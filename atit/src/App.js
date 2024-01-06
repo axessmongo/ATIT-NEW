@@ -20,11 +20,21 @@ import Java from './Courses-pages/Softwaredeveloment/Java';
 import Mean from './Courses-pages/Softwaredeveloment/Mean';
 import Mern from './Courses-pages/Softwaredeveloment/Mern';
 import Python from './Courses-pages/Softwaredeveloment/Python';
-import Advancedjava from './Courses-pages/Softwaretesting/Advancejava';
-import ApiPostman from './Courses-pages/Softwaretesting/Api-postman';
+import Advancejava from './Courses-pages/Softwaretesting/Advancejava';
 import Apirestassured from './Courses-pages/Softwaretesting/Apirestassured';
-import AwsService from './Courses-pages/Softwaretesting/Aws-service';
-import Corejava from 
+import Awsservice from './Courses-pages/Softwaretesting/Aws-service';
+import Corejava from './Courses-pages/Softwaretesting/Corejava';
+import Cucumber from './Courses-pages/Softwaretesting/Cucumber';
+import Docker from './Courses-pages/Softwaretesting/Docker';
+import Git from './Courses-pages/Softwaretesting/Git';
+import Jenkins from './Courses-pages/Softwaretesting/Jenkins';
+import Manualtesting from './Courses-pages/Softwaretesting/Manualtesting';
+import Apipostman from './Courses-pages/Softwaretesting/Apipostman';
+import Dbtesting from './Courses-pages/Softwaretesting/Db-testing';
+import Selenium from './Courses-pages/Softwaretesting/Selenium';
+import Maven from './Courses-pages/Softwaretesting/Maven';
+import Pageobject from './Courses-pages/Softwaretesting/Pageobject';
+import Testng from './Courses-pages/Softwaretesting/testng';
 
 function App() {
   useEffect(() => {
@@ -46,7 +56,22 @@ function App() {
           <Route path='Java' element={<Java/>} />
           <Route path='Mean' element={<Mean />} />
           <Route path='Mern' element={<Mern />} />
-
+          <Route path='Python' element={<Python />} />
+          <Route path='Advancejava' element={<Advancejava />} />
+          <Route path='Apipostman' element={<Apipostman />} />
+          <Route path='Apirestassured' element={<Apirestassured />} />
+          <Route path='Awsservice' element={<Awsservice />} />
+          <Route path='Corejava' element={<Corejava />} />
+          <Route path='Cucumber' element={<Cucumber />} />
+          <Route path='Dbtesting' element={<Dbtesting />} />
+          <Route path='Docker' element={<Docker />} />
+          <Route path='Git' element={<Git />} />
+          <Route path='Jenkins' element={<Jenkins />} />
+          <Route path='Manualtesting' element={<Manualtesting />} />
+          <Route path='Maven' element={<Maven />} />
+          <Route path='Pageobject' element={<Pageobject />} />
+          <Route path='Selenium' element={<Selenium />} />
+          <Route path='Testng' element={<Testng />} />
         </Route>
         <Route path="/Pap" element={<Pap/>}/>
         <Route path="/Artificial" element={<Artificial/>}/>

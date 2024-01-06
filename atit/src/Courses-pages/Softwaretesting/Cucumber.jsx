@@ -2,11 +2,11 @@ import React from 'react'
 import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
-
+import { Link } from 'react-router-dom'
 function Cucumber() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <section
                     style={{
@@ -43,7 +43,7 @@ function Cucumber() {
                                     aria-label="breadcrumb"
                                 >
                                     <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><Link to= "/">Home</Link></li>
                                         <li
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
@@ -165,7 +165,7 @@ function Cucumber() {
                                                 </h2>
                                                 <div class="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
+                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
                                                     data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, Cucumber Framework Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of Cucumber Framework, All From The Comfort Of Your Own Home Or Office.
@@ -211,7 +211,7 @@ function Cucumber() {
 
                                                 <div class="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
+                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"

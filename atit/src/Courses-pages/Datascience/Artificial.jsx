@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
+import { Link } from 'react-router-dom'
 
 function Artificial() {
     return (
@@ -42,7 +43,7 @@ function Artificial() {
                                     aria-label="breadcrumb"
                                 >
                                     <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><Link to= "/">Home</Link></li>
                                         <li
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
@@ -191,7 +192,7 @@ function Artificial() {
                                                 </h2>
                                                 <div class="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
+                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
                                                     data-aos-duration="800" data-aos-delay="600">In today's digital
@@ -253,7 +254,7 @@ function Artificial() {
 
                                                 <div class="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
+                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"

@@ -16,7 +16,6 @@ function Home() {
     // Get the elements by class name
     const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
     const heroBannerElements = document.getElementsByClassName("hero-banner");
-    const contactElement = document.querySelector('[data-bs-target="#contact"]');
 
     // Check if elements exist before trying to access their properties
     if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
@@ -25,14 +24,16 @@ function Home() {
 
       // Update the style of the hero-banner element
       heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
-
-      setTimeout(() => {
-        if (contactElement) {
-          contactElement.click();
-        }
-      }, 500);
     }
   }, []);
+
+  useEffect(() => {
+    const contactElement = document.querySelector('[data-bs-target="#contact"]');
+    if (contactElement) {
+      contactElement.click();
+    }
+  }, 500)
+
   return (
     <div>
       <Navbar />
@@ -99,7 +100,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onClick="sessionStorage.setItem('cousrelist', '1')"
+                     onClick={() => sessionStorage.setItem('courselist', '1')}
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -125,7 +126,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onClick="sessionStorage.setItem('cousrelist', '2')"
+                    onClick={() => sessionStorage.setItem('courselist', '2')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -151,7 +152,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onClick="sessionStorage.setItem('cousrelist', '4')"
+                    onClick={() => sessionStorage.setItem('courselist', '4')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -178,7 +179,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                    onClick="sessionStorage.setItem('cousrelist', '3')"
+                    onClick={() => sessionStorage.setItem('courselist', '3')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -225,7 +226,7 @@ function Home() {
                   <div data-aos="fade-right" data-aos-duration="400">
                     <div
                       class="card border-0 mb-5"
-                      to="#smokemodelling"
+                      // to="#smokemodelling"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -243,7 +244,7 @@ function Home() {
                   <div data-aos="fade-right" data-aos-duration="800">
                     <div
                       class="card left-go border-0 mb-5"
-                      to="#firestategies"
+                      // to="#firestategies"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -265,7 +266,7 @@ function Home() {
                   <div data-aos="fade-right" data-aos-duration="900">
                     <div
                       class="card border-0 mb-5"
-                      to="#smokemodelling"
+                      // to="#smokemodelling"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -300,7 +301,7 @@ function Home() {
                   <div data-aos="fade-left" data-aos-duration="600">
                     <div
                       class="card border-0 mb-5"
-                      to="#strecturalfire"
+                      // to="#strecturalfire"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -318,7 +319,7 @@ function Home() {
                   <div data-aos="fade-left" data-aos-duration="700">
                     <div
                       class="card right-go border-0 mb-5"
-                      to="#firesuppression"
+                      // to="#firesuppression"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -336,7 +337,7 @@ function Home() {
                   <div data-aos="fade-left" data-aos-duration="00">
                     <div
                       class="card border-0 mb-5"
-                      to="#sprinklersystem"
+                      // to="#sprinklersystem"
                       data-bs-toggle="offcanvas"
                     >
                       <div class="d-flex align-items-center">
@@ -357,7 +358,7 @@ function Home() {
                     class="card border-0 mb-1"
                     data-aos="fade-up"
                     data-aos-duration="900"
-                    to="#pressrisation"
+                    // to="#pressrisation"
                     data-bs-toggle="offcanvas"
                   >
                     <div class="d-flex align-items-center">

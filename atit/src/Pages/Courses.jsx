@@ -8,6 +8,7 @@ import "../css/Courses.css"
 import ContactForm from '../Components/ContactForm';
 import LeftBar from '../Components/LeftBar';
 import Rocket from '../Components/Rocket';
+import { Link } from 'react-router-dom'
 
 
 const Courses = () => {
@@ -69,7 +70,7 @@ const Courses = () => {
                   aria-label="breadcrumb"
                 >
                   <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item text-primary"><a to="/">Home</a></li>
+                    <li class="breadcrumb-item text-primary"><Link to="/">Home</Link></li>
                     <li
                       class="breadcrumb-item active text-white"
                       aria-current="page"
@@ -143,7 +144,7 @@ const Courses = () => {
               <div class="container-fluid">
                 <div class="row g-5">
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/advancejava.html"
+                    <Link to="Advancejava"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card14 text-white text-center">Advance Java</h4>
@@ -169,10 +170,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/api-postman.html"
+                    <Link to="Apipostman"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card15 text-white text-center">API-Postman</h4>
@@ -198,10 +199,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/apirestassured.html"
+                    <Link to="Apirestassured"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">API-Rest Assured</h4>
@@ -227,10 +228,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/db-testing.html"
+                    <Link to="Dbtesting"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card16 text-white text-center">DB Testing</h4>
@@ -256,10 +257,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/docker.html"
+                    <Link to="Docker"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card13 text-white text-center">Docker</h4>
@@ -285,10 +286,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/git.html"
+                    <Link to="Git"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card5 text-white text-center">GIT</h4>
@@ -314,10 +315,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/jenkins.html"
+                    <Link to="Jenkins"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card6 text-white text-center">Jenkins</h4>
@@ -343,10 +344,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/manualtesting.html"
+                    <Link to="Manualtesting"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card3 text-white text-center">Manual Testing</h4>
@@ -372,10 +373,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/maven.html"
+                    <Link to="Maven"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">Maven</h4>
@@ -401,10 +402,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/pageobject.html"
+                    <Link to="Pageobject"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card4 text-white text-center">Page Object Model</h4>
@@ -430,10 +431,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/selenium.html"
+                    <Link to="Selenium"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card21 text-white text-center">Selenium</h4>
@@ -459,10 +460,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/test-ng.html"
+                    <Link to="Testng"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card20 text-white text-center">TestNG</h4>
@@ -488,10 +489,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaredevelopment/java.html"
+                    <Link to="Java"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card11 text-white text-center">Java Fullstack</h4>
@@ -517,10 +518,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaredevelopment/mean.html"
+                    <Link to="Mean"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card12 text-white text-center">MEAN Stack</h4>
@@ -546,10 +547,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaredevelopment/mern.html"
+                    <Link to="Mern"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">MERN Stack</h4>
@@ -575,10 +576,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaredevelopment/python.html"
+                    <Link to="Python"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card9 text-white text-center">Python Fullstack</h4>
@@ -604,10 +605,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/datascience-ai/artificial.html"
+                    <Link to="Artificial"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card22 text-white text-center">Artificial-Intelligence</h4>
@@ -633,10 +634,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/datascience-ai/datascience.html"
+                    <Link to="Datascience"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card10 text-white text-center">Data Science</h4>
@@ -662,10 +663,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/datascience-ai/deeplearning.html"
+                    <Link to="Deeplearning"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card18 text-white text-center">Deep Learning</h4>
@@ -691,10 +692,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="courses/devops/devops.html"
+                    <Link to="Devops"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card23 text-white text-center">DevOps</h4>
@@ -720,7 +721,7 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -731,7 +732,7 @@ const Courses = () => {
               <div class="container-fluid">
                 <div class="row g-5">
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/apirestassured.html"
+                    <Link to="Apirestassured"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">API-Rest Assured</h4>
@@ -757,10 +758,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/aws-service.html"
+                    <Link to="Awsservice"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card17 text-white text-center">AWS-Service</h4>
@@ -786,10 +787,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/corejava.html"
+                    <Link to="Java"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card1 text-white text-center">Core Java</h4>
@@ -815,10 +816,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/cucumber.html"
+                    <Link to="Cucumber"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card2 text-white text-center">Cucumber</h4>
@@ -844,10 +845,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/advancejava.html"
+                    <Link to="Advancejava"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card14 text-white text-center">Advance Java</h4>
@@ -873,10 +874,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/api-postman.html"
+                    <Link to="Apipostman"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card15 text-white text-center">API-Postman</h4>
@@ -902,10 +903,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/db-testing.html"
+                    <Link to="Dbtesting"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card16 text-white text-center">DB Testing</h4>
@@ -931,10 +932,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/docker.html"
+                    <Link to="Docker"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card13 text-white text-center">Docker</h4>
@@ -960,10 +961,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/git.html"
+                    <Link to="Git"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card5 text-white text-center">GIT</h4>
@@ -989,10 +990,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/jenkins.html"
+                    <Link to="Jenkins"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card6 text-white text-center">Jenkins</h4>
@@ -1018,10 +1019,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/manualtesting.html"
+                    <Link to="Manualtesting"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card3 text-white text-center">Manual Testing</h4>
@@ -1047,10 +1048,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/maven.html"
+                    <Link to="Maven"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card7 text-white text-center">Maven</h4>
@@ -1076,10 +1077,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/pageobject.html"
+                    <Link to="Pageobject"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card4 text-white text-center">Page Object Model</h4>
@@ -1105,10 +1106,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/selenium.html"
+                    <Link to="Selenium"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card21 text-white text-center">Selenium</h4>
@@ -1134,10 +1135,10 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="col-md-6 col-lg-4">
-                    <a href="./courses/softwaretesting/test-ng.html"
+                    <Link to="Testng"
                       class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div class="w-100 common-card-image">
                         <h4 class="course-card20 text-white text-center">Testing</h4>
@@ -1163,7 +1164,7 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1173,7 +1174,7 @@ const Courses = () => {
               aria-labelledby="pills-Development-tab" tabindex="0">
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/softwaredevelopment/java.html"
+                  <Link to="Java"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card11 text-white text-center">Java Fullstack</h4>
@@ -1199,10 +1200,10 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/softwaredevelopment/mean.html"
+                  <Link to="Mean"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card12 text-white text-center">MEAN Stack</h4>
@@ -1228,10 +1229,10 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/softwaredevelopment/mern.html"
+                  <Link to="Mern"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card7 text-white text-center">MERN Stack</h4>
@@ -1257,10 +1258,10 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/softwaredevelopment/python.html"
+                  <Link to="Python"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card9 text-white text-center">Python FullStack</h4>
@@ -1286,7 +1287,7 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1295,7 +1296,7 @@ const Courses = () => {
               tabindex="0">
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/datascience-ai/artificial.html"
+                  <Link to="Artificial"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card22 text-white text-center">Artificial-Intelligence</h4>
@@ -1321,10 +1322,10 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/datascience-ai/datascience.html"
+                  <Link to="Datascience"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card10 text-white text-center">Data Science</h4>
@@ -1350,10 +1351,10 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/datascience-ai/deeplearning.html"
+                  <Link to="Deeplearning"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card18 text-white text-center">Deep Learning</h4>
@@ -1379,7 +1380,7 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1388,7 +1389,7 @@ const Courses = () => {
               tabindex="0">
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
-                  <a href="./courses/devops/devops.html"
+                  <Link to="Devops"
                     class="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div class="w-100 common-card-image">
                       <h4 class="course-card23 text-white text-center">DevOps</h4>
@@ -1414,7 +1415,7 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

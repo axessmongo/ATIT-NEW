@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
-
+import { Link } from 'react-router-dom'
 function Deeplearning() {
     return (
         <div>
@@ -44,7 +44,7 @@ function Deeplearning() {
                                     aria-label="breadcrumb"
                                 >
                                     <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><Link to= "/">Home</Link></li>
                                         <li
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
@@ -166,7 +166,7 @@ function Deeplearning() {
                                                 </h2>
                                                 <div class="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
+                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
                                                 <p class="about class-content text-center" data-aos="fade-up"
                                                     data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, Deep Learning Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of Deep Learning, All From The Comfort Of Your Own Home Or Office.</p>
@@ -211,7 +211,7 @@ function Deeplearning() {
 
                                                 <div class="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <a href="../../contact.html" class="btn btn-success rounded-pill my-2" >Join Now</a>
+                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
                                                 <div class="mt-3">
                                                     <p class="about class-content text-center"

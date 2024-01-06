@@ -65,7 +65,7 @@ function Footer() {
                         <div className="col-lg-3 col-md-6 footer-links " data-aos="fade-up" data-aos-duration="1000">
                             <h4 className="text-center text-md-start">Follow Us</h4>
                             <div className="social-links d-flex justify-content-center justify-content-md-start">
-                                {/* <Link href="#" className="twitter"><i className="bi bi-twitter"></i></a> */}
+                                {/* <Link href="#" className="twitter"><i className="bi bi-twitter"></i></Link> */}
                                 <Link to="https://www.facebook.com/atitchennai/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></Link>
                                 <Link to="https://www.instagram.com/atitchennai/" target="_blank" className="instagram"><i className="bi bi-instagram"></i></Link>
                                 <Link to="https://www.youtube.com/@ATITchennai" target="_blank" className="youtube"><i className="bi bi-youtube"></i></Link>
