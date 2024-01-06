@@ -16,7 +16,6 @@ function Home() {
     // Get the elements by class name
     const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
     const heroBannerElements = document.getElementsByClassName("hero-banner");
-    const contactElement = document.querySelector('[data-bs-target="#contact"]');
 
     // Check if elements exist before trying to access their properties
     if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
@@ -25,14 +24,16 @@ function Home() {
 
       // Update the style of the hero-banner element
       heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
-
-      // setTimeout(() => {
-      //   if (contactElement) {
-      //     contactElement.click();
-      //   }
-      // }, 500);
     }
   }, []);
+
+  useEffect(() => {
+    const contactElement = document.querySelector('[data-bs-target="#contact"]');
+    if (contactElement) {
+      contactElement.click();
+    }
+  }, 500)
+
   return (
     <div>
       <Navbar />
