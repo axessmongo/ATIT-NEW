@@ -18,6 +18,13 @@ import Deeplearning from './Courses-pages/Datascience/Deeplearning';
 import Devops from './Courses-pages/Devops/Devops';
 import Java from './Courses-pages/Softwaredeveloment/Java';
 import Mean from './Courses-pages/Softwaredeveloment/Mean';
+import Mern from './Courses-pages/Softwaredeveloment/Mern';
+import Python from './Courses-pages/Softwaredeveloment/Python';
+import Advancedjava from './Courses-pages/Softwaretesting/Advancejava';
+import ApiPostman from './Courses-pages/Softwaretesting/Api-postman';
+import Apirestassured from './Courses-pages/Softwaretesting/Apirestassured';
+import AwsService from './Courses-pages/Softwaretesting/Aws-service';
+import Corejava from 
 
 function App() {
   useEffect(() => {
@@ -38,6 +45,8 @@ function App() {
           <Route path='Devops' element={<Devops/>} />
           <Route path='Java' element={<Java/>} />
           <Route path='Mean' element={<Mean />} />
+          <Route path='Mern' element={<Mern />} />
+
         </Route>
         <Route path="/Pap" element={<Pap/>}/>
         <Route path="/Artificial" element={<Artificial/>}/>
