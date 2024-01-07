@@ -28,6 +28,17 @@ function Home() {
   }, []);
 
   useEffect(() => {
+    const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
+    const heroBannerElements = document.getElementsByClassName("hero-banner");
+
+    // Check if elements exist before trying to access their properties
+    if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
+      // Calculate the new margin-bottom value
+      const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
+
+      // Update the style of the hero-banner element
+      heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
+    }
     const contactElement = document.querySelector('[data-bs-target="#contact"]');
     if (contactElement) {
       contactElement.click();
@@ -39,7 +50,7 @@ function Home() {
       <Navbar />
       <div>
         <div className="position-relative overflow-hidden overflow-lg-visible">
-          <section
+        <section
             className="hero-banner d-flex justify-content-center align-items-end align-items-md-center position-relative overflow-hidden header finisher-header text-center text-lg-start text-white"
             style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
           >
@@ -60,8 +71,8 @@ function Home() {
                     data-aos-duration="400"
                     className="primary-header"
                   >
-                    <span className="primary-color">Innovative</span
-                    ><span className=""> Training</span>
+                    <span className="primary-color">Innovative</span>
+                    <span className=""> Training</span>
                   </h1>
                   <p
                     data-aos="fade-up"
