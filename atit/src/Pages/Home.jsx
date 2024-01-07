@@ -28,6 +28,17 @@ function Home() {
   }, []);
 
   useEffect(() => {
+    const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
+    const heroBannerElements = document.getElementsByClassName("hero-banner");
+
+    // Check if elements exist before trying to access their properties
+    if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
+      // Calculate the new margin-bottom value
+      const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
+
+      // Update the style of the hero-banner element
+      heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
+    }
     const contactElement = document.querySelector('[data-bs-target="#contact"]');
     if (contactElement) {
       contactElement.click();
@@ -100,7 +111,7 @@ function Home() {
                 >
                   <Link
                     to="/Courses"
-                     onClick={() => sessionStorage.setItem('courselist', '1')}
+                    onClick={() => sessionStorage.setItem('courselist', '1')}
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
