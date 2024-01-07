@@ -35,7 +35,7 @@ export default function LeftBar({noContact, noPap, coursePage}) {
           </span>
           <div className="cloud">
             <Link
-              to="Pap"
+              to="/pap"
               className="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light"
             >
               Pay After Placement

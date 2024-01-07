@@ -98,29 +98,29 @@ function Navbar({ coursePage }) {
                                     <NavLink
                                         activeClassName="navbar__link--active"
                                         className="nav-link"
-                                        to="/About"
+                                        to="/about"
                                     >
                                         About
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact">Contact</NavLink>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Courses">Courses</NavLink>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/courses">Courses</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink
                                         title="Pay after Placement"
                                         className="nav-link"
                                         activeClassName="navbar__link--active"
-                                        to="/Pap"
+                                        to="/pap"
                                     >PAP
                                     </NavLink>
 
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Blog">Blog</NavLink>
+                                    <NavLink className="nav-link" activeClassName="navbar__link--active" to="/blog">Blog</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -169,26 +169,26 @@ function Navbar({ coursePage }) {
 
                                 activeClassName="navbar__link--active"
                                 className="nav-link"
-                                to="/About"
+                                to="/about"
                                 onClick={canvasButton}
                             >
                                 About
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Contact"
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/contact"
                                         onClick={canvasButton}>Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Courses"
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/courses"
                                         onClick={canvasButton}>Courses</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Pap"
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/pap"
                                         onClick={canvasButton}>PAP</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/Blog"
+                            <NavLink className="nav-link" activeClassName="navbar__link--active" to="/blog"
                                         onClick={canvasButton}>Blog</NavLink>
                         </li>
                     </ul>

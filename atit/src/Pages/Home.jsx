@@ -99,7 +99,7 @@ function Home() {
                   data-aos-easing="ease-in-sine"
                 >
                   <Link
-                    to="/Courses"
+                    to="/courses"
                      onClick={() => sessionStorage.setItem('courselist', '1')}
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -125,7 +125,7 @@ function Home() {
                   className="h-100"
                 >
                   <Link
-                    to="/Courses"
+                    to="/courses"
                     onClick={() => sessionStorage.setItem('courselist', '2')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -151,7 +151,7 @@ function Home() {
                   className="h-100"
                 >
                   <Link
-                    to="/Courses"
+                    to="/courses"
                     onClick={() => sessionStorage.setItem('courselist', '4')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -178,7 +178,7 @@ function Home() {
                   className="h-100"
                 >
                   <Link
-                    to="/Courses"
+                    to="/courses"
                     onClick={() => sessionStorage.setItem('courselist', '3')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >

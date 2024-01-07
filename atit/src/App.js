@@ -49,35 +49,34 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<MainCourse />} >
           <Route index element={<Courses />} />
-          <Route path='Artificial' element={<Artificial />} />
-          <Route path='Datascience' element={<Datascience/>} />
-          <Route path='Deeplearning' element={<Deeplearning/>} />
-          <Route path='Devops' element={<Devops/>} />
-          <Route path='Java' element={<Java/>} />
-          <Route path='Mean' element={<Mean />} />
-          <Route path='Mern' element={<Mern />} />
-          <Route path='Python' element={<Python />} />
-          <Route path='Advancejava' element={<Advancejava />} />
-          <Route path='Apipostman' element={<Apipostman />} />
-          <Route path='Apirestassured' element={<Apirestassured />} />
-          <Route path='Awsservice' element={<Awsservice />} />
-          <Route path='Corejava' element={<Corejava />} />
-          <Route path='Cucumber' element={<Cucumber />} />
-          <Route path='Dbtesting' element={<Dbtesting />} />
-          <Route path='Docker' element={<Docker />} />
-          <Route path='Git' element={<Git />} />
-          <Route path='Jenkins' element={<Jenkins />} />
-          <Route path='Manualtesting' element={<Manualtesting />} />
-          <Route path='Maven' element={<Maven />} />
-          <Route path='Pageobject' element={<Pageobject />} />
-          <Route path='Selenium' element={<Selenium />} />
-          <Route path='Testng' element={<Testng />} />
+          <Route path='artificial' element={<Artificial />} />
+          <Route path='datascience' element={<Datascience/>} />
+          <Route path='deeplearning' element={<Deeplearning/>} />
+          <Route path='devops' element={<Devops/>} />
+          <Route path='java' element={<Java/>} />
+          <Route path='mean' element={<Mean />} />
+          <Route path='mern' element={<Mern />} />
+          <Route path='python' element={<Python />} />
+          <Route path='advancejava' element={<Advancejava />} />
+          <Route path='apipostman' element={<Apipostman />} />
+          <Route path='apirestassured' element={<Apirestassured />} />
+          <Route path='awsservice' element={<Awsservice />} />
+          <Route path='corejava' element={<Corejava />} />
+          <Route path='cucumber' element={<Cucumber />} />
+          <Route path='dbtesting' element={<Dbtesting />} />
+          <Route path='docker' element={<Docker />} />
+          <Route path='git' element={<Git />} />
+          <Route path='jenkins' element={<Jenkins />} />
+          <Route path='manualtesting' element={<Manualtesting />} />
+          <Route path='maven' element={<Maven />} />
+          <Route path='pageobject' element={<Pageobject />} />
+          <Route path='selenium' element={<Selenium />} />
+          <Route path='testng' element={<Testng />} />
         </Route>
-        <Route path="/Pap" element={<Pap/>}/>
-        <Route path="/Artificial" element={<Artificial/>}/>
-        <Route path="/Blog" element={<Blog/>}/>
+        <Route path="/pap" element={<Pap/>}/>
+        <Route path="/blog" element={<Blog/>}/>
         <Route path='/privacy-policy' element={<Privacy/>}/>
-        <Route path='/EmergingTechnologies' element={<EmergingTechnologies/>}/>
+        <Route path='/emergingtechnologies' element={<EmergingTechnologies/>}/>
         <Route path='*' element={<NoPage/>}/>
       </Routes>
     </div>
