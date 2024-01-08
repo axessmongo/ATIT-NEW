@@ -7,7 +7,7 @@ import ContactForm from '../Components/ContactForm';
 
 export default function MainCourse() {
     let coursePage = true;
-    return (
+    return ( 
         <div className='overflow-x-hidden'>
             <div className={``}>
                 <Navbar coursePage = {coursePage}/>

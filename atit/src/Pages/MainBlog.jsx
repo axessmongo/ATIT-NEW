@@ -3,6 +3,7 @@ import { Outlet } from 'react-router'
 import Rocket from '../Components/Rocket';
 import LeftBar from '../Components/LeftBar';
 import ContactForm from '../Components/ContactForm';
+import Navbar from '../Components/Navbar';
 
 export default function MainBlog() {
 //     const [blogWidth, setBlogWidth] = useState(0);
@@ -34,6 +35,9 @@ export default function MainBlog() {
 // }, [blogWidth]);
     return (
         <div className='overflow-x-hidden'>
+            <div className={``}>
+                <Navbar blogPage = {""}/>
+            </div>
             <Outlet />
             <Rocket />
             <LeftBar blogPage="true" />

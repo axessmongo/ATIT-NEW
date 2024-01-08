@@ -5,8 +5,9 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
-function Navbar({ coursePage }) {
+function Navbar({ coursePage ,blogPage}) {
 
+    console.log({ coursePage ,blogPage})
     const canvasButton = () => {
         document.body.style.overflowY = 'scroll'
     }
@@ -36,7 +37,7 @@ function Navbar({ coursePage }) {
     }, []);
     return (
         <div>
-            <div className="nav-holder">
+            <div className={`nav-holder `}>
                 <nav className="navbar navbar-expand-lg py-0 col-lg-10 mx-auto">
                     <div
                         className="container-fluid p-0 d-flex align-items-start"
@@ -128,7 +129,7 @@ function Navbar({ coursePage }) {
                 </nav>
             </div>
             <div
-                className="offcanvas offcanvas-start"
+                className={`offcanvas offcanvas-start ${blogPage}`}
                 tabindex="-1"
                 id="navbar"
                 aria-labelledby="navbar"
