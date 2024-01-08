@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import $ from 'jquery'; // Import jQuery
-
 export default function Rocket() {
     console.log("rocket")
     const [rocketClicked, setRocketClicked] = useState(false);
 
     useEffect(() => {
         const handleRocketClick = () => {
+            console.log("click rocket")
             if (rocketClicked) {
                 return; // Ignore clicks while the animation is running
             }

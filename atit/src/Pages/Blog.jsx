@@ -30,7 +30,7 @@ const Blog = () => {
         };
     }, []);
     return (
-        <div className='overflow-x-hidden blog'>
+        <div className='blog'>
             <Navbar />
             <div>
                 {/* blog banner */}

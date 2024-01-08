@@ -357,7 +357,7 @@ img {
   position: fixed;
   bottom: 10px;
   right: 0;
-  z-index: 999;
+  z-index: 9999999999999;
 }
 #rocket {
   width: 100px;
