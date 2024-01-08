@@ -104,7 +104,7 @@ function App() {
           <Route
             path="masteringTechnicalInterviews"
             element={<MasteringTechnicalInterviews />}
-          /> 
+          />
           <Route path="boomingItSector" element={<BoomingItSector />} />
           <Route path="ultimateGuide" element={<UltimateGuide />} />
           <Route

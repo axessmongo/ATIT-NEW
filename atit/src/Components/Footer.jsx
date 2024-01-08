@@ -7,16 +7,18 @@ function Footer({ setActiveTab, activeTab }) {
     let handleCourse = (tabId) => {
         sessionStorage.setItem('courseList', tabId);
         setActiveTab(tabId);
-
+        setTimeout(()=>{
+            
+        if(path == "/courses"){
+            window.scrollTo(0,450)
+        }
+        }, 500)
     }
 
     let path = useLocation().pathname;
 
     useEffect(() => {
         AOS.refresh();
-        if(path == "/courses"){
-            window.scrollTo(0,450)
-        }
     }, [activeTab])
     
     return (
