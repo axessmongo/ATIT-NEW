@@ -62,7 +62,7 @@ function Footer({ setActiveTab, activeTab }) {
                                     <br />
                                     <strong>Phone:</strong> <Link to="tel:7358107180">73581 07180</Link>
                                     <br />
-                                    <strong>Email:</strong><Link to="mailto:info@turn-ai.in">info@turn-ai.in</Link><br />
+                                    <strong>Email:</strong><Link to="mailto:info_atit@turn-ai.in">info_atit@turn-ai.in</Link><br />
                                 </p>
                             </div>
                         </div>
