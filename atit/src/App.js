@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
@@ -21,7 +21,7 @@ import JobRace from "./Blog-page/Job-race";
 import CompetitiveJobMarket from "./Blog-page/Competitive-Job-Market";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS styles
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes, useLocation } from "react-router-dom";
 import Artificial from "./Courses-pages/Datascience/Artificial";
 import Privacy from "./Pages/Privacy-Policy";
 import NoPage from "./Pages/NoPage";
@@ -51,6 +51,26 @@ import Testng from "./Courses-pages/Softwaretesting/testng";
 import MainBlog from "./Pages/MainBlog";
 
 function App() {
+
+
+  const [contactState, setContactState] = useState(false);
+
+
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    if (contactState) {
+      setContactState(false);
+      const modalElement = document.querySelector('.modal-backdrop');
+      if (modalElement) {
+        modalElement.remove(); document.body.style.overflow = '';
+        document.body.style.padding = '';
+      }
+      console.log(contactState);
+    }
+  }, [pathname]);
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -58,7 +78,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home setContactState={setContactState} />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<MainCourse />}>

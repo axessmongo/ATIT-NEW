@@ -8,7 +8,7 @@ import Company from '../Components/Company'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 import LeftBar from '../Components/LeftBar'
-function Home() {
+function Home({setContactState}) {
 
   // useEffect(() => {
   //   // This will run after the component has been rendered
@@ -44,6 +44,7 @@ function Home() {
   useEffect(() => {
     const contactElement = document.querySelector('[data-bs-target="#contact"]');
     if (contactElement) {
+      setContactState(true)
       contactElement.click();
     }
   }, 500)
