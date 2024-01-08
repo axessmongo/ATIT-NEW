@@ -33,26 +33,26 @@ export default function ContactForm() {
             case 'name':
                 setErrors({
                     ...errors,
-                    name: value.length === 0 ?  'Name is required': /\d/.test(value) ? 'Invalid name' : '',
+                    name: value.length === 0 ? 'Name is required' : /\d/.test(value) ? 'Invalid name' : '',
                 });
                 break;
             case 'email':
                 setErrors({
                     ...errors,
                     email:
-                        value.length === 0 ?  'Email is required':
+                        value.length === 0 ? 'Email is required' :
                             !/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(value)
-                            ? 'Invalid email'
-                            : '',
+                                ? 'Invalid email'
+                                : '',
                 });
                 break;
             case 'phone':
                 setErrors({
                     ...errors,
                     phone:
-                    value.length === 0
-                    ? 'Phone number is required'
-                    :  value.length !== 10 || !/^[6-9]\d+$/.test(value)? 'Invalid phone' : '',
+                        value.length === 0
+                            ? 'Phone number is required'
+                            : value.length !== 10 || !/^[6-9]\d+$/.test(value) ? 'Invalid phone' : '',
                 });
                 break;
             default:
@@ -61,59 +61,59 @@ export default function ContactForm() {
     };
     const handleSubmit = async (e) => {
         e.preventDefault();
-        
+
 
         if (errors.name || errors.email || errors.phone) return
         if (!formData.name || !formData.email || !formData.phone) {
-          setErrors({
-            name: !formData.name ? 'Name is required.' : '',
-            email: !formData.email ? 'Email is required.' : '',
-            phone: !formData.phone ? 'Phone is required.' : '',
-          });
-          return;
+            setErrors({
+                name: !formData.name ? 'Name is required.' : '',
+                email: !formData.email ? 'Email is required.' : '',
+                phone: !formData.phone ? 'Phone is required.' : '',
+            });
+            return;
         }
         setErrors({
-          name: '',
-          email: '',
-          phone: '',
+            name: '',
+            email: '',
+            phone: '',
         });
-    
+
         setLoading(true);
 
         try {
-          // Make the first API call
-          const responseAdmin = await fetch(scriptURLAdmin, { method: 'POST', body: new FormData(e.target) });
-          const resultAdmin = await responseAdmin.json();
-          const responseMD = await fetch(scriptURLMD, { method: 'POST', body: new FormData(e.target) });
-          const resultMD = await responseMD.json();
+            // Make the first API call
+            const responseAdmin = await fetch(scriptURLAdmin, { method: 'POST', body: new FormData(e.target) });
+            const resultAdmin = await responseAdmin.json();
+            const responseMD = await fetch(scriptURLMD, { method: 'POST', body: new FormData(e.target) });
+            const resultMD = await responseMD.json();
 
-          // Make the second API call
-          const responseJai = await fetch(jaiurl, { method: 'POST', body: new FormData(e.target) });
-          const resultJai = await responseJai.json();
-        
-          // Check the results of both API calls
-          if (  resultAdmin.result === 'success' && resultMD.result === 'success' && resultJai.result === 'success') {
-            alert('Thank you! Your form is submitted successfully.');
-            setFormData({
-              name: '',
-              email: '',
-              phone: '',
-              message: '',
-            });
-          } else {
-            alert('Error in request');
-          }
+            // Make the second API call
+            const responseJai = await fetch(jaiurl, { method: 'POST', body: new FormData(e.target) });
+            const resultJai = await responseJai.json();
+
+            // Check the results of both API calls
+            if (resultAdmin.result === 'success' && resultMD.result === 'success' && resultJai.result === 'success') {
+                alert('Thank you! Your form is submitted successfully.');
+                setFormData({
+                    name: '',
+                    email: '',
+                    phone: '',
+                    message: '',
+                });
+            } else {
+                alert('Error in request');
+            }
         } catch (error) {
-          console.error('Error in form submission:', error);
-          alert('Error in request');
+            console.error('Error in form submission:', error);
+            alert('Error in request');
         } finally {
-          setLoading(false);
+            setLoading(false);
         }
-      };
+    };
 
 
 
-
+    //   contact close and open state management
 
     return (
         <div><div
@@ -157,7 +157,7 @@ export default function ContactForm() {
                                 <label htmlFor="name">
                                     Name <span className="text"> *</span>
                                 </label>
-                                <div style={{position:"absolute",zIndex:"2",left:"50%",transform:"translateX(-50%)" , color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.name}</div>
+                                <div style={{ position: "absolute", zIndex: "2", left: "50%", transform: "translateX(-50%)", color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.name}</div>
 
                             </div>
                             <div className="form-floating">
@@ -174,8 +174,8 @@ export default function ContactForm() {
                                 <label htmlFor="email">
                                     Email <span className="text"> *</span>
                                 </label>
-                                <div style={{ position:"absolute",zIndex:"2",left:"50%",transform:"translateX(-50%)" ,color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.email}</div>
-                           
+                                <div style={{ position: "absolute", zIndex: "2", left: "50%", transform: "translateX(-50%)", color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.email}</div>
+
                             </div>
                             <div className="form-floating">
                                 <input
@@ -192,10 +192,10 @@ export default function ContactForm() {
                                 <label htmlFor="phone">
                                     Phone Number <span className="text"> *</span>
                                 </label>
-                                <div style={{position:"absolute",zIndex:"2",left:"50%",transform:"translateX(-50%)" , color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.phone}</div>
-                          
+                                <div style={{ position: "absolute", zIndex: "2", left: "50%", transform: "translateX(-50%)", color: 'red', textAlign: "center", fontSize: "12px" }}>{errors.phone}</div>
+
                             </div>
-                             <div className="form-floating">
+                            <div className="form-floating">
                                 <textarea
                                     className="form-control"
                                     id="message"
@@ -210,7 +210,7 @@ export default function ContactForm() {
                                     Message <span>(Optional)</span>
                                 </label>
                             </div>
-                           
+
                             <div className="text-center">
                                 <button type="submit" disabled={loading} className="btn btn-primary btn-block">
                                     {loading ? 'Submitting...' : 'Submit'}

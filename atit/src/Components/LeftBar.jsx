@@ -67,6 +67,7 @@ export default function LeftBar({noContact, noPap, coursePage, blogPage}) {
         <div
           className={`overflow-visible class-ico ${noContact && 'd-none'}`}
           data-aos="fade-right"
+          id='contactIcon'
           data-aos-duration={1000}
           data-bs-toggle="modal"
           data-bs-target="#contact"

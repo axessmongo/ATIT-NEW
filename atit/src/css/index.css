@@ -7,7 +7,7 @@
 a{
   text-decoration: none;
 }
-a:hover{
+a:not(.popup):hover{
   color: var(--primary-color)
 }
 
