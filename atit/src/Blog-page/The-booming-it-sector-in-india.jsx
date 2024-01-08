@@ -455,11 +455,11 @@ function Theboomingitsector() {
                                                 Highlight your technical skills, relevant projects, certifications, and quantify
                                                 your achievements to demonstrate your
                                                 expertise.</p>
-                                            <P class="secondary-text" data-aos="fade-up" data-aos-duration="600">How can I thrive in
+                                            <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">How can I thrive in
                                                 the Indian IT workplace while maintaining a healthy work-life balance?
                                                 Develop effective time management skills, prioritise tasks, set boundaries, and
                                                 communicate your needs to maintain
-                                                a healthy work-life balance.</P>
+                                                a healthy work-life balance.</p>
                                             <p class="secondary-header" data-aos="fade-up" data-aos-duration="600">How important is
                                                 continuous learning and skill development in the IT industry?</p>
                                             <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Continuous learning

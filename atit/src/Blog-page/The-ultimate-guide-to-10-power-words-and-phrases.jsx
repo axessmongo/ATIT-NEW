@@ -342,8 +342,8 @@ function Theultimateguide() {
                                                 genuine interest in the opportunity but also allows you to gain valuable insights
                                                 into
                                                 the company and the role.</p>
-                                            <P class="secondary-text" data-aos="fade-up" data-aos-duration="600">Using positive
-                                                language without embellishment</P>
+                                            <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Using positive
+                                                language without embellishment</p>
                                             <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Frame your
                                                 responses using positive language. Avoid
                                                 exaggeration or
@@ -363,23 +363,23 @@ function Theultimateguide() {
                                                 focus on transferable
                                                 skills or experiences that compensate for any perceived gaps. Highlight your ability
                                                 to quickly adapt and learn new things.</p>
-                                            <P class="secondary-text" data-aos="fade-up" data-aos-duration="600">Explaining past
-                                                failures and lessons learned</P>
+                                            <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Explaining past
+                                                failures and lessons learned</p>
                                             <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Acknowledge past
                                                 failures without dwelling on them. Instead,
                                                 emphasize the
                                                 lessons you have learned and how those experiences have made you a more
                                                 resilient and capable professional.</p>
-                                            <P class="secondary-text" data-aos="fade-up" data-aos-duration="600">Handling conflicts
-                                                and challenging situations</P>
+                                            <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Handling conflicts
+                                                and challenging situations</p>
                                             <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Demonstrate your
                                                 ability to handle conflicts by calmly
                                                 describing the situation, your
                                                 role in resolving it, and the positive outcome. Emphasize your ability to
                                                 collaborate
                                                 and find constructive solutions.</p>
-                                            <P class="secondary-header" data-aos="fade-up" data-aos-duration="600">2. Crafting an
-                                                Impactful Interview</P>
+                                            <p class="secondary-header" data-aos="fade-up" data-aos-duration="600">2. Crafting an
+                                                Impactful Interview</p>
                                             <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">To make the most
                                                 out of your interview, it is crucial to
                                                 eliminate weak phrases from
