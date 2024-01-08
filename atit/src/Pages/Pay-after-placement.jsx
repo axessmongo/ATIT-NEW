@@ -8,6 +8,48 @@ import LeftBar from '../Components/LeftBar'
 import Rocket from '../Components/Rocket'
 
 function Pap() {
+    var continueTimeouts = true; 
+var timeouts = [];
+function openAccordionsOneByOne() {
+  var accordionButtons = document.querySelectorAll('.accordion-button');
+  accordionButtons.forEach(function (button, index) {
+    var timeout = setTimeout(function () {
+      if (continueTimeouts) {
+        button.click();
+      }
+    }, index * 3000);
+
+    timeouts.push(timeout);
+
+    button.addEventListener('mousedown', function (event) {
+      if (event.button === 0) {
+        continueTimeouts = false;
+        clearTimeouts();
+      }
+    });
+  });
+}
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+  );
+}
+function handleScroll() {
+  var section = document.getElementById('placement-accordion');
+  if (isElementInViewport(section)) {
+    openAccordionsOneByOne();
+    window.removeEventListener('scroll', handleScroll);
+  }
+}
+function clearTimeouts() {
+  timeouts.forEach(function (timeout) {
+    clearTimeout(timeout);
+  });
+  timeouts = [];
+}
+window.addEventListener('scroll', handleScroll);
     return (
         <div>
             <Navbar />
