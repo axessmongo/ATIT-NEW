@@ -22,15 +22,15 @@ function EmergingTechnologies() {
                                         class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">IT
                                         Jobs <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="exploringlucrative">Lucrative IT Job
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/exploringlucrative">Lucrative IT Job
                                             Opportunities</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="careerCompleteGuide">Employment
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/careerCompleteGuide">Employment
                                             Opportunities</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./want-to-get-ahead-of-the-job-race.html">Get Ahead Of The Job
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/jobRace">Get Ahead Of The Job
                                             Race</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./how-to-ace-your-first-it-job-interview.html">Your First IT Job
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/firstItjobInterview">Your First IT Job
                                             Interview</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html">Dynamics Of The IT Job
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/dynamicsItJob">Dynamics Of The IT Job
                                         </Link></li>
                                     </ul>
                                 </li>
@@ -39,14 +39,14 @@ function EmergingTechnologies() {
                                         class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Interviews
                                         <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./the-ultimate-guide-to-10-power-words-and-phrases.html">Common Pitfalls In
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/ultimateGuide">Common Pitfalls In
                                             Interviews</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./how-to-craft-a-stellar-resume.html">Polishing Up Your Resume</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./what-is-this-post-about.html">The Job Market In 2023</Link>
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/stellarResume">Polishing Up Your Resume</Link></li>
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/competitiveJobMarket">The Job Market In 2023</Link>
                                         </li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./the-booming-it-sector-in-india.html">Dynamic Indian Job
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/boomingItSector">Dynamic Indian Job
                                             Market</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./mastering-technical-interviews.html">Clear Technical Interviews</Link>
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/masteringTechnicalInterviews">Clear Technical Interviews</Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -55,10 +55,10 @@ function EmergingTechnologies() {
                                         class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
                                         <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link active" to="./emerging-technologies-to-watch.html">Emerging
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link active" to="/blog/emergingtechnologies">Emerging
                                             Technologies</Link>
                                         </li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./understanding-the-it-industry.html">Change In Career</Link></li>
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item blog-drop position-relative">
@@ -66,9 +66,9 @@ function EmergingTechnologies() {
                                         class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
                                         Others <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./lessons-from-the-chandrayaan-3-project.html">Job-Hunting Chandrayaan
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/chandrayaanProject">Job-Hunting Chandrayaan
                                             3</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./how-to-clear-any-professional-exam-a-proven-strategy-for-success.html">Clear Any Professional
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/strategyForSuccess">Clear Any Professional
                                             Exam</Link></li>
                                     </ul>
                                 </li>
