@@ -160,7 +160,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/exploring-lucrative-it-job-opportunities-in-india.html" class="">
+                                        <Link to="exploringlucrative" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog3.png" alt="Lucrative IT Jobs image" />
                                                 <div class="box-content">
@@ -168,7 +168,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/exploring-lucrative-it-job-opportunities-in-india.html"
+                                        <Link to="exploringlucrative" 
                                             class="text-decoration-none blog-title blog-title">
                                             Lucrative IT Jobs
                                         </Link>
@@ -333,7 +333,7 @@ const Blog = () => {
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/exploring-lucrative-it-job-opportunities-in-india.html" class="">
+                                        <Link to="exploringlucrative"  class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog3.png" alt="Lucrative IT Job Opportunities " />
                                                 <div class="box-content">
@@ -341,8 +341,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/exploring-lucrative-it-job-opportunities-in-india.html"
-                                            class="text-decoration-none blog-title blog-title">
+                                        <Link to="exploringlucrative" class="text-decoration-none blog-title blog-title">
                                             Lucrative IT Job Opportunities
                                         </Link>
                                     </div>
