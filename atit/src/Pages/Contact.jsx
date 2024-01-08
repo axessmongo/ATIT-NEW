@@ -25,62 +25,60 @@ function Contact() {
     email: '',
     phone: '',
   });
-  console.log(errors)
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    let { name, value } = e.target;
+    value = value.trim()
     setFormData({
-      ...formData,
-      [name]: value,
+        ...formData,
+        [name]: value,
     });
     validateField(name, value);
-  };
+};
 
-  const validateField = (name, value) => {
+const validateField = (name, value) => {
     switch (name) {
-      case 'name':
-        setErrors({
-          ...errors,
-          name: value.length === 0 || /\d/.test(value) ? 'Invalid name' : '',
-        });
-        break;
-      case 'email':
-        setErrors({
-          ...errors,
-          email:
-            value.length === 0 ||
-              !/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(value)
-              ? 'Invalid email'
-              : '',
-        });
-        break;
-      case 'phone':
-        setErrors({
-          ...errors,
-          phone:
-            value.length !== 10 || !/^\d+$/.test(value) ? 'Invalid phone' : '',
-        });
-        break;
-      default:
-        break;
+        case 'name':
+            setErrors({
+                ...errors,
+                name: value.length === 0 ?  'Name is required': /\d/.test(value) ? 'Invalid name' : '',
+            });
+            break;
+        case 'email':
+            setErrors({
+                ...errors,
+                email:
+                    value.length === 0 ?  'Email is required':
+                        !/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(value)
+                        ? 'Invalid email'
+                        : '',
+            });
+            break;
+        case 'phone':
+            setErrors({
+                ...errors,
+                phone:
+                value.length === 0
+                ? 'Phone number is required'
+                :  value.length !== 10 || !/^[6-9]\d+$/.test(value)? 'Invalid phone' : '',
+            });
+            break;
+        default:
+            break;
     }
-  };
-  const handleSubmit = async (e) => {
+};
+const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const isNameEmpty = formData.name.trim() === '';
-    const isEmailEmpty = formData.email.trim() === '';
-    const isPhoneEmpty = formData.phone.trim() === '';
-
-    if (isNameEmpty || isEmailEmpty || isPhoneEmpty) {
+    if (errors.name || errors.email || errors.phone) return
+    if (!formData.name || !formData.email || !formData.phone) {
       setErrors({
-        name: isNameEmpty ? 'Name is required.' : '',
-        email: isEmailEmpty ? 'Email is required.' : '',
-        phone: isPhoneEmpty ? 'Phone is required.' : '',
+        name: !formData.name ? 'Name is required.' : '',
+        email: !formData.email ? 'Email is required.' : '',
+        phone: !formData.phone ? 'Phone is required.' : '',
       });
       return;
     }
-
     setErrors({
       name: '',
       email: '',
@@ -99,9 +97,9 @@ function Contact() {
       // Make the second API call
       const responseJai = await fetch(jaiurl, { method: 'POST', body: new FormData(e.target) });
       const resultJai = await responseJai.json();
-
+     
       // Check the results of both API calls
-      if (resultAdmin.result === 'success' && resultMD.result === 'success' && resultJai.result === 'success') {
+      if ( resultAdmin.result === 'success' && resultMD.result === 'success' && resultJai.result === 'success') {
         alert('Thank you! Your form is submitted successfully.');
         setFormData({
           name: '',
@@ -259,11 +257,11 @@ function Contact() {
       <Company />
       {/* footer */}
       <Footer />
-      {/* contcat form */}
+      {/* contact form */}
       <ContactForm />
       {/* leftbar */}
       <LeftBar noContact={true} />
-      {/* Rocket */}
+      {/* Rocket */} 
       <Rocket />
     </div>
   )

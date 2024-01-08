@@ -110,7 +110,7 @@ const Courses = () => {
         </section>
       </div>
       {/* all group */}
-      <div class="container course">
+      <div class="container course" id='course'>
         <section class="pap-card">
           <ul class="nav nav-pills mb-5 text-center justify-content-md-evenly justify-content-center my-5 text-capitalize p-10 m-0 w-100"
             id="pills-tab" role="tablist ">
@@ -183,7 +183,7 @@ const Courses = () => {
           </ul>
           <div class="tab-content pb-5" id="pills-tabContent ">
             {/* <!-- ALL SECTIONS --> */}
-            <div class="tab-pane fade show active" id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab"
+            <div class={`tab-pane fade ${activeTab === 'All' ? 'show active' : ''}`} id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab"
               tabindex="0">
               <div class="container-fluid">
                 <div class="row g-5">
@@ -858,7 +858,7 @@ const Courses = () => {
               </div>
             </div>
             {/* <!-- TESTING SECTIONS --> */}
-            <div class="tab-pane fade" id="pills-Testing" role="tabpanel" aria-labelledby="pills-Testing-tab"
+            <div class={`tab-pane fade ${activeTab === 'Testing' ? 'show active' : ''}`} id="pills-Testing" role="tabpanel" aria-labelledby="pills-Testing-tab"
               tabindex="0">
               <div class="container-fluid">
                 <div class="row g-5">
@@ -1301,7 +1301,7 @@ const Courses = () => {
               </div>
             </div>
             {/* <!-- DEVELOPMENT SECTIONS --> */}
-            <div class="tab-pane fade" id="pills-Development" role="tabpanel"
+            <div class={`tab-pane fade ${activeTab === 'Development' ? 'show active' : ''}`} id="pills-Development" role="tabpanel"
               aria-labelledby="pills-Development-tab" tabindex="0">
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
@@ -1423,7 +1423,7 @@ const Courses = () => {
               </div>
             </div>
             {/* <!-- DATASCIENCE SECTIONS --> */}
-            <div class="tab-pane fade" id="pills-science" role="tabpanel" aria-labelledby="pills-science-tab"
+            <div class={`tab-pane fade ${activeTab === 'AI' ? 'show active' : ''}`} id="pills-science" role="tabpanel" aria-labelledby="pills-science-tab"
               tabindex="0">
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
@@ -1516,7 +1516,7 @@ const Courses = () => {
               </div>
             </div>
             {/* <!-- DEVOPS SECTIONS --> */}
-            <div class="tab-pane fade" id="pills-Devops" role="tabpanel" aria-labelledby="pills-Devops-tab"
+            <div class={`tab-pane fade ${activeTab === 'DevOps' ? 'show active' : ''}`} id="pills-Devops" role="tabpanel" aria-labelledby="pills-Devops-tab"
               tabindex="0">
               <div class="row g-5">
                 <div class="col-md-6 col-lg-4">
@@ -1554,7 +1554,7 @@ const Courses = () => {
         </section>
       </div>
         {/* footer */}
-        <Footer />
+        <Footer setActiveTab ={setActiveTab} activeTab={activeTab}/>
         {/* contcat form */}
         <ContactForm />
         {/* leftbar */}

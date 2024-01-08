@@ -44,6 +44,7 @@ function Apipostman() {
                                 >
                                     <ol class="breadcrumb justify-content-center">
                                         <li class="breadcrumb-item"><Link to= "/">Home</Link></li>
+                                        <li class="breadcrumb-item"><Link to= "/courses">Courses</Link></li>
                                         <li
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"

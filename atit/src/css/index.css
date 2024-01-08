@@ -7,6 +7,9 @@
 a{
   text-decoration: none;
 }
+a:hover{
+  color: var(--primary-color)
+}
 
 .primary-btn,
 .primary-color,
@@ -927,6 +930,9 @@ img {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+  }
+  .left-blog{
+    position: fixed;
   }
 }
 #whatsapp {
