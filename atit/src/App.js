@@ -8,7 +8,7 @@ import Pap from './Pages/Pay-after-placement';
 import EmergingTechnologies from './Blog-page/EmergingTechnologies';
 import Exploringlucrative from './Blog-page/Exploring-lucrative-it-job-opportunities-in-india';
 import Heretheframework from './Blog-page/Here-the-framework-to-launch-your-it-career-a-complete-guide';
-import Howtoace from './Blog-page/how-to-ace-your-first-it-job-interview';
+import Howtoace from './Blog-page/How-to-ace-your-first-it-job-interview';
 import Howtoclearanyprofessional from './Blog-page/How-to-clear-any-professional-exam-a-proven-strategy-for-success';
 import Howtocraftastellar from './Blog-page/How-to-craft-a-stellar-resume';
 import Introductiontothedynamics from './Blog-page/Introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates';
