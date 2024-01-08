@@ -36,7 +36,7 @@ export default function MainBlog() {
     return (
         <div className='overflow-x-hidden'>
             <div className={``}>
-                <Navbar blogPage = {""}/>
+                <Navbar blogPage = {"d-lg-none"}/>
             </div>
             <Outlet />
             <Rocket />

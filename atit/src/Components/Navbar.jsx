@@ -37,8 +37,8 @@ function Navbar({ coursePage ,blogPage}) {
     }, []);
     return (
         <div>
-            <div className={`nav-holder `}>
-                <nav className="navbar navbar-expand-lg py-0 col-lg-10 mx-auto">
+            <div className={`nav-holder ${blogPage}`}>
+                <nav className={`navbar navbar-expand-lg py-0 col-lg-10 mx-auto`}>
                     <div
                         className="container-fluid p-0 d-flex align-items-start"
                         data-aos="fade-down"
@@ -129,7 +129,7 @@ function Navbar({ coursePage ,blogPage}) {
                 </nav>
             </div>
             <div
-                className={`offcanvas offcanvas-start ${blogPage}`}
+                className={`offcanvas offcanvas-start `}
                 tabindex="-1"
                 id="navbar"
                 aria-labelledby="navbar"
