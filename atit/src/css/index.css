@@ -933,6 +933,16 @@ img {
   }
   .left-blog{
     position: fixed;
+    width: 20%;
+  }
+  .left-blog ul{
+    width: 100%;
+  }
+  .left-blog .navbar-brand img{
+    width: 150px !important;
+  }
+  .right-blog{
+    margin-left: 20%;
   }
 }
 #whatsapp {

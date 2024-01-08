@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -10,10 +10,15 @@ function Footer({ setActiveTab, activeTab }) {
 
     }
 
+    let path = useLocation().pathname;
+
     useEffect(() => {
         AOS.refresh();
-        window.scrollTo(0, 450);
+        if(path == "/courses"){
+            window.scrollTo(0,450)
+        }
     }, [activeTab])
+    
     return (
         <div>
             <footer id="footer" className="footer pt-5 pb-3">
