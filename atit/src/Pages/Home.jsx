@@ -10,40 +10,40 @@ import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 import LeftBar from '../Components/LeftBar'
 function Home() {
 
-  useEffect(() => {
-    // This will run after the component has been rendered
+  // useEffect(() => {
+  //   // This will run after the component has been rendered
 
-    // Get the elements by class name
-    const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
-    const heroBannerElements = document.getElementsByClassName("hero-banner");
+  //   // Get the elements by class name
+  //   const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
+  //   const heroBannerElements = document.getElementsByClassName("hero-banner");
 
-    // Check if elements exist before trying to access their properties
-    if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
-      // Calculate the new margin-bottom value
-      const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
+  //   // Check if elements exist before trying to access their properties
+  //   if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
+  //     // Calculate the new margin-bottom value
+  //     const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
 
-      // Update the style of the hero-banner element
-      heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
-    }
-  }, []);
+  //     // Update the style of the hero-banner element
+  //     heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
+  //   }
+  // }, []);
 
-  useEffect(() => {
-    const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
-    const heroBannerElements = document.getElementsByClassName("hero-banner");
+  
 
-    // Check if elements exist before trying to access their properties
-    if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
-      // Calculate the new margin-bottom value
-      const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
+  //   const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
+  //   const heroBannerElements = document.getElementsByClassName("hero-banner");
 
-      // Update the style of the hero-banner element
-      heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
-    }
-    const contactElement = document.querySelector('[data-bs-target="#contact"]');
-    if (contactElement) {
-      contactElement.click();
-    }
-  }, 500)
+  //   // Check if elements exist before trying to access their properties
+  //   if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
+  //     // Calculate the new margin-bottom value
+  //     const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
+
+  //     // Update the style of the hero-banner element
+  //     heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
+  //   }
+  //   const contactElement = document.querySelector('[data-bs-target="#contact"]');
+  //   if (contactElement) {
+  //     contactElement.click();
+  //   }
 
   return (
     <div>
@@ -52,7 +52,7 @@ function Home() {
         <div className="position-relative overflow-hidden overflow-lg-visible">
         <section
             className="hero-banner d-flex justify-content-center align-items-end align-items-md-center position-relative overflow-hidden header finisher-header text-center text-lg-start text-white"
-            style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
+            style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)", marginBottom:"300px" }}
           >
             <div className="container z-3">
               <div

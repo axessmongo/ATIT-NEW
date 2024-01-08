@@ -52,7 +52,7 @@ function Footer() {
                             <div className="text-decoration-none">
                                 <h4>Courses</h4>
                                 <div className="text-decoration-none courses-links">
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'Developement')} className="text-decoration-none"><strong>Software Developement</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'Development')} className="text-decoration-none"><strong>Software Development</strong></Link>
                                     <br />
                                     <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'Testing')} className="text-decoration-none"><strong>Software Testing</strong></Link>
                                     <br />

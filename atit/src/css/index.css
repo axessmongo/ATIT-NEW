@@ -928,6 +928,9 @@ img {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+  .left-blog{
+    position: fixed;
+  }
 }
 #whatsapp {
   width: 70px;
