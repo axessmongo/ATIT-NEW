@@ -52,10 +52,10 @@ import MainBlog from './Pages/MainBlog';
 
 function App() {
   useEffect(() => {
-    AOS.init(); 
+    AOS.init();
   }, []);
 
-  return ( 
+  return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -64,10 +64,10 @@ function App() {
         <Route path="/courses" element={<MainCourse />} >
           <Route index element={<Courses />} />
           <Route path='artificial' element={<Artificial />} />
-          <Route path='datascience' element={<Datascience/>} />
-          <Route path='deeplearning' element={<Deeplearning/>} />
-          <Route path='devops' element={<Devops/>} />
-          <Route path='java' element={<Java/>} />
+          <Route path='datascience' element={<Datascience />} />
+          <Route path='deeplearning' element={<Deeplearning />} />
+          <Route path='devops' element={<Devops />} />
+          <Route path='java' element={<Java />} />
           <Route path='mean' element={<Mean />} />
           <Route path='mern' element={<Mern />} />
           <Route path='python' element={<Python />} />
@@ -87,26 +87,26 @@ function App() {
           <Route path='selenium' element={<Selenium />} />
           <Route path='testng' element={<Testng />} />
         </Route>
-        <Route path="/pap" element={<Pap/>}/>
-        <Route path="/blog" element={<MainBlog/>}>        
-          <Route index element={<Blog />} /> 
-          <Route path='emergingtechnologies' element={<EmergingTechnologies/>}/>
-          <Route path='exploringlucrative' element={<Exploringlucrative/>}/>
-          <Route path='heretheframework' element = {<Heretheframework/>}/>
-          <Route path='howtoace' element = {<Howtoace/>}/>
-          <Route path='howtoclearanyprofessional' element = {<Howtoclearanyprofessional/>}/>
-          <Route path='howtocraftastellar' element = {<Howtocraftastellar/>}/>
-          <Route path='introductiontothedynamics' element = {<Introductiontothedynamics/>}/>
-          <Route path='lessonsfromthechandrayaan' element = {<Lessonsfromthechandrayaan/>}/>
-          <Route path='masteringtechnicalinterviews' element = {<Masteringtechnicalinterviews/>}/>
-          <Route path='theboomingitsector' element = {<Theboomingitsector/>}/>
-          <Route path='theultimateguide' element = {< Theultimateguide/>}/>
-          <Route path='understandingtheitindustry' element = {< Understandingtheitindustry/>}/>
-          <Route path='wanttogetahead' element = {<Wanttogetahead/>}/>
-          <Route path='whatisthispostabout' element = {<Whatisthispostabout/>}/>
+        <Route path="/pap" element={<Pap />} />
+        <Route path="/blog" element={<MainBlog />}>
+          <Route index element={<Blog />} />
+          <Route path='emergingtechnologies' element={<EmergingTechnologies />} />
+          <Route path='exploringlucrative' element={<Exploringlucrative />} />
+          <Route path='heretheframework' element={<Heretheframework />} />
+          <Route path='howtoace' element={<Howtoace />} />
+          <Route path='howtoclearanyprofessional' element={<Howtoclearanyprofessional />} />
+          <Route path='howtocraftastellar' element={<Howtocraftastellar />} />
+          <Route path='introductiontothedynamics' element={<Introductiontothedynamics />} />
+          <Route path='lessonsfromthechandrayaan' element={<Lessonsfromthechandrayaan />} />
+          <Route path='masteringtechnicalinterviews' element={<Masteringtechnicalinterviews />} />
+          <Route path='theboomingitsector' element={<Theboomingitsector />} />
+          <Route path='theultimateguide' element={< Theultimateguide />} />
+          <Route path='understandingtheitindustry' element={< Understandingtheitindustry />} />
+          <Route path='wanttogetahead' element={<Wanttogetahead />} />
+          <Route path='whatisthispostabout' element={<Whatisthispostabout />} />
         </Route>
-        <Route path='/privacy-policy' element={<Privacy/>}/>
-        <Route path='*' element={<NoPage/>}/>
+        <Route path='/privacy-policy' element={<Privacy />} />
+        <Route path='*' element={<NoPage />} />
       </Routes>
     </div>
   );
