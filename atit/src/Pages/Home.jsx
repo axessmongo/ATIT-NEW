@@ -27,7 +27,7 @@ function Home() {
   //   }
   // }, []);
 
-  
+
 
   //   const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
   //   const heroBannerElements = document.getElementsByClassName("hero-banner");
@@ -40,19 +40,22 @@ function Home() {
   //     // Update the style of the hero-banner element
   //     heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
   //   }
-  //   const contactElement = document.querySelector('[data-bs-target="#contact"]');
-  //   if (contactElement) {
-  //     contactElement.click();
-  //   }
+
+  useEffect(() => {
+    const contactElement = document.querySelector('[data-bs-target="#contact"]');
+    if (contactElement) {
+      contactElement.click();
+    }
+  }, 500)
 
   return (
     <div>
       <Navbar />
       <div>
         <div className="position-relative overflow-hidden overflow-lg-visible">
-        <section
+          <section
             className="hero-banner d-flex justify-content-center align-items-end align-items-md-center position-relative overflow-hidden header finisher-header text-center text-lg-start text-white"
-            style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)", marginBottom:"300px" }}
+            style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)", marginBottom: "300px" }}
           >
             <div className="container z-3">
               <div
@@ -111,7 +114,7 @@ function Home() {
                 >
                   <Link
                     to="/courses"
-                     onClick={() => sessionStorage.setItem('courseList', 'Testing')}
+                    onClick={() => sessionStorage.setItem('courseList', 'Testing')}
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img

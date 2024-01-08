@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-function Footer() {
+function Footer({ setActiveTab, activeTab }) {
+    let handleCourse = (tabId) => {
+        sessionStorage.setItem('courseList', tabId);
+        setActiveTab(tabId);
+
+    }
+
+    useEffect(() => {
+        AOS.refresh();
+        window.scrollTo(0, 450);
+    }, [activeTab])
     return (
         <div>
             <footer id="footer" className="footer pt-5 pb-3">
@@ -52,13 +64,13 @@ function Footer() {
                             <div className="text-decoration-none">
                                 <h4>Courses</h4>
                                 <div className="text-decoration-none courses-links">
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'Development')} className="text-decoration-none"><strong>Software Development</strong></Link>
+                                    <Link to="/courses" onClick={() => handleCourse('Development')} className="text-decoration-none"><strong>Software Development</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'Testing')} className="text-decoration-none"><strong>Software Testing</strong></Link>
+                                    <Link to="/courses" onClick={() => handleCourse('Testing')} className="text-decoration-none"><strong>Software Testing</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'DevOps')} className="text-decoration-none"><strong>DevOps</strong></Link>
+                                    <Link to="/courses" onClick={() => handleCourse('DevOps')} className="text-decoration-none"><strong>DevOps</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'AI')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
+                                    <Link to="/courses" onClick={() => handleCourse('AI')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
                                 </div>
                             </div>
                         </div>

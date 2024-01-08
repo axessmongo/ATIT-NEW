@@ -110,7 +110,7 @@ const Courses = () => {
         </section>
       </div>
       {/* all group */}
-      <div class="container course">
+      <div class="container course" id='course'>
         <section class="pap-card">
           <ul class="nav nav-pills mb-5 text-center justify-content-md-evenly justify-content-center my-5 text-capitalize p-10 m-0 w-100"
             id="pills-tab" role="tablist ">
@@ -1554,7 +1554,7 @@ const Courses = () => {
         </section>
       </div>
         {/* footer */}
-        <Footer />
+        <Footer setActiveTab ={setActiveTab} activeTab={activeTab}/>
         {/* contcat form */}
         <ContactForm />
         {/* leftbar */}
