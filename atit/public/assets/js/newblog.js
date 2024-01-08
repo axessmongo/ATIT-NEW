@@ -121,7 +121,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 employment_opportunity" data-aos="fade-left" data-aos-duration="600">
-<a href="./here-the-framework-to-launch-your-it-career-a-complete-guide.html"
+<a href="careerCompleteGuide"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>

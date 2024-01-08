@@ -8,7 +8,7 @@ import LeftBar from '../Components/LeftBar'
 import Rocket from '../Components/Rocket'
 import AOS from 'aos'
 
-
+ 
 const Blog = () => {
     useEffect(() => {
         const handleNavLinkClick = () => {
@@ -147,7 +147,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link to="" class="">
+                                        <Link to="chandrayaanProject" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog2.png" alt=" Job-Hunting Lessons chandrayaan 3 image" />
                                                 <div class="box-content">
@@ -155,7 +155,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link to="" class="text-decoration-none blog-title blog-title">
+                                        <Link to="chandrayaanProject" class="text-decoration-none blog-title blog-title">
                                             Job-Hunting Lessons chandrayaan 3
                                         </Link>
                                     </div>
@@ -174,7 +174,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/how-to-craft-a-stellar-resume.html" class="">
+                                        <Link to="stellarResume" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog10.png" alt=" Polishing Up Your Resume " />
                                                 <div class="box-content">
@@ -183,13 +183,13 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/how-to-craft-a-stellar-resume.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="stellarResume" class="text-decoration-none blog-title blog-title">
 
                                             Polishing Up Your Resume
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/understanding-the-it-industry.html" class="">
+                                        <Link to="understandingTheItIndustry" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog5.png" alt="Change In Career" />
                                                 <div class="box-content">
@@ -198,12 +198,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/understanding-the-it-industry.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="understandingTheItIndustry" class="text-decoration-none blog-title blog-title">
                                             Change In Career
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html" class="">
+                                        <Link to="ultimateGuide" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog10.png" alt=" Common Pitfalls In Interviews" />
                                                 <div class="box-content">
@@ -212,14 +212,14 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html"
+                                        <Link to="ultimateGuide"
                                             class="text-decoration-none blog-title blog-title">
                                             Common Pitfalls In Interviews
                                         </Link>
                                     </div>
                                     {/* more content */}
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="">
+                                        <Link to="careerCompleteGuide" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog5.png" alt="Employment opportunities image" />
                                                 <div class="box-content">
@@ -227,7 +227,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link to="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="careerCompleteGuide" class="text-decoration-none blog-title blog-title">
                                             Employment opportunities
                                         </Link>
                                     </div>
@@ -245,7 +245,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="">
+                                        <Link to="jobRace" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog6.png" alt="Get Ahead Of The Job Race image" />
                                                 <div class="box-content">
@@ -253,12 +253,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="jobRace" class="text-decoration-none blog-title blog-title">
                                             Get Ahead Of The Job Race
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="">
+                                        <Link to="strategyForSuccess" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/blogimg.jpg" alt=" Clear Any Professional Exam" />
                                                 <div class="box-content">
@@ -266,12 +266,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="strategyForSuccess" class="text-decoration-none blog-title blog-title">
                                             Clear Any Professional Exam
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="">
+                                        <Link to="firstItjobInterview" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog7.png" alt="Your First IT Job Interview image" />
                                                 <div class="box-content">
@@ -279,12 +279,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="firstItjobInterview" class="text-decoration-none blog-title blog-title">
                                             Your First IT Job Interview
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/the-booming-it-sector-in-india.html" class="">
+                                        <Link to="boomingItSector" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog4.png" alt="Dynamic Indian Job Market image" />
                                                 <div class="box-content">
@@ -292,12 +292,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/the-booming-it-sector-in-india.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="boomingItSector" class="text-decoration-none blog-title blog-title">
                                             Dynamic Indian Job Market
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="">
+                                        <Link to="dynamicsItJob" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog11.png" alt="Dynamics Of IT " />
                                                 <div class="box-content">
@@ -305,13 +305,13 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="dynamicsItJob" class="text-decoration-none blog-title blog-title">
                                             Dynamics Of IT
 
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/mastering-technical-interviews.html" class="">
+                                        <Link to="masteringTechnicalInterviews" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog12.png" alt="Clear Technical Interviews image" />
                                                 <div class="box-content">
@@ -319,7 +319,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/mastering-technical-interviews.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="masteringTechnicalInterviews" class="text-decoration-none blog-title blog-title">
                                             Clear Technical Interviews
                                         </Link>
                                     </div>
@@ -346,7 +346,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="">
+                                        <Link to="careerCompleteGuide" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog4.png" alt="Employment opportunities" />
                                                 <div class="box-content">
@@ -354,12 +354,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/here-the-framework-to-launch-your-it-career-a-complete-guide.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="careerCompleteGuide" class="text-decoration-none blog-title blog-title">
                                             Employment opportunities
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="">
+                                        <Link to="jobRace" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog4.png" alt="Get Ahead Of The Job Race" />
                                                 <div class="box-content">
@@ -367,12 +367,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/want-to-get-ahead-of-the-job-race.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="jobRace" class="text-decoration-none blog-title blog-title">
                                             Get Ahead Of The Job Race
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="">
+                                        <Link to="firstItjobInterview" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog6.png" alt="Your First IT Job Interview" />
                                                 <div class="box-content">
@@ -380,12 +380,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/how-to-ace-your-first-it-job-interview.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="firstItjobInterview" class="text-decoration-none blog-title blog-title">
                                             Your First IT Job Interview
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="">
+                                        <Link to="dynamicsItJob" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog11.png" alt="Dynamics of the IT job market" />
                                                 <div class="box-content">
@@ -393,7 +393,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="dynamicsItJob" class="text-decoration-none blog-title blog-title">
                                             Dynamics of the IT job market and
                                             fresh graduates
                                         </Link>
@@ -423,7 +423,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/how-to-craft-a-stellar-resume.html" class="">
+                                        <Link to="stellarResume" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog7.png" alt=" Polishing Up Your Resume" />
                                                 <div class="box-content">
@@ -432,7 +432,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/how-to-craft-a-stellar-resume.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="stellarResume" class="text-decoration-none blog-title blog-title">
                                             Polishing Up Your Resume
                                         </Link>
                                     </div>
@@ -451,7 +451,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/the-booming-it-sector-in-india.html" class="">
+                                        <Link to="boomingItSector" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog9.png" alt="Dynamic Indian Job Market" />
                                                 <div class="box-content">
@@ -460,12 +460,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/the-booming-it-sector-in-india.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="boomingItSector" class="text-decoration-none blog-title blog-title">
                                             Dynamic Indian Job Market
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/mastering-technical-interviews.html" class="">
+                                        <Link to="masteringTechnicalInterviews" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog8.png" alt=" Clear Technical Interviews" />
                                                 <div class="box-content">
@@ -474,7 +474,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/mastering-technical-interviews.html"
+                                        <Link to="masteringTechnicalInterviews"
                                             class="text-decoration-none blog-title blog-title">
                                             Clear Technical Interviews
                                         </Link>
@@ -501,7 +501,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/understanding-the-it-industry.html" class="">
+                                        <Link to="understandingTheItIndustry" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog7.png" alt=" Change in career" />
                                                 <div class="box-content">
@@ -510,7 +510,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/understanding-the-it-industry.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="understandingTheItIndustry" class="text-decoration-none blog-title blog-title">
                                             Change in career
                                         </Link>
                                     </div>
@@ -522,7 +522,7 @@ const Blog = () => {
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/lessons-from-the-chandrayaan-3-project.html" class="">
+                                        <Link to="chandrayaanProject" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog2.png" alt="Job-Hunting Chandrayaan 3" />
                                                 <div class="box-content">
@@ -530,12 +530,12 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/lessons-from-the-chandrayaan-3-project.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="chandrayaanProject" class="text-decoration-none blog-title blog-title">
                                             Job-Hunting Chandrayaan 3
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="">
+                                        <Link to="strategyForSuccess" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/blogimg.jpg" alt="Clear Any Professional Exam" />
                                                 <div class="box-content">
@@ -543,7 +543,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/how-to-clear-any-professional-exam-a-proven-strategy-for-success.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="strategyForSuccess" class="text-decoration-none blog-title blog-title">
                                             Clear Any Professional Exam
                                         </Link>
                                     </div>

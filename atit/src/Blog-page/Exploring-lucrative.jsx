@@ -22,9 +22,9 @@ function Exploringlucrative() {
                                         class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">IT
                                         Jobs <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./exploring-lucrative-it-job-opportunities-in-india.html">Lucrative IT Job
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="exploringlucrative">Lucrative IT Job
                                             Opportunities</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="./here-the-framework-to-launch-your-it-career-a-complete-guide.html">Employment
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="careerCompleteGuide">Employment
                                             Opportunities</Link></li>
                                         <li class="nav-item"><Link class="blog-drop-item nav-link" to="./want-to-get-ahead-of-the-job-race.html">Get Ahead Of The Job
                                             Race</Link></li>
