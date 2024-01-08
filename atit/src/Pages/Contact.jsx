@@ -257,7 +257,7 @@ const handleSubmit = async (e) => {
       <Company />
       {/* footer */}
       <Footer />
-      {/* contcat form */}
+      {/* contact form */}
       <ContactForm />
       {/* leftbar */}
       <LeftBar noContact={true} />

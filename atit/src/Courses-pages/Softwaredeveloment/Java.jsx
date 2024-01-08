@@ -24,7 +24,7 @@ function Java() {
                                     data-aos-duration="500"
                                     class="primary-header"
                                 >
-                                    Java<span class="primary-color">Fullstack</span>
+                                    Java <span class="primary-color">Fullstack</span>
                                 </h1>
                                 <p
                                     class="text-light fs-6 text-capitalize fw-light"
@@ -44,6 +44,7 @@ function Java() {
                                 >
                                     <ol class="breadcrumb justify-content-center">
                                         <li class="breadcrumb-item"><Link to= "/">Home</Link></li>
+                                        <li class="breadcrumb-item"><Link to= "/courses">Courses</Link></li>
                                         <li
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
