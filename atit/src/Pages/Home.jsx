@@ -111,7 +111,7 @@ function Home() {
                 >
                   <Link
                     to="/courses"
-                     onClick={() => sessionStorage.setItem('courselist', '1')}
+                     onClick={() => sessionStorage.setItem('courseList', 'Testing')}
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -137,7 +137,7 @@ function Home() {
                 >
                   <Link
                     to="/courses"
-                    onClick={() => sessionStorage.setItem('courselist', '2')}
+                    onClick={() => sessionStorage.setItem('courseList', 'Development')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -163,7 +163,7 @@ function Home() {
                 >
                   <Link
                     to="/courses"
-                    onClick={() => sessionStorage.setItem('courselist', '4')}
+                    onClick={() => sessionStorage.setItem('courseList', 'AI')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img
@@ -190,7 +190,7 @@ function Home() {
                 >
                   <Link
                     to="/courses"
-                    onClick={() => sessionStorage.setItem('courselist', '3')}
+                    onClick={() => sessionStorage.setItem('courseList', 'DevOps')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
                     <img

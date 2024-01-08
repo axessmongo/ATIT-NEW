@@ -25,7 +25,7 @@ function Footer() {
                             <div>
                                 <h4>Address</h4>
                                 <p>
-                                    <Link href="https://maps.app.goo.gl/Cx14du1boxQ4R8MY9" target="_blank" className="map text-decoration-none">
+                                    <Link to="https://maps.app.goo.gl/Cx14du1boxQ4R8MY9" target="_blank" className="map text-decoration-none">
                                         Tidel Park, GF-04,<br />
                                         No-4, Rajiv Gandhi Salai,<br />
                                         Taramani,<br />
@@ -39,11 +39,11 @@ function Footer() {
                             <div>
                                 <h4>Connect</h4>
                                 <p>
-                                    <strong>Phone:</strong><Link href="tel:7845721438">78457 21438</Link>
+                                    <strong>Phone:</strong><Link to="tel:7845721438">78457 21438</Link>
                                     <br />
-                                    <strong>Phone:</strong> <Link href="tel:7358107180">73581 07180</Link>
+                                    <strong>Phone:</strong> <Link to="tel:7358107180">73581 07180</Link>
                                     <br />
-                                    <strong>Email:</strong><Link href="mailto:info@turn-ai.in">info@turn-ai.in</Link><br />
+                                    <strong>Email:</strong><Link to="mailto:info@turn-ai.in">info@turn-ai.in</Link><br />
                                 </p>
                             </div>
                         </div>
@@ -52,20 +52,20 @@ function Footer() {
                             <div className="text-decoration-none">
                                 <h4>Courses</h4>
                                 <div className="text-decoration-none courses-links">
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '2')} className="text-decoration-none"><strong>Software Developement</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'Developement')} className="text-decoration-none"><strong>Software Developement</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '1')} className="text-decoration-none"><strong>Software Testing</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'Testing')} className="text-decoration-none"><strong>Software Testing</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '3')} className="text-decoration-none"><strong>Devops</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'DevOps')} className="text-decoration-none"><strong>DevOps</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', '4')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
+                                    <Link to="/courses" onClick={() => sessionStorage.setItem('courseList', 'AI')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 footer-links " data-aos="fade-up" data-aos-duration="1000">
                             <h4 className="text-center text-md-start">Follow Us</h4>
                             <div className="social-links d-flex justify-content-center justify-content-md-start">
-                                {/* <Link href="#" className="twitter"><i className="bi bi-twitter"></i></Link> */}
+                                {/* <Link to="#" className="twitter"><i className="bi bi-twitter"></i></Link> */}
                                 <Link to="https://www.facebook.com/atitchennai/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></Link>
                                 <Link to="https://www.instagram.com/atitchennai/" target="_blank" className="instagram"><i className="bi bi-instagram"></i></Link>
                                 <Link to="https://www.youtube.com/@ATITchennai" target="_blank" className="youtube"><i className="bi bi-youtube"></i></Link>

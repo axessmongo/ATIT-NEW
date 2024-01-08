@@ -35,6 +35,7 @@ import Selenium from './Courses-pages/Softwaretesting/Selenium';
 import Maven from './Courses-pages/Softwaretesting/Maven';
 import Pageobject from './Courses-pages/Softwaretesting/Pageobject';
 import Testng from './Courses-pages/Softwaretesting/testng';
+import MainBlog from './Pages/MainBlog';
 
 function App() {
   useEffect(() => {
@@ -74,9 +75,11 @@ function App() {
           <Route path='testng' element={<Testng />} />
         </Route>
         <Route path="/pap" element={<Pap/>}/>
-        <Route path="/blog" element={<Blog/>}/>
+        <Route path="/blog" element={<MainBlog/>}>        
+          <Route index element={<Blog />} /> 
+          <Route path='emergingtechnologies' element={<EmergingTechnologies/>}/>
+        </Route>
         <Route path='/privacy-policy' element={<Privacy/>}/>
-        <Route path='/emergingtechnologies' element={<EmergingTechnologies/>}/>
         <Route path='*' element={<NoPage/>}/>
       </Routes>
     </div>

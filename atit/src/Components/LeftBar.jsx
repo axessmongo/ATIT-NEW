@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function LeftBar({noContact, noPap, coursePage}) {
+export default function LeftBar({noContact, noPap, coursePage, blogPage}) {
   useEffect(() => {
     const popupElement = document.querySelector('.popup');
   
@@ -90,7 +90,7 @@ export default function LeftBar({noContact, noPap, coursePage}) {
       >
         {/* WhatsApp link */}
         <img
-          src={`${coursePage ? `../../` :` `}./assets/imagesandvectors/vectors/whatsapp.png`}
+          src={`${coursePage ? `../../` : blogPage ? `../`:` `}./assets/imagesandvectors/vectors/whatsapp.png`}
           alt="whatsapp"
           className="img-fluid"
           style={{ width: 70 }}

@@ -133,16 +133,16 @@ const Blog = () => {
                             <div class="container">
                                 <div class="row" id="loadMoreSection">
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/emerging-technologies-to-watch.html" class="">
+                                        <Link to="emergingtechnologies" class="">
                                             <div class="box rounded-5">
-                                                <img src="./assets/img/Blog/Blog4.png" alt=" Emerging Technologies image" />
+                                                <img src="./assets/img/Blog/Blog4.png" alt=" Emerging Technologies" />
                                                 <div class="box-content">
                                                     <h2 class="text-decoration-none m-0 blog-category">
                                                         Technical-Skills</h2>
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link to="/Emerging" class="text-decoration-none blog-title blog-title">
+                                        <Link to="emergingtechnologies" class="text-decoration-none blog-title blog-title">
                                             Emerging Technologies
                                         </Link>
                                     </div>
@@ -488,7 +488,7 @@ const Blog = () => {
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/emerging-technologies-to-watch.html" class="">
+                                        <Link to="emergingtechnologies" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog4.png" alt="Emerging Technologies" />
                                                 <div class="box-content">
@@ -497,7 +497,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/emerging-technologies-to-watch.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="emergingtechnologies" class="text-decoration-none blog-title blog-title">
                                             Emerging Technologies
                                         </Link>
                                     </div>

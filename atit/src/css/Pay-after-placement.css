@@ -18,7 +18,7 @@
 .card-body {
   padding: 20px;
 }
-.card-title {
+#placements .card-title {
   text-align: center;
 }
 h3 {

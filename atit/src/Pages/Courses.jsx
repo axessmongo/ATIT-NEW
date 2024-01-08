@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState,useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from '../Components/Navbar'
@@ -31,6 +31,31 @@ const Courses = () => {
       });
     };
   }, []);
+  const [activeTab, setActiveTab] = useState(sessionStorage.getItem('courseList')|| "All");
+
+  useEffect(() => {
+    // Function to handle storage changes
+    const handleStorageChange = (event) => {
+      console.log("wwwwwww")
+      if (event.key === 'courseList') {
+        // Update the state with the new value from sessionStorage
+        setActiveTab(event.newValue);
+      }
+    };
+
+    // Add event listener for storage changes
+    window.addEventListener('storage', handleStorageChange);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+    };
+  }, []); 
+  const handleTabClick = (tabId) => {
+    setActiveTab(tabId);
+    sessionStorage.setItem('courseList', tabId);
+  };
+
   return (
     <div className='course'>
       {/* <Navbar /> */}
@@ -90,50 +115,69 @@ const Courses = () => {
           <ul class="nav nav-pills mb-5 text-center justify-content-md-evenly justify-content-center my-5 text-capitalize p-10 m-0 w-100"
             id="pills-tab" role="tablist ">
             <div class="col-12 col-md d-flex justify-content-center">
-              <li class="nav-item py-1 w-100 d-flex align-items-center justify-content-center" data-aos="fade-left"
+              <li  className="nav-item py-1 w-100 d-flex align-items-center justify-content-center" data-aos="fade-left"
                 data-aos-duration="500" role="presentation">
                 <button
-                  class="nav-link col-4 col-md-12  active border pap-card  py-2 px-5  bg-primary text-white"
-                  id="pills-All-tab" data-bs-toggle="pill" data-bs-target="#pills-All" type="button"
-                  role="tab" aria-controls="pills-All" aria-selected="true">All
+                  className={`nav-link col-4 col-md-12 border pap-card py-2 px-5 bg-primary text-white ${activeTab === 'All' ? 'active' : ''}`}
+                   id="pills-All-tab" data-bs-toggle="pill" data-bs-target="#pills-All" type="button"
+                  role="tab" aria-controls="pills-All" aria-selected="true"
+                  onClick={() => handleTabClick('All')}
+                  >All
+                  
                 </button>
               </li>
             </div>
             <div class="col-6 col-md justify-content-center">
               <li class="nav-item py-1 d-flex align-items-center justify-content-center px-2" data-aos="fade-left"
                 data-aos-duration="700" role="presentation">
-                <button
-                  class="nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly custom-testing-style bg-primary text-white "
-                  id="pills-Testing-tab" data-bs-toggle="pill" data-bs-target="#pills-Testing" type="button"
-                  role="tab" aria-controls="pills-Testing" aria-selected="false">Testing</button>
+               <button
+            className={`nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly bg-primary text-white ${activeTab === 'Testing' ? 'active' : ''}`}
+            id="pills-Testing-tab" data-bs-toggle="pill" data-bs-target="#pills-Testing"
+            type="button" role="tab" aria-controls="pills-Testing" aria-selected={activeTab === 'Testing'}
+            onClick={() => handleTabClick('Testing')}
+          >
+            Testing
+          </button>
               </li>
             </div>
             <div class="col-6 col-md justify-content-center">
               <li class="nav-item py-1 d-flex align-items-center justify-content-center px-2" data-aos="fade-left"
                 data-aos-duration="900" role="presentation">
-                <button
-                  class="nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly bg-primary text-white"
-                  id="pills-Development-tab" data-bs-toggle="pill" data-bs-target="#pills-Development"
-                  type="button" role="tab" aria-controls="pills-Development"
-                  aria-selected="false">Development</button>
+               <button
+            className={`nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly bg-primary text-white ${activeTab === 'Development' ? 'active' : ''}`}
+            id="pills-Development-tab" data-bs-toggle="pill" data-bs-target="#pills-Development"
+            type="button" role="tab" aria-controls="pills-Development" aria-selected={activeTab === 'Development'}
+            onClick={() => handleTabClick('Development')}
+          >
+            Development
+          </button>
+
               </li>
             </div>
             <div class="col-6 col-md justify-content-center">
               <li class="nav-item py-1 d-flex align-items-center justify-content-center px-2" data-aos="fade-left"
                 data-aos-duration="1100" role="presentation">
-                <button
-                  class="nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly bg-primary text-white"
-                  id="pills-Devops-tab" data-bs-toggle="pill" data-bs-target="#pills-Devops" type="button"
-                  role="tab" aria-controls="pills-Devops" aria-selected="false">DevOps</button>
+               <button
+            className={`nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly bg-primary text-white ${activeTab === 'DevOps' ? 'active' : ''}`}
+            id="pills-Devops-tab" data-bs-toggle="pill" data-bs-target="#pills-Devops"
+            type="button" role="tab" aria-controls="pills-Devops" aria-selected={activeTab === 'DevOps'}
+            onClick={() => handleTabClick('DevOps')}
+          >
+            DevOps
+          </button>
               </li>
             </div>
             <div class="col-6 col-md">
               <li class="nav-item py-1 d-flex align-items-center justify-content-center px-2" data-aos="fade-left"
                 data-aos-duration="1300" role="presentation">
-                <button
-                  class="nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly bg-primary text-white"
-                  id="pills-science-tab" data-bs-toggle="pill" data-bs-target="#pills-science" type="button"
-                  role="tab" aria-controls="pills-science" aria-selected="false">AI</button>
+               <button
+            className={`nav-link w-100 border pap-card d-flex flex-column text-center align-items-center py-2 h-100 justify-content-evenly bg-primary text-white ${activeTab === 'AI' ? 'active' : ''}`}
+            id="pills-science-tab" data-bs-toggle="pill" data-bs-target="#pills-science"
+            type="button" role="tab" aria-controls="pills-science" aria-selected={activeTab === 'AI'}
+            onClick={() => handleTabClick('AI')}
+          >
+            AI
+          </button>
               </li>
             </div>
           </ul>

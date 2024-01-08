@@ -11,11 +11,13 @@ import './css/index.css';
 
 
 import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from './Components/ScrollTop';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+    <ScrollToTop/>
     <App />
   </BrowserRouter>
 );
