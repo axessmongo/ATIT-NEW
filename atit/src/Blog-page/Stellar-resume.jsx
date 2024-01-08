@@ -36,12 +36,12 @@ function Howtocraftastellar() {
                                 </li>
                                 <li class="nav-item blog-drop position-relative">
                                     <button
-                                        class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Interviews
+                                        class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Interviews
                                         <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
                                         <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/ultimateGuide">Common Pitfalls In
                                             Interviews</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/stellarResume">Polishing Up Your Resume</Link></li>
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link active" to="/blog/stellarResume">Polishing Up Your Resume</Link></li>
                                         <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/competitiveJobMarket">The Job Market In 2023</Link>
                                         </li>
                                         <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/boomingItSector">Dynamic Indian Job
@@ -52,10 +52,10 @@ function Howtocraftastellar() {
                                 </li>
                                 <li class="nav-item blog-drop position-relative">
                                     <button
-                                        class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
+                                        class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
                                         <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link active" to="/blog/emergingtechnologies">Emerging
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/emergingtechnologies">Emerging
                                             Technologies</Link>
                                         </li>
                                         <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
