@@ -11,7 +11,7 @@ function EmergingTechnologies() {
                     <div class="row g-0">
                         <div class="left-blog col-lg-2 shadow1 ps-lg-3 z-3" data-aos="fade-right" data-aos-duration="700">
                             <ul class="nav flex-column">
-                                <li class="nav-item py-4 d-none d-lg-block mb-xxl-5">
+                                <li class="nav-item py-4 d-none d-lg-block">
                                     <Link class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" to="/">
                                         <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo"
                                             style={{ width: '70%', margin: 'auto' }}/>
