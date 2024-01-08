@@ -55,10 +55,10 @@ function Understandingtheitindustry() {
                                         class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
                                         <i class="bi bi-caret-down-fill trans"></i></button>
                                     <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link active" to="/blog/emergingtechnologies">Emerging
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/emergingtechnologies">Emerging
                                             Technologies</Link>
                                         </li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
+                                        <li class="nav-item"><Link class="blog-drop-item nav-link active" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item blog-drop position-relative">

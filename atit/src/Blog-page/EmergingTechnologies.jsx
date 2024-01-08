@@ -318,7 +318,6 @@ function EmergingTechnologies() {
                 </section>
                 <Footer/>
             </div>
-
         </div>
     )
 }
