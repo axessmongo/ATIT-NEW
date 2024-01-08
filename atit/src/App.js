@@ -6,19 +6,19 @@ import Blog from './Pages/Blog';
 import Courses from './Pages/Courses';
 import Pap from './Pages/Pay-after-placement';
 import EmergingTechnologies from './Blog-page/EmergingTechnologies';
-import Exploringlucrative from './Blog-page/Exploring-lucrative-it-job-opportunities-in-india';
-import Heretheframework from './Blog-page/Here-the-framework-to-launch-your-it-career-a-complete-guide';
-import Howtoace from './Blog-page/How-to-ace-your-first-it-job-interview'
-import Howtoclearanyprofessional from './Blog-page/How-to-clear-any-professional-exam-a-proven-strategy-for-success';
-import Howtocraftastellar from './Blog-page/How-to-craft-a-stellar-resume';
-import Introductiontothedynamics from './Blog-page/Introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates';
-import Lessonsfromthechandrayaan from './Blog-page/Lessons-from-the-chandrayaan-3-project';
+import Exploringlucrative from './Blog-page/Exploring-lucrative';
+import Heretheframework from './Blog-page/Career-complete-guide';
+import Howtoace from './Blog-page/First-it-job-interview'
+import Howtoclearanyprofessional from './Blog-page/Strategy-for-success';
+import Howtocraftastellar from './Blog-page/Stellar-resume';
+import Introductiontothedynamics from './Blog-page/Dynamics-itjob';
+import Lessonsfromthechandrayaan from './Blog-page/Chandrayaan-project';
 import Masteringtechnicalinterviews from './Blog-page/Mastering-technical-interviews';
-import Theboomingitsector from './Blog-page/The-booming-it-sector-in-india';
-import Theultimateguide from './Blog-page/The-ultimate-guide-to-10-power-words-and-phrases';
+import Theboomingitsector from './Blog-page/Booming-it-sector';
+import Theultimateguide from './Blog-page/Ultimate-guide';
 import Understandingtheitindustry from './Blog-page/Understanding-the-it-industry';
-import Wanttogetahead from './Blog-page/Want-to-get-ahead-of-the-job-race';
-import Whatisthispostabout from './Blog-page/What-is-this-post-about';
+import Wanttogetahead from './Blog-page/Job-race';
+import Whatisthispostabout from './Blog-page/Competitive-Job-Market';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import { Link, Route, Routes } from 'react-router-dom';

@@ -3,7 +3,7 @@ import Footer from '../Components/Footer'
 import "../css/blognew.css"
 import { Link } from 'react-router-dom'
 
-function Whatisthispostabout() {
+function CompetitiveJobMarket() {
     return (
         <div>
             <div class="overflow-x-hidden p-0 individualBlogs" blog-name="emerging_tech">
@@ -336,4 +336,4 @@ function Whatisthispostabout() {
     )
 }
 
-export default Whatisthispostabout
+export default CompetitiveJobMarket
