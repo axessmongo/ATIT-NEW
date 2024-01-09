@@ -4,7 +4,7 @@ import "../css/blognew.css"
 import { Link } from 'react-router-dom'
 
 function Heretheframework() {
-    return (
+    return ( 
         <div>
             <div class="overflow-x-hidden p-0 individualBlogs" blog-name="emerging_tech">
                 <section class="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
@@ -83,12 +83,12 @@ function Heretheframework() {
                                     </div>
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb mb-0">
-                                            <li class="breadcrumb-item"><a href="../blog.html">Blogs</a></li>
+                                            <li class="breadcrumb-item"><Link to="/blog">Blogs</Link></li>
                                             <li class="breadcrumb-item active" aria-current="page">IT Jobs</li>
                                         </ol>
                                     </nav>
                                     <div class="d-none d-lg-block">
-                                        <a href="../index.html" class="text-dark">Home</a>
+                                        <Link to="/" class="">Home</Link>
                                     </div>
                                 </div>
                                 <div class="container my-5 overflow-hidden">

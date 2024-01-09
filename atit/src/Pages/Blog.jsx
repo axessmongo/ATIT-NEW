@@ -1,11 +1,7 @@
 import {React, useEffect} from 'react'
-import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Company from '../Components/Company'
 import { Link } from 'react-router-dom'
-import ContactForm from '../Components/ContactForm'
-import LeftBar from '../Components/LeftBar'
-import Rocket from '../Components/Rocket'
 import AOS from 'aos'
 
  
@@ -66,7 +62,7 @@ const Blog = () => {
                 <div class="container-fluid">
                     <div class="d-flex justify-content-center my-5 pap-card">
                         <ul class="nav nav-pills mb-5 text-center justify-content-md-evenly justify-content-center my-5 text-capitalize p-10 m-0 w-100"
-                            id="pills-tab" role="tablist ">
+                            id="pills-tab" role="tablist">
 
                             <div class="col-12 col-md d-flex justify-content-center">
                                 <li class="nav-item py-1 w-100 d-flex align-items-center justify-content-center"
@@ -231,7 +227,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/what-is-this-post-about.html" class="">
+                                        <Link to="competitiveJobMarket" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog8.png" alt="The Job Market In 2023 image" />
                                                 <div class="box-content">
@@ -239,7 +235,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/what-is-this-post-about.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="competitiveJobMarket" class="text-decoration-none blog-title blog-title">
                                             The Job Market In 2023
                                         </Link>
                                     </div>
@@ -405,7 +401,7 @@ const Blog = () => {
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html" class="">
+                                        <Link to="ultimateGuide" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog10.png" alt="Common Pitfalls
                                     in Interviews "/>
@@ -415,7 +411,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html"
+                                        <Link to="ultimateGuide"
                                             class="text-decoration-none blog-title blog-title">
                                             Common Pitfalls
                                             in Interviews
@@ -436,7 +432,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/what-is-this-post-about.html" class="">
+                                        <Link to="competitiveJobMarket" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/blogimg.jpg" alt="The Job Market In 2023" />
                                                 <div class="box-content">
@@ -445,7 +441,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/what-is-this-post-about.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="competitiveJobMarket" class="text-decoration-none blog-title blog-title">
                                             The Job Market In 2023
                                         </Link>
                                     </div>
