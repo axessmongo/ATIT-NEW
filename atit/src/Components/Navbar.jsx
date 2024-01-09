@@ -50,7 +50,7 @@ function  Navbar({ coursePage ,blogPage}) {
                             to="/"
                         >
                             <img
-                                src={`${coursePage ? `../../` : ` `}assets/imagesandvectors/vectors/atit_logo.png`}
+                                src={`${coursePage ? `../../`: blogPage?`../`:` `}assets/imagesandvectors/vectors/atit_logo.png`}
                                 alt="logo"
                             /> 
                         </NavLink>
