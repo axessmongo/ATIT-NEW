@@ -33,10 +33,15 @@ export default function MainBlog() {
 //         window.removeEventListener('resize', updateBlogWidth);
 //     };
 // }, [blogWidth]);
+const hasIndividualBlogsClass = document.body.classList.contains("individualBlogs");
+console.log("hasIndividualBlogsClass",hasIndividualBlogsClass)
+useEffect(() => {
+    console.log("Body class:", document.body.classList);
+  }, []);
     return (
         <div className='overflow-x-hidden'>
             <div className={``}>
-                <Navbar blogPage = {"d-lg-none"}/>
+                <Navbar blogPage = {hasIndividualBlogsClass ?"d-lg-none":""}/>
             </div>
             <Outlet />
             <Rocket />
