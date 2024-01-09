@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Components/Footer'
 import "../css/blognew.css"
 import { Link } from 'react-router-dom'
+import RecentBlogs from '../Components/RecentBlogs'
 
 function Theultimateguide() {
     return (
@@ -422,9 +423,7 @@ function Theultimateguide() {
                         </div> --> */}
                                     {/* <!-- share blog-----------------------     --> */}
                                     <div id="share-blog" className =""></div>
-                                    <div className ="recent-post">
-                                    </div>
-
+                                    <RecentBlogs/>
                                 </div>
 
                             </div>

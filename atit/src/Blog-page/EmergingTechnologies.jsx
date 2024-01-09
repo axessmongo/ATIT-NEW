@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Components/Footer'
 import "../css/blognew.css"
 import { Link } from 'react-router-dom'
+import RecentBlogs from '../Components/RecentBlogs'
 
 function EmergingTechnologies() {
     return (
@@ -307,9 +308,10 @@ function EmergingTechnologies() {
                                         <button className ="button-74" role="button" data-bs-toggle="modal" data-bs-target="#share">Share
                                             this post</button>
                                     </div> */}
-                                    <div id="share-blog" className =""></div>
-                                    <div className ="recent-post">
-                                    </div>
+
+                                    <div id="share-blog" class=""></div>
+                                    <RecentBlogs/>
+
                                 </div>
                             </div>
                         </div>

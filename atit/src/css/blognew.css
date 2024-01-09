@@ -88,6 +88,9 @@
   border-top: 1px solid gray;
   padding-top: 20px;
 }
+.recent-post div:first-child .post{
+  border-top: none;
+}
 .blog-container .left-blog .flex-column {
   position: fixed;
   z-index: 5;
