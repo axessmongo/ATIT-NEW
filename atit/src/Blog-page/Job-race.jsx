@@ -97,8 +97,8 @@ function Wanttogetahead() {
                                     <p class="secondary-text " data-aos="fade-up" data-aos-duration="600">
                                         <span class="fl">T</span>here is a fact that every ‘computer’ guy would agree upon.“Programming languages are essential tools for software developers.”
                                     </p>
-                                    <p class="secondary-text">They allow us, the developers, to create software applications that can run on various operating systems and devices.Every year, there are a set of programming languages that are in high demand. 2023 is no different.There are several programming languages that are in high demand in 2023 due to their versatility, ease of use, feature-rich, and popularity.</p>
-                                    <p class="secondary-text">Let us take a brief overview of the most in-demand programming languages in 2023</p>
+                                    <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">They allow us, the developers, to create software applications that can run on various operating systems and devices.Every year, there are a set of programming languages that are in high demand. 2023 is no different.There are several programming languages that are in high demand in 2023 due to their versatility, ease of use, feature-rich, and popularity.</p>
+                                    <p class="secondary-text" data-aos="fade-up" data-aos-duration="600">Let us take a brief overview of the most in-demand programming languages in 2023</p>
                                     <div>
                                         <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
                                             <h1 class="primary-header text-center mb-5"> Want To Get Ahead Of The Job Race</h1>

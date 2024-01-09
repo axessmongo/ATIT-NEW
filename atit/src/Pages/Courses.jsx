@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Navbar from '../Components/Navbar'
+// import Navbar from '../Components/Navbar'
 // import Artificial from '../Courses-pages/Datascience/Artificial'
 import Footer from '../Components/Footer'
 import "../css/Courses.css"
