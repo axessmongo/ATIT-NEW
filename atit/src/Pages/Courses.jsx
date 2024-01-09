@@ -57,7 +57,7 @@ const Courses = () => {
   };
 
   return (
-    <div className='course'>
+    <div className='course overflow-x-hidden'>
       {/* <Navbar /> */}
       {/* {Head topic} */}
       <div>

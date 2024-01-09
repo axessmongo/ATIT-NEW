@@ -89,7 +89,7 @@ function Howtocraftastellar() {
                                         </ol>
                                     </nav>
                                     <div class="d-none d-lg-block">
-                                        <Link to="/" class="text-dark">Home</Link>
+                                        <Link to="/" class="">Home</Link>
                                     </div>
                                 </div>
                                 <div class="container my-5 overflow-hidden">
