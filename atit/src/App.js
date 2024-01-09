@@ -21,7 +21,7 @@ import JobRace from "./Blog-page/Job-race";
 import CompetitiveJobMarket from "./Blog-page/Competitive-Job-Market";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS styles
-import { Link, Route, Routes, useLocation } from "react-router-dom";
+import {Route, Routes, useLocation } from "react-router-dom";
 import Artificial from "./Courses-pages/Datascience/Artificial";
 import Privacy from "./Pages/Privacy-Policy";
 import NoPage from "./Pages/NoPage";
@@ -49,6 +49,7 @@ import Maven from "./Courses-pages/Softwaretesting/Maven";
 import Pageobject from "./Courses-pages/Softwaretesting/Pageobject";
 import Testng from "./Courses-pages/Softwaretesting/testng";
 import MainBlog from "./Pages/MainBlog";
+import Swiper from "./Components/Swiper";
 
 function App() {
 
@@ -145,6 +146,7 @@ function App() {
         </Route>
         <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="*" element={<NoPage />} />
+        <Route path="/Swiper" element={<Swiper />} />
       </Routes>
     </div>
   );

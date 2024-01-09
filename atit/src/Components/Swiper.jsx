@@ -1,130 +1,65 @@
-import React, { useEffect } from 'react';
-import Swiper from 'swiper';
+import React from 'react';
 
-function MySwiper() {
-    useEffect(() => {
-        // Initialize Swiper
-        new Swiper('.testimonials-slider', {
-            loop: true,
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false
-            },
-            slidesPerView: 'auto',
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true
-            }
-        });
-
-        // Get the feedback element by ID
-        var FeedbackElement = document.getElementById("FeedbackElement");
-
-        // Check if the element exists
-        if (FeedbackElement) {
-            // Define your dynamic value for swipercode
-            var swipercode = "YourDynamicValue";
-
-            // Set the inner HTML of the element with swipercode
-            FeedbackElement.innerHTML = swipercode;
-        }
-    }, []);
-
+function Swiper() {
+    const buttonStyle = {
+        height: '15px',
+        width: '15px',
+        borderRadius: '50%',
+        backgroundColor: 'gray',
+    };
     return (
         <div>
-            <div class="w-100">
-                <section id="testimonials" class="testimonials">
-                    <div class="container-fluid" data-aos="zoom-in">
-                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <h3>Ananya M</h3>
-                                        {/* <!-- <h4>Ceo &amp; Founder</h4> --> */}
-                                        <p>
-                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                            ATIT's focus on collaboration and team dynamics within DevOps was
-                                            exceptional. Learning to work efficiently in a team has been a
-                                            game-changer for me in my professional journey. The course projects
-                                            encouraged teamwork and problem-solving, preparing us for real-world
-                                            work environments.
-                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-
-                                        <h3>Priya R</h3>
-                                        {/* <!-- <h4>Designer</h4> --> */}
-                                        <p>
-                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                            The hands-on labs in the ATIT DevOps course were incredibly useful.
-                                            Real-world scenarios helped me understand the practical application
-                                            of DevOps principles. The instructors were always available to
-                                            clarify doubts, making the learning experience highly engaging.
-                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* <!-- End testimonial item --> */}
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <h3>Rajesh S</h3>
-                                        {/* <!-- <h4>Store Owner</h4> --> */}
-                                        <p>
-                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                            The mentorship program at ATIT stood out. The personalized guidance
-                                            I received throughout the course ensured I stayed on track and
-                                            grasped the concepts effectively. The mentors were experienced and
-                                            approachable, providing valuable insights into the industry.
-                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* <!-- End testimonial item --> */}
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-
-                                        <h3>Deepak K</h3>
-                                        {/* <!-- <h4>Freelancer</h4> --> */}
-                                        <p>
-                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                            The flexibility in learning pace was great. ATIT allowed me to
-                                            balance my job and studies seamlessly, making the DevOps course
-                                            accessible and achievable. The course materials were comprehensive,
-                                            making self-paced learning a breeze.
-                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* <!-- End testimonial item --> */}
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <h3>Arjun N</h3>
-                                        {/* <!-- <h4>Entrepreneur</h4> --> */}
-                                        <p>
-                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                            The case studies were enlightening. They provided a deep dive into
-                                            industry challenges and solutions, offering valuable insights that I
-                                            can apply in my career. The interactive discussions during the case
-                                            study sessions were enriching and fostered a deeper understanding of
-                                            DevOps.
-                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* <!-- End testimonial item -->. */}
-                            </div>
-
-                        </div>
+            <div id="carouselExampleInterval" class="carousel slide pb-5 mb-5" data-bs-ride="carousel">
+                <div class="carousel-indicators d-flex mt-5 pt-5">
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" style={buttonStyle} class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" style={buttonStyle} aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" style={buttonStyle} aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" style={buttonStyle} aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" style={buttonStyle} aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner py-2">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <h5 className='text-center'>Ananya M</h5>
+                        <p className='text-center'>
+                            ATIT's focus on collaboration and team dynamics within DevOps was exceptional. Learning to work efficiently in a team has been a game-changer for me in my professional journey. The course projects encouraged teamwork and problem-solving, preparing us for real-world work environments.
+                        </p>
                     </div>
-                </section>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <h5 className='text-center'>Priya R</h5>
+                        <p className='text-center'>
+                            The hands-on labs in the ATIT DevOps course were incredibly useful. Real-world scenarios helped me understand the practical application of DevOps principles. The instructors were always available to clarify doubts, making the learning experience highly engaging.
+                        </p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <h5 className='text-center'>Rajesh S</h5>
+                        <p>
+                            The mentorship program at ATIT stood out. The personalized guidance I received throughout the course ensured I stayed on track and grasped the concepts effectively. The mentors were experienced and approachable, providing valuable insights into the industry.
+                        </p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <h5 className='text-center'>Deepak K</h5>
+                        <p>
+                            The flexibility in learning pace was great. ATIT allowed me to
+                            balance my job and studies seamlessly, making the DevOps course
+                            accessible and achievable. The course materials were comprehensive,
+                            making self-paced learning a breeze.
+                        </p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <p className='text-center'>Arjun N</p>
+                        <p>
+                            The case studies were enlightening. They provided a deep dive into
+                            industry challenges and solutions, offering valuable insights that I
+                            can apply in my career. The interactive discussions during the case
+                            study sessions were enriching and fostered a deeper understanding of
+                            DevOps.
+                        </p>
+                    </div>
+                </div>
             </div>
+
         </div>
     );
 }
 
-export default MySwiper;
+export default Swiper;

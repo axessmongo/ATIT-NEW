@@ -13,7 +13,7 @@ const RecentBlogs = () => {
     return (
         <div className='recent-post'>
             <hr/>
-            <h4 className=''>Recent Blog Posts:</h4>
+            <h4 className='primary-color'>Recent Blog Posts:</h4>
             <div className='recent-post'>
             <div className="mb-3 emerging_tech" data-aos="fade-left" data-aos-duration="600">
                 <Link to="/blog/emergingtechnologies"
