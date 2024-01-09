@@ -52,7 +52,7 @@ function Navbar({ coursePage ,blogPage}) {
                             <img
                                 src={`${coursePage ? `../../` : ` `}assets/imagesandvectors/vectors/atit_logo.png`}
                                 alt="logo"
-                            />
+                            /> 
                         </NavLink>
                         <button
                             className="navbar-toggler d-none shadow-none ms-auto"

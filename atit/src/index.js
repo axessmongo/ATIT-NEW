@@ -8,10 +8,11 @@ import "./css/animation.css";
 import "./css/blog.css";
 import "./css/Pay-after-placement.css";
 import './css/index.css';
+import "./css/Swiper.css"
 
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './Components/ScrollTop';
-// import Main from './Main';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

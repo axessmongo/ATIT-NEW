@@ -49,6 +49,7 @@ import Maven from "./Courses-pages/Softwaretesting/Maven";
 import Pageobject from "./Courses-pages/Softwaretesting/Pageobject";
 import Testng from "./Courses-pages/Softwaretesting/testng";
 import MainBlog from "./Pages/MainBlog";
+import Swiper from "./Components/Swiper";
 
 function App() {
 
@@ -58,16 +59,22 @@ function App() {
 
 
   const { pathname } = useLocation();
+  
+  const modalElement = document.querySelector('.modal-backdrop');
 
   useEffect(() => {
     if (contactState) {
       setContactState(false);
-      const modalElement = document.querySelector('.modal-backdrop');
       if (modalElement) {
         modalElement.remove(); document.body.style.overflow = '';
         document.body.style.padding = '';
       }
       console.log(contactState);
+    }else{
+        if (modalElement) {
+          modalElement.remove(); document.body.style.overflow = '';
+          document.body.style.padding = '';
+        }
     }
   }, [pathname]);
 
@@ -139,6 +146,7 @@ function App() {
         </Route>
         <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="*" element={<NoPage />} />
+        <Route path="/Swiper" element={<Swiper />} />
       </Routes>
     </div>
   );

@@ -33,11 +33,10 @@ export default function MainBlog() {
 //         window.removeEventListener('resize', updateBlogWidth);
 //     };
 // }, [blogWidth]);
-const hasIndividualBlogsClass = document.body.classList.contains("individualBlogs");
-console.log("hasIndividualBlogsClass",hasIndividualBlogsClass)
+const [hasIndividualBlogsClass,setHasIndividualBlogsClass]=useState("")
 useEffect(() => {
-    console.log("Body class:", document.body.classList);
-  }, []);
+    setHasIndividualBlogsClass( document.querySelector(".individualBlogs") !== null);    
+  });
     return (
         <div className='overflow-x-hidden'>
             <div className={``}>
