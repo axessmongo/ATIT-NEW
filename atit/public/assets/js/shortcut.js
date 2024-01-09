@@ -1,28 +1,28 @@
 // HTML code to insert after the existing div
 var htmlCode = `
-<div id="rocket-container" class="cursor" data-aos="zoom-in">
+<div id="rocket-container" className ="cursor" data-aos="zoom-in">
 <img src="../../assets/img/rocket.gif" height="120px" alt="">
 </div>
 
 <div
-class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify-content-center overflow-visible">
+className ="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify-content-center overflow-visible">
 
-<div class="h-250px">
-    <div class=" bell d-none overflow-visible position-relative" data-aos="fade-right" data-aos-duration="1000">
+<div className ="h-250px">
+    <div className =" bell d-none overflow-visible position-relative" data-aos="fade-right" data-aos-duration="1000">
         <dotlottie-player src="https://lottie.host/7eea6db9-f536-4f25-9f36-55e284faf207/afUTIVqW70.json"
             background="transparent" speed="1" style="width: 90px;" loop autoplay></dotlottie-player>
-        <span class="position-absolute top-0 start-50 d-none translate-middle badge rounded-pill bg-danger">
+        <span className ="position-absolute top-0 start-50 d-none translate-middle badge rounded-pill bg-danger">
             New
         </span>
-        <div class="cloud">
+        <div className ="cloud">
             <a href="pay-after-placement.html"
-                class="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light">
+                className ="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light">
                 Pay After Placement
-                <i class="fa-solid fa-caret-left"></i>
+                <i className ="fa-solid fa-caret-left"></i>
             </a>
         </div>
     </div>
-    <a href="pay-after-placement.html" class="popup pop-ani text-decoration-none">
+    <a href="pay-after-placement.html" className ="popup pop-ani text-decoration-none">
         <span>P</span>
         <span>a</span>
         <span>y</span>
@@ -43,7 +43,7 @@ class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify
         <span>n</span>
         <span>t</span>
     </a>
-    <div class="overflow-visible class-ico" data-aos="fade-right" data-aos-duration="1000" data-bs-toggle="modal"
+    <div className ="overflow-visible class-ico" data-aos="fade-right" data-aos-duration="1000" data-bs-toggle="modal"
         data-bs-target="#contact">
         <!-- <dotlottie-player src="https://lottie.host/c5554bef-2ea2-439f-ba03-150ec726c96e/0TSDow76Wl.json"
             background="transparent" speed="1" style="width: 80px;" loop autoplay></dotlottie-player>  -->
@@ -55,47 +55,47 @@ class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify
 </div>
 
 <a href="https://api.whatsapp.com/send/?phone=%2B917845721438&text&app_absent=0" target="_blank" id="wa"
-    class="cursor" >
-    <img src="../whatsapp.png" alt="whatsapp" class="img-fluid"
+    className ="cursor" >
+    <img src="../whatsapp.png" alt="whatsapp" className ="img-fluid"
         style="width:70px">
 </a>
 </div>
 
 <!-- course Modal -->
-<div class="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<div className ="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
 aria-labelledby="staticBackdropLabel" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered p-5">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h1 class="modal-title fs-5 linear-gradient-text text-center" id="exampleModalLabel">Contact Form
+<div className ="modal-dialog modal-dialog-centered p-5">
+    <div className ="modal-content">
+        <div className ="modal-header">
+            <h1 className ="modal-title fs-5 linear-gradient-text text-center" id="exampleModalLabel">Contact Form
             </h1>
-            <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+            <button type="button" className ="btn-close shadow-none" data-bs-dismiss="modal"
                 aria-label="Close"></button>
         </div>
-        <div class="modal-body p-3">
+        <div className ="modal-body p-3">
             <form id="contactForm" name="contactForm">
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
-                    <label for="name">Name <span class="text"> *</span></label>
+                <div className ="form-floating">
+                    <input type="text" className ="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    <label for="name">Name <span className ="text"> *</span></label>
                 </div>
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
-                    <label for="email">Email <span class="text"> *</span></label>
+                <div className ="form-floating">
+                    <input type="email" className ="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="email">Email <span className ="text"> *</span></label>
                 </div>
-                <div class="form-floating">
-                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter your phone number"
+                <div className ="form-floating">
+                    <input type="number" className ="form-control" id="phone" name="phone" placeholder="Enter your phone number"
                         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                         maxlength="10" required>
-                    <label for="phone">Phone Number <span class="text"> *</span></label>
+                    <label for="phone">Phone Number <span className ="text"> *</span></label>
                 </div>
-                <div class="form-floating">
-                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message"
+                <div className ="form-floating">
+                    <textarea className ="form-control" id="message" name="message" rows="3" placeholder="Enter your message"
                         style="height: 80px"></textarea>
                     <label for="message">Message <span>(Optional)</span></label>
                 </div>
-                <div id="output" class="text-center"></div>
-                <div class="text-center"> <button type="submit"
-                        class="btn btn-primary btn-block">Submit</button></div>
+                <div id="output" className ="text-center"></div>
+                <div className ="text-center"> <button type="submit"
+                        className ="btn btn-primary btn-block">Submit</button></div>
             </form>
 
         </div>

@@ -21,7 +21,7 @@ import JobRace from "./Blog-page/Job-race";
 import CompetitiveJobMarket from "./Blog-page/Competitive-Job-Market";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS styles
-import { Link, Route, Routes, useLocation } from "react-router-dom";
+import {Route, Routes, useLocation } from "react-router-dom";
 import Artificial from "./Courses-pages/Datascience/Artificial";
 import Privacy from "./Pages/Privacy-Policy";
 import NoPage from "./Pages/NoPage";

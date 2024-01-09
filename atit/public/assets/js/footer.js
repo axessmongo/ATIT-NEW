@@ -1,34 +1,34 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Your footer HTML code
     var footerCode = `
-    <footer id="footer" class="footer pt-5 pb-3 ">
+    <footer id="footer" className ="footer pt-5 pb-3 ">
 
 
-    <div class="container">
-        <div class="position-relative d-none d-lg-block">
-             <div class="comet row ">
-                <div class=" col-lg-3"><div class=""></div></div>
-                 <div class=" col-lg-3 cometlines"><div class="cometline"></div></div>
-                 <div class=" col-lg-3 cometlines"><div class="cometline"></div></div>
-                 <div class=" col-lg-3 cometlines"><div class="cometline"></div></div>           
+    <div className ="container">
+        <div className ="position-relative d-none d-lg-block">
+             <div className ="comet row ">
+                <div className =" col-lg-3"><div className =""></div></div>
+                 <div className =" col-lg-3 cometlines"><div className ="cometline"></div></div>
+                 <div className =" col-lg-3 cometlines"><div className ="cometline"></div></div>
+                 <div className =" col-lg-3 cometlines"><div className ="cometline"></div></div>           
             </div>
         </div>
         
-        <div class="lines d-lg-none">   
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+        <div className ="lines d-lg-none">   
+            <div className ="line"></div>
+            <div className ="line"></div>
+            <div className ="line"></div>
 
         </div>
 
-        <div class="row gy-3 mt-3">
+        <div className ="row gy-3 mt-3">
             
-            <div class="col-lg-3 col-md-6 d-flex address" data-aos="fade-up" data-aos-duration="700">
-           <i class="bi bi-geo-alt icon"></i>
+            <div className ="col-lg-3 col-md-6 d-flex address" data-aos="fade-up" data-aos-duration="700">
+           <i className ="bi bi-geo-alt icon"></i>
                 <div>
                     <h4>Address</h4>
                     <p>
-                    <a href="https://maps.app.goo.gl/Cx14du1boxQ4R8MY9" target="_blank" class="map text-decoration-none">
+                    <a href="https://maps.app.goo.gl/Cx14du1boxQ4R8MY9" target="_blank" className ="map text-decoration-none">
                         Tidel Park, GF-04,<br>
                         No-4, Rajiv Gandhi Salai,<br>
                         Taramani,<br>
@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links d-flex" data-aos="fade-up" data-aos-duration="800">
-                <i class="bi bi-telephone icon"></i>
+            <div className ="col-lg-3 col-md-6 footer-links d-flex" data-aos="fade-up" data-aos-duration="800">
+                <i className ="bi bi-telephone icon"></i>
                 <div>
                     <h4>Connect</h4>
                     <p>
@@ -53,38 +53,38 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links d-flex" data-aos="fade-up" data-aos-duration="900">
-                <i class="bi bi-book-half icon"></i>
-                <div class="text-decoration-none">
+            <div className ="col-lg-3 col-md-6 footer-links d-flex" data-aos="fade-up" data-aos-duration="900">
+                <i className ="bi bi-book-half icon"></i>
+                <div className ="text-decoration-none">
                     <h4>Courses</h4>
-                    <div class="text-decoration-none courses-links">
-                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '2')" class="text-decoration-none"><strong>Software Developement</strong></a>
+                    <div className ="text-decoration-none courses-links">
+                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '2')" className ="text-decoration-none"><strong>Software Developement</strong></a>
                         <br>
-                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '1')" class="text-decoration-none"><strong>Software Testing</strong></a>
+                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '1')" className ="text-decoration-none"><strong>Software Testing</strong></a>
                         <br>
-                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '3')" class="text-decoration-none"><strong>Devops</strong></a>
+                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '3')" className ="text-decoration-none"><strong>Devops</strong></a>
                         <br>
-                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '4')" class="text-decoration-none"><strong>Machine Learning & AI</strong></a>
+                        <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '4')" className ="text-decoration-none"><strong>Machine Learning & AI</strong></a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links " data-aos="fade-up" data-aos-duration="1000">
-                <h4 class="text-center text-md-start">Follow Us</h4>
-                <div class="social-links d-flex justify-content-center justify-content-md-start">
-                    <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
-                    <a href="https://www.facebook.com/atitchennai/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/atitchennai/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href=" https://www.youtube.com/@ATITchennai" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>
-                    <!-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> -->
+            <div className ="col-lg-3 col-md-6 footer-links " data-aos="fade-up" data-aos-duration="1000">
+                <h4 className ="text-center text-md-start">Follow Us</h4>
+                <div className ="social-links d-flex justify-content-center justify-content-md-start">
+                    <!-- <a href="#" className ="twitter"><i className ="bi bi-twitter"></i></a> -->
+                    <a href="https://www.facebook.com/atitchennai/" target="_blank" className ="facebook"><i className ="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/atitchennai/" target="_blank" className ="instagram"><i className ="bi bi-instagram"></i></a>
+                    <a href=" https://www.youtube.com/@ATITchennai" target="_blank" className ="youtube"><i className ="bi bi-youtube"></i></a>
+                    <!-- <a href="#" className ="linkedin"><i className ="bi bi-linkedin"></i></a> -->
                 </div>
             </div>
 
         </div>
     </div>
-    <div class="container">
-        <div class="copyright">
-            Copyrights  &copy; <strong><span>ATIT. </span></strong>All Rights Reserved. <a href="./privacy-policy.html" class = "d-block d-md-inline position-relative">Privacy policy</a>
+    <div className ="container">
+        <div className ="copyright">
+            Copyrights  &copy; <strong><span>ATIT. </span></strong>All Rights Reserved. <a href="./privacy-policy.html" className = "d-block d-md-inline position-relative">Privacy policy</a>
         </div>
 
     </div>

@@ -12,22 +12,22 @@ function Corejava() {
                     style={{
                         background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)",
                     }}
-                    class="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white overflow-hidden"
+                    className ="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white overflow-hidden"
                 >
-                    <div class="container z-3 text-center">
+                    <div className ="container z-3 text-center">
                         <div
-                            class="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row"
+                            className ="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row"
                         >
                             <div>
                                 <h1
                                     data-aos="fade-up"
                                     data-aos-duration="500"
-                                    class="primary-header"
+                                    className ="primary-header"
                                 >
-                                    Core <span class="primary-color">Java</span>
+                                    Core <span className ="primary-color">Java</span>
                                 </h1>
                                 <p
-                                    class="text-light fs-6 text-capitalize fw-light"
+                                    className ="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
@@ -42,11 +42,11 @@ function Corejava() {
 
                                     aria-label="breadcrumb"
                                 >
-                                    <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><Link to= "/">Home</Link></li>
-                                        <li class="breadcrumb-item"><Link to= "/courses">Courses</Link></li>
+                                    <ol className ="breadcrumb justify-content-center">
+                                        <li className ="breadcrumb-item"><Link to= "/">Home</Link></li>
+                                        <li className ="breadcrumb-item"><Link to= "/courses">Courses</Link></li>
                                         <li
-                                            class="breadcrumb-item active text-white"
+                                            className ="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
                                             Core Java
@@ -59,69 +59,69 @@ function Corejava() {
                 </section>
             </div>
             <div>
-                <div id="artifical" class="coursesList">
-                    <div class="container-fluid ">
-                        <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
+                <div id="artifical" className ="coursesList">
+                    <div className ="container-fluid ">
+                        <p className ="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
                             About Core Java Course</p>
-                        <div class="mt-4 text-center text-capitalize g-3">
+                        <div className ="mt-4 text-center text-capitalize g-3">
                             <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT’s Core Java Course Is An Educational Program Designed To Teach Students Or Professionals The Fundamentals Of The Java Programming Language. Java Is A Widely Used, Versatile, And Platform-Independent Language Known For Its Flexibility, Robustness, And Extensive Libraries. Core Java Courses Typically Cover The Basics Of Java Programming, Object-Oriented Principles, And Essential Java Libraries.
 
                             </p>
                             <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">This Course Is Your Gateway To The World Of Java Programming. Whether You're A Beginner With No Prior Coding Experience Or An Experienced Developer Looking To Expand Your Skills, This Course Will Provide You With A Solid Foundation In Java, Equipping You With The Knowledge And Skills.</p>
                         </div>
                     </div>
-                    <div class="container">
-                        <section class="course-includes">
-                            <div class="container-fluid">
-                                <h2 class="text-center justify-content-center align-content-center linear-gradient-text pt-5"
+                    <div className ="container">
+                        <section className ="course-includes">
+                            <div className ="container-fluid">
+                                <h2 className ="text-center justify-content-center align-content-center linear-gradient-text pt-5"
                                     data-aos="flip-left" data-aos-duration="500" data-aos-delay="600">
                                     Course
                                     Includes</h2>
-                                <div class="feature-grid row ">
-                                    <div class="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
+                                <div className ="feature-grid row ">
+                                    <div className ="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
                                         data-aos-delay="300">
-                                        <div class="feature-item">
-                                            <i class="ri-macbook-fill"></i>
+                                        <div className ="feature-item">
+                                            <i className ="ri-macbook-fill"></i>
                                             <p>75 Hours of Sessions</p>
                                         </div>
                                     </div>
-                                    <div class="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
+                                    <div className ="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
                                         data-aos-delay="300">
-                                        <div class="feature-item">
-                                            <i class="ri-time-fill"></i>
+                                        <div className ="feature-item">
+                                            <i className ="ri-time-fill"></i>
                                             <p>Flexible Schedules</p>
                                         </div>
                                     </div>
-                                    <div class="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
-                                        <div class="feature-item">
-                                            <i class="ri-customer-service-fill"></i>
+                                    <div className ="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                        <div className ="feature-item">
+                                            <i className ="ri-customer-service-fill"></i>
                                             <p>24/7 Lifetime Support</p>
                                         </div>
                                     </div>
-                                    <div class="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
+                                    <div className ="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
                                         data-aos-delay="300">
-                                        <div class="feature-item">
-                                            <i class="ri-star-fill"></i>
+                                        <div className ="feature-item">
+                                            <i className ="ri-star-fill"></i>
                                             <p>Certification Oriented Curriculum</p>
                                         </div>
                                     </div>
-                                    <div class="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
+                                    <div className ="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
                                         data-aos-delay="300">
-                                        <div class="feature-item">
-                                            <i class="ri-send-plane-2-fill"></i>
+                                        <div className ="feature-item">
+                                            <i className ="ri-send-plane-2-fill"></i>
                                             <p>FREE Demo on Request</p>
                                         </div>
                                     </div>
-                                    <div class="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
-                                        <div class="feature-item">
-                                            <i class="ri-user-fill"></i>
+                                    <div className ="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                        <div className ="feature-item">
+                                            <i className ="ri-user-fill"></i>
                                             <p>One-on-One Doubt Clearing</p>
                                         </div>
                                     </div>
-                                    <div class="feature col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
-                                        <div class="feature-item">
-                                            <i class="ri-thumb-up-fill"></i>
+                                    <div className ="feature col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                                        <div className ="feature-item">
+                                            <i className ="ri-thumb-up-fill"></i>
                                             <p>Real-time Project Use cases</p>
                                         </div>
                                     </div>
@@ -129,31 +129,31 @@ function Corejava() {
                             </div>
                         </section>
                     </div>
-                    <div class="container-fluid mt-5 py-4">
-                        <p class="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
+                    <div className ="container-fluid mt-5 py-4">
+                        <p className ="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
                             Core Java Course Content</p>
-                        <div class="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
+                        <div className ="mt-4 text-center text-capitalize g-3" data-aos="fade-up" data-aos-delay="300"
                             data-aos-duration="500">
                             <p>ATIT’s Java Training Is Designed By Experts To Provide Students With The Abilities Required To Effectively Use Java Language. Our Highly Skilled Trainers Will Help Learners With The Knowledge And Guidance Needed For Quickly Improving Their Programming Abilities And Get Steady Career Growth.
                             </p>
                         </div>
                     </div>
 
-                    <div class="container mt-3" id="placement-accordion">
-                        <div class="row">
-                            <div class="col-md-6" data-aos="fade-right" data-aos-delay="600" data-aos-duration="600">
-                                <div class="accordion" id="accordion1">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                    <div className ="container mt-3" id="placement-accordion">
+                        <div className ="row">
+                            <div className ="col-md-6" data-aos="fade-right" data-aos-delay="600" data-aos-duration="600">
+                                <div className ="accordion" id="accordion1">
+                                    <div className ="accordion-item">
+                                        <h2 className ="accordion-header">
+                                            <button className ="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                                 aria-controls="panelsStayOpen-collapseOne">
                                                 Basic of Java
                                             </button>
                                         </h2>
-                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
+                                        <div id="panelsStayOpen-collapseOne" className ="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div className ="accordion-body">
                                                 <ul>
                                                     <li>What is Java?</li>
                                                     <li>History and Features of Java</li>
@@ -168,16 +168,16 @@ function Corejava() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                    <div className ="accordion-item">
+                                        <h2 className ="accordion-header">
+                                            <button className ="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                                 aria-controls="panelsStayOpen-collapseTwo">
                                                 Class, Objects, and Types of Classes
                                             </button>
                                         </h2>
-                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
+                                        <div id="panelsStayOpen-collapseTwo" className ="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div className ="accordion-body">
                                                 <ul>
                                                     <li>  Naming conventions of Java</li>
                                                     <li>Classes, objects, and features</li>
@@ -188,16 +188,16 @@ function Corejava() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                    <div className ="accordion-item">
+                                        <h2 className ="accordion-header">
+                                            <button className ="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                                 aria-controls="panelsStayOpen-collapseThree">
                                                 Packages in Java
                                             </button>
                                         </h2>
-                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                                            <div class="accordion-body">
+                                        <div id="panelsStayOpen-collapseThree" className ="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div className ="accordion-body">
                                                 <ul>
                                                     <li>  How to declare a package in a company project</li>
                                                     <li>  Package naming conventions</li>
@@ -210,17 +210,17 @@ function Corejava() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6" data-aos="fade-left" data-aos-delay="600" data-aos-duration="600">
-                                <div class="accordion" id="accordion2">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                            <div className ="col-md-6" data-aos="fade-left" data-aos-delay="600" data-aos-duration="600">
+                                <div className ="accordion" id="accordion2">
+                                    <div className ="accordion-item">
+                                        <h2 className ="accordion-header">
+                                            <button className ="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                                 Data Types in Java
                                             </button>
                                         </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                                            <div class="accordion-body">
+                                        <div id="collapseFour" className ="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div className ="accordion-body">
                                                 <ul>
                                                     <li> Data types in Java</li>
                                                     <li> Primitive data types</li>
@@ -230,15 +230,15 @@ function Corejava() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                    <div className ="accordion-item">
+                                        <h2 className ="accordion-header">
+                                            <button className ="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                                 Variables, Constraints, and Literals
                                             </button>
                                         </h2>
-                                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                                            <div class="accordion-body">
+                                        <div id="collapseFive" className ="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div className ="accordion-body">
                                                 <ul>
                                                     <li>  Variable declaration and initialization</li>
                                                     <li> Naming convention</li>
@@ -248,15 +248,15 @@ function Corejava() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                                    <div className ="accordion-item">
+                                        <h2 className ="accordion-header">
+                                            <button className ="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                                 Methods in Java
                                             </button>
                                         </h2>
-                                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                                            <div class="accordion-body">
+                                        <div id="collapseSix" className ="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div className ="accordion-body">
                                                 <ul>
                                                     <li> Methods in Java</li>
                                                     <li> Use of method in Java</li>
@@ -274,36 +274,36 @@ function Corejava() {
                         </div>
                     </div>
 
-                    <section class="container my-3 pt-3">
-                        <div class="mt-4">
-                            <h2 class="linear-gradient-text fw-semibold text-center mb-2" data-aos="flip-right"
+                    <section className ="container my-3 pt-3">
+                        <div className ="mt-4">
+                            <h2 className ="linear-gradient-text fw-semibold text-center mb-2" data-aos="flip-right"
                                 data-aos-duration="500" data-aos-delay="600">Training Options </h2>
-                            <p class="fw-medium text-center mt-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                            <p className ="fw-medium text-center mt-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                                 Choose your own comfortable learning
                                 experience.</p>
-                            <p class="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
+                            <p className ="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
                                 data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our Core Java Community And Look Forward To Helping You Advance Your Career In The World Of Core Java!</p>
                         </div>
                     </section>
                     <section>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="card mx-auto mt-4">
-                                        <div class="card-body d-flex flex-column">
+                        <div className ="container-fluid">
+                            <div className ="row">
+                                <div className ="col-md-6">
+                                    <div className ="card mx-auto mt-4">
+                                        <div className ="card-body d-flex flex-column">
                                             <div>
-                                                <h2 class="text-center" data-aos="fade-up" data-aos-duration="700"
-                                                    data-aos-delay="500"><span class="text-success">Online</span> Classes
+                                                <h2 className ="text-center" data-aos="fade-up" data-aos-duration="700"
+                                                    data-aos-delay="500"><span className ="text-success">Online</span> Classes
                                                 </h2>
-                                                <div class="d-flex text-center justify-content-center mb-3 mt-2"
+                                                <div className ="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
+                                                    <Link to="/contact" className ="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
-                                                <p class="about class-content text-center" data-aos="fade-up"
+                                                <p className ="about class-content text-center" data-aos="fade-up"
                                                     data-aos-duration="800" data-aos-delay="600">In Today's Digital Age, Core Java Has Become An Essential Practice For Organizations Looking To Streamline Their Software Development And IT Operations. This Online Course Is Designed To Provide You With The Knowledge And Skills Needed To Excel In The World Of Core Java, All From The Comfort Of Your Own Home Or Office.
                                                 </p>
-                                                <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
-                                                    <p class="fs-2 fw-semibold">Course Highlights:</p>
+                                                <div className ="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
+                                                    <p className ="fs-2 fw-semibold">Course Highlights:</p>
                                                     <p>✔️ Flexible Learning: Learn at your own pace, and access course
                                                         materials
                                                         24/7.
@@ -332,25 +332,25 @@ function Corejava() {
                                     <div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="card mt-4 mx-auto">
-                                        <div class="card-body d-flex flex-column">
+                                <div className ="col-md-6">
+                                    <div className ="card mt-4 mx-auto">
+                                        <div className ="card-body d-flex flex-column">
                                             <div>
-                                                <h2 class="text-capitalize text-center" data-aos="fade-up" data-aos-duration="700"
-                                                    data-aos-delay="500"><span class="text-danger">Offline</span>
+                                                <h2 className ="text-capitalize text-center" data-aos="fade-up" data-aos-duration="700"
+                                                    data-aos-delay="500"><span className ="text-danger">Offline</span>
                                                     classes
                                                 </h2>
 
-                                                <div class="d-flex text-center justify-content-center mb-3 mt-2"
+                                                <div className ="d-flex text-center justify-content-center mb-3 mt-2"
                                                     data-aos="flip-right" data-aos-delay="600" data-aos-duration="700">
-                                                    <Link to="/contact" class="btn btn-success rounded-pill my-2" >Join Now</Link>
+                                                    <Link to="/contact" className ="btn btn-success rounded-pill my-2" >Join Now</Link>
                                                 </div>
-                                                <div class="mt-3">
-                                                    <p class="about class-content text-center"
+                                                <div className ="mt-3">
+                                                    <p className ="about class-content text-center"
                                                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
                                                         In A World Dominated By Screens And Virtual Interactions, There's Something Special About Coming Together In Person To Learn And Collaborate. Our Core Java Class Is Designed To Provide You With A Hands-On, Immersive Experience That Will Empower You To Become A Core Java Expert.</p>
                                                     <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="700">
-                                                        <p class="fs-2 fw-semibold">Course Highlights:</p>
+                                                        <p className ="fs-2 fw-semibold">Course Highlights:</p>
                                                         <p>✔️ Face-to-Face Interaction: Interact directly with instructors
                                                             and fellow
                                                             learners,
@@ -382,9 +382,9 @@ function Corejava() {
                         </div>
                     </section>
                     <section>
-                        <div class="mt-5">
+                        <div className ="mt-5">
                             <p
-                                class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text" data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
+                                className ="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text" data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
                                 For Corporates</p>
                             <p style={{
                                 textAlign: 'center',
@@ -395,19 +395,19 @@ function Corejava() {
                             >Empower your team with new skills to Enhance their performance and productivity</p>
                         </div>
                     </section>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p class="text-center fw-semibold fs-5">Corporate Training</p>
-                                <div class="text-capitalize pt-3">
-                                    <p class="d-flex"><i class="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
+                    <div className ="container">
+                        <div className ="row">
+                            <div className ="col-md-6">
+                                <p className ="text-center fw-semibold fs-5">Corporate Training</p>
+                                <div className ="text-capitalize pt-3">
+                                    <p className ="d-flex"><i className ="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
                                         style={{
                                             color: '#051838',
                                         }}
                                     ></i>Customized course curriculum as per your team’s specific
                                         needs
                                     </p>
-                                    <p class="d-flex"><i class="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
+                                    <p className ="d-flex"><i className ="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
                                         style={{
                                             color: '#051838',
                                         }}
@@ -416,18 +416,18 @@ function Corejava() {
                                         training
                                         through online, on-premise at ATIT or your office facility </p>
 
-                                    <p class="d-flex"><i class="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
+                                    <p className ="d-flex"><i className ="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
                                         style={{
                                             color: '#051838',
                                         }}
                                     ></i>Resources such as slides, demos, exercises, and answer keys
                                         included</p>
-                                    <p class="d-flex"><i class="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
+                                    <p className ="d-flex"><i className ="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
                                         style={{
                                             color: '#051838',
                                         }}
                                     ></i>Complete guidance on obtaining certification</p>
-                                    <p class="d-flex pt-2"><i class="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
+                                    <p className ="d-flex pt-2"><i className ="fa-regular pt-2 fa-hand-point-right fa-fade mx-2 fs-6"
                                         style={{
                                             color: '#051838',
                                         }}
@@ -437,18 +437,18 @@ function Corejava() {
 
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <p class="text-center fw-semibold fs-5"> Served 120+ Corporates</p>
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <img src="./../../assets/img/logos.jpg" class="img-fluid mt-2 justify-content-center mx-2 " alt="" />
+                            <div className ="col-md-6">
+                                <p className ="text-center fw-semibold fs-5"> Served 120+ Corporates</p>
+                                <div className ="d-flex justify-content-center align-items-center">
+                                    <img src="./../../assets/img/logos.jpg" className ="img-fluid mt-2 justify-content-center mx-2 " alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                     <section>
-                        <div class="container">
-                            <div class="my-5">
-                                <p class="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
+                        <div className ="container">
+                            <div className ="my-5">
+                                <p className ="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text"
                                     data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
                                     Core Java
                                     Certification</p>
