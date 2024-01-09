@@ -8,48 +8,55 @@ import LeftBar from '../Components/LeftBar'
 import Rocket from '../Components/Rocket'
 
 function Pap() {
-//     var continueTimeouts = true; 
-// var timeouts = [];
-// function openAccordionsOneByOne() {
-//   var accordionButtons = document.querySelectorAll('.accordion-button');
-//   accordionButtons.forEach(function (button, index) {
-//     var timeout = setTimeout(function () {
-//       if (continueTimeouts) {
-//         button.click();
-//       }
-//     }, index * 3000);
-
-//     timeouts.push(timeout);
-
-//     button.addEventListener('mousedown', function (event) {
-//       if (event.button === 0) {
-//         continueTimeouts = false;
-//         clearTimeouts();
-//       }
-//     });
-//   });
-// }
-// function isElementInViewport(el) {
-//   var rect = el.getBoundingClientRect();
-//   return (
-//     rect.top >= 0 &&
-//     rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-//   );
-// }
-// function handleScroll() {
-//   var section = document.getElementById('placement-accordion');
-//   if (isElementInViewport(section)) {
-//     openAccordionsOneByOne();
-//     window.removeEventListener('scroll', handleScroll);
-//   }
-// }
-// function clearTimeouts() {
-//   timeouts.forEach(function (timeout) {
-//     clearTimeout(timeout);
-//   });
-//   timeouts = [];
-// }
-// window.addEventListener('scroll', handleScroll);
+    var continueTimeouts = true;
+    var timeouts = [];
+  
+    function openAccordionsOneByOne() {
+      clearTimeouts(); // Clear existing timeouts
+  
+      var accordionButtons = document.querySelectorAll('.accordion-button');
+      accordionButtons.forEach(function (button, index) {
+        var timeout = setTimeout(function () {
+          if (continueTimeouts) {
+            button.click();
+          }
+        }, index * 3000);
+  
+        timeouts.push(timeout);
+  
+        button.addEventListener('mouseup', function (event) {
+          if (event.button === 0) {
+            continueTimeouts = true;
+            clearTimeouts();
+          }
+        });
+      });
+    }
+  
+    function isElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+      );
+    }
+  
+    function handleScroll() {
+      var section = document.getElementById('placement-accordion');
+      if (section && isElementInViewport(section)) {
+        openAccordionsOneByOne();
+        window.removeEventListener('scroll', handleScroll);
+      }
+    }
+  
+    function clearTimeouts() {
+      timeouts.forEach(function (timeout) {
+        clearTimeout(timeout);
+      });
+      timeouts = [];
+    }
+  
+    window.addEventListener('scroll', handleScroll);
     return (
         <div>
             <Navbar />
@@ -151,7 +158,7 @@ function Pap() {
                                                     class="rounded-2"
                                                     width="40px"
                                                     height="40px"
-                                                    alt="step 1 image"
+                                                    alt="./assets/img/step1.jpg"
                                                 />
                                             </div>
                                             <div>Skill Assessment and Salary Discussion</div>
@@ -185,7 +192,7 @@ function Pap() {
                                             <div class="pe-2 col-2">
                                                 <img
                                                     src="./assets/img/step2.jpg"
-                                                    alt="step 2 image"
+                                                    alt="./assets/img/step2.jpg"
                                                     class="rounded-2"
                                                     width="40px"
                                                     height="40px"
@@ -223,7 +230,7 @@ function Pap() {
                                             <div class="pe-2 col-2">
                                                 <img
                                                     src="./assets/img/step3.jpg"
-                                                    alt="step 3 image"
+                                                    alt="./assets/img/step3.jpg"
                                                     class="rounded-2"
                                                     width="40px"
                                                     height="40px"
@@ -263,7 +270,7 @@ function Pap() {
                                             <div class="pe-2 col-2">
                                                 <img
                                                     src="./assets/img/step4.jpg"
-                                                    alt="step 4 image"
+                                                    alt="./assets/img/step4.jpg"
                                                     class="rounded-2"
                                                     width="40px"
                                                     height="40px"
@@ -303,7 +310,7 @@ function Pap() {
                                             <div class="pe-2 col-2">
                                                 <img
                                                     src="./assets/img/step5.jpg"
-                                                    alt="step 5 image"
+                                                    alt="./assets/img/step5.jpg"
                                                     class="rounded-2"
                                                     width="40px"
                                                     height="40px"
@@ -340,7 +347,7 @@ function Pap() {
                                             <div class="pe-2 col-2">
                                                 <img
                                                     src="./assets/img/step6.jpg"
-                                                    alt="step 6 image"
+                                                    alt="./assets/img/step6.jpg"
                                                     class="rounded-2"
                                                     width="40px"
                                                     height="40px"
@@ -382,7 +389,7 @@ function Pap() {
                                             <div class="pe-2 col-2">
                                                 <img
                                                     src="./assets/img/step7.jpg"
-                                                    alt="step 7 image"
+                                                    alt="./assets/img/step7.jpg"
                                                     class="rounded-2"
                                                     width="40px"
                                                     height="40px"
@@ -434,7 +441,7 @@ function Pap() {
                                             <div class="flexi">
                                                 <img
                                                     src="./assets/img/Hightlight/wallet_3574953.png"
-                                                    alt="wallet image"
+                                                    alt="./assets/img/Hightlight/wallet_3574953.png"
                                                 />
                                             </div>
                                             <h4 class="card-title py-3">Flexible Payment Options</h4>
@@ -459,7 +466,7 @@ function Pap() {
                                             <div class="flexi">
                                                 <img
                                                     src="./assets/img/Hightlight/save.png"
-                                                    alt="savings image"
+                                                    alt="./assets/img/Hightlight/save.png"
                                                 />
                                             </div>
                                             <h4 class="card-title py-3">Cost-Effective</h4>
@@ -483,7 +490,7 @@ function Pap() {
                                             <div class="flexi">
                                                 <img
                                                     src="./assets/img/Hightlight/work_7902082.png"
-                                                    alt="workig image"
+                                                    alt="./assets/img/Hightlight/work_7902082.png"
                                                 />
                                             </div>
                                             <h4 class="card-title py-3">100% Job Security</h4>
@@ -509,7 +516,7 @@ function Pap() {
                                             <div class="flexi">
                                                 <img
                                                     src="./assets/img/Hightlight/job-interview_3629599.png"
-                                                    alt="interview image"
+                                                    alt="./assets/img/Hightlight/job-interview_3629599.png"
                                                 />
                                             </div>
                                             <h4 class="card-title py-3">1 on 1 attention</h4>
@@ -535,7 +542,7 @@ function Pap() {
                                             <div class="flexi">
                                                 <img
                                                     src="./assets/img/Hightlight/online-learning_2436855.png"
-                                                    alt="learning image"
+                                                    alt="./assets/img/Hightlight/online-learning_2436855.png"
                                                 />
                                             </div>
                                             <h4 class="card-title py-3">Job-Oriented Training</h4>
@@ -569,7 +576,7 @@ function Pap() {
             {/* contcat form */}
             <ContactForm />
             {/* leftbar */}
-            <LeftBar noPap={true}/>
+            <LeftBar noPap={true} />
             {/* Rocket */}
             <Rocket />
         </div>

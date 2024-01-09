@@ -1,11 +1,7 @@
 import {React, useEffect} from 'react'
-import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Company from '../Components/Company'
 import { Link } from 'react-router-dom'
-import ContactForm from '../Components/ContactForm'
-import LeftBar from '../Components/LeftBar'
-import Rocket from '../Components/Rocket'
 import AOS from 'aos'
 
  
@@ -66,7 +62,7 @@ const Blog = () => {
                 <div class="container-fluid">
                     <div class="d-flex justify-content-center my-5 pap-card">
                         <ul class="nav nav-pills mb-5 text-center justify-content-md-evenly justify-content-center my-5 text-capitalize p-10 m-0 w-100"
-                            id="pills-tab" role="tablist ">
+                            id="pills-tab" role="tablist">
 
                             <div class="col-12 col-md d-flex justify-content-center">
                                 <li class="nav-item py-1 w-100 d-flex align-items-center justify-content-center"
