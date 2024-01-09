@@ -89,7 +89,7 @@ function Masteringtechnicalinterviews() {
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb mb-0">
                                             <li class="breadcrumb-item">
-                                                <a href="../blog.html">Blogs</a>
+                                                <Link to="/blog">Blogs</Link>
                                             </li>
                                             <li class="breadcrumb-item active" aria-current="page">
                                                 Interviews
@@ -97,7 +97,7 @@ function Masteringtechnicalinterviews() {
                                         </ol>
                                     </nav>
                                     <div class="d-none d-lg-block">
-                                        <a href="../index.html" class="text-dark">Home</a>
+                                        <Link to="/" class="text-dark">Home</Link>
                                     </div>
                                 </div>
                                 <div class="container my-5 overflow-hidden">

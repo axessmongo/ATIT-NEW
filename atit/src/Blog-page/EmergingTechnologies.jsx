@@ -83,7 +83,7 @@ function EmergingTechnologies() {
                                     </div>
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb mb-0">
-                                            <li class="breadcrumb-item"><Link to="../blog.html">Blogs</Link></li>
+                                            <li class="breadcrumb-item"><Link to="/blog">Blogs</Link></li>
                                             <li class="breadcrumb-item active" aria-current="page">Tech Skills</li>
                                         </ol>
                                     </nav>

@@ -227,7 +227,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4 pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/what-is-this-post-about.html" class="">
+                                        <Link to="competitiveJobMarket" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/Blog8.png" alt="The Job Market In 2023 image" />
                                                 <div class="box-content">
@@ -235,7 +235,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/what-is-this-post-about.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="competitiveJobMarket" class="text-decoration-none blog-title blog-title">
                                             The Job Market In 2023
                                         </Link>
                                     </div>
@@ -401,7 +401,7 @@ const Blog = () => {
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html" class="">
+                                        <Link to="ultimateGuide" class="">
                                             <div class="box rounded-5">
                                                 <img src="./assets/img/Blog/Blog10.png" alt="Common Pitfalls
                                     in Interviews "/>
@@ -411,7 +411,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/the-ultimate-guide-to-10-power-words-and-phrases.html"
+                                        <Link to="ultimateGuide"
                                             class="text-decoration-none blog-title blog-title">
                                             Common Pitfalls
                                             in Interviews
@@ -432,7 +432,7 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div class="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
-                                        <Link href="./blog/what-is-this-post-about.html" class="">
+                                        <Link to="competitiveJobMarket" class="">
                                             <div class="box rounded-5 ">
                                                 <img src="./assets/img/Blog/blogimg.jpg" alt="The Job Market In 2023" />
                                                 <div class="box-content">
@@ -441,7 +441,7 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link href="./blog/what-is-this-post-about.html" class="text-decoration-none blog-title blog-title">
+                                        <Link to="competitiveJobMarket" class="text-decoration-none blog-title blog-title">
                                             The Job Market In 2023
                                         </Link>
                                     </div>
