@@ -50,9 +50,9 @@ function  Navbar({ coursePage ,blogPage}) {
                             to="/"
                         >
                             <img
-                                src={`${coursePage ? '../../' : blogPage?'../':''}assets/imagesandvectors/vectors/atit_logo.png`}
+                                src={`${coursePage ? `../../` : ` `}assets/imagesandvectors/vectors/atit_logo.png`}
                                 alt="logo"
-                            />
+                            /> 
                         </NavLink>
                         <button
                             className="navbar-toggler d-none shadow-none ms-auto"

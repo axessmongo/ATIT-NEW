@@ -8,17 +8,19 @@ import "./css/animation.css";
 import "./css/blog.css";
 import "./css/Pay-after-placement.css";
 import './css/index.css';
-
+import "./css/Swiper.css"
 
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './Components/ScrollTop';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <ScrollToTop/>
-    <App />
+    <App /> 
+    {/* <Main/> */}
   </BrowserRouter>
 );
 
