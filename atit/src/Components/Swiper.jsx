@@ -8,7 +8,7 @@ function Swiper() {
         backgroundColor: 'gray',
     };
     return (
-        <div>
+        <div className='container text-center'>
             <p className='text-center text-capitalize mb-3 display-6 linear-gradient-text fw-semibold'>Genuine Feedback</p>
             <p className='text-center mt-2'>Outcome Of Our Quality Training</p>
             <div id="carouselExampleInterval" class="carousel slide pb-5 mb-5" data-bs-ride="carousel">
