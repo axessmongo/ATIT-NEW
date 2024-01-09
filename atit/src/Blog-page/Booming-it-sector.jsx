@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../Components/Footer'
 import "../css/blognew.css"
 import { Link } from 'react-router-dom'
-
+import RecentBlogs from '../Components/RecentBlogs'
 function Theboomingitsector() {
     return (
         <div>
@@ -481,8 +481,7 @@ function Theboomingitsector() {
                         </div> --> */}
                                     {/* <!-- share blog-----------------------     --> */}
                                     <div id="share-blog" class=""></div>
-                                    <div class="recent-post">
-                                    </div>
+                                    <RecentBlogs/>
                                 </div>
                             </div>
                         </div>

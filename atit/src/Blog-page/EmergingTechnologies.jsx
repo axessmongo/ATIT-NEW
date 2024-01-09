@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Components/Footer'
 import "../css/blognew.css"
 import { Link } from 'react-router-dom'
+import RecentBlogs from '../Components/RecentBlogs'
 
 function EmergingTechnologies() {
     return (
@@ -308,8 +309,7 @@ function EmergingTechnologies() {
                                             this post</button>
                                     </div> */}
                                     <div id="share-blog" class=""></div>
-                                    <div class="recent-post">
-                                    </div>
+                                    <RecentBlogs/>
                                 </div>
                             </div>
                         </div>
