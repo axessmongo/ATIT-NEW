@@ -1,57 +1,61 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import $ from 'jquery'; // Import jQuery
+
 export default function Rocket() {
-    console.log("rocket")
-    const [rocketClicked, setRocketClicked] = useState(false);
-
     useEffect(() => {
-        const handleRocketClick = () => {
-            console.log("click rocket")
-            if (rocketClicked) {
-                return; // Ignore clicks while the animation is running
-            }
-            setRocketClicked(true);
+        $(document).ready(function () {
+            var rocketClicked = false;
 
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth',
+            $('#rocket-container').click(function () {
+                if (rocketClicked) {
+                    return; // Ignore clicks while the animation is running
+                }
+                rocketClicked = true;
+
+                $('html, body').stop().animate({ scrollTop: 0 }, 'fast', function () {
+                    var rocket = $('#rocket-container');
+                    rocket.stop().animate({
+                        'bottom': $(window).height() + 'px', // Fix syntax and use jQuery for window height
+                    }, {
+                        duration: 1200,
+                        step: function (now, fx) {
+                            if (fx.prop === 'bottom' && now > $(window).height()) {
+                                rocket.show();
+                            }
+                        },
+                        complete: function () {
+                            rocket.css({
+                                'bottom': '10px',
+                                'transform': 'translate(0)',
+                                'display': 'none'
+                            });
+
+                            rocketClicked = false;
+                        }
+                    });
+                });
             });
-        };
+        });
 
-        const handleScroll = () => {
-            if (window.scrollY > window.innerHeight / 2) {
-                document.getElementById('rocket-container').style.display = 'block';
-            } else {
-                document.getElementById('rocket-container').style.display = 'none';
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > $(window).height() / 2) {
+                $('#rocket-container').css('display', 'block');
             }
-        };
+        });
+    }, [])
 
-        const rocketContainer = document.getElementById('rocket-container');
-
-        if (rocketContainer) {
-            rocketContainer.addEventListener('click', handleRocketClick);
-            window.addEventListener('scroll', handleScroll);
-
-        }
-        return () => {
-            // Cleanup event listeners when component unmounts
-            if (rocketContainer) {
-              rocketContainer.removeEventListener('click', handleRocketClick);
-              window.removeEventListener('scroll', handleScroll);
-            }
-          };
-        }, [rocketClicked]);
-        return (
-            <div>
-                <div id="rocket-container" className="cursor" data-aos="zoom-in">
-                    <dotlottie-player
-                        src="https://lottie.host/a3930b1d-eaf8-4fc4-a6b4-7ba7c5654523/tqWYmbEE3y.json"
-                        background="transparent"
-                        speed="1"
-                        id="rocket"
-                        loop
-                        autoplay
-                    ></dotlottie-player>
-                </div>
+    return (
+        <div>
+            <div id="rocket-container" className="cursor" data-aos="zoom-in">
+                <dotlottie-player
+                    src="https://lottie.host/a3930b1d-eaf8-4fc4-a6b4-7ba7c5654523/tqWYmbEE3y.json"
+                    background="transparent"
+                    speed="1"
+                    id="rocket"
+                    loop
+                    autoplay
+                ></dotlottie-player>
             </div>
-        );
-    }
+        </div>
+    );
+}

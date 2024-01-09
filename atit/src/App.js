@@ -58,16 +58,22 @@ function App() {
 
 
   const { pathname } = useLocation();
+  
+  const modalElement = document.querySelector('.modal-backdrop');
 
   useEffect(() => {
     if (contactState) {
       setContactState(false);
-      const modalElement = document.querySelector('.modal-backdrop');
       if (modalElement) {
         modalElement.remove(); document.body.style.overflow = '';
         document.body.style.padding = '';
       }
       console.log(contactState);
+    }else{
+        if (modalElement) {
+          modalElement.remove(); document.body.style.overflow = '';
+          document.body.style.padding = '';
+        }
     }
   }, [pathname]);
 
