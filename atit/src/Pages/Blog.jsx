@@ -30,7 +30,7 @@ const Blog = () => {
         };
     }, []);
     return (
-        <div className='blog'>
+        <div className='blog overflow-x-hidden'>
             <div>
                 {/* blog banner */}
                 <section class="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white mb-5"

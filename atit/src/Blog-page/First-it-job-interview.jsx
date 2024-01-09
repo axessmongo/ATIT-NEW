@@ -4,6 +4,7 @@ import "../css/blognew.css"
 import { Link } from 'react-router-dom'
 
 function Howtoace() {
+    console.log("Howtoace")
     return (
         <div>
             <div class="overflow-x-hidden p-0 individualBlogs" blog-name="emerging_tech">
