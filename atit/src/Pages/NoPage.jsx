@@ -8,7 +8,7 @@ export default function NoPage() {
             <>
                 <h1>404 Error</h1>
                 <p className="zoom-area">
-                    <b>CSS</b> animations to make a cool 404 page.{" "}
+                    <b> The page you're searching for may have moved or doesn't exist. Let's guide you back!</b>{" "}
                 </p>
                 <section className="error-container">
                     <span className="four">
