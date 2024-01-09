@@ -48,7 +48,7 @@ function Swiper() {
                         </p>
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
-                        <p className='text-center'>Arjun N</p>
+                        <h5 className='text-center'>Arjun N</h5>
                         <p>
                             The case studies were enlightening. They provided a deep dive into
                             industry challenges and solutions, offering valuable insights that I
