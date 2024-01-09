@@ -6,114 +6,114 @@ import { Link } from 'react-router-dom'
 function Lessonsfromthechandrayaan() {
     return (
         <div>
-            <div class="overflow-x-hidden p-0 individualBlogs" blog-name="emerging_tech">
-                <section class="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
-                    <div class="row g-0">
-                        <div class="left-blog col-lg-2 shadow1 ps-lg-3 z-3" data-aos="fade-right" data-aos-duration="700">
-                            <ul class="nav flex-column">
-                                <li class="nav-item py-4 d-none d-lg-block mb-xxl-5">
-                                    <Link class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" to="/">
+            <div className ="overflow-x-hidden p-0 individualBlogs" blog-name="emerging_tech">
+                <section className ="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
+                    <div className ="row g-0">
+                        <div className ="left-blog col-lg-2 shadow1 ps-lg-3 z-3" data-aos="fade-right" data-aos-duration="700">
+                            <ul className ="nav flex-column">
+                                <li className ="nav-item py-4 d-none d-lg-block mb-xxl-5">
+                                    <Link className ="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" to="/">
                                         <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo"
                                             style={{ width: '70%', margin: 'auto' }} />
                                     </Link>
                                 </li>
-                                <li class="nav-item blog-drop position-relative">
+                                <li className ="nav-item blog-drop position-relative">
                                     <button
-                                        class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">IT
-                                        Jobs <i class="bi bi-caret-down-fill trans"></i></button>
-                                    <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/exploringlucrative">Lucrative IT Job
+                                        className ="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">IT
+                                        Jobs <i className ="bi bi-caret-down-fill trans"></i></button>
+                                    <ul className ="blog-drop-menu list-unstyled">
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/exploringlucrative">Lucrative IT Job
                                             Opportunities</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/careerCompleteGuide">Employment
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/careerCompleteGuide">Employment
                                             Opportunities</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/jobRace">Get Ahead Of The Job
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/jobRace">Get Ahead Of The Job
                                             Race</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/firstItjobInterview">Your First IT Job
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/firstItjobInterview">Your First IT Job
                                             Interview</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/dynamicsItJob">Dynamics Of The IT Job
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/dynamicsItJob">Dynamics Of The IT Job
                                         </Link></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item blog-drop position-relative">
+                                <li className ="nav-item blog-drop position-relative">
                                     <button
-                                        class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Interviews
-                                        <i class="bi bi-caret-down-fill trans"></i></button>
-                                    <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/ultimateGuide">Common Pitfalls In
+                                        className ="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Interviews
+                                        <i className ="bi bi-caret-down-fill trans"></i></button>
+                                    <ul className ="blog-drop-menu list-unstyled">
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/ultimateGuide">Common Pitfalls In
                                             Interviews</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/stellarResume">Polishing Up Your Resume</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/competitiveJobMarket">The Job Market In 2023</Link>
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/stellarResume">Polishing Up Your Resume</Link></li>
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/competitiveJobMarket">The Job Market In 2023</Link>
                                         </li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/boomingItSector">Dynamic Indian Job
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/boomingItSector">Dynamic Indian Job
                                             Market</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/masteringTechnicalInterviews">Clear Technical Interviews</Link>
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/masteringTechnicalInterviews">Clear Technical Interviews</Link>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item blog-drop position-relative">
+                                <li className ="nav-item blog-drop position-relative">
                                     <button
-                                        class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
-                                        <i class="bi bi-caret-down-fill trans"></i></button>
-                                    <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/emergingtechnologies">Emerging
+                                        className ="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
+                                        <i className ="bi bi-caret-down-fill trans"></i></button>
+                                    <ul className ="blog-drop-menu list-unstyled">
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/emergingtechnologies">Emerging
                                             Technologies</Link>
                                         </li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item blog-drop position-relative">
+                                <li className ="nav-item blog-drop position-relative">
                                     <button
-                                        class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
-                                        Others <i class="bi bi-caret-down-fill trans"></i></button>
-                                    <ul class="blog-drop-menu list-unstyled">
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link active" to="/blog/chandrayaanProject">Job-Hunting Chandrayaan
+                                        className ="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
+                                        Others <i className ="bi bi-caret-down-fill trans"></i></button>
+                                    <ul className ="blog-drop-menu list-unstyled">
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link active" to="/blog/chandrayaanProject">Job-Hunting Chandrayaan
                                             3</Link></li>
-                                        <li class="nav-item"><Link class="blog-drop-item nav-link" to="/blog/strategyForSuccess">Clear Any Professional
+                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/strategyForSuccess">Clear Any Professional
                                             Exam</Link></li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
-                        <div class="right-blog col-lg-8 col-xxl-7 my-3">
-                            <div class="p-3">
+                        <div className ="right-blog col-lg-8 col-xxl-7 my-3">
+                            <div className ="p-3">
                                 <div
                                     data-aos="fade-down"
                                     data-aos-duration="700"
-                                    class="blog-top d-flex align-items-center justify-content-between flex-wrap flex-column flex-lg-row"
+                                    className ="blog-top d-flex align-items-center justify-content-between flex-wrap flex-column flex-lg-row"
                                 >
                                     <div>
-                                        <p class="m-0 text-1 fs-6 fw-medium primary-color">
+                                        <p className ="m-0 text-1 fs-6 fw-medium primary-color">
                                             Job-Hunting Chandrayaan 3
                                         </p>
                                     </div>
                                     <nav aria-label="breadcrumb">
-                                        <ol class="breadcrumb mb-0">
-                                            <li class="breadcrumb-item">
+                                        <ol className ="breadcrumb mb-0">
+                                            <li className ="breadcrumb-item">
                                                 <Link to="/blog">Blogs</Link>
                                             </li>
-                                            <li class="breadcrumb-item active" aria-current="page">
+                                            <li className ="breadcrumb-item active" aria-current="page">
                                                 Others
                                             </li>
                                         </ol>
                                     </nav>
-                                    <div class="d-none d-lg-block">
-                                        <Link to="/" class="">Home</Link>
+                                    <div className ="d-none d-lg-block">
+                                        <Link to="/" className ="">Home</Link>
                                     </div>
                                 </div>
-                                <div class="container my-5 overflow-hidden">
+                                <div className ="container my-5 overflow-hidden">
                                     <img
                                         src="../assets/img/Blog/Blog2.png"
-                                        class="mb-3"
+                                        className ="mb-3"
                                         alt="Emerging technological"
                                         data-aos="zoom-in"
                                         data-aos-duration="500"
                                     />
                                     <p
-                                        class="secondary-text mb-5"
+                                        className ="secondary-text mb-5"
                                         data-aos="fade-up"
                                         data-aos-duration="600"
                                     >
-                                        <span class="fl">I</span>ndia (On 23rd August 2023) Achieved A
+                                        <span className ="fl">I</span>ndia (On 23rd August 2023) Achieved A
                                         Historic Milestone By Successfully Landing Their Chandrayaan 3
                                         Lunar Lander On The Moon's Surface. This Tremendous
                                         Accomplishment Required Overcoming Complex Technological
@@ -123,17 +123,17 @@ function Lessonsfromthechandrayaan() {
                                         Rewarding IT Job.
                                     </p>
                                     <div>
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h1 class="primary-header text-center mb-3">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h1 className ="primary-header text-center mb-3">
                                                 Lessons From The Chandrayaan 3 Project
                                             </h1>
                                         </div>
                                         <br />
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 class="secondary-header">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h2 className ="secondary-header">
                                                 Don't Orbit Aimlessly - Set A Clear Objective
                                             </h2>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Chandrayaan 3 Has A Crystal Clear Objective - To
                                                 Successfully Demonstrate India's Ability To Softly Land A
                                                 Rover On The Moon's Surface. With This Specific Goal Guiding
@@ -141,11 +141,11 @@ function Lessonsfromthechandrayaan() {
                                                 Fuel Needs, And Launch Parameters To Achieve It
                                             </p>
                                         </div>
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 class="primary-text">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h2 className ="primary-text">
                                                 As An IT Job Seeker, You Need Equal Clarity.
                                             </h2>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Define Exactly What Role You Want - Front-End Developer,
                                                 Data Scientist, Security Analyst - Along With The Core
                                                 Skills Needed And Preferred Companies Or Locations. This
@@ -158,11 +158,11 @@ function Lessonsfromthechandrayaan() {
                                                 Inch You Closer To Your Target.
                                             </p>
                                         </div>
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 class="secondary-header">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h2 className ="secondary-header">
                                                 Be Adaptable And Learn From Failure
                                             </h2>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Chandrayaan 2 In 2019 Came Agonizingly Close To Successfully
                                                 Landing Its Vikram Rover On The Lunar South Pole Before
                                                 Contact Was Lost Right Before Touchdown. While
@@ -181,22 +181,22 @@ function Lessonsfromthechandrayaan() {
                                                 Working Toward Another Lunar Landing
                                             </p>
                                         </div>
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 class="secondary-header">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h2 className ="secondary-header">
                                                 Perform Under Precise Parameters and Pressure
                                             </h2>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Rocket launches have narrow windows of opportunity and teams
                                                 must perform complex launch operations perfectly in the
                                                 limited timeframes. One minor issue with any of the numerous
                                                 staged procedures and the entire timeline gets thrown off.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Interviews and tests during your job hunt also involve
                                                 pressure, just with slightly more breathing room than a
                                                 rocket launch!
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 But like ISRO engineers, prepare meticulously to master the
                                                 parameters. Use sites like LeetCode to practice coding
                                                 interview questions until your responses are seamless.
@@ -209,11 +209,11 @@ function Lessonsfromthechandrayaan() {
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 class="primary-header text-center mb-3">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h2 className ="primary-header text-center mb-3">
                                                 Triple Check All Systems Thoroughly
                                             </h2>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Leaving anything to chance is simply not an option for ISRO.
                                                 Engineers run endless simulations of the full launch
                                                 sequence and conduct exhaustive checks of each individual
@@ -222,48 +222,48 @@ function Lessonsfromthechandrayaan() {
                                                 between mission success and failure.
                                             </p>
                                         </div>
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 class="secondary-header">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h2 className ="secondary-header">
                                                 Similarly, prepare for your IT job hunt with meticulous
                                                 thoroughness.
                                             </h2>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 ➔ Polish your resume and then tweak it some more.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 ➔ Research target companies deeply and customize your pitch
                                                 accordingly.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 ➔ Rehearse and refine interview answers until they feel
                                                 effortless.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 ➔ Develop impressive work samples and projects to showcase
                                                 skills.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 ➔ Conduct mock tests to identify any weak points in your
                                                 knowledge so you can fill those gaps before takeoff.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Leave no room for surprises or errors once job opportunities
                                                 arise.
                                             </p>
                                         </div>
-                                        <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 class="secondary-header">Collaborate for Success</h2>
-                                            <p class="secondary-text">
+                                        <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                            <h2 className ="secondary-header">Collaborate for Success</h2>
+                                            <p className ="secondary-text">
                                                 From top scientists to ground crews to complex partnerships
                                                 across space agencies, Chandrayaan 3 brings together
                                                 expertise across organizations and disciplines. These
                                                 collaborative efforts combine capabilities for an increased
                                                 chance of mission success.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Finding your ideal IT position also requires collaboration.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 Attend local tech events and conferences to build
                                                 connections. Follow industry leaders on Twitter and
                                                 LinkedIn. Get referrals from past coworkers who have moved
@@ -274,7 +274,7 @@ function Lessonsfromthechandrayaan() {
                                                 significantly increase your chances by cooperatively
                                                 leveraging others’ networks and knowledge.
                                             </p>
-                                            <p class="secondary-text">
+                                            <p className ="secondary-text">
                                                 There you have it - five expanded lessons from Chandrayaan 3
                                                 that can guide your quest for the ideal IT job closer to
                                                 home. Set your sights on a specific role, be adaptable,
@@ -284,17 +284,17 @@ function Lessonsfromthechandrayaan() {
                                             </p>
                                         </div>
                                     </div>
-                                    {/* <!-- <div class="d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-duration="600">
-                            <button class="button-74" role="button" data-bs-toggle="modal" data-bs-target="#share">Share
+                                    {/* <!-- <div className ="d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-duration="600">
+                            <button className ="button-74" role="button" data-bs-toggle="modal" data-bs-target="#share">Share
                                 this post</button>
                         </div> --> */}
                                     {/* <!-- share blog-----------------------     --> */}
-                                    <div id="share-blog" class=""></div>
-                                    <div class="recent-post"></div>
+                                    <div id="share-blog" className =""></div>
+                                    <div className ="recent-post"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="ad-blog"></div>
+                        <div className ="ad-blog"></div>
                     </div>
                 </section>
                 <Footer />

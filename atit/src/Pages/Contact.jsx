@@ -126,14 +126,14 @@ const handleSubmit = async (e) => {
       <Navbar />
       <section
         style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
-        class="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white mb-5">
-        <div class="container z-3 text-center">
-          <div class="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row">
+        className ="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white mb-5">
+        <div className ="container z-3 text-center">
+          <div className ="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row">
             <div>
-              <h1 data-aos="fade-up" data-aos-duration="500" class="primary-header">
-                Contact <span class="primary-color">Us</span>
+              <h1 data-aos="fade-up" data-aos-duration="500" className ="primary-header">
+                Contact <span className ="primary-color">Us</span>
               </h1>
-              <p class="text-light fs-6 text-capitalize fw-light" data-aos="fade-up" data-aos-duration="700">Thank
+              <p className ="text-light fs-6 text-capitalize fw-light" data-aos="fade-up" data-aos-duration="700">Thank
                 you for your interest in getting in touch with us. We value your feedback, questions, and
                 suggestions.</p>
               <nav
