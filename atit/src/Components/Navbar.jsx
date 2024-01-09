@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import React, { useEffect,} from 'react'
+import {NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
-function Navbar({ coursePage ,blogPage}) {
+function  Navbar({ coursePage ,blogPage}) {
 
     console.log({ coursePage ,blogPage})
     const canvasButton = () => {
