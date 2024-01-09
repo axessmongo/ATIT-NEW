@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 import { Link } from 'react-router-dom'
+import Swiper from '../../Components/Swiper'
 function Mean() {
     return (
         <div>
@@ -341,7 +342,7 @@ function Mean() {
 
                 </div>
             </div>
-            {/* <div><Swiper /></div> */}
+            <div><Swiper /></div>
             <div>
                 <Footer />
             </div>

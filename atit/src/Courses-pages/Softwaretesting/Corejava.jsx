@@ -470,7 +470,7 @@ function Corejava() {
                     </section>
                 </div>
             </div>
-            {/* <div><Swiper /></div> */}
+            <div><Swiper /></div>
             <div>
                 <Footer />
             </div>

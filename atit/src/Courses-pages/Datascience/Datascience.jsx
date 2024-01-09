@@ -344,7 +344,9 @@ function Datascience() {
 
                 </div>
             </div>
-            {/* <div><Swiper /></div> */}
+            <div>
+                <Swiper/>
+            </div>
             <div>
                 <Footer />
             </div>

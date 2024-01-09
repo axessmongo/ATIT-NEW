@@ -9,6 +9,8 @@ function Swiper() {
     };
     return (
         <div>
+            <p className='text-center text-capitalize mb-3 display-6 linear-gradient-text fw-semibold'>Genuine Feedback</p>
+            <p className='text-center mt-2'>Outcome Of Our Quality Training</p>
             <div id="carouselExampleInterval" class="carousel slide pb-5 mb-5" data-bs-ride="carousel">
                 <div class="carousel-indicators d-flex mt-5 pt-5">
                     <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" style={buttonStyle} class="active" aria-current="true" aria-label="Slide 1"></button>

@@ -44,8 +44,8 @@ function Devops() {
                                     aria-label="breadcrumb"
                                 >
                                     <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><Link to= "/">Home</Link></li>
-                                        <li class="breadcrumb-item"><Link to= "/courses">Courses</Link></li>
+                                        <li class="breadcrumb-item"><Link to="/">Home</Link></li>
+                                        <li class="breadcrumb-item"><Link to="/courses">Courses</Link></li>
                                         <li
                                             class="breadcrumb-item active text-white"
                                             aria-current="page"
@@ -508,7 +508,9 @@ function Devops() {
 
                 </div>
             </div>
-            {/* <div><Swiper /></div> */}
+            <div>
+                <Swiper />
+            </div>
             <div>
                 <Footer />
             </div>

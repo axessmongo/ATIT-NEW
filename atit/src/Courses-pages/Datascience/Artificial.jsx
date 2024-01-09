@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar'
-import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 import { Link } from 'react-router-dom'
+import Swiper from '../../Components/Swiper'
 
 function Artificial() {
     return (
@@ -396,7 +396,10 @@ function Artificial() {
 
                 </div>
             </div>
-            {/* <div><Swiper/></div> */}
+            <div>
+                <Swiper/>
+            </div>
+            
             <div>
                 <Footer />
             </div>
