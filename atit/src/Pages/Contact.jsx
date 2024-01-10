@@ -28,7 +28,9 @@ function Contact() {
 
   const handleChange = (e) => {
     let { name, value } = e.target;
-    value = value.trim()
+    if (name === 'phone') {
+     value = value.replace(/\D/g, '').slice(0, 10);
+  }
     setFormData({
         ...formData,
         [name]: value,
@@ -41,7 +43,7 @@ const validateField = (name, value) => {
         case 'name':
             setErrors({
                 ...errors,
-                name: value.length === 0 ?  'Name is required': /\d/.test(value) ? 'Invalid name' : '',
+                name: value.length === 0 ?  'Name is required':  /[^A-Za-z\s.]/.test(value) ? 'Invalid name' : '',
             });
             break;
         case 'email':
@@ -59,7 +61,7 @@ const validateField = (name, value) => {
                 ...errors,
                 phone:
                 value.length === 0
-                ? 'Phone number is required'
+                ? 'Phone is required'
                 :  value.length !== 10 || !/^[6-9]\d+$/.test(value)? 'Invalid phone' : '',
             });
             break;
@@ -71,7 +73,7 @@ const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (errors.name || errors.email || errors.phone) return
-    if (!formData.name || !formData.email || !formData.phone) {
+    if (!formData.name.trim() || !formData.email.trim() || !formData.phone.trim()) {
       setErrors({
         name: !formData.name ? 'Name is required.' : '',
         email: !formData.email ? 'Email is required.' : '',
