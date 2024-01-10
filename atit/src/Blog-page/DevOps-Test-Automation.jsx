@@ -57,8 +57,8 @@ function DevOpsTestAutomation() {
                                             className="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
                                             <i className="bi bi-caret-down-fill trans"></i></button>
                                         <ul className="blog-drop-menu list-unstyled">
-                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/emergingtechnologies">Emerging
-                                                Technologies</Link>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link text-capitalize" to="/blog/emergingtechnologies">DevOps-test-automation
+                                            </Link>
                                             </li>
                                             <li className="nav-item"><Link className="blog-drop-item nav-link active" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
                                         </ul>
@@ -85,7 +85,7 @@ function DevOpsTestAutomation() {
                                     >
                                         <div>
                                             <p className="m-0 text-1 fs-6 fw-medium primary-color">
-                                                change_in_career
+                                                DevOps-test-Automation
                                             </p>
                                         </div>
                                         <nav aria-label="breadcrumb">
