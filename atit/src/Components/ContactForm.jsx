@@ -23,6 +23,9 @@ export default function ContactForm() {
         if (name === 'phone') {
             value = value.replace(/\D/g, '').slice(0, 10);
          }
+         if (name === 'name') {
+            value = value.replace(/\./g, ''); 
+        }
         setFormData({
             ...formData,
             [name]: value,
@@ -36,7 +39,7 @@ export default function ContactForm() {
             case 'name':
                 setErrors({
                     ...errors,
-                    name: value.length === 0 ? 'Name is required' : /[^A-Za-z\s.]/.test(value) ? 'Invalid name' : '',
+                    name: value.length === 0 ? 'Name is required' : /[^A-Za-z\s]/.test(value) ? 'Invalid name' : '',
                 });
                 break;
             case 'email':

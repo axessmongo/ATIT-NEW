@@ -31,6 +31,9 @@ function Contact() {
     if (name === 'phone') {
      value = value.replace(/\D/g, '').slice(0, 10);
   }
+  if (name === 'name') {
+    value = value.replace(/\./g, ''); 
+}
     setFormData({
         ...formData,
         [name]: value,

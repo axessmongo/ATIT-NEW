@@ -891,35 +891,7 @@ const Courses = () => {
                       </div>
                     </Link>
                   </div>
-                  <div className ="col-md-6 col-lg-4">
-                    <Link to="awsservice"
-                      className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
-                      <div className ="w-100 common-card-image">
-                        <h4 className ="course-card17 text-white text-center">AWS-Service</h4>
-                      </div>
-                      <div className ="w-100 p-4 common-card-content">
-                        <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
-                        <h6 className ="mb-4 text-black">600+ Successful Learners</h6>
-                        <div className ="w-100 d-flex align-items-center flex-wrap">
-                          <div className ="rating-block">
-                            <div className ="rating-star">
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                            </div>
-                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 35 LAKHS</p>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
+                 
                   <div className ="col-md-6 col-lg-4">
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
@@ -1065,35 +1037,7 @@ const Courses = () => {
                       </div>
                     </Link>
                   </div>
-                  <div className ="col-md-6 col-lg-4">
-                    <Link to="docker"
-                      className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
-                      <div className ="w-100 common-card-image">
-                        <h4 className ="course-card13 text-white text-center">Docker</h4>
-                      </div>
-                      <div className ="w-100 p-4 common-card-content">
-                        <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
-                        <h6 className ="mb-4 text-black">3000+ Successful Learners</h6>
-                        <div className ="w-100 d-flex align-items-center flex-wrap">
-                          <div className ="rating-block">
-                            <div className ="rating-star">
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                            </div>
-                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 30 LAKHS</p>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
+                  
                   <div className ="col-md-6 col-lg-4">
                     <Link to="git"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
@@ -1548,6 +1492,64 @@ const Courses = () => {
                     </div>
                   </Link>
                 </div>
+                <div className ="col-md-6 col-lg-4">
+                    <Link to="docker"
+                      className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
+                      <div className ="w-100 common-card-image">
+                        <h4 className ="course-card13 text-white text-center">Docker</h4>
+                      </div>
+                      <div className ="w-100 p-4 common-card-content">
+                        <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
+                        <h6 className ="mb-4 text-black">3000+ Successful Learners</h6>
+                        <div className ="w-100 d-flex align-items-center flex-wrap">
+                          <div className ="rating-block">
+                            <div className ="rating-star">
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                            </div>
+                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 30 LAKHS</p>
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                <div className ="col-md-6 col-lg-4">
+                    <Link to="awsservice"
+                      className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
+                      <div className ="w-100 common-card-image">
+                        <h4 className ="course-card17 text-white text-center">AWS-Service</h4>
+                      </div>
+                      <div className ="w-100 p-4 common-card-content">
+                        <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
+                        <h6 className ="mb-4 text-black">600+ Successful Learners</h6>
+                        <div className ="w-100 d-flex align-items-center flex-wrap">
+                          <div className ="rating-block">
+                            <div className ="rating-star">
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                              <img src="https://assets.testleaf.com/assets/img/star.svg"
+                                alt="Rating Icon" />
+                            </div>
+                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 35 LAKHS</p>
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
               </div>
             </div>
           </div>
