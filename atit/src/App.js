@@ -52,6 +52,7 @@ import MainBlog from "./Pages/MainBlog";
 import Swiper from "./Components/Swiper";
 import DevOpsTestAutomation from "./Blog-page/DevOps-Test-Automation";
 import AutomatedTesting from "./Blog-page/Automated-Testing";
+import Manualtestingautomationtesting from "./Blog-page/Manualtesting-automationtesting";
 
 function App() {
 
@@ -147,6 +148,7 @@ function App() {
           />
           <Route path="devopstestautomation" element={<DevOpsTestAutomation/>} />
           <Route path="automatedTesting" element={<AutomatedTesting/>} />
+          <Route path="manualtestingautomationtesting" element={<Manualtestingautomationtesting/>} />
         </Route>
         <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="*" element={<NoPage />} />

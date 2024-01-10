@@ -560,6 +560,31 @@ const Blog = () => {
                                             Automated Testing
                                         </Link>
                                     </div>
+                                    <div
+                                        class="col-md-6 col-xl-4 pb-5"
+                                        data-aos="fade-right"
+                                        data-aos-duration="900"
+                                    >
+                                        <Link to="manualtestingautomationtesting" class="">
+                                            <div class="box rounded-5">
+                                                <img
+                                                    src="./assets/img/Blog/manualtesting&autmationtesting.jpg"
+                                                    alt="manualtestingautomationtesting"
+                                                />
+                                                <div class="box-content">
+                                                    <h2 class="text-decoration-none m-0 blog-category">
+                                                        Technical-Skills
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link
+                                            to="manualtestingautomationtesting"
+                                            class="text-decoration-none blog-title blog-title"
+                                        >
+                                            Manual & Automation testing
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
