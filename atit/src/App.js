@@ -50,6 +50,8 @@ import Pageobject from "./Courses-pages/Softwaretesting/Pageobject";
 import Testng from "./Courses-pages/Softwaretesting/testng";
 import MainBlog from "./Pages/MainBlog";
 import Swiper from "./Components/Swiper";
+import DevOpsTestAutomation from "./Blog-page/DevOps-Test-Automation";
+import AutomatedTesting from "./Blog-page/Automated-Testing";
 
 function App() {
 
@@ -143,6 +145,8 @@ function App() {
             path="competitiveJobMarket"
             element={<CompetitiveJobMarket />}
           />
+          <Route path="devopstestautomation" element={<DevOpsTestAutomation/>} />
+          <Route path="automatedTesting" element={<AutomatedTesting/>} />
         </Route>
         <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="*" element={<NoPage />} />
