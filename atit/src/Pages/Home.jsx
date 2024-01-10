@@ -10,44 +10,13 @@ import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 import LeftBar from '../Components/LeftBar'
 function Home({setContactState}) {
 
-  // useEffect(() => {
-  //   // This will run after the component has been rendered
-
-  //   // Get the elements by class name
-  //   const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
-  //   const heroBannerElements = document.getElementsByClassName("hero-banner");
-
-  //   // Check if elements exist before trying to access their properties
-  //   if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
-  //     // Calculate the new margin-bottom value
-  //     const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
-
-  //     // Update the style of the hero-banner element
-  //     heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
-  //   }
-  // }, []);
-
-
-
-  //   const cardOverlayElements = document.getElementsByClassName("card-img-overlay");
-  //   const heroBannerElements = document.getElementsByClassName("hero-banner");
-
-  //   // Check if elements exist before trying to access their properties
-  //   if (cardOverlayElements.length > 0 && heroBannerElements.length > 0) {
-  //     // Calculate the new margin-bottom value
-  //     const newMarginBottom = cardOverlayElements[0].offsetHeight + 100;
-
-  //     // Update the style of the hero-banner element
-  //     heroBannerElements[0].style.marginBottom = `${newMarginBottom}px`;
-  //   }
-
   useEffect(() => {
     const contactElement = document.querySelector('[data-bs-target="#contact"]');
     if (contactElement) {
       setContactState(true)
       contactElement.click();
     }
-  }, 500)
+  })
 
   return (
     <div>

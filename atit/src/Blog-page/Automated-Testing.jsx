@@ -3,12 +3,12 @@ import Footer from '../Components/Footer'
 import "../css/blognew.css"
 import { Link } from 'react-router-dom'
 import RecentBlogs from '../Components/RecentBlogs'
-
+  
 function AutomatedTesting() {
     return (
         <div>
             <div>
-                <div className="overflow-x-hidden p-0 individualBlogs" blog-name="Devos">
+                <div className="overflow-x-hidden p-0 individualBlogs" blog-name="automatedTesting">
                     <section className="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
                         <div className="row g-0">
                             <div className="left-blog col-lg-2 shadow1 ps-lg-3 z-3" data-aos="fade-right" data-aos-duration="700">
@@ -57,10 +57,12 @@ function AutomatedTesting() {
                                             className="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
                                             <i className="bi bi-caret-down-fill trans"></i></button>
                                         <ul className="blog-drop-menu list-unstyled">
-                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/emergingtechnologies">Automated
-                                                Testing</Link>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/emergingtechnologies">emerging technologies                                           </Link>
                                             </li>
-                                            <li className="nav-item"><Link className="blog-drop-item nav-link active" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/devopstestautomation">DevOps test automation</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link active" to="/blog/automatedTesting">automated Testing</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/manualtestingautomationtesting">manual And automation testing</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item blog-drop position-relative">
@@ -105,7 +107,7 @@ function AutomatedTesting() {
 
                                     <div className="container my-5 overflow-hidden">
                                         <img
-                                            src="../assets/img/Blog/Automation Testing.jpg"
+                                            src="../assets/img/Blog/Automation-Testing.jpg"
                                             class="mb-3"
                                             alt="Emerging technological"
                                             data-aos="zoom-in"
@@ -236,7 +238,8 @@ function AutomatedTesting() {
 
                                     </div>
                                 </div>
-                                <div className="ad-blog"></div>
+                                <div id="share-blog" class=""></div>
+                                     <RecentBlogs />
                             </div>
                             <div className="ad-blog"></div>
                         </div>

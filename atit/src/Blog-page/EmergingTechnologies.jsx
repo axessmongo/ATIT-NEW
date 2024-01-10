@@ -56,11 +56,15 @@ function EmergingTechnologies() {
                                         className ="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
                                         <i className ="bi bi-caret-down-fill trans"></i></button>
                                     <ul className ="blog-drop-menu list-unstyled">
-                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link active" to="/blog/emergingtechnologies">Emerging
-                                            Technologies</Link>
-                                        </li>
-                                        <li className ="nav-item"><Link className ="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
-                                    </ul>
+                                    <li className="nav-item"><Link className="blog-drop-item nav-link active" to="/blog/emergingtechnologies">emerging technologies
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/devopstestautomation">DevOps test automation</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/automatedTesting">automated Testing</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/manualtestingautomationtesting">manual And automation testing</Link></li>
+                                      
+                                     </ul>
                                 </li>
                                 <li className ="nav-item blog-drop position-relative">
                                     <button

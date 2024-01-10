@@ -3,14 +3,14 @@ import Footer from "../Components/Footer";
 import "../css/blognew.css";
 import { Link } from "react-router-dom";
 import RecentBlogs from "../Components/RecentBlogs";
-
+ 
 function Manualtestingautomationtesting() {
   return (
     <div>
       {" "}
       <div
         className="overflow-x-hidden p-0 individualBlogs"
-        blog-name="emerging_tech"
+        blog-name="manualAutomation"
       >
         <section className="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
           <div className="row g-0">
@@ -133,22 +133,13 @@ function Manualtestingautomationtesting() {
                     <i className="bi bi-caret-down-fill trans"></i>
                   </button>
                   <ul className="blog-drop-menu list-unstyled">
-                    <li className="nav-item">
-                      <Link
-                        className="blog-drop-item nav-link active"
-                        to="/blog/emergingtechnologies"
-                      >
-                        Emerging Technologies
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="blog-drop-item nav-link"
-                        to="/blog/understandingTheItIndustry"
-                      >
-                        Change In Career
-                      </Link>
-                    </li>
+                  <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/emergingtechnologies">emerging technologies                                           </Link>
+                                            </li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/devopstestautomation">DevOps test automation</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/automatedTesting">automated Testing</Link></li>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link active" to="/blog/manualtestingautomationtesting">manual And automation testing</Link></li>
+                                      
                   </ul>
                 </li>
                 <li className="nav-item blog-drop position-relative">

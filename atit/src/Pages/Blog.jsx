@@ -543,7 +543,7 @@ const Blog = () => {
                                         <Link to="automatedTesting" class="">
                                             <div class="box rounded-5">
                                                 <img
-                                                    src="./assets/img/Blog/Automation Testing.jpg"
+                                                    src="./assets/img/Blog/Automation-Testing.jpg"
                                                     alt="Devopstesting"
                                                 />
                                                 <div class="box-content">

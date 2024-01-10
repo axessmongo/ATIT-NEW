@@ -9,7 +9,7 @@ const RecentBlogs = () => {
         elementsToRemove.forEach((element) => {
             element.remove();
         });
-    }, []);
+    }, []); 
     return (
         <div className='recent-post'>
             <hr/>
@@ -57,7 +57,7 @@ const RecentBlogs = () => {
                 </Link>
             </div>
 
-            <div className="mb-3 lucrative-it-job-opportunities-in-india.html" data-aos="fade-left" data-aos-duration="600">
+            <div className="mb-3 exploringlucrative" data-aos="fade-left" data-aos-duration="600">
                 <Link to="/blog/exploringlucrative"
                     className="post row align-items-center justify-content-center text-decoration-none">
                     <div className="col-8 col-lg-4">
@@ -97,7 +97,7 @@ const RecentBlogs = () => {
                 </Link>
             </div>
 
-            <div className="mb-3 change_in_career" data-aos="fade-left" data-aos-duration="600">
+            <div className="mb-3 understandingTheItIndustry" data-aos="fade-left" data-aos-duration="600">
                 <Link to="/blog/understandingTheItIndustry"
                     className="post row align-items-center justify-content-center text-decoration-none">
                     <div className="col-8 col-lg-4">
@@ -117,7 +117,7 @@ const RecentBlogs = () => {
                 </Link>
             </div>
 
-            <div className="mb-3 common_pitfalls" data-aos="fade-right" data-aos-duration="600">
+            <div className="mb-3 ultimateGuide" data-aos="fade-right" data-aos-duration="600">
                 <Link to="/blog/ultimateGuide"
                     className="post row align-items-center justify-content-center text-decoration-none">
                     <div className="col-8 col-lg-4">
@@ -157,7 +157,7 @@ const RecentBlogs = () => {
                 </Link>
             </div>
 
-            <div className="mb-3 job_market" data-aos="fade-right" data-aos-duration="600">
+            <div className="mb-3 competitiveJobMarket" data-aos="fade-right" data-aos-duration="600">
                 <Link to="/blog/competitiveJobMarket"
                     className="post row align-items-center justify-content-center text-decoration-none">
                     <div className="col-8 col-lg-4">
@@ -197,7 +197,7 @@ const RecentBlogs = () => {
                 </Link>
             </div>
 
-            <div className="mb-3 professional_exam" data-aos="fade-right" data-aos-duration="600">
+            <div className="mb-3 strategyForSuccess" data-aos="fade-right" data-aos-duration="600">
                 <Link to="/blog/strategyForSuccess"
                     className="post row align-items-center justify-content-center text-decoration-none">
                     <div className="col-8 col-lg-4">
@@ -293,6 +293,66 @@ const RecentBlogs = () => {
                     </div>
                     <div className="col-4">
                         <img src="../assets/img/Blog/Blog12.png" alt="Clear Technical Interview image" />
+                    </div>
+                </Link>
+            </div>
+            <div className="mb-3 manualAutomation" data-aos="fade-right" data-aos-duration="600">
+                <Link to="/blog/manualtestingautomationtesting"
+                    className="post row align-items-center justify-content-center text-decoration-none">
+                    <div className="col-8 col-lg-4">
+                        <p className="light-text">Tech Skills</p>
+                        <h1 className="secondary-header mb-0 text-dark fw-bold">
+                        Manual and Automation testing
+                        </h1>
+                    </div>
+                    <div className="d-none d-lg-block col-lg-4">
+                        <p className="secondary-text mb-0">
+                        The distinction between automated and manual testing is
+                        that the former involves carrying out the tests
+                        step-by-step without the use of tools, while the latter
+                        uses automation tools and frameworks to carry out the
+                        tests automatically.
+                        </p>
+                    </div>
+                    <div className="col-4">
+                        <img src="../assets/img/Blog/manualtesting&autmationtesting.jpg" alt=" Manual and Automation testing" />
+                    </div>
+                </Link>
+            </div>
+            <div className="mb-3 automatedTesting" data-aos="fade-right" data-aos-duration="600">
+                <Link to="/blog/automatedTesting"
+                    className="post row align-items-center justify-content-center text-decoration-none">
+                    <div className="col-8 col-lg-4">
+                        <p className="light-text">Tech Skills</p>
+                        <h1 className="secondary-header mb-0 text-dark fw-bold">
+                        Automated-Testing
+                        </h1>
+                    </div>
+                    <div className="d-none d-lg-block col-lg-4">
+                        <p className="secondary-text mb-0">
+                        Automation testing is the process of testing software using tools and technologies in order to minimise testing effort and deliver capability more quickly and cheaply. It facilitates the creation of higher-quality software with less work
+                        </p>
+                    </div>
+                    <div className="col-4">
+                        <img src="../assets/img/Blog/Automation-Testing.jpg" alt="Automation testing" />
+                    </div>
+                </Link>
+            </div>
+            <div className="mb-3 DevOps-test" data-aos="fade-right" data-aos-duration="600">
+                <Link to="/blog/devopstestautomation"
+                    className="post row align-items-center justify-content-center text-decoration-none">
+                    <div className="col-8 col-lg-4">
+                        <p className="light-text">Tech Skills</p>
+                        <h1 className="secondary-header mb-0 text-dark fw-bold">
+                        DevOps-test-Automation
+                        </h1>
+                    </div>
+                    <div className="d-none d-lg-block col-lg-4">
+                        <p className="secondary-text mb-0">
+                        UnderHow DevOps Test Automation Improves Software Reliability and Qualitystanding The IT Industry </p>
+                    </div>
+                    <div className="col-4">
+                        <img src="../assets/img/Blog/Devopstesting.jpg" alt="Devopstesting" />
                     </div>
                 </Link>
             </div>
