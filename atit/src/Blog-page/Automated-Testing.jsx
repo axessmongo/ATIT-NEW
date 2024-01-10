@@ -85,7 +85,7 @@ function AutomatedTesting() {
                                     >
                                         <div>
                                             <p className="m-0 text-1 fs-6 fw-medium primary-color">
-                                                change_in_career
+                                                Automated-Testing
                                             </p>
                                         </div>
                                         <nav aria-label="breadcrumb">
