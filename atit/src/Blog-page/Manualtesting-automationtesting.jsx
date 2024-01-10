@@ -184,8 +184,8 @@ function Manualtestingautomationtesting() {
                   className="blog-top d-flex align-items-center justify-content-between flex-wrap flex-column flex-lg-row"
                 >
                   <div>
-                    <p className="m-0 text-1 fs-6 fw-medium primary-color">
-                      Emerging Technologies
+                    <p className="m-0 text-1 fs-6 fw-medium primary-color text-capitalize">
+                      manual-testing and automation-testing
                     </p>
                   </div>
                   <nav aria-label="breadcrumb">
@@ -208,13 +208,8 @@ function Manualtestingautomationtesting() {
                   </div>
                 </div>
                 <div className="container my-5 overflow-hidden">
-                  <img
-                    src="../assets/img/Blog/Blog4.png"
-                    className="mb-3"
-                    alt="Emerging technological"
-                    data-aos="zoom-in"
-                    data-aos-duration="500"
-                  />
+                <img src="../assets/img/Blog/manualtesting&autmationtesting.jpg" class="mb-3" alt="Emerging technological"
+                            data-aos="zoom-in" data-aos-duration="500"/>
                   <p
                     className="secondary-text mb-5"
                     data-aos="fade-up"

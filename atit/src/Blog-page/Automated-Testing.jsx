@@ -57,8 +57,8 @@ function AutomatedTesting() {
                                             className="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
                                             <i className="bi bi-caret-down-fill trans"></i></button>
                                         <ul className="blog-drop-menu list-unstyled">
-                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/emergingtechnologies">Emerging
-                                                Technologies</Link>
+                                            <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/emergingtechnologies">Automated
+                                                Testing</Link>
                                             </li>
                                             <li className="nav-item"><Link className="blog-drop-item nav-link active" to="/blog/understandingTheItIndustry">Change In Career</Link></li>
                                         </ul>
