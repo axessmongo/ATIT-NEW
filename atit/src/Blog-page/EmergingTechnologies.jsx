@@ -65,8 +65,8 @@ function EmergingTechnologies() {
                                             <li className="nav-item"><Link className="blog-drop-item nav-link" to="/blog/manualtestingautomationtesting">manual And automation testing</Link></li>
                                       
                                      </ul>
-                                </li>
-                                <li className ="nav-item blog-drop position-relative">
+                                </li>   
+                                <li className ="nav-item blog-drop position-relative ">
                                     <button
                                         className ="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
                                         Others <i className ="bi bi-caret-down-fill trans"></i></button>
