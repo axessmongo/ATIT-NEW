@@ -199,7 +199,7 @@ function Manualtestingautomationtesting() {
                   </div>
                 </div>
                 <div className="container my-5 overflow-hidden">
-                <img src="../assets/img/Blog/manualtesting&autmationtesting.jpg" class="mb-3" alt="Emerging technological"
+                <img src="../assets/img/Blog/manualtesting&autmationtesting.jpg" className="mb-3" alt="Emerging technological"
                             data-aos="zoom-in" data-aos-duration="500"/>
                   <p
                     className="secondary-text mb-5"
@@ -537,7 +537,7 @@ function Manualtestingautomationtesting() {
                                 this post</button>
                         </div> */}
 
-                  <div id="share-blog" class=""></div>
+                  <div id="share-blog" className=""></div>
                   <RecentBlogs />
                 </div>
               </div>

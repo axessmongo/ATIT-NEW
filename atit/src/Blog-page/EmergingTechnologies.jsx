@@ -313,7 +313,7 @@ function EmergingTechnologies() {
                                             this post</button>
                                     </div> */}
 
-                                    <div id="share-blog" class=""></div>
+                                    <div id="share-blog" className=""></div>
                                     <RecentBlogs/>
 
                                 </div>

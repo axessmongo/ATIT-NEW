@@ -36,7 +36,7 @@ const Courses = () => {
   useEffect(() => {
     // Function to handle storage changes
     const handleStorageChange = (event) => {
-      console.log("wwwwwww")
+     
       if (event.key === 'courseList') {
         // Update the state with the new value from sessionStorage
         setActiveTab(event.newValue);
@@ -184,7 +184,7 @@ const Courses = () => {
           <div className ="tab-content pb-5" id="pills-tabContent ">
             {/* <!-- ALL SECTIONS --> */}
             <div className ={`tab-pane fade ${activeTab === 'All' ? 'show active' : ''}`} id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab"
-              tabindex="0">
+              tabIndex="0">
               <div className ="container-fluid">
                 <div className ="row g-5">
                   <div className ="col-md-6 col-lg-4">
@@ -859,7 +859,7 @@ const Courses = () => {
             </div>
             {/* <!-- TESTING SECTIONS --> */}
             <div className ={`tab-pane fade ${activeTab === 'Testing' ? 'show active' : ''}`} id="pills-Testing" role="tabpanel" aria-labelledby="pills-Testing-tab"
-              tabindex="0">
+              tabIndex="0">
               <div className ="container-fluid">
                 <div className ="row g-5">
                   <div className ="col-md-6 col-lg-4">
@@ -1246,7 +1246,7 @@ const Courses = () => {
             </div>
             {/* <!-- DEVELOPMENT SECTIONS --> */}
             <div className ={`tab-pane fade ${activeTab === 'Development' ? 'show active' : ''}`} id="pills-Development" role="tabpanel"
-              aria-labelledby="pills-Development-tab" tabindex="0">
+              aria-labelledby="pills-Development-tab" tabIndex="0">
               <div className ="row g-5">
                 <div className ="col-md-6 col-lg-4">
                   <Link to="java"
@@ -1368,7 +1368,7 @@ const Courses = () => {
             </div>
             {/* <!-- DATASCIENCE SECTIONS --> */}
             <div className ={`tab-pane fade ${activeTab === 'AI' ? 'show active' : ''}`} id="pills-science" role="tabpanel" aria-labelledby="pills-science-tab"
-              tabindex="0">
+              tabIndex="0">
               <div className ="row g-5">
                 <div className ="col-md-6 col-lg-4">
                   <Link to="artificial"
@@ -1461,7 +1461,7 @@ const Courses = () => {
             </div>
             {/* <!-- DEVOPS SECTIONS --> */}
             <div className ={`tab-pane fade ${activeTab === 'DevOps' ? 'show active' : ''}`} id="pills-Devops" role="tabpanel" aria-labelledby="pills-Devops-tab"
-              tabindex="0">
+              tabIndex="0">
               <div className ="row g-5">
                 <div className ="col-md-6 col-lg-4">
                   <Link to="devops"

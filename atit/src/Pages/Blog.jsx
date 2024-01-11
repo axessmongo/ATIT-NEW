@@ -124,7 +124,7 @@ const Blog = () => {
 
                     <div className="tab-content text-center" id="pills-tabContent">
                         <div className="tab-pane fade show active" id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab"
-                            tabindex="0">
+                            tabIndex="0">
                             <div className="container">
                                 <div className="row" id="loadMoreSection">
                                     <div className="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
@@ -325,7 +325,7 @@ const Blog = () => {
                                 </div> */}
                             </div>
                         </div>
-                        <div className="tab-pane fade" id="pills-IT" role="tabpanel" aria-labelledby="pills-IT-tab" tabindex="0">
+                        <div className="tab-pane fade" id="pills-IT" role="tabpanel" aria-labelledby="pills-IT-tab" tabIndex="0">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
@@ -398,7 +398,7 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="tab-pane fade" id="pills-Interviews" role="tabpanel" aria-labelledby="pills-Interviews-tab"
-                            tabindex="0">
+                            tabIndex="0">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
@@ -479,7 +479,7 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="tab-pane fade" id="pills-Technical" role="tabpanel" aria-labelledby="pills-Technical-tab"
-                            tabindex="0">
+                            tabIndex="0">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">
@@ -511,18 +511,18 @@ const Blog = () => {
                                         </Link>
                                     </div>
                                     <div
-                                        class="col-md-6 col-xl-4 pb-5"
+                                        className="col-md-6 col-xl-4 pb-5"
                                         data-aos="fade-right"
                                         data-aos-duration="900"
                                     >
-                                        <Link to="devopstestautomation" class="">
-                                            <div class="box rounded-5">
+                                        <Link to="devopstestautomation" className="">
+                                            <div className="box rounded-5">
                                                 <img
                                                     src="./assets/img/Blog/Devopstesting.jpg"
                                                     alt="Devopstesting"
                                                 />
-                                                <div class="box-content">
-                                                    <h2 class="text-decoration-none m-0 blog-category">
+                                                <div className="box-content">
+                                                    <h2 className="text-decoration-none m-0 blog-category">
                                                         Technical-Skills
                                                     </h2>
                                                 </div>
@@ -530,24 +530,24 @@ const Blog = () => {
                                         </Link>
                                         <Link
                                             to="devopstestautomation"
-                                            class="text-decoration-none blog-title blog-title"
+                                            className="text-decoration-none blog-title blog-title"
                                         >
                                             DevOps Test Automation
                                         </Link>
                                     </div>
                                     <div
-                                        class="col-md-6 col-xl-4 pb-5"
+                                        className="col-md-6 col-xl-4 pb-5"
                                         data-aos="fade-right"
                                         data-aos-duration="900"
                                     >
-                                        <Link to="automatedTesting" class="">
-                                            <div class="box rounded-5">
+                                        <Link to="automatedTesting" className="">
+                                            <div className="box rounded-5">
                                                 <img
                                                     src="./assets/img/Blog/Automation-Testing.jpg"
                                                     alt="Devopstesting"
                                                 />
-                                                <div class="box-content">
-                                                    <h2 class="text-decoration-none m-0 blog-category">
+                                                <div className="box-content">
+                                                    <h2 className="text-decoration-none m-0 blog-category">
                                                         Technical-Skills
                                                     </h2>
                                                 </div>
@@ -555,24 +555,24 @@ const Blog = () => {
                                         </Link>
                                         <Link
                                             to="automatedTesting"
-                                            class="text-decoration-none blog-title blog-title"
+                                            className="text-decoration-none blog-title blog-title"
                                         >
                                             Automated Testing
                                         </Link>
                                     </div>
                                     <div
-                                        class="col-md-6 col-xl-4 pb-5"
+                                        className="col-md-6 col-xl-4 pb-5"
                                         data-aos="fade-right"
                                         data-aos-duration="900"
                                     >
-                                        <Link to="manualtestingautomationtesting" class="">
-                                            <div class="box rounded-5">
+                                        <Link to="manualtestingautomationtesting" className="">
+                                            <div className="box rounded-5">
                                                 <img
                                                     src="./assets/img/Blog/manualtesting&autmationtesting.jpg"
                                                     alt="manualtestingautomationtesting"
                                                 />
-                                                <div class="box-content">
-                                                    <h2 class="text-decoration-none m-0 blog-category">
+                                                <div className="box-content">
+                                                    <h2 className="text-decoration-none m-0 blog-category">
                                                         Technical-Skills
                                                     </h2>
                                                 </div>
@@ -580,7 +580,7 @@ const Blog = () => {
                                         </Link>
                                         <Link
                                             to="manualtestingautomationtesting"
-                                            class="text-decoration-none blog-title blog-title"
+                                            className="text-decoration-none blog-title blog-title"
                                         >
                                             Manual & Automation testing
                                         </Link>
@@ -589,7 +589,7 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="tab-pane fade" id="pills-Others" role="tabpanel" aria-labelledby="pills-Others-tab"
-                            tabindex="0">
+                            tabIndex="0">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-xl-4  pb-5" data-aos="fade-up" data-aos-duration="600">

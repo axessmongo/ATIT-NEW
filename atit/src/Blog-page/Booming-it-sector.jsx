@@ -483,7 +483,7 @@ function Theboomingitsector() {
                         </div> --> */}
                                     {/* <!-- share blog-----------------------     --> */}
 
-                                    <div id="share-blog" class=""></div>
+                                    <div id="share-blog" className=""></div>
                                     <RecentBlogs/>
 
                                 </div>

@@ -109,7 +109,7 @@ function DevOpsTestAutomation() {
                                     <div className="container my-5 overflow-hidden">
                                         <img
                                             src="../assets/img/Blog/Devopstesting.jpg"
-                                            class="mb-3"
+                                            className="mb-3"
                                             alt="Emerging technological"
                                             data-aos="zoom-in"
                                             data-aos-duration="500"
@@ -235,7 +235,7 @@ function DevOpsTestAutomation() {
                                         </div>
                                     </div>
                                 </div>
-                                <div id="share-blog" class=""></div>
+                                <div id="share-blog" className=""></div>
                                        <RecentBlogs />
                             </div>
                             <div className="ad-blog"></div>
