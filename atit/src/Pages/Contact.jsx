@@ -238,7 +238,7 @@ const handleSubmit = async (e) => {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> 
             </div>
             <div className="col-md-7 mt-3" data-aos="zoom-in" data-aos-duration="700">
               <div id="map" className="h-100">

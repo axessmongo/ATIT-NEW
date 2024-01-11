@@ -1,11 +1,11 @@
-import React, { useEffect,} from 'react'
-import {NavLink } from 'react-router-dom'
+import React, { useEffect, } from 'react'
+import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
-function  Navbar({ coursePage ,blogPage}) {
+function Navbar({ coursePage, blogPage }) {
 
     const canvasButton = () => {
         document.body.style.overflowY = 'scroll'
@@ -49,9 +49,9 @@ function  Navbar({ coursePage ,blogPage}) {
                             to="/"
                         >
                             <img
-                                src={`${coursePage ? `../../`: blogPage?`../`:` `}assets/imagesandvectors/vectors/atit_logo.png`}
+                                src={`${coursePage ? `../../` : blogPage ? `../` : ` `}assets/imagesandvectors/vectors/atit_logo.png`}
                                 alt="logo"
-                            /> 
+                            />
                         </NavLink>
                         <button
                             className="navbar-toggler d-none shadow-none ms-auto"
@@ -85,7 +85,7 @@ function  Navbar({ coursePage ,blogPage}) {
                                 <li className="nav-item">
 
                                     <NavLink
-                                        exact = "true"
+                                        exact="true"
                                         activeclassname="navbar__link--active"
                                         className="nav-link"
                                         to="/"
@@ -122,6 +122,10 @@ function  Navbar({ coursePage ,blogPage}) {
                                 <li className="nav-item">
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/blog">Blog</NavLink>
                                 </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/job"
+                                        onClick={canvasButton}>Job</NavLink>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -154,7 +158,7 @@ function  Navbar({ coursePage ,blogPage}) {
                         <li className="nav-item">
 
                             <NavLink
-                                exact = "true"
+                                exact="true"
                                 activeclassname="navbar__link--active"
                                 className="nav-link"
                                 to="/"
@@ -177,19 +181,23 @@ function  Navbar({ coursePage ,blogPage}) {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" activeclassname="navbar__link--active" to="/contact"
-                                        onClick={canvasButton}>Contact</NavLink>
+                                onClick={canvasButton}>Contact</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" activeclassname="navbar__link--active" to="/courses"
-                                        onClick={canvasButton}>Courses</NavLink>
+                                onClick={canvasButton}>Courses</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" activeclassname="navbar__link--active" to="/pap"
-                                        onClick={canvasButton}>PAP</NavLink>
+                                onClick={canvasButton}>PAP</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" activeclassname="navbar__link--active" to="/blog"
-                                        onClick={canvasButton}>Blog</NavLink>
+                                onClick={canvasButton}>Blog</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/job"
+                                onClick={canvasButton}>Job</NavLink>
                         </li>
                     </ul>
                 </div>

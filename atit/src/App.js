@@ -5,6 +5,7 @@ import Contact from "./Pages/Contact";
 import Blog from "./Pages/Blog";
 import Courses from "./Pages/Courses";
 import Pap from "./Pages/Pay-after-placement";
+import Job from "./Pages/Job";
 import EmergingTechnologies from "./Blog-page/EmergingTechnologies";
 import Exploringlucrative from "./Blog-page/Exploring-lucrative";
 import CareerCompleteGuide from "./Blog-page/Career-complete-guide";
@@ -150,6 +151,7 @@ function App() {
           <Route path="manualtestingautomationtesting" element={<Manualtestingautomationtesting/>} />
         </Route>
         <Route path="/privacy-policy" element={<Privacy />} />
+        <Route path="/job" element={<Job/>} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>

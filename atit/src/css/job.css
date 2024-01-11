@@ -1,0 +1,202 @@
+.singapore-job {
+    font-family: sans-serif !important;
+}
+
+.singapore-job #placement-accordion i{
+    font-size: 30px;
+
+}
+.singapore-job .services{
+    /* background-image: url("../../public/assets/img/program.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.singapore-job .hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    /* padding: 160px 0 80px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .singapore-job .hero img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 90%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .singapore-job .hero:before {
+    content: "";
+    background: rgba(var(--background-color-rgb), 0.5);
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+  }
+  
+  .singapore-job .hero .container {
+    position: relative;
+    z-index: 3;
+  }
+   
+
+  
+  @media (max-width: 768px) {
+    .singapore-job .hero h2 {
+      font-size: 32px;
+    }
+  
+    .singapore-job .hero p {
+      font-size: 28px;
+    }
+  } 
+
+  .singapore-job .services .icon-box {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    background: #ffffffdb;
+  }
+  
+  .singapore-job .services .icon-box .icon {
+    margin-bottom: 10px;
+  }
+  
+  .singapore-job .services .icon-box .icon i {
+    color: #47b2e4;
+    font-size: 36px;
+    transition: 0.3s;
+  }
+  
+  .singapore-job .services .icon-box h4 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .singapore-job .services .icon-box h4 a {
+    color: #37517e;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .singapore-job .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .singapore-job .services .icon-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .singapore-job .services .icon-box:hover h4 a {
+    color: #47b2e4;
+  }
+  .singapore-job .benefit-p svg{
+    color: #47b2e4;
+    padding-right: 10px;
+  }
+  
+  .singapore-job .features .features-item+.features-item {
+    margin-top: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .singapore-job .features .features-item+.features-item {
+      margin-top: 40px;
+    }
+  }
+  
+  .singapore-job .features .features-item h3 {
+    font-weight: 700;
+    font-size: 26px;
+  }
+  
+  .singapore-job .features .features-item .btn-get-started {
+    background-color: var(--primary-color);
+    color: var(--contrast-color);
+    padding: 8px 30px 10px 30px;
+    border-radius: 4px;
+  }
+  
+  .singapore-job .features .features-item .btn-get-started:hover {
+    background-color: rgba(var(--primary-color-rgb), 0.9);
+  }
+  
+  .singapore-job .features .features-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .singapore-job .features .features-item ul li {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .singapore-job .features .features-item ul li:last-child {
+    padding-bottom: 0;
+  }
+  
+  .singapore-job .features .features-item ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: var(--primary-color);
+  }
+  
+  .singapore-job .features .features-item img {
+    border: 6px solid var(--background-color);
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .singapore-job .features .features-item .features-img-bg {
+    position: relative;
+    min-height: 500px;
+  }
+  
+  @media (max-width: 640px) {
+    .singapore-job .features .features-item .features-img-bg {
+      min-height: 300px;
+    }
+  }
+  
+  .singapore-job .features .features-item .features-img-bg img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .singapore-job .features .features-item .image-stack {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .singapore-job .features .features-item .image-stack .stack-back {
+    grid-column: 4/-1;
+    grid-row: 1;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .singapore-job .features .features-item .image-stack .stack-front {
+    grid-row: 1;
+    grid-column: 1/span 8;
+    margin-top: 20%;
+    width: 100%;
+    z-index: 2;
+  }
+  .singapore-benefits{
+    background-color:beige;
+  }
