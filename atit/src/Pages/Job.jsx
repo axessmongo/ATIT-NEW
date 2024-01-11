@@ -68,11 +68,12 @@ function Job() {
                     <img src="./assets/img/singaporebg2.gif" alt="singaporebg2" />
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6">
-                                <p className="display-6 text-white primary-header">
+                            <div className="col-md-6" data-aos="zoom-in"
+                                data-aos-delay="100">
+                                <p className="display-6 text-white primary-header"data-aos="fade-right" data-aos-duration="400">
                                     Singapore<span className="primary-color mx-2 fw-bold">job</span> placement
                                 </p>
-                                <p className='text-white'>
+                                <p className='text-white' data-aos="fade-up" data-aos-onDurationChange="700">
                                     Hone your skills, land your dream Singapore tech job with
                                     Chennai's premier IT placement program
                                 </p>
@@ -81,8 +82,8 @@ function Job() {
                     </div>
                 </section>
                 <section className='page-heading primary-mb'>
-                    <p className=' secondary-header text-center linear-gradient-text'>Conquering the Lion City: Elite Automation Testing & Front-End Development Training & Placements in Singapore </p>
-                    <p className='text-center'>Are you an IT whiz hungry for challenge and high-growth opportunities? Is Singapore's vibrant tech scene calling your name? Then our elite placement program is your rocket ship to success.</p>
+                    <p className=' secondary-header text-center linear-gradient-text' data-aos="fade-up" data-aos-duration="400">Conquering the Lion City: Elite Automation Testing & Front-End Development Training & Placements in Singapore </p>
+                    <p className='text-center' data-aos="fade-up" data-aos-duration="500">Are you an IT whiz hungry for challenge and high-growth opportunities? Is Singapore's vibrant tech scene calling your name? Then our elite placement program is your rocket ship to success.</p>
                 </section>
 
                 <section id="services" class="services section-bg primary-mb py-5">
@@ -155,17 +156,17 @@ function Job() {
                 <section className='singapore-benefits py-5'>
                     <div className='container'>
                         <div className='text-center pt-3 mt-2'>
-                            <h2 className='secondary-header linear-gradient-text fw-bold py-5'>Benefits</h2>
+                            <h2 className='secondary-header linear-gradient-text fw-bold py-5' data-aos="fade-up" data-aos-duration="400">Benefits</h2>
                         </div>
                         <div className='row'>
                             <div className='col-md-4  d-flex justify-content-center'>
                                 <div className=' px-5 mx-3'>
-                                    <div className='pt-3 mt-3'>
+                                    <div className='pt-3 mt-3' data-aos="fade-right" data-aos-duration="500">
                                         <h4 style={{ color: '#f7851d' }}>High-paying careers:</h4>
                                         <p className='pt-2 benefit-p'> <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon arrow1" /> Command top salaries in Singapore's booming tech market</p>
                                     </div>
 
-                                    <div className='pt-3 mt-3'>
+                                    <div className='pt-3 mt-3' data-aos="fade-right" data-aos-duration="600">
                                         <h4 style={{ color: '#f7851d' }}>Growth opportunities:</h4>
                                         <p className='pt-2 benefit-p'> <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon arrow1" /> Upskill for advanced roles in automation testing and development</p>
                                     </div>
@@ -181,11 +182,11 @@ function Job() {
                             <div className='col-md-4  d-flex justify-content-center'>
                                 <div className=' px-5 mx-3'>
 
-                                    <div className='pt-3 mt-3'>
+                                    <div className='pt-3 mt-3' data-aos="fade-left" data-aos-duration="500">
                                         <h4 style={{ color: '#f7851d' }}>Immigration support:</h4>
                                         <p className='pt-2 benefit-p'> <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon arrow1" /> Access our guidance for a smooth transition to Singapore</p>
                                     </div>
-                                    <div className='pt-3 mt-3'>
+                                    <div className='pt-3 mt-3' data-aos="fade-left" data-aos-duration="600">
                                         <h4 style={{ color: '#f7851d' }}>Lifetime network:</h4>
                                         <p className='pt-2 benefit-p'> <FontAwesomeIcon icon={faLongArrowRight} className="arrow-icon arrow1" /> Build lasting connections with peers and industry experts.</p>
                                     </div>
@@ -231,7 +232,7 @@ function Job() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-12 text-center py-5  ">Ready to conquer Singapore's tech scene? Don't settle for ordinary. Apply to our elite program today and take your first step towards a rewarding career in the Lion City</div>
+                        <div className="col-md-12 text-center py-5" data-aos="fade-down" data-aos-duration="600">Ready to conquer Singapore's tech scene? Don't settle for ordinary. Apply to our elite program today and take your first step towards a rewarding career in the Lion City</div>
 
                     </div>
                     
@@ -240,7 +241,7 @@ function Job() {
                 <section>
                     <div className="container overflow-hidden acc-bg py-5" id="placement-accordion">
                         <div>
-                            <h2 className='text-center secondary-header py-5 fw-bold linear-gradient-text'>Frequently Asked Questions</h2>
+                            <h2 className='text-center secondary-header py-5 fw-bold linear-gradient-text'data-aos="fade-up" data-aos-duration="600">Frequently Asked Questions</h2>
                         </div>
                         <div className="accordion" id="accordionExample">
                             <div className="row justify-content-center">
