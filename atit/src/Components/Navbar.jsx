@@ -123,7 +123,7 @@ function Navbar({ coursePage, blogPage }) {
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/blog">Blog</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporejob"
+                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporeJob"
                                         onClick={canvasButton}>Singapore Job</NavLink>
                                 </li>
                             </ul>
@@ -196,7 +196,7 @@ function Navbar({ coursePage, blogPage }) {
                                 onClick={canvasButton}>Blog</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporejob"
+                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporeJob"
                                 onClick={canvasButton}>singapore Job</NavLink>
                         </li>
                     </ul>

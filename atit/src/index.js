@@ -9,7 +9,7 @@ import "./css/blog.css";
 import "./css/Pay-after-placement.css";
 import './css/index.css';
 import "./css/Swiper.css"; 
-import "./css/job.css"
+import "./css/singaporeJob.css"
 
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './Components/ScrollTop';

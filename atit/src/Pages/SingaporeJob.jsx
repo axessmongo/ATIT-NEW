@@ -1,5 +1,5 @@
-import React from 'react'
 import Navbar from '../Components/Navbar'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import Company from '../Components/Company'
 import Footer from '../Components/Footer'
@@ -9,15 +9,17 @@ import Rocket from '../Components/Rocket'
 import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-function Job() {
+
+function SingaporeJob() {
     const buttonStyle = {
         height: '15px',
         width: '15px',
         borderRadius: '50%',
         backgroundColor: 'gray',
     };
-    return (
-        <div className='singapore-job'>
+  return (
+    <div>
+         <div className='singapore-job'>
             <Navbar />
             <div>
                 <section id="hero" className="hero">
@@ -37,18 +39,17 @@ function Job() {
                         </div>
                     </div>
                 </section>
-                <section className='page-heading primary-mb'>
+                <section className='page-heading'>
                     <div className="container">
                         <p className=' secondary-header text-center linear-gradient-text' data-aos="fade-up" data-aos-duration="400">Conquering the Lion City: Elite Automation Testing & Front-End Development Training & Placements in Singapore </p>
                         <p className='text-center' data-aos="fade-up" data-aos-duration="500">Are you an IT whiz hungry for challenge and high-growth opportunities? Is Singapore's vibrant tech scene calling your name? Then our elite placement program is your rocket ship to success.</p>
 
                     </div>
                 </section>
-
                 <section id="services" class="services section-bg primary-mb py-5">
                     <div class="container" data-aos="fade-up">
                         <div class="section-title">
-                            <p class="text-center primary-color secondary-header display-6 pb-5 linear-gradient-text fw-bold">Program Details</p>
+                            <p class="text-center primary-header display-6 pb-5 linear-gradient-text fw-bold">Program Details</p>
                         </div>
                         <div class="row">
                             <div
@@ -537,7 +538,8 @@ function Job() {
             {/* Rocket */}
             <Rocket />
         </div>
-    )
+    </div>
+  )
 }
 
-export default Job
+export default SingaporeJob
