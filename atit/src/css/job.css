@@ -4,7 +4,10 @@
 
 .singapore-job #placement-accordion i{
     font-size: 30px;
-
+    color:var(--primary-color)
+}
+.singapore-job #placement-accordion .accordion-button:not(.collapsed) i{
+    color: white;
 }
 .singapore-job .services{
     /* background-image: url("../../public/assets/img/program.jpg");
@@ -64,7 +67,7 @@
     transition: all ease-in-out 0.4s;
     background: #ffffffdb;
   }
-  
+ 
   .singapore-job .services .icon-box .icon {
     margin-bottom: 10px;
   }
@@ -94,6 +97,8 @@
   
   .singapore-job .services .icon-box:hover {
     transform: translateY(-10px);
+    
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   }
   
   .singapore-job .services .icon-box:hover h4 a {
@@ -199,4 +204,12 @@
   }
   .singapore-benefits{
     background-color:beige;
+  }
+  .singapore-job .features{
+    background-color: #f4f4f4;
+  }
+  .singapore-job .testimonial-item{
+    background-color: rgb(244, 189, 118);
+    border-radius: 40px 20px 40px 0;
+    padding: 20px;
   }

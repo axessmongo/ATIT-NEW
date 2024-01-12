@@ -210,29 +210,38 @@ function Job() {
                                 data-aos="fade-up"
                                 data-aos-delay="200"
                             >
-
-                                <p>
+                                <div className='testimonial-item'>
+                                    <div >
+                                    <p>
                                     This program transformed my career. I landed a senior QA role at
                                     a leading Singaporean tech company within months of graduation."
                                     <br />
                                     <br />
                                     - Sarah T Program alumna
                                 </p>
+                                    </div>
+                                </div>
+                                
                             </div>
                             <div
                                 class="col-lg-6 order-2 order-lg-1 text-center"
                                 data-aos="fade-up"
                                 data-aos-delay="200"
                             >
-                                <p>
+                                <div className='testimonial-item'>
+                                    <div>
+                                    <p>
                                     The training was rigorous but rewarding. The job placement support was invaluable. I wouldn't be where I am today without this program."
                                     <br />
                                     <br />
                                     - John L., Program alumnus
                                 </p>
+                                    </div>
+                                </div>
+                               
                             </div>
                         </div>
-                        <div className="col-md-12 text-center py-5" data-aos="fade-down" data-aos-duration="600">Ready to conquer Singapore's tech scene? Don't settle for ordinary. Apply to our elite program today and take your first step towards a rewarding career in the Lion City</div>
+                        <div className="col-md-12 text-center py-5" data-aos="fade-up" data-aos-duration="600">Ready to conquer Singapore's tech scene? Don't settle for ordinary. Apply to our elite program today and take your first step towards a rewarding career in the Lion City</div>
 
                     </div>
                     
