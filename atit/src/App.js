@@ -151,7 +151,7 @@ function App() {
           <Route path="manualtestingautomationtesting" element={<Manualtestingautomationtesting/>} />
         </Route>
         <Route path="/privacy-policy" element={<Privacy />} />
-        <Route path="/job" element={<Job/>} />
+        <Route path="/singaporejob" element={<Job/>} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>

@@ -80,7 +80,7 @@ function Navbar({ coursePage, blogPage }) {
                             id="navbarSupportedContent"
                         >
                             <ul
-                                className="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3"
+                                className="navbar-nav align-items-stretch shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3"
                             >
                                 <li className="nav-item">
 
@@ -123,8 +123,8 @@ function Navbar({ coursePage, blogPage }) {
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/blog">Blog</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/job"
-                                        onClick={canvasButton}>Job</NavLink>
+                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporejob"
+                                        onClick={canvasButton}>Singapore Job</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -196,8 +196,8 @@ function Navbar({ coursePage, blogPage }) {
                                 onClick={canvasButton}>Blog</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/job"
-                                onClick={canvasButton}>Job</NavLink>
+                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporejob"
+                                onClick={canvasButton}>singapore Job</NavLink>
                         </li>
                     </ul>
                 </div>

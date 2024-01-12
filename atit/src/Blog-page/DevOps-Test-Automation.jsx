@@ -114,17 +114,12 @@ function DevOpsTestAutomation() {
                                             data-aos="zoom-in"
                                             data-aos-duration="500"
                                         />
-                                        <p className="secondary-text mb-5" data-aos="fade-up" data-aos-duration="600">
-                                            <span className="fl">W</span>hether You Are A Fresh Graduate Or An
-                                            Experienced Professional Seeking A Change In Career, This
-                                            Article Outlines The Essential Tips To Help You Break Into The
-                                            IT Industry Successfully
-                                        </p>
+                                       
                                         {/* <!-- content start--> */}
                                         <div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
                                                 <h1 className="primary-header text-center mb-3">
-                                                    UnderHow DevOps Test Automation Improves Software Reliability and Qualitystanding The IT Industry
+                                                    How DevOps Test Automation Improves Software Reliability and Qualitystanding The IT Industry
                                                 </h1>
                                                 <p className="secondary-text">
                                                     The software development lifecycle has changed as a result of the integration of Test Automation and DevOps, ushering in a new era marked by increased productivity, dependability, and speed. By eliminating bottlenecks and fostering a collaborative atmosphere between development and operations, test automation in DevOps ensures reliable, fast, and iterative software delivery.</p>

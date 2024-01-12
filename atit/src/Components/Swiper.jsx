@@ -47,7 +47,7 @@ function Swiper() {
                             making self-paced learning a breeze.
                         </p>
                     </div>
-                    <div class="carousel-item" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="3000">
                         <h5 className='text-center'>Arjun N</h5>
                         <p>
                             The case studies were enlightening. They provided a deep dive into

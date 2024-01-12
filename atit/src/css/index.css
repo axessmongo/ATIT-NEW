@@ -80,6 +80,7 @@ dotlottie-player {
 }
 .linear-gradient-text {
   -webkit-background-clip: text;
+  letter-spacing: 0.004em;
 }
 img {
   display: block;
@@ -199,10 +200,14 @@ img {
   font-size: 15px;
   letter-spacing: 0.02em;
   width: 100px;
-  line-height: 60px;
-  padding: 0;
+  /* line-height: 60px; */
+  /* padding: 30px; */
   text-align: center;
   transition: var(--transition1);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar .navbar-brand {
   font-family: "Oleo Script";
@@ -1190,43 +1195,7 @@ img {
   .nav-holder .nav-link {
     width: 100%;
   }
-  .offcanvas .navbar-nav .nav-link.active,
-  .offcanvas .navbar-nav .nav-link:hover {
-    box-shadow: none;
-    position: relative;
-    color: var(--primary-color) !important;
-    transition: 0.3s;
-  }
-  .offcanvas .navbar-nav .nav-link::before {
-    transition: 0.3s;
-    content: "";
-    width: 0;
-    display: block;
-    height: 100%;
-    background: var(--primary-color);
-    position: absolute;
-  }
-  .nav-link.active::before,
-  .nav-link:hover::before {
-    width: 6px !important;
-  }
-  .nav-drop {
-    position: unset;
-    height: 0;
-    opacity: 0;
-    border-radius: 0;
-  }
-  .nav-item:hover > .nav-drop,
-  .nav-item:target > .nav-drop {
-    height: auto;
-    opacity: 1;
-  }
-  .nav-drop .nav-link {
-    width: auto;
-  }
-  .nav-drop .nav-link:hover {
-    box-shadow: none;
-  }
+
 }
 @media (max-width: 992px) {
   .hero-split {
@@ -1270,6 +1239,44 @@ img {
   }
   .canvas-bar {
     border-bottom-left-radius: 25px;
+  }
+  .offcanvas .navbar-nav .nav-link.active,
+  .offcanvas .navbar-nav .nav-link:hover {
+    box-shadow: none;
+    position: relative;
+    color: var(--primary-color) !important;
+    transition: 0.3s;
+  }
+  .offcanvas .navbar-nav .nav-link::before {
+    transition: 0.3s;
+    content: "";
+    width: 0;
+    display: block;
+    height: 100%;
+    background: var(--primary-color);
+    position: absolute;
+  }
+  
+  .nav-link.active::before,
+  .nav-link:hover::before {
+    width: 6px !important;
+  }
+  .nav-drop {
+    position: unset;
+    height: 0;
+    opacity: 0;
+    border-radius: 0;
+  }
+  .nav-item:hover > .nav-drop,
+  .nav-item:target > .nav-drop {
+    height: auto;
+    opacity: 1;
+  }
+  .nav-drop .nav-link {
+    width: auto;
+  }
+  .nav-drop .nav-link:hover {
+    box-shadow: none;
   }
 }
 @media (min-width: 992px) {

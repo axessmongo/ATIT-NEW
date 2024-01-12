@@ -10,67 +10,23 @@ import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Job() {
+    const buttonStyle = {
+        height: '15px',
+        width: '15px',
+        borderRadius: '50%',
+        backgroundColor: 'gray',
+    };
     return (
         <div className='singapore-job'>
             <Navbar />
-            {/* hero banner */}
             <div>
-                {/* <section
-                    style={{ background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)" }}
-                    className ="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white overflow-hidden"
-                >
-                    <div className ="container z-3 text-center">
-                        <div
-                            className ="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row"
-                        >
-                            <div>
-                                <h1
-                                    data-aos="fade-up"
-                                    data-aos-duration="500"
-                                    className ="primary-header"
-                                >
-                                    Singapore <span className ="primary-color">Job </span>Placement
-                                </h1>
-                                <p
-                                    className ="text-light fs-6 text-capitalize fw-light"
-                                    data-aos="fade-up"
-                                    data-aos-duration="700"
-                                >
-                                    Discover a smooth ride with ATIT's Pay After Placement program.
-                                    We've laid out a clear and organized path to guide you
-                                    effortlessly.
-                                </p>
-                                <nav
-                                    data-aos="fade-up"
-                                    data-aos-duration="800"
-                                    style={{
-                                        '--bs-breadcrumb-divider': 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'8\' height=\'8\'%3E%3Cpath d=\'M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z\' fill=\'%236c757d\'/%3E%3C/svg%3E")'
-                                    }}
-
-                                    aria-label="breadcrumb"
-                                >
-                                    <ol className ="breadcrumb justify-content-center">
-                                        <li className ="breadcrumb-item"><Link to="/">Home</Link></li>
-                                        <li
-                                            className ="breadcrumb-item active text-white"
-                                            aria-current="page"
-                                        >
-                                            abroad
-                                        </li>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-
                 <section id="hero" className="hero">
                     <img src="./assets/img/singaporebg2.gif" alt="singaporebg2" />
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6" data-aos="zoom-in"
                                 data-aos-delay="100">
-                                <p className="display-6 text-white primary-header"data-aos="fade-right" data-aos-duration="400">
+                                <p className="display-6 text-white primary-header" data-aos="fade-right" data-aos-duration="400">
                                     Singapore<span className="primary-color mx-2 fw-bold">job</span> placement
                                 </p>
                                 <p className='text-white' data-aos="fade-up" data-aos-onDurationChange="700">
@@ -82,8 +38,11 @@ function Job() {
                     </div>
                 </section>
                 <section className='page-heading primary-mb'>
-                    <p className=' secondary-header text-center linear-gradient-text' data-aos="fade-up" data-aos-duration="400">Conquering the Lion City: Elite Automation Testing & Front-End Development Training & Placements in Singapore </p>
-                    <p className='text-center' data-aos="fade-up" data-aos-duration="500">Are you an IT whiz hungry for challenge and high-growth opportunities? Is Singapore's vibrant tech scene calling your name? Then our elite placement program is your rocket ship to success.</p>
+                    <div className="container">
+                        <p className=' secondary-header text-center linear-gradient-text' data-aos="fade-up" data-aos-duration="400">Conquering the Lion City: Elite Automation Testing & Front-End Development Training & Placements in Singapore </p>
+                        <p className='text-center' data-aos="fade-up" data-aos-duration="500">Are you an IT whiz hungry for challenge and high-growth opportunities? Is Singapore's vibrant tech scene calling your name? Then our elite placement program is your rocket ship to success.</p>
+
+                    </div>
                 </section>
 
                 <section id="services" class="services section-bg primary-mb py-5">
@@ -156,7 +115,7 @@ function Job() {
                 <section className='singapore-benefits py-5'>
                     <div className='container'>
                         <div className='text-center pt-3 mt-2'>
-                            <h2 className='secondary-header linear-gradient-text fw-bold py-5' data-aos="fade-up" data-aos-duration="400">Benefits</h2>
+                            <h2 className='primary-header linear-gradient-text fw-bold py-1' data-aos="fade-up" data-aos-duration="400">Benefits</h2>
                         </div>
                         <div className='row'>
                             <div className='col-md-4  d-flex justify-content-center'>
@@ -199,58 +158,58 @@ function Job() {
                 </section>
 
                 <section id="features" class="features py-5">
-                    <div class="container section-title" data-aos="fade-up">
-                        <h2 class="text-center mb-5 secondary-header linear-gradient-text fw-bold">Testimonials</h2>
-                    </div>
-
-                    <div class="container">
-                        <div class="row gy-4 align-items-center features-item">
-                            <div
-                                class="col-lg-6 order-2 order-lg-1 text-center"
-                                data-aos="fade-up"
-                                data-aos-delay="200"
-                            >
-                                <div className='testimonial-item'>
-                                    <div >
-                                    <p>
-                                    This program transformed my career. I landed a senior QA role at
-                                    a leading Singaporean tech company within months of graduation."
-                                    <br />
-                                    <br />
-                                    - Sarah T Program alumna
-                                </p>
-                                    </div>
-                                </div>
-                                
+                    <div className='container text-center'>
+                        <p className='text-center text-capitalize mb-3 display-6 linear-gradient-text fw-semibold'>Testimonials</p>
+                        {/* <p className='text-center mt-2'>Outcome Of Our Quality Training</p> */}
+                        <div id="carouselExampleInterval" class="carousel slide pb-5 mb-5" data-bs-ride="carousel">
+                            <div class="carousel-indicators d-flex mt-5 pt-5">
+                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" style={buttonStyle} class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" style={buttonStyle} aria-label="Slide 2"></button>
                             </div>
-                            <div
-                                class="col-lg-6 order-2 order-lg-1 text-center"
-                                data-aos="fade-up"
-                                data-aos-delay="200"
-                            >
-                                <div className='testimonial-item'>
-                                    <div>
-                                    <p>
-                                    The training was rigorous but rewarding. The job placement support was invaluable. I wouldn't be where I am today without this program."
-                                    <br />
-                                    <br />
-                                    - John L., Program alumnus
-                                </p>
+                            <div class="carousel-inner py-2">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <div className='testimonial-item'>
+                                        <div >
+                                            <div class="mb-1" data-aos="flip-left" data-aos-easing="ease-in-sine"><i
+                                                class="bi bi-person-circle"></i></div>
+                                            <p>
+                                                "This program transformed my career. I landed a senior QA role at
+                                                a leading Singaporean tech company within months of graduation."
+                                                <br />
+                                                <br />
+                                                Sarah T - Program alumna
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                               
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <div className='testimonial-item'>
+                                        <div >
+                                            <div class="mb-1" data-aos="flip-left" data-aos-easing="ease-in-sine"><i
+                                                class="bi bi-person-circle"></i></div>
+                                            <p>
+                                                The training was rigorous but rewarding. The job placement support was
+                                                invaluable. I wouldn&#39;t be where I am today without this program.
+                                                <br />
+                                                <br />
+                                                John L - Program alumnus
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                        <div className="col-md-12 text-center py-5" data-aos="fade-up" data-aos-duration="600">Ready to conquer Singapore's tech scene? Don't settle for ordinary. Apply to our elite program today and take your first step towards a rewarding career in the Lion City</div>
-
+                        <p className='text-center fw-bold' data-aos="fade-up" data-aos-duration="300">Ready to conquer Singapore&#39;s tech scene? Don&#39;t settle for ordinary. Apply to our
+                            elite program today and take your first step towards a rewarding career in the Lion
+                            City.</p>
                     </div>
-                    
                 </section>
 
                 <section>
                     <div className="container overflow-hidden acc-bg py-5" id="placement-accordion">
                         <div>
-                            <h2 className='text-center secondary-header py-5 fw-bold linear-gradient-text'data-aos="fade-up" data-aos-duration="600">Frequently Asked Questions</h2>
+                            <h2 className='text-center secondary-header py-5 fw-bold linear-gradient-text' data-aos="fade-up" data-aos-duration="600">Frequently Asked Questions</h2>
                         </div>
                         <div className="accordion" id="accordionExample">
                             <div className="row justify-content-center">

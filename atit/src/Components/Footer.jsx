@@ -58,10 +58,10 @@ function Footer({ setActiveTab, activeTab }) {
                             <div>
                                 <h4>Connect</h4>
                                 <p>
-                                    <strong>Phone:</strong><Link to="tel:7845721438">78457 21438</Link>
-                                    <br />
-                                    <strong>Phone:</strong> <Link to="tel:7358107180">73581 07180</Link>
-                                    <br />
+                                    <div className='d-none d-lg-block'><strong>Phone:</strong>78457 21438</div>
+                                    <div className='d-lg-none'><strong>Phone:</strong><Link to="tel:7845721438">78457 21438</Link></div>
+                                    <div className='d-none d-lg-block'><strong>Phone:</strong>73581 07180</div>
+                                    <div className='d-lg-none'><strong>Phone:</strong><Link to="tel:7358107180">73581 07180</Link></div>
                                     <strong>Email:</strong><Link to="mailto:info_atit@turn-ai.in">info_atit@turn-ai.in</Link><br />
                                 </p>
                             </div>

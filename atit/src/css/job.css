@@ -41,7 +41,7 @@
     background: rgba(var(--background-color-rgb), 0.5);
     position: absolute;
     inset: 0;
-    z-index: 1000;
+    z-index: 10;
   }
   
   .singapore-job .hero .container {
@@ -209,7 +209,10 @@
     background-color: #f4f4f4;
   }
   .singapore-job .testimonial-item{
-    background-color: rgb(244, 189, 118);
+    /* background-color: rgb(244, 189, 118); */
     border-radius: 40px 20px 40px 0;
     padding: 20px;
+  }
+  .singapore-job .testimonial-item i{
+    font-size: 50px;
   }
