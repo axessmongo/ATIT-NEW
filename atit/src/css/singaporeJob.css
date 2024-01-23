@@ -73,11 +73,12 @@
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 24px;
-  }
-  
-  .singapore-job .services .icon-box h4 a {
     color: #37517e;
     transition: ease-in-out 0.3s;
+  }
+  
+  .singapore-job .services .icon-box h4:hover  {
+      color: var(--primary-color);
   }
   
   .singapore-job .services .icon-box p {

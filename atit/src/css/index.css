@@ -6,6 +6,7 @@
 
 a{
   text-decoration: none;
+  color: #28e05d;
 }
 a:not(.popup):hover{
   color: var(--primary-color)
@@ -64,7 +65,7 @@ body {
   cursor: url("../../public/assets/imagesandvectors/vectors/arrow-new.png"), auto !important;
   scroll-behavior: smooth;
 }
-.atit-card-1 *,
+/* .atit-card-1 *, */
 a,
 a *,
 button,
@@ -173,6 +174,7 @@ img {
 .nav-drop-holder {
   position: relative;
 }
+
 .nav-animate {
   transform: translate(0, -100%);
   transition: 0.5s;
@@ -642,8 +644,9 @@ img {
   border: none;
   background: 0 0;
   padding: 10px;
-  cursor: pointer;
+  cursor: url("../../public/assets/imagesandvectors/vectors/arrow-new.png"), auto !important;
 }
+
 .atit-box .glyph,
 .dropdown:hover .dropdown-content {
   display: block;
@@ -781,6 +784,7 @@ img {
 .coursesList .home-hero-banner {
   padding: 120px 0 100px;
 }
+
 .coursesList section.hoverable-content {
   bottom: 0;
   left: 50%;
@@ -1370,7 +1374,7 @@ form .text {
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
-input {
+input, textarea {
   text-transform: none;
 }
 input::-webkit-inner-spin-button,

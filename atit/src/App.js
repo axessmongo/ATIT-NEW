@@ -152,7 +152,6 @@ function App() {
         </Route>
         <Route path="/singaporeJob" element={<SingaporeJob/>}/>
          <Route path="/privacy-policy" element={<Privacy />} />
-
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>

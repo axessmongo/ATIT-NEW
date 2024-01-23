@@ -59,7 +59,7 @@ function SingaporeJob() {
                             >
                                 <div class="icon-box rounded-3">
                                     <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                                    <h4><a href="">Intensive training </a></h4>
+                                    <h4>Intensive training</h4>
                                     <p>
                                         Master in-demand skills like Selenium, Appium, Java, Python,
                                         and cloud technologies under the guidance of industry experts
@@ -73,7 +73,7 @@ function SingaporeJob() {
                             >
                                 <div class="icon-box rounded-3">
                                     <div class="icon"><i class="bx bx-file"></i></div>
-                                    <h4><a href="">Singapore job placement</a></h4>
+                                    <h4>Singapore job placement</h4>
                                     <p>
                                         We bridge the gap. Land your dream job in top Singaporean
                                         companies through our dedicated placement partnership
@@ -88,7 +88,7 @@ function SingaporeJob() {
                             >
                                 <div class="icon-box rounded-3">
                                     <div class="icon"><i class="bx bx-tachometer"></i></div>
-                                    <h4><a href="">Elite cohort</a></h4>
+                                    <h4>Elite cohort</h4>
                                     <p>
                                         Network and learn alongside like-minded, ambitious
                                         professionals in a small, focused group
@@ -103,7 +103,7 @@ function SingaporeJob() {
                             >
                                 <div class="icon-box rounded-3">
                                     <div class="icon"><i class="bx bx-layer"></i></div>
-                                    <h4><a href="">Chennai advantage</a></h4>
+                                    <h4>Chennai advantage</h4>
                                     <p>
                                         Get world-class training at a fraction of the cost compared to
                                         Singapore, while enjoying the cultural richness of Chennai
