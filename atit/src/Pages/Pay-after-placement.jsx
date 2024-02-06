@@ -209,8 +209,8 @@ function Pap() {
                                         <div className ="accordion-body">
                                             <p>
                                                 To kickstart your journey, we require Minimal Initial
-                                                Charges (5% to 10%) for Job-Oriented Training and
-                                                Application Processing. Remaining 90% after Placement. If,
+                                                Charges (10% to 20%) for Job-Oriented Training and
+                                                Application Processing. Remaining 80% after Placement. If,
                                                 within 6 months after completing the training, we don't
                                                 secure a job for you, we'll refund this fee.
                                             </p>

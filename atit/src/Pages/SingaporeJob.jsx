@@ -7,7 +7,6 @@ import ContactForm from '../Components/ContactForm'
 import LeftBar from '../Components/LeftBar'
 import Rocket from '../Components/Rocket'
 import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function SingaporeJob() {
@@ -23,7 +22,7 @@ function SingaporeJob() {
             <Navbar />
             <div>
                 <section id="hero" className="hero">
-                    <img src="./assets/img/singaporebg2.gif" alt="singaporebg2" />
+                    <img src="./assets/img/singaporeBg.gif" alt="singaporebg2" />
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6" data-aos="zoom-in"
