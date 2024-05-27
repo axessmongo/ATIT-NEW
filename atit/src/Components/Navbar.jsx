@@ -87,7 +87,7 @@ function Navbar({ coursePage, blogPage }) {
                                     <NavLink
                                         exact="true"
                                         activeclassname="navbar__link--active"
-                                        className="nav-link"
+                                        className="nav-link py-4"
                                         to="/"
                                     >
                                         Home
@@ -97,22 +97,22 @@ function Navbar({ coursePage, blogPage }) {
                                 <li className="nav-item">
                                     <NavLink
                                         activeclassname="navbar__link--active"
-                                        className="nav-link"
+                                        className="nav-link py-4"
                                         to="/about"
                                     >
                                         About
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/contact">Contact</NavLink>
+                                    <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/courses">Domains</NavLink>
+                                    <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/domains">Domains</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink
                                         title="Pay after Placement"
-                                        className="nav-link"
+                                        className="nav-link py-4"
                                         activeclassname="navbar__link--active"
                                         to="/pap"
                                     >PAP
@@ -120,7 +120,7 @@ function Navbar({ coursePage, blogPage }) {
 
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/blog">Blog</NavLink>
+                                    <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/blog">Blog</NavLink>
                                 </li>
                                 {/* <li className="nav-item">
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporeJob"
@@ -160,7 +160,7 @@ function Navbar({ coursePage, blogPage }) {
                             <NavLink
                                 exact="true"
                                 activeclassname="navbar__link--active"
-                                className="nav-link"
+                                className="nav-link py-4"
                                 to="/"
                                 onClick={canvasButton}
                             >
@@ -172,7 +172,7 @@ function Navbar({ coursePage, blogPage }) {
                             <NavLink
 
                                 activeclassname="navbar__link--active"
-                                className="nav-link"
+                                className="nav-link py-4"
                                 to="/about"
                                 onClick={canvasButton}
                             >
@@ -180,24 +180,20 @@ function Navbar({ coursePage, blogPage }) {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/contact"
+                            <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/contact"
                                 onClick={canvasButton}>Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/domains"
+                            <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/domains"
                                 onClick={canvasButton}>Domains</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/pap"
+                            <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/pap"
                                 onClick={canvasButton}>PAP</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/blog"
+                            <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/blog"
                                 onClick={canvasButton}>Blog</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporeJob"
-                                onClick={canvasButton}>singapore Job</NavLink>
                         </li>
                     </ul>
                 </div>

@@ -91,7 +91,7 @@ function App() {
         <Route path="/" element={<Home setContactState={setContactState} />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/courses" element={<MainCourse />}>
+        <Route path="/domains" element={<MainCourse />}>
           <Route index element={<Courses />} />
           <Route path="artificial" element={<Artificial />} />
           <Route path="datascience" element={<Datascience />} />
