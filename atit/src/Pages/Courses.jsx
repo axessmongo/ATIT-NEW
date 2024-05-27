@@ -192,7 +192,7 @@ const Courses = () => {
                     <Link to="apirestassured"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card7 text-white text-center">API-Rest Assured</h4>
+                        <h4 className ="course-card1 text-white text-center">Cucumber</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
@@ -221,7 +221,7 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card1 text-white text-center">Core Java</h4>
+                        <h4 className ="course-card2 text-white text-center">selenium</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
@@ -247,14 +247,14 @@ const Courses = () => {
                     </Link>
                   </div>
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="cucumber"
+                    <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card2 text-white text-center">Cucumber</h4>
+                        <h4 className ="course-card7 text-white text-center">TestNG</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
-                        <h6 className ="mb-4 text-black">8000+ Successful Learners</h6>
+                        <h6 className ="mb-4 text-black">13000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
                           <div className ="rating-block">
                             <div className ="rating-star">
@@ -269,7 +269,7 @@ const Courses = () => {
                               <img src="https://assets.testleaf.com/assets/img/star.svg"
                                 alt="Rating Icon" />
                             </div>
-                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 40 LAKHS</p>
+                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 54 LAKHS</p>
                           </div>
                         </div>
                       </div>
@@ -284,7 +284,7 @@ const Courses = () => {
                     <Link to="apirestassured"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card7 text-white text-center">API-Rest Assured</h4>
+                        <h4 className ="course-card3 text-white text-center">Pytest</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
@@ -313,7 +313,7 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card1 text-white text-center">Core Java</h4>
+                        <h4 className ="course-card4 text-white text-center">PlayWright</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
@@ -338,15 +338,16 @@ const Courses = () => {
                       </div>
                     </Link>
                   </div>
+                  
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="cucumber"
+                    <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card2 text-white text-center">Cucumber</h4>
+                        <h4 className ="course-card9 text-white text-center">Doctest</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
-                        <h6 className ="mb-4 text-black">8000+ Successful Learners</h6>
+                        <h6 className ="mb-4 text-black">13000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
                           <div className ="rating-block">
                             <div className ="rating-star">
@@ -361,7 +362,7 @@ const Courses = () => {
                               <img src="https://assets.testleaf.com/assets/img/star.svg"
                                 alt="Rating Icon" />
                             </div>
-                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 40 LAKHS</p>
+                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 54 LAKHS</p>
                           </div>
                         </div>
                       </div>
@@ -376,7 +377,7 @@ const Courses = () => {
                     <Link to="apirestassured"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card7 text-white text-center">API-Rest Assured</h4>
+                        <h4 className ="course-card5 text-white text-center">JS PlayWright</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
@@ -405,7 +406,7 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card1 text-white text-center">Core Java</h4>
+                        <h4 className ="course-card6 text-white text-center">TS PlayWright</h4>
                       </div>
                       <div className ="w-100 p-4 common-card-content">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
@@ -425,35 +426,6 @@ const Courses = () => {
                                 alt="Rating Icon" />
                             </div>
                             <p className ="m-0 mt-2 text-secondary">EARN UPTO 54 LAKHS</p>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className ="col-md-6 col-lg-4">
-                    <Link to="cucumber"
-                      className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
-                      <div className ="w-100 common-card-image">
-                        <h4 className ="course-card2 text-white text-center">Cucumber</h4>
-                      </div>
-                      <div className ="w-100 p-4 common-card-content">
-                        <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
-                        <h6 className ="mb-4 text-black">8000+ Successful Learners</h6>
-                        <div className ="w-100 d-flex align-items-center flex-wrap">
-                          <div className ="rating-block">
-                            <div className ="rating-star">
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                              <img src="https://assets.testleaf.com/assets/img/star.svg"
-                                alt="Rating Icon" />
-                            </div>
-                            <p className ="m-0 mt-2 text-secondary">EARN UPTO 40 LAKHS</p>
                           </div>
                         </div>
                       </div>
