@@ -5,7 +5,7 @@ import Contact from "./Pages/Contact";
 import Blog from "./Pages/Blog";
 import Courses from "./Pages/Courses";
 import Pap from "./Pages/Pay-after-placement";
-import SingaporeJob from "./Pages/SingaporeJob";
+// import SingaporeJob from "./Pages/SingaporeJob";
 import EmergingTechnologies from "./Blog-page/EmergingTechnologies";
 import Exploringlucrative from "./Blog-page/Exploring-lucrative";
 import CareerCompleteGuide from "./Blog-page/Career-complete-guide";
@@ -150,7 +150,7 @@ function App() {
           <Route path="automatedTesting" element={<AutomatedTesting/>} />
           <Route path="manualtestingautomationtesting" element={<Manualtestingautomationtesting/>} />
         </Route>
-        <Route path="/singaporeJob" element={<SingaporeJob/>}/>
+        {/* <Route path="/singaporeJob" element={<SingaporeJob/>}/> */}
          <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="*" element={<NoPage />} />
       </Routes>

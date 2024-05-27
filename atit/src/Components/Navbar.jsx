@@ -107,7 +107,7 @@ function Navbar({ coursePage, blogPage }) {
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/courses">Courses</NavLink>
+                                    <NavLink className="nav-link" activeclassname="navbar__link--active" to="/courses">Domains</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink
@@ -122,10 +122,10 @@ function Navbar({ coursePage, blogPage }) {
                                 <li className="nav-item">
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/blog">Blog</NavLink>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporeJob"
                                         onClick={canvasButton}>Singapore Job</NavLink>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
@@ -184,8 +184,8 @@ function Navbar({ coursePage, blogPage }) {
                                 onClick={canvasButton}>Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/courses"
-                                onClick={canvasButton}>Courses</NavLink>
+                            <NavLink className="nav-link" activeclassname="navbar__link--active" to="/domains"
+                                onClick={canvasButton}>Domains</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" activeclassname="navbar__link--active" to="/pap"
