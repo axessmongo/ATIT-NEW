@@ -9,7 +9,7 @@ import ContactForm from '../Components/ContactForm';
 import LeftBar from '../Components/LeftBar';
 import Rocket from '../Components/Rocket';
 import { Link } from 'react-router-dom'
-
+import { domainDatas } from './CoursesDomain';
 
 const Courses = () => {
   useEffect(() => {
@@ -17,6 +17,8 @@ const Courses = () => {
       AOS.refresh();
     };
 
+    
+console.log(domainDatas);
     // Assuming you have a similar HTML structure and class names in your React component
     const navLinks = document.querySelectorAll('.nav-pills .nav-link');
 
@@ -192,9 +194,9 @@ const Courses = () => {
                     <Link to="apirestassured"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card1 text-white text-center">Cucumber</h4>
+                        <h4 className ="course-card1 text-white text-center mb-0">Cucumber</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">1000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -221,9 +223,9 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card2 text-white text-center">selenium</h4>
+                        <h4 className ="course-card2 text-white text-center mb-0">selenium</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">13000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -250,9 +252,9 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card7 text-white text-center">TestNG</h4>
+                        <h4 className ="course-card7 text-white text-center mb-0">TestNG</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">13000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -284,9 +286,9 @@ const Courses = () => {
                     <Link to="apirestassured"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card3 text-white text-center">Pytest</h4>
+                        <h4 className ="course-card3 text-white text-center mb-0">Pytest</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">1000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -313,9 +315,9 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card4 text-white text-center">PlayWright</h4>
+                        <h4 className ="course-card4 text-white text-center mb-0">PlayWright</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">13000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -343,9 +345,9 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card9 text-white text-center">Doctest</h4>
+                        <h4 className ="course-card9 text-white text-center mb-0">Doctest</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">13000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -377,9 +379,9 @@ const Courses = () => {
                     <Link to="apirestassured"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card5 text-white text-center">JS PlayWright</h4>
+                        <h4 className ="course-card5 text-white text-center mb-0">JS PlayWright</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">1000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -406,9 +408,9 @@ const Courses = () => {
                     <Link to="corejava"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card6 text-white text-center">TS PlayWright</h4>
+                        <h4 className ="course-card6 text-white text-center mb-0">TS PlayWright</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">13000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -442,9 +444,9 @@ const Courses = () => {
                   <Link to="mean"
                     className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div className ="w-100 common-card-image">
-                      <h4 className ="course-card12 text-white text-center">MEAN Stack</h4>
+                      <h4 className ="course-card12 text-white text-center mb-0">MEAN Stack</h4>
                     </div>
-                    <div className ="w-100 p-4 common-card-content">
+                    <div className ="w-100 p-4 common-card-content d-none">
                       <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                       <h6 className ="mb-4 text-black">300+ Successful Learners</h6>
                       <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -471,9 +473,9 @@ const Courses = () => {
                   <Link to="mern"
                     className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div className ="w-100 common-card-image">
-                      <h4 className ="course-card7 text-white text-center">MERN Stack</h4>
+                      <h4 className ="course-card7 text-white text-center mb-0">MERN Stack</h4>
                     </div>
-                    <div className ="w-100 p-4 common-card-content">
+                    <div className ="w-100 p-4 common-card-content d-none">
                       <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                       <h6 className ="mb-4 text-black">800+ Successful Learners</h6>
                       <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -506,9 +508,9 @@ const Courses = () => {
                   <Link to="artificial"
                     className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div className ="w-100 common-card-image">
-                      <h4 className ="course-card22 text-white text-center">Artificial-Intelligence</h4>
+                      <h4 className ="course-card22 text-white text-center mb-0">Artificial-Intelligence</h4>
                     </div>
-                    <div className ="w-100 p-4 common-card-content">
+                    <div className ="w-100 p-4 common-card-content d-none">
                       <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                       <h6 className ="mb-4 text-black">800+ Successful Learners</h6>
                       <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -535,9 +537,9 @@ const Courses = () => {
                   <Link to="datascience"
                     className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div className ="w-100 common-card-image">
-                      <h4 className ="course-card10 text-white text-center">Data Science</h4>
+                      <h4 className ="course-card10 text-white text-center mb-0">Data Science</h4>
                     </div>
-                    <div className ="w-100 p-4 common-card-content">
+                    <div className ="w-100 p-4 common-card-content d-none">
                       <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                       <h6 className ="mb-4 text-black">800+ Successful Learners</h6>
                       <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -564,9 +566,9 @@ const Courses = () => {
                   <Link to="deeplearning"
                     className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div className ="w-100 common-card-image">
-                      <h4 className ="course-card18 text-white text-center">Deep Learning</h4>
+                      <h4 className ="course-card18 text-white text-center mb-0">Deep Learning</h4>
                     </div>
-                    <div className ="w-100 p-4 common-card-content">
+                    <div className ="w-100 p-4 common-card-content d-none">
                       <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                       <h6 className ="mb-4 text-black">1000+ Successful Learners</h6>
                       <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -599,9 +601,9 @@ const Courses = () => {
                   <Link to="devops"
                     className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                     <div className ="w-100 common-card-image">
-                      <h4 className ="course-card23 text-white text-center">DevOps</h4>
+                      <h4 className ="course-card23 text-white text-center mb-0">DevOps</h4>
                     </div>
-                    <div className ="w-100 p-4 common-card-content">
+                    <div className ="w-100 p-4 common-card-content d-none">
                       <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                       <h6 className ="mb-4 text-black">2000+ Successful Learners</h6>
                       <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -628,9 +630,9 @@ const Courses = () => {
                     <Link to="docker"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card13 text-white text-center">Docker</h4>
+                        <h4 className ="course-card13 text-white text-center mb-0">Docker</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">3000+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
@@ -657,9 +659,9 @@ const Courses = () => {
                     <Link to="awsservice"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
-                        <h4 className ="course-card17 text-white text-center">AWS-Service</h4>
+                        <h4 className ="course-card17 text-white text-center mb-0">AWS-Service</h4>
                       </div>
-                      <div className ="w-100 p-4 common-card-content">
+                      <div className ="w-100 p-4 common-card-content d-none">
                         <h6 className ="mb-1 green-text text-success">LIVE TRAINING</h6>
                         <h6 className ="mb-4 text-black">600+ Successful Learners</h6>
                         <div className ="w-100 d-flex align-items-center flex-wrap">
