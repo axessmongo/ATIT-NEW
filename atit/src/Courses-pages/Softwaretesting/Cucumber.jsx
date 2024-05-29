@@ -132,7 +132,7 @@ function Cucumber() {
                             </div>
                         </section>
                     </div>
-                    <div className ="container-fluid mt-5 py-4">
+                    {/* <div className ="container-fluid mt-5 py-4">
                         <p className ="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
                             Cucumber Framework Course Content</p>
@@ -141,9 +141,9 @@ function Cucumber() {
                             <p>This Cucumber Framework, Training Curriculum Covers The Introduction To Cucumber Framework, Continuous Integration Automation, Continuous Deployment, Understanding Of Various Categories Of Cucumber Framework Tools Like Development Life Cycle Management, Configuration Management Tools, Source Code Management, Automation Tool, And Continuous Monitoring Tools. It Also Covers Essential Tools Like Chef, Introduction To Docker, Integration Of Docker, Docker Swarm, Jenkins, Nagios, Etc.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <section className ="container my-3 pt-3">
+                    {/* <section className ="container my-3 pt-3">
                         <div className ="mt-4">
                             <h2 className ="linear-gradient-text fw-semibold text-center mb-2" data-aos="flip-right"
                                 data-aos-duration="500" data-aos-delay="600">Training Options </h2>
@@ -153,8 +153,8 @@ function Cucumber() {
                             <p className ="text-center  text-center fw-normal" data-aos="fade-up" data-aos-duration="800"
                                 data-aos-delay="400">Whether You Choose To Learn Online Or Offline, We're Excited To Have You As Part Of Our Cucumber Framework Community And Look Forward To Helping You Advance Your Career In The World Of Cucumber Framework!</p>
                         </div>
-                    </section>
-                    <section>
+                    </section> */}
+                    {/* <section>
                         <div className ="container-fluid">
                             <div className ="row">
                                 <div className ="col-md-6">
@@ -336,7 +336,7 @@ function Cucumber() {
                                 <img id="cerimg" src="./../../assets/img/ceri.jpg" alt="" />
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                 </div>
             </div>

@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar'
 import Swiper from '../../Components/Swiper'
 import Footer from '../../Components/Footer'
 import { Link } from 'react-router-dom'
+
 function Apirestassured() {
     return (
         <div>
@@ -12,22 +13,22 @@ function Apirestassured() {
                     style={{
                         background: "linear-gradient(270deg,rgb(25 151 236) 0,#000 100%)",
                     }}
-                    className ="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white overflow-hidden"
+                    className="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white overflow-hidden"
                 >
-                    <div className ="container z-3 text-center">
+                    <div className="container z-3 text-center">
                         <div
-                            className ="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row"
+                            className="row d-flex justify-content-center align-items-center flex-row-reverse flex-lg-row"
                         >
                             <div>
                                 <h1
                                     data-aos="fade-up"
                                     data-aos-duration="500"
-                                    className ="primary-header"
+                                    className="primary-header"
                                 >
-                                    API - Rest <span className ="primary-color">Assured</span>
+                                    API - Rest <span className="primary-color">Assured</span>
                                 </h1>
                                 <p
-                                    className ="text-light fs-6 text-capitalize fw-light"
+                                    className="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
@@ -42,11 +43,11 @@ function Apirestassured() {
 
                                     aria-label="breadcrumb"
                                 >
-                                    <ol className ="breadcrumb justify-content-center">
-                                        <li className ="breadcrumb-item"><Link to= "/">Home</Link></li>
-                                        <li className ="breadcrumb-item"><Link to= "/courses">Courses</Link></li>
+                                    <ol className="breadcrumb justify-content-center">
+                                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                                        <li className="breadcrumb-item"><Link to="/courses">Courses</Link></li>
                                         <li
-                                            className ="breadcrumb-item active text-white"
+                                            className="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
                                             API-Rest Assured
@@ -59,14 +60,14 @@ function Apirestassured() {
                 </section>
             </div>
             <div>
-                <div id="artifical" className ="coursesList">
-                    <div className ="container-fluid ">
-                        <p className ="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
+                <div id="artifical" className="coursesList">
+                    <div className="container-fluid ">
+                        <p className="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
                             About API-Rest Assured Course</p>
-                        <div className ="mt-4 text-center text-capitalize g-3">
-                            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT API - Rest Assured Training Will Help You Master And Build Your API - Rest Assured Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of API - Rest Assured Concepts. This Course Will Take Through The Practical Aspects Of API - Rest Assured And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our API - Rest Assured Certification Course To Transform Your Career Into A API - Rest Assured Engineer.
-                            </p>
+                        <div className="mt-4 text-center text-capitalize g-3">
+                            {/* <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT API - Rest Assured Training Will Help You Master And Build Your API - Rest Assured Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of API - Rest Assured Concepts. This Course Will Take Through The Practical Aspects Of API - Rest Assured And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our API - Rest Assured Certification Course To Transform Your Career Into A API - Rest Assured Engineer.
+                            </p> */}
                             <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">Experience the unparalleled edge of
                                 real-time project training – exclusive to us, as no
                                 other
@@ -74,65 +75,66 @@ function Apirestassured() {
                                 can match our offering.</p>
                         </div>
                     </div>
-                    <div className ="container">
-                        <section className ="course-includes">
-                            <div className ="container-fluid">
-                                <h2 className ="text-center justify-content-center align-content-center linear-gradient-text pt-5"
+                    {/* <div className="container">
+                        <section className="course-includes">
+                            <div className="container-fluid">
+                                <h2 className="text-center justify-content-center align-content-center linear-gradient-text pt-5"
                                     data-aos="flip-left" data-aos-duration="500" data-aos-delay="600">
                                     Course
                                     Includes</h2>
-                                <div className ="feature-grid row ">
-                                    <div className ="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
+                                <div className="feature-grid row ">
+                                    <div className="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
                                         data-aos-delay="300">
-                                        <div className ="feature-item">
-                                            <i className ="ri-macbook-fill"></i>
+                                        <div className="feature-item">
+                                            <i className="ri-macbook-fill"></i>
                                             <p>75 Hours of Sessions</p>
                                         </div>
                                     </div>
-                                    <div className ="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
+                                    <div className="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
                                         data-aos-delay="300">
-                                        <div className ="feature-item">
-                                            <i className ="ri-time-fill"></i>
+                                        <div className="feature-item">
+                                            <i className="ri-time-fill"></i>
                                             <p>Flexible Schedules</p>
                                         </div>
                                     </div>
-                                    <div className ="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
-                                        <div className ="feature-item">
-                                            <i className ="ri-customer-service-fill"></i>
+                                    <div className="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                        <div className="feature-item">
+                                            <i className="ri-customer-service-fill"></i>
                                             <p>24/7 Lifetime Support</p>
                                         </div>
                                     </div>
-                                    <div className ="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
+                                    <div className="feature col-lg-4" data-aos="fade-right" data-aos-duration="500"
                                         data-aos-delay="300">
-                                        <div className ="feature-item">
-                                            <i className ="ri-star-fill"></i>
+                                        <div className="feature-item">
+                                            <i className="ri-star-fill"></i>
                                             <p>Certification Oriented Curriculum</p>
                                         </div>
                                     </div>
-                                    <div className ="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
+                                    <div className="feature col-lg-4" data-aos="fade-down zoom-in" data-aos-duration="700"
                                         data-aos-delay="300">
-                                        <div className ="feature-item">
-                                            <i className ="ri-send-plane-2-fill"></i>
+                                        <div className="feature-item">
+                                            <i className="ri-send-plane-2-fill"></i>
                                             <p>FREE Demo on Request</p>
                                         </div>
                                     </div>
-                                    <div className ="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
-                                        <div className ="feature-item">
-                                            <i className ="ri-user-fill"></i>
+                                    <div className="feature col-lg-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                        <div className="feature-item">
+                                            <i className="ri-user-fill"></i>
                                             <p>One-on-One Doubt Clearing</p>
                                         </div>
                                     </div>
-                                    <div className ="feature col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
-                                        <div className ="feature-item">
-                                            <i className ="ri-thumb-up-fill"></i>
+                                    <div className="feature col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                                        <div className="feature-item">
+                                            <i className="ri-thumb-up-fill"></i>
                                             <p>Real-time Project Use cases</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                    </div>
-                    <div className ="container-fluid mt-5 py-4">
+                    </div> */}
+
+                    {/* <div className ="container-fluid mt-5 py-4">
                         <p className ="fw-semibold display-6 text-center text-capitalize linear-gradient-text justify-content-center linear-gradient-text"
                             data-aos="flip-right" data-aos-delay="500" data-aos-duration="500">
                             API-Rest Assured Course Content</p>
@@ -264,8 +266,8 @@ function Apirestassured() {
                             }}
                             >Empower your team with new skills to Enhance their performance and productivity</p>
                         </div>
-                    </section>
-                    <div className ="container">
+                    </section> */}
+                    {/* <div className ="container">
                         <div className ="row">
                             <div className ="col-md-6">
                                 <p className ="text-center fw-semibold fs-5">Corporate Training</p>
@@ -337,16 +339,30 @@ function Apirestassured() {
                                 <img id="cerimg" src="./../../assets/img/ceri.jpg" alt="" />
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                 </div>
             </div>
-            <div><Swiper /></div>
+            <div class="container hovering">
+                <a class="card1_effect" href="#">
+                    <h3>Tags</h3>
+                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            {/* <div><Swiper /></div> */}
             <div>
                 <Footer />
             </div>
         </div>
     )
+
 }
 
 export default Apirestassured
