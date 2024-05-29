@@ -25,14 +25,14 @@ function Apirestassured() {
                                     data-aos-duration="500"
                                     className="primary-header"
                                 >
-                                    API - Rest <span className="primary-color">Assured</span>
+                                    Cucumber
                                 </h1>
                                 <p
                                     className="text-light fs-6 text-capitalize fw-light"
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    Average Salary For API-Rest Assured Engineers In India - Rs.12 Lakhs Per Annum
+                                  Cucumber is a widely-used testing tool in software development that supports Behavior-Driven Development (BDD).
                                 </p>
                                 <nav
                                     data-aos="fade-up"
@@ -50,7 +50,7 @@ function Apirestassured() {
                                             className="breadcrumb-item active text-white"
                                             aria-current="page"
                                         >
-                                            API-Rest Assured
+                                           Cucumber
                                         </li>
                                     </ol>
                                 </nav>
@@ -64,15 +64,11 @@ function Apirestassured() {
                     <div className="container-fluid ">
                         <p className="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
                             data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-                            About API-Rest Assured Course</p>
+                            Cucumber</p>
                         <div className="mt-4 text-center text-capitalize g-3">
                             {/* <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT API - Rest Assured Training Will Help You Master And Build Your API - Rest Assured Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of API - Rest Assured Concepts. This Course Will Take Through The Practical Aspects Of API - Rest Assured And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our API - Rest Assured Certification Course To Transform Your Career Into A API - Rest Assured Engineer.
                             </p> */}
-                            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">Experience the unparalleled edge of
-                                real-time project training – exclusive to us, as no
-                                other
-                                institutes
-                                can match our offering.</p>
+                            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">These test cases, written in Gherkin syntax, help ensure that the software behaves as expected. By bridging the communication gap between developers and business stakeholders, Cucumber enhances collaboration and improves the overall quality of the software. </p>
                         </div>
                     </div>
                     {/* <div className="container">
@@ -343,18 +339,79 @@ function Apirestassured() {
 
                 </div>
             </div>
+            <div class="row">
+        <div class="col-md-4">
             <div class="container hovering">
+                <a class="card1_effect" href="#">
+                    <h3>Gherkins</h3>
+                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container hovering">
+                <a class="card1_effect" href="#">
+                    <h3>Step definition</h3>
+                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="
+html
+Copy code
+container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Tags</h3>
                     <p class="small">Card description with lots of great facts and interesting details.</p>
-                    <div class="go-corner" href="#">
-                        <div class="go-arrow">
-                            →
-                        </div>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
                     </div>
                 </a>
-
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="container hovering">
+                <a class="card1_effect" href="#">
+                    <h3>Hooks</h3>
+                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container hovering">
+                <a class="card1_effect" href="#">
+                    <h3>Report</h3>
+                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container hovering">
+                <a class="card1_effect" href="#">
+                    <h3>Cucumber Option</h3>
+                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
             {/* <div><Swiper /></div> */}
             <div>
