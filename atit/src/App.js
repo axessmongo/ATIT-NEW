@@ -38,14 +38,14 @@ import Advancejava from "./Courses-pages/Softwaretesting/Advancejava";
 import Apirestassured from "./Courses-pages/Softwaretesting/Apirestassured";
 import Awsservice from "./Courses-pages/Softwaretesting/Aws-service";
 import Corejava from "./Courses-pages/Softwaretesting/Corejava";
-import Cucumber from "./Courses-pages/Softwaretesting/Cucumber";
+// import Cucumber from "./Courses-pages/Softwaretesting/Cucumber";
 import Docker from "./Courses-pages/Softwaretesting/Docker";
 import Git from "./Courses-pages/Softwaretesting/Git";
 import Jenkins from "./Courses-pages/Softwaretesting/Jenkins";
 import Manualtesting from "./Courses-pages/Softwaretesting/Manualtesting";
 import Apipostman from "./Courses-pages/Softwaretesting/Apipostman";
 import Dbtesting from "./Courses-pages/Softwaretesting/Db-testing";
-import Selenium from "./Courses-pages/Softwaretesting/Selenium";
+//import Selenium from "./Courses-pages/Softwaretesting/Selenium";
 import Maven from "./Courses-pages/Softwaretesting/Maven";
 import Pageobject from "./Courses-pages/Softwaretesting/Pageobject";
 import Testng from "./Courses-pages/Softwaretesting/testng";
@@ -55,6 +55,11 @@ import DevOpsTestAutomation from "./Blog-page/DevOps-Test-Automation";
 import AutomatedTesting from "./Blog-page/Automated-Testing";
 import Manualtestingautomationtesting from "./Blog-page/Manualtesting-automationtesting";
 import Newblogpage from "./Blog-page/Newblogpage";
+import cucumber from "./domains/Cucumbers";
+import Cucumbers from "./domains/Cucumbers";
+import Selenium from "./domains/Selenium";
+import Playwright from "./domains/Playwright";
+
 
 function App() {
 
@@ -64,7 +69,7 @@ function App() {
 
 
   const { pathname } = useLocation();
-  
+
   const modalElement = document.querySelector('.modal-backdrop');
 
   useEffect(() => {
@@ -74,11 +79,11 @@ function App() {
         modalElement.remove(); document.body.style.overflow = '';
         document.body.style.padding = '';
       }
-    }else{
-        if (modalElement) {
-          modalElement.remove(); document.body.style.overflow = '';
-          document.body.style.padding = '';
-        }
+    } else {
+      if (modalElement) {
+        modalElement.remove(); document.body.style.overflow = '';
+        document.body.style.padding = '';
+      }
     }
   }, [pathname]);
 
@@ -109,7 +114,10 @@ function App() {
 
           
           <Route path="corejava" element={<Corejava />} />
-          <Route path="cucumber" element={<Cucumber />} />
+          {/* <Route path="cucumber" element={<Cucumber />} /> */}
+          <Route path="cucumber" element={<Cucumbers />} />
+          <Route path="Playwright" element={<Playwright />} />
+
           <Route path="dbtesting" element={<Dbtesting />} />
           <Route path="docker" element={<Docker />} />
           <Route path="git" element={<Git />} />
@@ -117,7 +125,8 @@ function App() {
           <Route path="manualtesting" element={<Manualtesting />} />
           <Route path="maven" element={<Maven />} />
           <Route path="pageobject" element={<Pageobject />} />
-          <Route path="selenium" element={<Selenium />} />
+          {/*           <Route path="selenium" element={<Selenium />} />*/}
+          <Route path="selenium" element={< Selenium />} />
           <Route path="testng" element={<Testng />} />
         </Route>
         <Route path="/pap" element={<Pap />} />
@@ -149,13 +158,13 @@ function App() {
             path="competitiveJobMarket"
             element={<CompetitiveJobMarket />}
           />
-          <Route path="devopstestautomation" element={<DevOpsTestAutomation/>} />
-          <Route path="automatedTesting" element={<AutomatedTesting/>} />
-          <Route path="manualtestingautomationtesting" element={<Manualtestingautomationtesting/>} />
+          <Route path="devopstestautomation" element={<DevOpsTestAutomation />} />
+          <Route path="automatedTesting" element={<AutomatedTesting />} />
+          <Route path="manualtestingautomationtesting" element={<Manualtestingautomationtesting />} />
         </Route>
-        <Route path="/newblog" element={<Newblogpage/>} />
+        <Route path="/newblog" element={<Newblogpage />} />
         {/* <Route path="/singaporeJob" element={<SingaporeJob/>}/> */}
-         <Route path="/privacy-policy" element={<Privacy />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>
