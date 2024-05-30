@@ -191,7 +191,7 @@ console.log(domainDatas);
                 <h2 className='primary-color mb-3' data-aos="fade-up" data-aos-duration="600">Java</h2>
                 <div className ="row g-5">
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="apirestassured"
+                    <Link to="cucumber"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card1 text-white text-center mb-0">Cucumber</h4>
@@ -220,7 +220,7 @@ console.log(domainDatas);
                     </Link>
                   </div>
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="corejava"
+                    <Link to="Selenium"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card2 text-white text-center mb-0">selenium</h4>
@@ -312,7 +312,7 @@ console.log(domainDatas);
                     </Link>
                   </div>
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="corejava"
+                    <Link to="Playwright"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card4 text-white text-center mb-0">PlayWright</h4>
