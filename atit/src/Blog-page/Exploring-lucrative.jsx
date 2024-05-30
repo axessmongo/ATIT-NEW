@@ -118,46 +118,46 @@ function Exploringlucrative() {
                                         </div>
                                         <div className ="blog-mid-content row my-5 py-lg-5">
                                             <div className ="col-lg-8" data-aos="fade-right" data-aos-duration="600">
-                                                <h1 className ="blog-mid-header text-center text-lg-start">
+                                                <h2 className ="primary-header mb-3">
                                                     Level Up Your Career with
-                                                </h1>
+                                                </h2>
                                                 <p className ="secondary-text "> In-Demand Programming Languages.Whether you're a college fresher or an experienced professional, understanding the demand and growth potential in these domains can help you chart a successful career path in the Indian IT landscape.</p>
                                             </div>
                                             <div className ="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
                                                 data-aos-duration="600">
-                                                <p className ="secondary-header m-0">python</p>
-                                                <p className ="secondary-header m-0">JavaScript</p>
-                                                <p className ="secondary-header m-0">Node.js</p>
-                                                <p className ="secondary-header m-0">React.js</p>
+                                                <p className ="primary-header fs-2 m-0">python</p>
+                                                <p className ="primary-header fs-2 m-0">JavaScript</p>
+                                                <p className ="primary-header fs-2 m-0">Node.js</p>
+                                                <p className ="primary-header fs-2 m-0">React.js</p>
                                             </div>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">The Growing Demand for Python Developers </h2>
+                                            <h2 className ="primary-header fs-2">The Growing Demand for Python Developers </h2>
                                             <p className ="secondary-text">Python, renowned for its simplicity and versatility, has gained immense popularity recently. </p>
                                             <p className ="secondary-text">The demand for Python developers in India is soaring, thanks to its extensive use in web development, data science, artificial intelligence, and machine learning. </p>
                                             <p className ="secondary-text">Numerous Indian companies, from startups to multinational corporations, are actively seeking Python professionals to drive innovation and develop robust software solutions. </p>
                                             <p className ="secondary-text">Roles such as Python developer, data analyst, machine learning engineer, and data scientist offer exciting career prospects for you.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Exploring Opportunities with Node.js </h2>
+                                            <h2 className ="primary-header fs-2">Exploring Opportunities with Node.js </h2>
                                             <p className ="secondary-text">Node.js, built on JavaScript, has emerged as a leading technology for building scalable and efficient server-side applications. </p>
                                             <p className ="secondary-text">Its non-blocking, event-driven architecture has revolutionised web development, making it a highly sought-after skill in the Indian IT job market. </p>
                                             <p className ="secondary-text">Startups and enterprises alike are adopting Node.js for building real-time applications, microservices, and APIs. </p>
                                             <p className ="secondary-text">Node.js developers in India can explore opportunities as full-stack developers, backend developers, or API developers, enjoying competitive salaries and great growth prospects.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Unlocking Career Potential with React.js </h2>
+                                            <h2 className ="primary-header fs-2">Unlocking Career Potential with React.js </h2>
                                             <p className ="secondary-text">React.js, a powerful JavaScript library, has become the go-to choice for building modern, interactive user interfaces. Its component-based approach and virtual DOM manipulation have transformed the way web applications are developed. </p>
                                             <p className ="secondary-text">Indian companies are actively seeking React.js developers to build responsive and dynamic web applications that provide a seamless user experience. Front-end developers specialising in React.js can find opportunities to work on cutting-edge projects, collaborate with talented teams, and shape the future of web development.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">JavaScript: A Fundamental Skill in the Indian IT Job Market </h2>
+                                            <h2 className ="primary-header fs-2">JavaScript: A Fundamental Skill in the Indian IT Job Market </h2>
                                             <p className ="secondary-text">JavaScript, the ubiquitous language of the web, remains a critical skill for IT professionals in India. From frontend development to backend scripting, JavaScript plays a vital role in various domains. </p>
                                             <p className ="secondary-text">With the advent of frameworks like Angular and libraries like Vue.js, JavaScript has expanded its reach beyond the browser, enabling developers to build complex web applications.</p>
                                             <p className ="secondary-text">Indian companies value JavaScript expertise, offering a wide range of career opportunities for professionals skilled in JavaScript.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">What’s the takeaway?</h2>
+                                            <h2 className ="primary-header fs-2">What’s the takeaway?</h2>
                                             <p className ="secondary-text">The IT job market in India is booming, and proficiency in Python, Node.js, React.js, and JavaScript can open the doors to exciting career opportunities. </p>
                                             <p className ="secondary-text">Companies across various sectors are actively hiring professionals skilled in these programming languages, from startups to established enterprises. </p>
                                             <p className ="secondary-text">Whether you aspire to become a Python developer, a Node.js expert, a React.js specialist, or a versatile JavaScript professional, investing in these skills can lead to a successful and fulfilling career in the Indian IT industry. </p>

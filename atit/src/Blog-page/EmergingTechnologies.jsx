@@ -121,7 +121,7 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Artificial Intelligence (AI)</h2>
+                                            <h2 className ="primary-header fs-2">Artificial Intelligence (AI)</h2>
                                             <p className ="secondary-text">AI Is Driving Significant Transformations Across Industries.
                                                 From
                                                 Automated Processes To Smart Decision-Making Algorithms, AI Offers Endless
@@ -130,7 +130,7 @@ function EmergingTechnologies() {
                                                 Processing Can Open Up Numerous High-Paying Job Opportunities.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Internet Of Things (IoT)</h2>
+                                            <h2 className ="primary-header fs-2">Internet Of Things (IoT)</h2>
                                             <p className ="secondary-text">The IoT Connects Various Devices, Allowing Them To Exchange
                                                 Data
                                                 And Communicate Seamlessly. As IoT Device Usage Continues To Skyrocket,
@@ -139,7 +139,7 @@ function EmergingTechnologies() {
                                                 After.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Blockchain</h2>
+                                            <h2 className ="primary-header fs-2">Blockchain</h2>
                                             <p className ="secondary-text">
                                                 Blockchain Technology Has Disrupted Industries By Providing Secure And Transparent
                                                 Digital Transactions. Mastering Blockchain Development And Implementation Skills Can
@@ -149,7 +149,7 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Virtual Reality (VR) And Augmented Reality (AR)</h2>
+                                            <h2 className ="primary-header fs-2">Virtual Reality (VR) And Augmented Reality (AR)</h2>
                                             <p className ="secondary-text">
                                                 VR And AR Have The Potential To Transform Various Industries, Including Gaming,
                                                 Healthcare, And Education. Professionals Skilled In Creating Immersive Virtual
@@ -169,11 +169,11 @@ function EmergingTechnologies() {
                                         </div>
                                         <div className ="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
                                             data-aos-duration="600">
-                                            <p className ="secondary-header m-0">python</p>
-                                            <p className ="secondary-header m-0">JavaScript</p>
-                                            <p className ="secondary-header m-0">Go</p>
-                                            <p className ="secondary-header m-0">Rust</p>
-                                            <p className ="secondary-header m-0">Kotlin</p>
+                                            <p className ="primary-header fs-2 m-0">python</p>
+                                            <p className ="primary-header fs-2 m-0">JavaScript</p>
+                                            <p className ="primary-header fs-2 m-0">Go</p>
+                                            <p className ="primary-header fs-2 m-0">Rust</p>
+                                            <p className ="primary-header fs-2 m-0">Kotlin</p>
                                         </div>
                                     </div>
                                     <div>
@@ -188,14 +188,14 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Ethical Hacking (Penetration Testing)</h2>
+                                            <h2 className ="primary-header fs-2">Ethical Hacking (Penetration Testing)</h2>
                                             <p className ="secondary-text">Ethical Hackers Help Organizations Identify Vulnerabilities
                                                 And Secure Their Systems. Professionals With Expertise In Ethical Hacking
                                                 Techniques, Vulnerability Assessments, And Penetration Testing Will Be In High
                                                 Demand.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Data Privacy And Compliance</h2>
+                                            <h2 className ="primary-header fs-2">Data Privacy And Compliance</h2>
                                             <p className ="secondary-text">The IoT Connects Various Devices, Allowing Them To Exchange
                                                 As Data Regulations Become Stricter, Professionals Skilled In Data Privacy And
                                                 Compliance Will Be Crucial For Organizations. They Will Ensure That Businesses
@@ -204,7 +204,7 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Cloud Security</h2>
+                                            <h2 className ="primary-header fs-2">Cloud Security</h2>
                                             <p className ="secondary-text">
                                                 With The Widespread Adoption Of Cloud Computing, Specialists In Cloud Security Will
                                                 Be Highly Sought After. Professionals Who Can Ensure The Confidentiality, Integrity,
@@ -212,7 +212,7 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Threat Intelligence</h2>
+                                            <h2 className ="primary-header fs-2">Threat Intelligence</h2>
                                             <p className ="secondary-text">
                                                 As Cyber Threats Become More Sophisticated, Professionals With Proficiency In Threat
                                                 Intelligence Analysis Will Be Essential. They Will Play A Crucial Role In Monitoring
@@ -233,14 +233,14 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Machine Learning</h2>
+                                            <h2 className ="primary-header fs-2">Machine Learning</h2>
                                             <p className ="secondary-text">Machine Learning Algorithms Enable Computers To Learn From
                                                 Data And Make Predictions Or Decisions Without Being Explicitly Programmed.
                                                 Professionals Skilled In Machine Learning Techniques And Algorithms Will Be Highly
                                                 Sought After.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Big Data Analytics</h2>
+                                            <h2 className ="primary-header fs-2">Big Data Analytics</h2>
                                             <p className ="secondary-text">The IoT Connects Various Devices, Allowing Them To Exchange
                                                 With The Proliferation Of Data, The Ability To Extract Valuable Insights From Large
                                                 Datasets Is Crucial. Proficiency In Big Data Analytics Tools And Techniques Such As
@@ -248,7 +248,7 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Data Visualization</h2>
+                                            <h2 className ="primary-header fs-2">Data Visualization</h2>
                                             <p className ="secondary-text">
                                                 Translating Complex Data Into Visually Appealing And Understandable Representations
                                                 Is A Valuable Skill. Professionals Who Can Effectively Communicate Data Insights
@@ -256,7 +256,7 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Data Engineering</h2>
+                                            <h2 className ="primary-header fs-2">Data Engineering</h2>
                                             <p className ="secondary-text">
                                                 Data Engineers Build The Infrastructure, Tools, And Frameworks Necessary For Data
                                                 Analysis. They Are Responsible For Data Collection, Extraction, Transformation, And
@@ -277,21 +277,21 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Cloud Architecture</h2>
+                                            <h2 className ="primary-header fs-2">Cloud Architecture</h2>
                                             <p className ="secondary-text">Designing And Implementing Cloud Infrastructure That Meets An
                                                 Organization's Requirements Is Crucial. Professionals Skilled In Cloud Architecture
                                                 Based On Platforms Like Amazon Web Services (AWS) Or Microsoft Azure Will Be Highly
                                                 Valued.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Cloud Security And Compliance</h2>
+                                            <h2 className ="primary-header fs-2">Cloud Security And Compliance</h2>
                                             <p className ="secondary-text">With The Move To The Cloud, Ensuring Data Security And
                                                 Compliance Is Paramount. Professionals With Expertise In Cloud Security, Encryption,
                                                 And Governance Will Play A Crucial Role In Protecting Cloud-Based Systems.
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">DevOps</h2>
+                                            <h2 className ="primary-header fs-2">DevOps</h2>
                                             <p className ="secondary-text">
                                                 DevOps Combines Development And Operations, Focusing On The Collaboration Between
                                                 Software Developers And IT Operations. Professionals Skilled In DevOps Practices And
@@ -300,7 +300,7 @@ function EmergingTechnologies() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Serverless Computing</h2>
+                                            <h2 className ="primary-header fs-2">Serverless Computing</h2>
                                             <p className ="secondary-text">
                                                 Serverless Computing Allows Developers To Focus On Writing Code Without Worrying
                                                 About Server Management. Professionals With Expertise In Serverless Computing
