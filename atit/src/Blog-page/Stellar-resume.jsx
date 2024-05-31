@@ -136,27 +136,27 @@ function Howtocraftastellar() {
                                             <h2 className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Now, what should
                                                 you actually include on your fresher resume? Here are the key sections to
                                                 focus on:</h2>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600"> 1.
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600"> 1.
                                                 Summary/Objective </p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">This 2-3 line blurb
                                                 at the very top gives a brief overview of who you are, what you&#39;re
                                                 looking for, and what you have to offer. Keep it short, targeted, and intriguing to
                                                 make
                                                 the hiring manager want to keep reading.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">2. Education</p>
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">2. Education</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Starting with your
                                                 most recent degree, list your college education like this: Degree name,
                                                 Institution, Location, Year of graduation. You can also include things like GPA,
                                                 academic
                                                 projects, scholarships, or honours if they strengthen your profile. </p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">3. Experience</p>
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">3. Experience</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Here are the
                                                 part-time jobs, internships, freelancing gigs, and extracurricular activities.
                                                 Anything relevant where you developed useful skills. Start with your most recent
                                                 experience first. Include the name of your company/organisation, your position
                                                 title,
                                                 employment dates, and bullet points of your responsibilities and achievements.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">4. Skills</p>
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">4. Skills</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">A very crucial
                                                 section! Include the technical skills and programs you know, along with
                                                 soft skills like communication, teamwork, leadership, etc. Break it down into
@@ -164,11 +164,11 @@ function Howtocraftastellar() {
                                                 and use bullets if you have a lot of skills. Only list what you&#39;re truly
                                                 proficient in.
                                             </p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">5. Certifications
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">5. Certifications
                                             </p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Got any specialised
                                                 certifications related to your industry or role? Pop those in too.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">6. Volunteer Work
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">6. Volunteer Work
                                             </p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">If you&#39;ve
                                                 volunteered in meaningful ways, a brief description can highlight your interests

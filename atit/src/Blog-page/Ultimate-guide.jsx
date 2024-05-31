@@ -124,7 +124,7 @@ function Theultimateguide() {
 
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Understanding
+                                            <h2 className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Understanding
                                                 the Impact of Poor Word Choice</h2>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Your choice of
                                                 words can significantly influence how
@@ -133,7 +133,7 @@ function Theultimateguide() {
                                                 you appear less confident. It is essential to understand the potential pitfalls of
                                                 poor
                                                 word choice to avoid jeopardizing your interview performance. </p>
-                                            <h2 className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Unveiling 10
+                                            <h2 className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Unveiling 10
                                                 Words and Phrases to Avoid</h2>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">To help you
                                                 navigate through your interview with confidence,
@@ -161,7 +161,7 @@ function Theultimateguide() {
                                                 hate&quot; or &quot;I can&#39;t stand&quot;</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header" data-aos="fade-up" data-aos-duration="600">1: Self-Doubt
+                                            <h2 className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">1: Self-Doubt
                                                 and Weak Communication</h2>
 
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">&quot;I&#39;m not
@@ -188,7 +188,7 @@ function Theultimateguide() {
                                                 Instead,
                                                 present your ideas with conviction and clarity.
                                             </p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">2: Discrediting
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">2: Discrediting
                                                 Your Skills</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">&quot;I don&#39;t
                                                 have experience in&quot;
@@ -213,7 +213,7 @@ function Theultimateguide() {
                                                 &quot;I haven&#39;t really
                                                 done.&quot; Instead, showcase your past achievements and explain how they have
                                                 prepared you for future challenges.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">3: Lack of
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">3: Lack of
                                                 Confidence and Initiative</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">&quot;I have no
                                                 idea&quot; or &quot;I&#39;m clueless&quot;.
@@ -239,7 +239,7 @@ function Theultimateguide() {
                                                 nature can make you appear lacking in independence and critical thinking skills.
                                                 Instead, highlight instances where you have taken initiative and demonstrated
                                                 leadership abilities.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">4: Negative
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">4: Negative
                                                 Attitudes and Outlooks</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">&quot;I hate&quot;
                                                 or &quot;I can&#39;t stand&quot;</p>
@@ -267,7 +267,7 @@ function Theultimateguide() {
                                                 about your ability to work well in a team. Instead, emphasize positive relationships
                                                 and focus on what you have learned from those experiences.</p>
 
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">5.Power Words and
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">5.Power Words and
                                                 Phrases</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">In contrast to the
                                                 aforementioned pitfalls, utilizing power
@@ -294,7 +294,7 @@ function Theultimateguide() {
                                                 showcasing instances where
                                                 you successfully navigated challenges similar to those you may encounter in the
                                                 role you are interviewing for.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">6.Gaining
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">6.Gaining
                                                 Confidence and Assertiveness</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">&quot;I&#39;ve
                                                 taken on challenges similar to&quot;</p>
@@ -303,34 +303,34 @@ function Theultimateguide() {
                                                 showcasing instances where
                                                 you successfully navigated challenges similar to those you may encounter in the
                                                 role you are interviewing for.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">7.Showcasing your
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">7.Showcasing your
                                                 accomplishments</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Highlight specific
                                                 accomplishments and quantify the results
                                                 whenever possible.
                                                 Providing tangible examples of your achievements demonstrates your capabilities
                                                 and gives interviewers a clear picture of your potential.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Emphasizing your
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Emphasizing your
                                                 strengths</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Identify your
                                                 unique strengths and weave them into your
                                                 responses. You want to
                                                 convey to the interviewer the value you bring to the table and why you are the ideal
                                                 candidate for the position.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">8.Expressing
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">8.Expressing
                                                 determination and motivation</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Demonstrate your
                                                 enthusiasm and determination by expressing
                                                 your passion for
                                                 the industry, the role you are applying for, and your long-term goals. This shows
                                                 interviewers that you are genuinely invested in your career growth.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">9.Practicing
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">9.Practicing
                                                 Effective Communication</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Effective
                                                 communication is key to successful interviews. Here
                                                 are some techniques
                                                 to help you communicate effectively and leave a positive impression:</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">10.Active
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">10.Active
                                                 listening and response techniques</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Demonstrate active
                                                 listening by maintaining eye contact,
@@ -338,7 +338,7 @@ function Theultimateguide() {
                                                 thoughtfully to the interviewer&#39;s questions and comments. Paraphrase and
                                                 reiterate
                                                 key points to show your understanding and engagement.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">11.To demonstrate
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">11.To demonstrate
                                                 engagement</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Prepare thoughtful
                                                 questions to ask the interviewer. This not
@@ -360,7 +360,7 @@ function Theultimateguide() {
                                                 ability to handle
                                                 adversity. Here&#39;s how you can address specific types of difficult questions:
                                             </p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">1.Addressing
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">1.Addressing
                                                 gaps in experience</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600"> Rather than
                                                 dwelling on the absence of certain experiences,
@@ -382,7 +382,7 @@ function Theultimateguide() {
                                                 role in resolving it, and the positive outcome. Emphasize your ability to
                                                 collaborate
                                                 and find constructive solutions.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">2. Crafting an
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">2. Crafting an
                                                 Impactful Interview</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">To make the most
                                                 out of your interview, it is crucial to
@@ -390,7 +390,7 @@ function Theultimateguide() {
                                                 your language and build a foundation of confidence, positivity, and professionalism.
                                                 Demonstrating adaptability, enthusiasm, and problem-solving skills will leave a
                                                 lasting impression on potential employers.</p>
-                                            {/* <!-- <p className ="secondary-header">Cracking the Interview Code</p> --> */}
+                                            {/* <!-- <p className ="primary-header fs-2">Cracking the Interview Code</p> --> */}
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">How should I deal
                                                 with difficult interviewers?</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Handling difficult
@@ -398,14 +398,14 @@ function Theultimateguide() {
                                                 adaptability. Maintain
                                                 professionalism, actively listen, and respond thoughtfully. Focus on showcasing
                                                 your skills and qualifications regardless of the interviewer&#39;s approach.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Should I rehearse
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Should I rehearse
                                                 answers to common interview questions?</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Rehearsing answers
                                                 to common interview questions can
                                                 significantly improve your
                                                 performance. However, be mindful of sounding too rehearsed or scripted. Try to
                                                 strike a balance between preparedness and natural conversation.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Can I use power
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Can I use power
                                                 words and phrases in a cover letter or
                                                 résumé?</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Absolutely! Power

@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import Company from "../Components/Company";
 import { Link } from "react-router-dom";
 import AOS from "aos";
+import Navbar from "../Components/Navbar";
 
 function Newblogpage() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function Newblogpage() {
     <div className="newBlog">
       <div>
         <div>
+          <Navbar/>
           {/* blog banner */}
           <section
             className="hero-banner new-hero vh-500px header finisher-header text-center text-md-start text-white mb-5"
@@ -162,11 +164,14 @@ function Newblogpage() {
               <div className="row">
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
-                  <img
-                    src="https://cdn.pixelgrade.com/wp-content/uploads/2021/04/xRoo-Interview-from-pompomcooks.com_-1024x538.jpg.pagespeed.ic.Jr-N70tSm_.webp"
-                    alt=""
-                    className="mt-3"
-                  />
+                  <Link to={"/blog/automatedTesting"}>
+              <img data-aos="fade-up"
+                data-aos-duration="600"
+                src="../assets/img/Blog/Automation-Testing.jpg"
+                className="mt-1"
+                alt=""
+              />
+              </Link>
                 </div>
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
@@ -176,31 +181,18 @@ function Newblogpage() {
                   <p className="secondary-text">
                     Cooking as a form of self-expression People like you — 19
                   </p>
+                  <Link to={"/blog/automatedTesting"}> Read More</Link>
                 </div>
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
-                  <img
-                    src="https://cdn.pixelgrade.com/wp-content/uploads/2021/03/xContributing-to-humanity-through-architecture-1024x538.png.pagespeed.ic.SMZFqkxbv0.webp"
-                    alt=""
-                    className="mt-3"
-                  />
-                </div>
-                <div className="col-md-6" data-aos="fade-up"
-                  data-aos-duration="600">
-                  <p className="secondary-text fw-bold fs-5">
-                    People like you — 11 min read
-                  </p>
-                  <p className="secondary-text">
-                    Cooking as a form of self-expression People like you — 19
-                  </p>
-                </div>
-                <div className="col-md-6" data-aos="fade-up"
-                  data-aos-duration="600">
-                  <img
-                    src="https://cdn.pixelgrade.com/wp-content/uploads/2020/12/xBeing-creative-is-seeing-potential-in-people-and-things-1024x538.jpg.pagespeed.ic.erz-EDfkwy.webp"
-                    alt=""
-                    className="mt-3"
-                  />
+                  <Link to={"/blog/devopstestautomation"}>
+              <img data-aos="fade-up"
+                data-aos-duration="600"
+                src="../assets/img/Blog/Devopstesting.jpg"
+                className="mt-1"
+                alt=""
+              />
+              </Link>
                 </div>
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
@@ -210,6 +202,28 @@ function Newblogpage() {
                   <p className="secondary-text">
                     Cooking as a form of self-expression People like you — 19
                   </p>
+                  <Link to={"/blog/devopstestautomation"}> Read More</Link>
+                </div>
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
+                  <Link to={"/blog/manualtestingautomationtesting"}>
+              <img data-aos="fade-up"
+                data-aos-duration="600"
+                src="../assets/img/Blog/manualtesting&autmationtesting.jpg"
+                className="mt-1"
+                alt=""
+              />
+              </Link>
+                </div>
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
+                  <p className="secondary-text fw-bold fs-5">
+                    People like you — 11 min read
+                  </p>
+                  <p className="secondary-text">
+                    Cooking as a form of self-expression People like you — 19
+                  </p>
+                  <Link to={"/blog/manualtestingautomationtesting"}> Read More</Link>
                 </div>
               </div>
             </div>
@@ -218,64 +232,63 @@ function Newblogpage() {
             <div className="row">
               <div className="col-md-4" data-aos="fade-up"
                 data-aos-duration="600">
+                  <Link to={"/blog/stellarResume"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2022/03/xSix-years-at-Pixelgrade_-the-adventure-comes-to-an-end-1024x538.jpg.pagespeed.ic.9WHA6PJHsu.webp"
+                  src="../assets/img/Blog/Blog9.png"
                   alt=""
                 />
+                </Link>
                 <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
                 <p className="secondary-text">
-                  Six years at Pixelgrade: the adventure comes to an end
+                  Use Simple, Standard Font Like Arial Or Times New Roman In Size 10-12 Points.
                 </p>
                 <p className="secondary-text">
-                  Being the glue that kept the pieces together at pixelgrade for
-                  more than six years was honoring. I am genuinely grateful for
-                  everything I experienced here, and I’ll remain a believer.
-                  Thank you! Read More
+                  Bold And Increase The Size Slightly For Your Name And Each Section Header. Include Clear Headings Like Summary, Education, Experience, Skills, Etc.
                 </p>
-                <Link to={""}>Read more</Link>
+                <Link to={"/blog/stellarResume"}>Read more</Link>
               </div>
               <div className="col-md-4" data-aos="fade-up"
                 data-aos-duration="600">
+                  <Link to={"/blog/understandingTheItIndustry"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2019/09/xHow-to-write-your-first-blog-post-with-confidence-min-1024x538.jpg.pagespeed.ic.5WfiQUWCCJ.webp"
+                  src="../assets/img/Blog/Blog1.jpg"
                   alt=""
-                />
+                 height={"250px"} width={"250px"}/>
+                </Link>
                 <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
                 <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
                 <p className="secondary-text">
-                  Being the glue that kept the pieces together at pixelgrade for
-                  more than six years was honoring. I am genuinely grateful for
-                  everything I experienced here, and I’ll remain a believer.
-                  Thank you! Read More
+                The IT Industry Comprises Various Domains, Such As Software Development, Data Analytics, Cloud Computing, Cybersecurity, And Artificial Intelligence. 
                 </p>
-                <Link to={""}>Read more</Link>
+                <Link to={"/blog/understandingTheItIndustry"}>Read more</Link>
               </div>
               <div className="col-md-4" data-aos="fade-up"
                 data-aos-duration="600">
+                  <Link to={"/blog/ultimateGuide"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2022/01/xtransparency-report-14-featured-1-1024x525.png.pagespeed.ic.e5LE3tew0n.webp"
+                  src="../assets/img/Blog/Blog10.png"
                   alt=""
                 />
+                </Link>
                 <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
                 <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
                 <p className="secondary-text">
-                  Being the glue that kept the pieces together at pixelgrade for
-                  more than six years was honoring. I am genuinely grateful for
-                  everything I experienced here, and I’ll remain a believer.
-                  Thank you! Read More
+                In Today's Competitive Job Market, Interviews Play A Crucial Role In Determining One's Career Success.
                 </p>
-                <Link to={""}>Read more</Link>
+                <Link to={"/blog/ultimateGuide"}>Read more</Link>
               </div>
               <div className="col-md-4 mt-3 pt-3" data-aos="fade-up"
                 data-aos-duration="600">
+                  <Link to={"/blog/careerCompleteGuide"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/02/xLaunching-a-website-1024x538.jpg.pagespeed.ic.hm2_KcJ2J7.webp"
+                  src="../assets/img/Blog/Blog6.png"
                   alt=""
                 />
+                </Link>
                 <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
                 <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
@@ -286,14 +299,16 @@ function Newblogpage() {
                   everything I experienced here, and I’ll remain a believer.
                   Thank you! Read More
                 </p>
-                <Link to={""}>Read more</Link>
+                <Link to={"/blog/careerCompleteGuide"}>Read more</Link>
               </div>
               <div className="col-md-4 mt-3 pt-3" data-aos="fade-up"
                 data-aos-duration="600">
+                  <Link to="/blog/competitiveJobMarket">
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/02/xLaunching-a-website-1024x538.jpg.pagespeed.ic.hm2_KcJ2J7.webp"
+                  src="../assets/img/Blog/Blog10.png"
                   alt=""
                 />
+                </Link>
                 <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
                 <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
@@ -304,25 +319,24 @@ function Newblogpage() {
                   everything I experienced here, and I’ll remain a believer.
                   Thank you! Read More
                 </p>
-                <Link to={""}>Read more</Link>
+                <Link to={"/blog/competitiveJobMarket"}>Read more</Link>
               </div>
               <div className="col-md-4 mt-3 pt-3" data-aos="fade-up"
                 data-aos-duration="600">
+                  <Link to={"/blog/jobRace"}>
                 <img
-                  src="https://pixelgrade.com/wp-content/uploads/2021/02/Creating-your-website%E2%80%94get-your-priorities-straight-1024x538.jpg"
+                  src="../assets/img/Blog/Blog3.png"
                   alt=""
                 />
+                </Link>
                 <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
                 <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
                 <p className="secondary-text">
-                  Being the glue that kept the pieces together at pixelgrade for
-                  more than six years was honoring. I am genuinely grateful for
-                  everything I experienced here, and I’ll remain a believer.
-                  Thank you! Read More
+                here Is A Fact That Every ‘Computer’ Guy Would Agree Upon.“Programming Languages Are Essential Tools For Software Developers.”
                 </p>
-                <Link to={""}>Read more</Link>
+                <Link to={"/blog/jobRace"}>Read more</Link>
               </div>
             </div>
           </div>
@@ -332,32 +346,38 @@ function Newblogpage() {
             <div className="col-md-3">
               <div data-aos="fade-up"
                 data-aos-duration="600">
+                  <Link to={"/blog/strategyForSuccess"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
+                  src="../assets/img/Blog/Blog11.png"
                   alt=""
                 />
+                </Link>
                 <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
                 <p className="secondary-text">About page examples for different team structures</p>
-
+                <Link to={"/blog/strategyForSuccess"}>Read more</Link>
               </div>
               <div data-aos="fade-up"
                 data-aos-duration="600">
+                <Link to={"/blog/masteringTechnicalInterviews"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
+                  src="../assets/img/Blog/Blog12.png"
                   alt=""
                 />
+                </Link>
                 <p className="fw-bold fs-5 secondary-text py-3 mb-0">Imagine your website — 8 min read</p>
                 <p className="secondary-text">About page examples for different team structures</p>
-
+                <Link to={"/blog/masteringTechnicalInterviews"}>Read more</Link>   
               </div>
             </div>
 
             <div className="col-md-6" data-aos="fade-up"
                 data-aos-duration="600">
-              <img
-                src="https://cdn.pixelgrade.com/wp-content/uploads/2021/10/xHow-to-sell-your-crafts-online-using-WordPress-Plus-a-Case-Study-min-1024x538.jpg.pagespeed.ic.eOJn5u0UFf.webp"
-                alt=""
-              />
+              <Link to={"/blog/dynamicsItJob"}>
+                <img
+                  src="../assets/img/Blog/Blog5.png"
+                  alt=""
+                />
+                </Link>
               <p className="py-3 secondary-text fw-bold fs-5 mb-0">
                 Build up your website — 12 min read
               </p>
@@ -369,27 +389,33 @@ function Newblogpage() {
                 like a danger zone you are about to enter. We help you be safe
                 and shine.
               </p>
-              <Link to={""}>read more</Link>
+              <Link to={"/blog/dynamicsItJob"}>Read more</Link>
 
             </div>
             <div className="col-md-3">
               <div data-aos="fade-up"
                 data-aos-duration="600">
+                <Link to={"/blog/firstItjobInterview"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/07/xCreating-a-company-blog-that-serves-business-goals-min-1024x538.jpg.pagespeed.ic.wbxUK7Wt9J.webp"
+                  src="../assets/img/Blog/Blog8.png"
                   alt=""
                 />
+                </Link>
                 <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
                 <p className="secondary-text">About page examples for different team structures</p>
+                <Link to={"/blog/firstItjobInterview"}>Read more</Link>
               </div>
               <div data-aos="fade-up"
                 data-aos-duration="600">
+                <Link to={"/blog/boomingItSector"}>
                 <img
-                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
+                  src="../assets/img/Blog/Blog9.png"
                   alt=""
                 />
+                </Link>
                 <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
                 <p className="secondary-text">About page examples for different team structures</p>
+                <Link to={"/blog/boomingItSector"}>Read more</Link>
               </div>
             </div>
           </div>
