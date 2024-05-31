@@ -25,7 +25,7 @@ function Newblogpage() {
     };
   }, []);
   return (
-    <div>
+    <div className="newBlog">
       <div>
         <div>
           {/* blog banner */}
@@ -82,106 +82,132 @@ function Newblogpage() {
             </div>
           </section>
         </div>
-        <div className="container">
+        <div className="col-11 col-xl-10 mx-auto">
           <div className="row">
-            <div className="col-md-8">
-              <img
-                src="https://cdn.pixelgrade.com/wp-content/uploads/2022/03/xCrafting-furniture-that-lasts-and-tells-a-story-Eterra-Atelier-1024x538.jpg.pagespeed.ic.sGtsLtYfs_.webp"
+            <div className="col-md-7 col-xxl-8">
+            <Link to={"/blog/EmergingTechnologies"}> 
+              <img data-aos="fade-up"
+                data-aos-duration="500"
+                src="../assets/img/Blog/Blog4.png"
                 alt=""
               />
-              <p className="pt-2">People like you — 9 min</p>
-
-              <p className="display-6 fw-bold">
-                read Crafting furniture that lasts and tells a story{" "}
+              </Link>
+              <p className="secondary-text py-3 mb-0" data-aos="fade-up"
+                data-aos-duration="600">People like you — 9 min</p>
+              <Link to={"/blog/EmergingTechnologies"} className="text-dark"> 
+              <p className="display-4 fw-bold mb-0" data-aos="fade-up"
+                data-aos-duration="600">
+                read emerging technologies that lasts and tells a story{" "}
               </p>
-              <p className="pt-2 fw-light">
+              </Link>
+              <p className="pt-3 secondary-text" data-aos="fade-up"
+                data-aos-duration="600">
                 Discover the story of a small furniture design where each piece
                 has a story to tell. Read More
               </p>
-              <div className="row">
-                <div className="col-md-6">
+              <div className="row align-items-center">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
+                  <Link to={"/blog/chandrayaanProject"}> 
                   <img
-                    src="https://cdn.pixelgrade.com/wp-content/uploads/2021/11/xHand-full-of-coffee-beans-from-Finca-Roasters-1024x682.jpeg.pagespeed.ic.2HsGJhxezr.webp"
+                    src="../assets/img/Blog/Blog2.png"
                     alt=""
                     className="img-fluid"
                   />
+                  </Link>
                 </div>
-                <div className="col-md-6">
-                  <p className="text-start fw-bold">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
+                  <p className="secondary-text fw-bold fs-5">
                     People like you — 9 min read
                   </p>
-                  <p className="fw-bold">
-                    read Running a coffee shop and driving positive change
+                  <p className="secondary-text fw-bold fs-5">
+                    Lessons From The Chandrayaan 3 Project
                   </p>{" "}
-                  <p>
-                    Finca Roasters is a two-folks specialty coffee business in
-                    Baden, Germany, with a strong desire to make a positive
-                    change in their part of the world.
+                  <p className="secondary-text">
+                    India (On 23rd August 2023) Achieved A
+                    Historic Milestone By Successfully Landing Their Chandrayaan 3
+                    Lunar Lander On The Moon's Surface.
                   </p>
-                  <Link to={""}> Read More</Link>
+                  <Link to={"/blog/chandrayaanProject"}> Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <img
-                src="https://cdn.pixelgrade.com/wp-content/uploads/2021/07/xSabrina-Goethals-Interview-min-1024x538.jpg.pagespeed.ic.W-UixxVsCC.webp"
+            <div className="col-md-5 col-xxl-4">
+              <Link to={"/blog/exploringlucrative"}>
+              <img data-aos="fade-up"
+                data-aos-duration="600"
+                src="../assets/img/Blog/Blog7.png"
                 className="mt-1"
                 alt=""
               />
-              <p className="mt-2 fw-bold text-center">
+              </Link>
+              <p className="fw-bold fs-5 secondary-text py-3 mb-0" data-aos="fade-up"
+                data-aos-duration="600">
                 People like you — 11 min read
               </p>
-              <h5 className="text-center fw-bold">
-                Rethinking the way we travel and wander
+              <Link to={"/blog/exploringlucrative"} className="text-dark">
+              <h5 className="secondary-text fw-bold fs-5 mb-3" data-aos="fade-up"
+                data-aos-duration="600">
+                Exploring Lucrative IT Job Opportunities in India
               </h5>
-              <p className="fw">
-                We can do better when it comes to traveling and exploring the
-                world. Learn how you can do it more mindfully.
+              </Link>
+              <p className="secondary-text" data-aos="fade-up"
+                data-aos-duration="600">
+                India's ever-growing IT industry offers many job opportunities for tech enthusiasts.
+                Among the most sought-after skills are Python, Node.js, React.js, and JavaScript.
               </p>
-              <Link to={""}>Read More</Link>
+              <Link  data-aos="fade-up"
+                data-aos-duration="600" to={"/blog/exploringlucrative"}>Read More</Link>
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
                   <img
                     src="https://cdn.pixelgrade.com/wp-content/uploads/2021/04/xRoo-Interview-from-pompomcooks.com_-1024x538.jpg.pagespeed.ic.Jr-N70tSm_.webp"
                     alt=""
                     className="mt-3"
                   />
                 </div>
-                <div className="col-md-6">
-                  <p className="text-center fw-bold">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
+                  <p className="secondary-text fw-bold fs-5">
                     People like you — 11 min read
                   </p>
-                  <p>
+                  <p className="secondary-text">
                     Cooking as a form of self-expression People like you — 19
                   </p>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
                   <img
                     src="https://cdn.pixelgrade.com/wp-content/uploads/2021/03/xContributing-to-humanity-through-architecture-1024x538.png.pagespeed.ic.SMZFqkxbv0.webp"
                     alt=""
                     className="mt-3"
                   />
                 </div>
-                <div className="col-md-6">
-                  <p className="text-center fw-bold">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
+                  <p className="secondary-text fw-bold fs-5">
                     People like you — 11 min read
                   </p>
-                  <p>
+                  <p className="secondary-text">
                     Cooking as a form of self-expression People like you — 19
                   </p>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
                   <img
                     src="https://cdn.pixelgrade.com/wp-content/uploads/2020/12/xBeing-creative-is-seeing-potential-in-people-and-things-1024x538.jpg.pagespeed.ic.erz-EDfkwy.webp"
                     alt=""
                     className="mt-3"
                   />
                 </div>
-                <div className="col-md-6">
-                  <p className="text-center fw-bold">
+                <div className="col-md-6" data-aos="fade-up"
+                  data-aos-duration="600">
+                  <p className="secondary-text fw-bold fs-5">
                     People like you — 11 min read
                   </p>
-                  <p>
+                  <p className="secondary-text">
                     Cooking as a form of self-expression People like you — 19
                   </p>
                 </div>
@@ -190,16 +216,17 @@ function Newblogpage() {
           </div>
           <div className="mt-5">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4" data-aos="fade-up"
+                data-aos-duration="600">
                 <img
                   src="https://cdn.pixelgrade.com/wp-content/uploads/2022/03/xSix-years-at-Pixelgrade_-the-adventure-comes-to-an-end-1024x538.jpg.pagespeed.ic.9WHA6PJHsu.webp"
                   alt=""
                 />
-                <p className="pt-2 fw-bold">Along our way — 9 min read </p>
-                <p className="mt-2">
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
+                <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
-                <p>
+                <p className="secondary-text">
                   Being the glue that kept the pieces together at pixelgrade for
                   more than six years was honoring. I am genuinely grateful for
                   everything I experienced here, and I’ll remain a believer.
@@ -207,16 +234,17 @@ function Newblogpage() {
                 </p>
                 <Link to={""}>Read more</Link>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4" data-aos="fade-up"
+                data-aos-duration="600">
                 <img
                   src="https://cdn.pixelgrade.com/wp-content/uploads/2019/09/xHow-to-write-your-first-blog-post-with-confidence-min-1024x538.jpg.pagespeed.ic.5WfiQUWCCJ.webp"
                   alt=""
                 />
-                <p className="pt-2 fw-bold">Along our way — 9 min read </p>
-                <p className="mt-2">
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
+                <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
-                <p>
+                <p className="secondary-text">
                   Being the glue that kept the pieces together at pixelgrade for
                   more than six years was honoring. I am genuinely grateful for
                   everything I experienced here, and I’ll remain a believer.
@@ -224,16 +252,17 @@ function Newblogpage() {
                 </p>
                 <Link to={""}>Read more</Link>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4" data-aos="fade-up"
+                data-aos-duration="600">
                 <img
                   src="https://cdn.pixelgrade.com/wp-content/uploads/2022/01/xtransparency-report-14-featured-1-1024x525.png.pagespeed.ic.e5LE3tew0n.webp"
                   alt=""
                 />
-                <p className="pt-2 fw-bold">Along our way — 9 min read </p>
-                <p className="mt-2">
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
+                <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
-                <p>
+                <p className="secondary-text">
                   Being the glue that kept the pieces together at pixelgrade for
                   more than six years was honoring. I am genuinely grateful for
                   everything I experienced here, and I’ll remain a believer.
@@ -241,16 +270,17 @@ function Newblogpage() {
                 </p>
                 <Link to={""}>Read more</Link>
               </div>
-              <div className="col-md-4 mt-3 pt-3">
+              <div className="col-md-4 mt-3 pt-3" data-aos="fade-up"
+                data-aos-duration="600">
                 <img
                   src="https://cdn.pixelgrade.com/wp-content/uploads/2021/02/xLaunching-a-website-1024x538.jpg.pagespeed.ic.hm2_KcJ2J7.webp"
                   alt=""
                 />
-                <p className="pt-2 fw-bold">Along our way — 9 min read </p>
-                <p className="mt-2">
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
+                <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
-                <p>
+                <p className="secondary-text">
                   Being the glue that kept the pieces together at pixelgrade for
                   more than six years was honoring. I am genuinely grateful for
                   everything I experienced here, and I’ll remain a believer.
@@ -258,16 +288,17 @@ function Newblogpage() {
                 </p>
                 <Link to={""}>Read more</Link>
               </div>
-              <div className="col-md-4 mt-3 pt-3">
+              <div className="col-md-4 mt-3 pt-3" data-aos="fade-up"
+                data-aos-duration="600">
                 <img
                   src="https://cdn.pixelgrade.com/wp-content/uploads/2021/02/xLaunching-a-website-1024x538.jpg.pagespeed.ic.hm2_KcJ2J7.webp"
                   alt=""
                 />
-                <p className="pt-2 fw-bold">Along our way — 9 min read </p>
-                <p className="mt-2">
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
+                <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
-                <p>
+                <p className="secondary-text">
                   Being the glue that kept the pieces together at pixelgrade for
                   more than six years was honoring. I am genuinely grateful for
                   everything I experienced here, and I’ll remain a believer.
@@ -275,16 +306,17 @@ function Newblogpage() {
                 </p>
                 <Link to={""}>Read more</Link>
               </div>
-              <div className="col-md-4 mt-3 pt-3">
+              <div className="col-md-4 mt-3 pt-3" data-aos="fade-up"
+                data-aos-duration="600">
                 <img
                   src="https://pixelgrade.com/wp-content/uploads/2021/02/Creating-your-website%E2%80%94get-your-priorities-straight-1024x538.jpg"
                   alt=""
                 />
-                <p className="pt-2 fw-bold">Along our way — 9 min read </p>
-                <p className="mt-2">
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
+                <p className="secondary-text">
                   Six years at Pixelgrade: the adventure comes to an end
                 </p>
-                <p>
+                <p className="secondary-text">
                   Being the glue that kept the pieces together at pixelgrade for
                   more than six years was honoring. I am genuinely grateful for
                   everything I experienced here, and I’ll remain a believer.
@@ -298,61 +330,71 @@ function Newblogpage() {
         <div className="container">
           <div className="row mt-5 pt-4">
             <div className="col-md-3">
-              <img
-                src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
-                alt=""
-              />
-              <p className="fw-bold mt-3">Imagine your website — 8 min read</p>
-              <p>About page examples for different team structures</p>
+              <div data-aos="fade-up"
+                data-aos-duration="600">
+                <img
+                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
+                  alt=""
+                />
+                <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
+                <p className="secondary-text">About page examples for different team structures</p>
 
-              <img
-                src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
-                alt=""
-              />
-              <p className="fw-bold mt-3">Imagine your website — 8 min read</p>
-              <p>About page examples for different team structures</p>
-             
+              </div>
+              <div data-aos="fade-up"
+                data-aos-duration="600">
+                <img
+                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
+                  alt=""
+                />
+                <p className="fw-bold fs-5 secondary-text py-3 mb-0">Imagine your website — 8 min read</p>
+                <p className="secondary-text">About page examples for different team structures</p>
+
+              </div>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-up"
+                data-aos-duration="600">
               <img
                 src="https://cdn.pixelgrade.com/wp-content/uploads/2021/10/xHow-to-sell-your-crafts-online-using-WordPress-Plus-a-Case-Study-min-1024x538.jpg.pagespeed.ic.eOJn5u0UFf.webp"
                 alt=""
               />
-              <p className="mt-2 fw-bold">
+              <p className="py-3 secondary-text fw-bold fs-5 mb-0">
                 Build up your website — 12 min read
               </p>
               <h6 className="mt-2">
                 How to sell your crafts online using WordPress{" "}
               </h6>
-              <p>
+              <p className="secondary-text">
                 Showcasing and selling online your creative products might look
                 like a danger zone you are about to enter. We help you be safe
                 and shine.
               </p>
               <Link to={""}>read more</Link>
-              
+
             </div>
             <div className="col-md-3">
-              <img
-                src="https://cdn.pixelgrade.com/wp-content/uploads/2021/07/xCreating-a-company-blog-that-serves-business-goals-min-1024x538.jpg.pagespeed.ic.wbxUK7Wt9J.webp"
-                alt=""
-              />
-              <p className="fw-bold mt-3">Imagine your website — 8 min read</p>
-              <p>About page examples for different team structures</p>
-              <img
-                src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
-                alt=""
-              />
-              <p className="fw-bold mt-3">Imagine your website — 8 min read</p>
-              <p>About page examples for different team structures</p>
-             
+              <div data-aos="fade-up"
+                data-aos-duration="600">
+                <img
+                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/07/xCreating-a-company-blog-that-serves-business-goals-min-1024x538.jpg.pagespeed.ic.wbxUK7Wt9J.webp"
+                  alt=""
+                />
+                <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
+                <p className="secondary-text">About page examples for different team structures</p>
+              </div>
+              <div data-aos="fade-up"
+                data-aos-duration="600">
+                <img
+                  src="https://cdn.pixelgrade.com/wp-content/uploads/2021/08/xCreating-About-page-for-website-1-min-1024x538.png.pagespeed.ic.F3meBa0Xq3.webp"
+                  alt=""
+                />
+                <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
+                <p className="secondary-text">About page examples for different team structures</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="container-fluid">
-            <Footer/>
-        </div>
+        <Footer />
       </div>
     </div>
   );

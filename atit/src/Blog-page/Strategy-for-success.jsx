@@ -107,22 +107,22 @@ function Howtoclearanyprofessional() {
                                         </div>
                                         <br />
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            {/* <!-- <h2 className ="secondary-header">Don't Orbit Aimlessly - Set A Clear Objective</h2> --> */}
+                                            {/* <!-- <h2 className ="primary-header fs-2">Don't Orbit Aimlessly - Set A Clear Objective</h2> --> */}
                                             <p className ="secondary-text">In today's competitive world, professional exams have become a vital gateway to achieving career goals and gaining a competitive edge in the job market. Whether you're aspiring to be a doctor, lawyer, engineer, or any other respected profession, the path to success begins with clearing these rigorous examinations. However, the journey to passing a professional exam is not an easy one, requiring dedicated preparation, strategic planning, and a focused mindset. In this comprehensive guide, we will reveal a proven strategy that will empower you to clear any professional exam and achieve the results you desire.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Set Clear Goals and Create a Study Plan</h2>
+                                            <h2 className ="primary-header fs-2">Set Clear Goals and Create a Study Plan</h2>
                                             <p className ="secondary-text">
                                                 The first step towards success in any endeavour is setting clear goals. Determine the specific professional exam you wish to conquer and establish a realistic timeline for your preparation. Break down the syllabus into manageable sections and allocate sufficient time to each topic based on its weightage in the exam. Remember, proper planning is the key to effective studying.
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Gather Reliable Study Resources</h2>
+                                            <h2 className ="primary-header fs-2">Gather Reliable Study Resources</h2>
                                             <p className ="secondary-text">
                                                 To build a solid foundation of knowledge, it's essential to gather reliable study resources. Invest in textbooks, reference materials, online courses, and reputable study guides that are trusted by experts in the field. Make sure to choose resources that align with the exam syllabus and cover all the necessary topics in depth. Utilise online platforms and digital libraries to access valuable study materials at your convenience.      </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Develop a Study Routine</h2>
+                                            <h2 className ="primary-header fs-2">Develop a Study Routine</h2>
                                             <p className ="secondary-text">
                                                 Consistency is crucial when it comes to exam preparation. Establish a disciplined study routine that works best for you. Some individuals find it helpful to study in the early morning, while others prefer late nights. Identify your most productive hours and allocate them to focused studying. Avoid cramming or leaving your preparation to the last minute, as it can lead to stress and hinder your chances of success.
                                             </p>
@@ -140,16 +140,16 @@ function Howtoclearanyprofessional() {
                             </div>
                             <div className ="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
                                 data-aos-duration="600">
-                                <p className ="secondary-header m-0">python</p>
-                                <p className ="secondary-header m-0">JavaScript</p>
-                                <p className ="secondary-header m-0">Go</p>
-                                <p className ="secondary-header m-0">Rust</p>
-                                <p className ="secondary-header m-0">Kotlin</p>
+                                <p className ="primary-header fs-2 m-0">python</p>
+                                <p className ="primary-header fs-2 m-0">JavaScript</p>
+                                <p className ="primary-header fs-2 m-0">Go</p>
+                                <p className ="primary-header fs-2 m-0">Rust</p>
+                                <p className ="primary-header fs-2 m-0">Kotlin</p>
                             </div>
                         </div> --> */}
                                     <div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Utilise Effective Study Techniques
+                                            <h2 className ="primary-header fs-2">Utilise Effective Study Techniques
                                             </h2>
                                             <p className ="secondary-text">Merely reading and memorising information is not enough to ensure success in a professional exam. Employ effective study techniques that enhance comprehension and retention. Some proven techniques include:</p>
                                             <p className ="secondary-text">1. Active Reading: Engage actively with the study material by highlighting key points, taking notes, and summarising key concepts. This approach enhances understanding and promotes better retention.</p>
@@ -158,7 +158,7 @@ function Howtoclearanyprofessional() {
                                             <p className ="secondary-text">4. Group Study: Collaborating with peers who are also preparing for the same exam can be beneficial, as it allows for knowledge sharing, group discussions, and mutual support. However, ensure that group study sessions remain focused and productive.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Implement Effective Time Management Techniques</h2>
+                                            <h2 className ="primary-header fs-2">Implement Effective Time Management Techniques</h2>
                                             <p className ="secondary-text">
                                                 Time management is a critical aspect of exam preparation. Develop techniques that help you make the most of your study time:  </p>
                                             <p className ="secondary-text">
@@ -173,12 +173,12 @@ function Howtoclearanyprofessional() {
                                         </div>
                                     </div>
                                     <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                        <h2 className ="secondary-header">Practise Mock Tests and Analyze Performance
+                                        <h2 className ="primary-header fs-2">Practise Mock Tests and Analyze Performance
                                         </h2>
                                         <p className ="secondary-text">Mock tests are invaluable tools for exam preparation. These simulated exams not only familiarise you with the actual exam format but also provide an opportunity to assess your performance. Allocate time for regular mock test sessions and analyse your results to identify areas where you need improvement. Focus on understanding the solution to each question and develop strategies to tackle similar problems more efficiently in the future.</p>
                                     </div>
                                     <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                        <h2 className ="secondary-header">Stay Physically and Mentally Fit
+                                        <h2 className ="primary-header fs-2">Stay Physically and Mentally Fit
                                         </h2>
                                         <p className ="secondary-text">Taking care of your well-being is crucial throughout the exam preparation phase. Maintain a healthy lifestyle by:</p>
                                         <p className ="secondary-text">1. Exercising Regularly: Engage in physical activities such as jogging, yoga, or any form of exercise that helps reduce stress and improves concentration.</p>
@@ -187,12 +187,12 @@ function Howtoclearanyprofessional() {
                                         <p className ="secondary-text">4. Managing Stress: Practice stress management techniques such as deep breathing, meditation, or engaging in hobbies to alleviate exam-related stress.</p>
                                     </div>
                                     <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                        <h2 className ="secondary-header">Revise and Reinforce
+                                        <h2 className ="primary-header fs-2">Revise and Reinforce
                                         </h2>
                                         <p className ="secondary-text">As the exam date approaches, dedicate ample time for revision. Review all the topics systematically, focusing on areas of weakness. Create concise notes or flashcards that contain key formulas, definitions, and concepts to aid quick revision. Reinforce your understanding by solving additional practice questions and revisiting mock tests to track your progress.</p>
                                     </div>
                                     <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                        <h2 className ="secondary-header">Develop an Exam-Day Strategy
+                                        <h2 className ="primary-header fs-2">Develop an Exam-Day Strategy
                                         </h2>
                                         <p className ="secondary-text">Arriving well-prepared on the day of the exam is essential for optimum performance. Follow these strategies:</p>
                                         <p className ="secondary-text">1. Read Instructions Carefully: Before diving into the questions, read the instructions thoroughly to avoid any errors due to misinterpretation.</p>
@@ -201,7 +201,7 @@ function Howtoclearanyprofessional() {
                                         <p className ="secondary-text">4. Review Your Answers: If time permits, review your answers before submitting the exam. Ensure you haven't missed any questions or made careless errors.</p>
                                     </div>
                                     <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                        <h2 className ="secondary-header">Conclusion
+                                        <h2 className ="primary-header fs-2">Conclusion
                                         </h2>
                                         <p className ="secondary-text">Clearing any professional exam requires perseverance, dedication, and a well-structured approach to studying. By following the step-by-step strategy outlined in this guide, you can enhance your preparation and maximise your chances of success. Remember, success is not achieved overnight. It is the result of consistent efforts and a belief in your abilities. Stay focused, maintain a positive mindset, and approach the exam with confidence. With the right strategy, you can overcome any challenge and emerge victorious in your professional journey.</p>
                                     </div>
