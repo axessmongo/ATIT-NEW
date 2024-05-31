@@ -73,7 +73,8 @@ Playwright is a modern, open-source framework for web testing and automation dev
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Browser Management</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Browser management in testing involves controlling the lifecycle of web browsers, including opening, closing, and switching between browser instances, to facilitate automated testing of web applications.
+</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -84,7 +85,7 @@ Playwright is a modern, open-source framework for web testing and automation dev
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Navigation</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Navigation in testing involves directing the flow of automated test scenarios by moving between different pages, URLs, or sections of a software application to validate its functionality and behavior.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -98,7 +99,7 @@ Copy code
 container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Interactions</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Interactions in testing encompass simulated user actions such as clicks, typing, dragging, and dropping, facilitating the validation of user interface functionality and responsiveness in automated tests.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -111,7 +112,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Assertions and Waiting</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Assertions and waiting in testing involve validating expected outcomes and synchronizing test execution with application responsiveness, ensuring accurate and reliable test results during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -122,7 +123,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Frames and Dialogs</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Frames and dialogs in testing refer to embedded content or pop-up windows within a web page, requiring specialized handling to interact with and validate functionality during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -133,7 +134,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Network Interactions</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Network interactions in testing involve simulating communication between a software application and external servers or APIs, verifying data exchange and ensuring proper functionality during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -146,7 +147,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Closing</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Closing in testing involves finalizing test scenarios by shutting down resources, such as browsers or databases, and performing cleanup tasks to maintain a stable testing environment.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -157,7 +158,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Selectors</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Selectors in testing are identifiers used to locate and interact with specific elements on a web page, enabling automation of user interactions and validation of expected behavior during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -168,7 +169,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>File upload & Download</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">File upload and download in testing involve automating the process of uploading files to a web application and downloading files from it, ensuring the functionality operates correctly and efficiently during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -181,7 +182,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Mocking and Intercepting network Requests</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Mocking and intercepting network requests in testing involve simulating and controlling network communication between the software under test and external services, allowing for isolated and controlled testing environments during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -192,7 +193,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Authentication & permissions</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Authentication and permissions in testing involve verifying user access levels and ensuring secure access to specific features or functionalities within a software application, validating the implementation of access control mechanisms during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -203,7 +204,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Handling WebSocket</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Handling WebSocket in testing involves simulating and interacting with real-time, bidirectional communication channels between a web application and server, ensuring proper functionality and responsiveness during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -214,7 +215,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Mocking API Response</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Mocking API responses in testing involves simulating the behavior of external services or APIs by generating predefined responses, enabling isolated testing of API interactions and scenarios during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -222,9 +223,7 @@ container hovering">
             </div>
         </div>
     </div>
-                   
-                   
-                   
+                                      
                 </div>
             </div>
             {/* <div><Swiper /></div> */}

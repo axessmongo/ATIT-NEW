@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
 
-export default function Cucumbers() {
+export default function Tsplaywright() {
   return (
     <div>
       <div>
@@ -22,15 +22,15 @@ export default function Cucumbers() {
                   data-aos-duration="500"
                   className="primary-header"
                 >
-                  Cucumber
+                  Ts PlayWright
                 </h1>
                 <p
                   className="text-light fs-6 text-capitalize fw-light"
                   data-aos="fade-up"
                   data-aos-duration="700"
                 >
-                  Cucumber is a widely-used testing tool in software development that supports Behavior-Driven Development (BDD).
-                </p>
+
+Playwright for TypeScript combines the robust automation capabilities of Playwright with the type safety and modern syntax of TypeScript.   </p>
                 <nav
                   data-aos="fade-up"
                   data-aos-duration="800"
@@ -47,7 +47,8 @@ export default function Cucumbers() {
                       className="breadcrumb-item active text-white"
                       aria-current="page"
                     >
-                      Cucumber
+                      
+                      Ts PlayWright
                     </li>
                   </ol>
                 </nav>
@@ -61,11 +62,12 @@ export default function Cucumbers() {
           <div className="container-fluid ">
             <p className="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
               data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-              Cucumber</p>
+              Ts PlayWright</p>
             <div className="mt-4 text-center text-capitalize g-3">
               {/* <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT API - Rest Assured Training Will Help You Master And Build Your API - Rest Assured Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of API - Rest Assured Concepts. This Course Will Take Through The Practical Aspects Of API - Rest Assured And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our API - Rest Assured Certification Course To Transform Your Career Into A API - Rest Assured Engineer.
                             </p> */}
-              <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">These test cases, written in Gherkin syntax, help ensure that the software behaves as expected. By bridging the communication gap between developers and business stakeholders, Cucumber enhances collaboration and improves the overall quality of the software. </p>
+              <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300"> The TypeScript integration enhances code quality and maintainability with strong typing and IntelliSense support. Furthermore, Playwright's advanced features like auto-wait, network interception, and screenshots make it an excellent choice for reliable end-to-end testing in TypeScript projects.
+</p>
             </div>
           </div>
         </div>
@@ -74,8 +76,10 @@ export default function Cucumbers() {
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Gherkins</h3>
-              <p class="small">Gherkin is a simple, structured language used in behavior-driven development for writing clear, human-readable test scenarios.</p>
+              <h3>Interacting with Web Elements</h3>
+              <p class="small">Locating and interacting with web elements using TypeScript.
+Performing actions such as click, type, select, etc.
+Handling dynamic elements and waiting strategies.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -85,8 +89,11 @@ export default function Cucumbers() {
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Step definition</h3>
-              <p class="small">Step definitions in testing map Gherkin steps to code, allowing automated execution of behavior-driven development scenarios.</p>
+              <h3>Handling Navigation and Pop-ups</h3>
+              <p class="small">Navigating between pages in TypeScript.
+Handling alerts, prompts, and confirmations.
+Managing browser contexts and pages effectively.
+</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -99,9 +106,12 @@ html
 Copy code
 container hovering">
             <a class="card1_effect" href="#">
-              <h3>Tags</h3>
+              <h3>Working with Frames and iframes</h3>
               <p class="small">
-Tags in testing help organize and selectively run specific test scenarios based on assigned labels.</p>
+              Switching between frames and iframes using TypeScript.
+Interacting with elements inside frames.
+Handling nested frames scenarios.
+</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -113,8 +123,11 @@ Tags in testing help organize and selectively run specific test scenarios based 
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Hooks</h3>
-              <p class="small">Hooks in testing allow setup and teardown actions to run at specified points in test execution.</p>
+              <h3>Form Submission and Input Fields Handling</h3>
+              <p class="small">Filling out and submitting forms using TypeScript.
+Interacting with input fields, checkboxes, radio buttons, etc.
+Validating form submissions.
+</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -124,9 +137,11 @@ Tags in testing help organize and selectively run specific test scenarios based 
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Report</h3>
+              <h3>Capturing Screenshots and Videos</h3>
               <p class="small">
-Reports in testing provide detailed insights into test execution results, highlighting successes and failures.</p>
+              Capturing screenshots of web pages with TypeScript.
+Recording videos of test executions.
+Configuring screenshot and video options in TypeScript.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -136,9 +151,11 @@ Reports in testing provide detailed insights into test execution results, highli
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Cucumber Option</h3>
+              <h3>Data-Driven Testing and Parameterization</h3>
               <p class="small">
-             Cucumber options in testing offer configurable settings for customizing test execution behavior and output formats.</p>
+              Parameterizing tests for data-driven testing in TypeScript.
+Loading test data from external sources.
+Generating test data dynamically.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>

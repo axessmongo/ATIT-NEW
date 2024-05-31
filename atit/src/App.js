@@ -48,7 +48,6 @@ import Dbtesting from "./Courses-pages/Softwaretesting/Db-testing";
 //import Selenium from "./Courses-pages/Softwaretesting/Selenium";
 import Maven from "./Courses-pages/Softwaretesting/Maven";
 import Pageobject from "./Courses-pages/Softwaretesting/Pageobject";
-import Testng from "./Courses-pages/Softwaretesting/testng";
 import MainBlog from "./Pages/MainBlog";
 import Swiper from "./Components/Swiper";
 import DevOpsTestAutomation from "./Blog-page/DevOps-Test-Automation";
@@ -59,6 +58,11 @@ import cucumber from "./domains/Cucumbers";
 import Cucumbers from "./domains/Cucumbers";
 import Selenium from "./domains/Selenium";
 import Playwright from "./domains/Playwright";
+import TestNG from "./domains/TestNG";
+import Pytest from "./domains/Pytest";
+import Doctest from "./domains/Doctest";
+import Jsplaywright from "./domains/Jsplaywright";
+import Tsplaywright from "./domains/Tsplaywright";
 
 
 function App() {
@@ -115,6 +119,12 @@ function App() {
           {/* <Route path="cucumber" element={<Cucumber />} /> */}
           <Route path="cucumber" element={<Cucumbers />} />
           <Route path="Playwright" element={<Playwright />} />
+          <Route path="testNG" element={<TestNG />} />
+          <Route path="pytest" element={<Pytest />} />
+          <Route path="doctest" element={<Doctest />} />
+          <Route path="jsplaywright" element={<Jsplaywright />} />
+          <Route path="tsplaywright" element={<Tsplaywright />} />
+
 
           <Route path="dbtesting" element={<Dbtesting />} />
           <Route path="docker" element={<Docker />} />
@@ -125,7 +135,7 @@ function App() {
           <Route path="pageobject" element={<Pageobject />} />
           {/*           <Route path="selenium" element={<Selenium />} />*/}
           <Route path="selenium" element={< Selenium />} />
-          <Route path="testng" element={<Testng />} />
+          <Route path="testng" element={<TestNG />} />
         </Route>
         <Route path="/pap" element={<Pap />} />
         <Route path="/blog" element={<MainBlog />}>

@@ -73,7 +73,7 @@ function Selenium() {
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>WebElement Method</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">WebElement methods in testing provide actions and interactions with web elements, enabling automation of user interactions on web pages.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -84,7 +84,7 @@ function Selenium() {
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Webdriver Method</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">WebDriver methods in testing facilitate navigation, element interaction, and browser control for automated web testing tasks.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -98,7 +98,7 @@ Copy code
 container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Window Handling</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Window handling methods in testing allow for managing multiple browser windows or tabs during automated testing, ensuring seamless navigation and interaction across different windows.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -111,7 +111,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Frame</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Window frames in testing provide a way to isolate and interact with embedded web content within a webpage, enabling targeted testing of specific sections or components.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -122,7 +122,9 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Alert</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">
+                    Window alerts in testing prompt users with messages during automated tests, enabling simulation of user interactions with pop-up dialog boxes.
+</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -133,7 +135,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Drop down</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Dropdowns in testing allow selection from a list of options, facilitating automated testing of user interface components with selectable choices.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -146,7 +148,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Robot</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Robot Framework in testing is an open-source automation framework that uses keyword-driven testing and supports behavior-driven development, aiding in the creation of readable and maintainable test scripts.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -157,7 +159,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Action</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Actions in testing refer to specific user interactions or system behaviors that are automated to validate the functionality of a software application or system under test.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -168,7 +170,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Screen shot</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Screen shot in testing capture visual snapshots of the application's state during automated test execution, aiding in debugging and verifying test results.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -181,7 +183,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Wait</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Wait commands in testing pause test execution for a specified period or until a certain condition is met, ensuring synchronization between test steps and application responsiveness.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -192,7 +194,7 @@ container hovering">
             <div class="container hovering">
                 <a class="card1_effect" href="#">
                     <h3>Webtable</h3>
-                    <p class="small">Card description with lots of great facts and interesting details.</p>
+                    <p class="small">Web tables in testing organize data into rows and columns on web pages, facilitating extraction, validation, and manipulation of tabular data during automated testing.</p>
                     <div class="go-corner">
                         <div class="go-arrow">→</div>
                     </div>
@@ -200,10 +202,7 @@ container hovering">
             </div>
         </div>
         
-    </div>
-                   
-                   
-                   
+    </div>            
                 </div>
             </div>
             {/* <div><Swiper /></div> */}
