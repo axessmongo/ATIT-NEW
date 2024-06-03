@@ -176,3 +176,7 @@
 .blog-container .secondary-header {
   letter-spacing: unset !important;
 }
+
+#textspacing{
+  letter-spacing: 0.5px;
+}

@@ -126,7 +126,7 @@ function Masteringtechnicalinterviews() {
                                     </p>
                                     <div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h1 className ="primary-header text-center mb-3">
+                                            <h1 className ="primary-header text-center mb-5">
                                                 Mastering Technical Interviews
                                             </h1>
                                             <p className ="secondary-text">
@@ -150,12 +150,12 @@ function Masteringtechnicalinterviews() {
                                                 data-aos="fade-left"
                                                 data-aos-duration="600"
                                             >
-                                                <p className ="secondary-header m-0">Interview</p>
-                                                <p className ="secondary-header m-0">Coding</p>
+                                                <p className ="primary-header fs-2 m-0">Interview</p>
+                                                <p className ="primary-header fs-2 m-0">Coding</p>
                                             </div>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Understand the Interview Process
                                             </h2>
                                             <p className ="secondary-text">
@@ -169,7 +169,7 @@ function Masteringtechnicalinterviews() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Strengthen Your Technical Foundation
                                             </h2>
                                             <p className ="secondary-text">
@@ -182,7 +182,7 @@ function Masteringtechnicalinterviews() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Practice Coding Challenges</h2>
+                                            <h2 className ="primary-header fs-2">Practice Coding Challenges</h2>
                                             <p className ="secondary-text">
                                                 Coding challenges are a common component of technical
                                                 interviews. Dedicate time to practise solving coding
@@ -195,7 +195,7 @@ function Masteringtechnicalinterviews() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Master System Design</h2>
+                                            <h2 className ="primary-header fs-2">Master System Design</h2>
                                             <p className ="secondary-text">
                                                 System design questions assess your ability to design
                                                 scalable and efficient software systems. Study system design
@@ -208,7 +208,7 @@ function Masteringtechnicalinterviews() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Develop Problem-Solving Skills
                                             </h2>
                                             <p className ="secondary-text">
@@ -222,7 +222,7 @@ function Masteringtechnicalinterviews() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Mock Interviews and Feedback</h2>
+                                            <h2 className ="primary-header fs-2">Mock Interviews and Feedback</h2>
                                             <p className ="secondary-text">
                                                 Conduct mock interviews with friends, classmates, or mentors
                                                 to simulate real interview scenarios. Practice explaining
@@ -235,7 +235,7 @@ function Masteringtechnicalinterviews() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Soft Skills and Behavioural Interviews
                                             </h2>
                                             <p className ="secondary-text">
@@ -248,7 +248,7 @@ function Masteringtechnicalinterviews() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Conclusion</h2>
+                                            <h2 className ="primary-header fs-2">Conclusion</h2>
                                             <p className ="secondary-text">
                                                 Clearing technical interviews requires a combination of
                                                 technical knowledge, problem-solving skills, and effective

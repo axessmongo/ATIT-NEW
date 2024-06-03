@@ -119,7 +119,7 @@ function AutomatedTesting() {
                                         {/* <!-- content start--> */}
                                         <div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h1 className="primary-header text-center mb-3">
+                                                <h1 className="primary-header text-center mb-5">
                                                     Automated Testing and Why You Should Use It
                                                 </h1>
                                                 <p className="secondary-text">
@@ -135,7 +135,7 @@ function AutomatedTesting() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     Faster delivery
                                                 </h2>
                                                 <p className="secondary-text">
@@ -155,7 +155,7 @@ function AutomatedTesting() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     Saves time
                                                 </h2>
                                                 <p className="secondary-text">
@@ -169,7 +169,7 @@ function AutomatedTesting() {
 
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     100% JOB GUARANTEED FROM ATIT
                                                 </h2>
                                                 <p className="secondary-text">
@@ -179,7 +179,7 @@ function AutomatedTesting() {
                                         </div>
                                         <div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header mb-3">
+                                                <h2 className="primary-header fs-2 mb-3">
                                                     Wider test coverage
                                                 </h2>
                                                 <p className="secondary-text">
@@ -189,7 +189,7 @@ function AutomatedTesting() {
 
                                                 </p>
 
-                                                <h2 className="secondary-header mb-3">
+                                                <h2 className="primary-header fs-2 mb-3">
                                                     Accelerated Testing
                                                 </h2>
                                                 <p className="secondary-text">
@@ -216,7 +216,7 @@ function AutomatedTesting() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     GET ASSURED JOBS WITH ATIT’s 100% PLACEMENT-ASSISTED TRAINING
                                                 </h2>
                                                 <p className="secondary-text">
@@ -224,7 +224,7 @@ function AutomatedTesting() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     Summary
                                                 </h2>
                                                 <p className="secondary-text">
