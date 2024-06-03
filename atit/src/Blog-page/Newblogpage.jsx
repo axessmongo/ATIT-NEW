@@ -4,6 +4,7 @@ import Company from "../Components/Company";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import Navbar from "../Components/Navbar";
+import "../css/blognew.css";
 
 function Newblogpage() {
   useEffect(() => {
