@@ -122,11 +122,12 @@ function Newblogpage() {
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
                   <p className="secondary-text fw-bold fs-5">
-                    People like you — 9 min read
+                      The Chandrayaan 3 Project — 9 min read
                   </p>
+                  <Link to={"/blog/chandrayaanProject"}>
                   <p className="secondary-text fw-bold fs-5">
                     Lessons From The Chandrayaan 3 Project
-                  </p>{" "}
+                  </p></Link>{" "}
                   <p className="secondary-text">
                     India (On 23rd August 2023) Achieved A
                     Historic Milestone By Successfully Landing Their Chandrayaan 3
@@ -147,7 +148,7 @@ function Newblogpage() {
               </Link>
               <p className="fw-bold fs-5 secondary-text py-3 mb-0" data-aos="fade-up"
                 data-aos-duration="600">
-                People like you — 11 min read
+                IT Job Opportunities — 11 min read
               </p>
               <Link to={"/blog/exploringlucrative"} className="text-dark">
               <h5 className="secondary-text fw-bold fs-5 mb-3" data-aos="fade-up"
@@ -162,7 +163,7 @@ function Newblogpage() {
               </p>
               <Link  data-aos="fade-up"
                 data-aos-duration="600" to={"/blog/exploringlucrative"}>Read More</Link>
-              <div className="row">
+              <div className="row mt-3">
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
                   <Link to={"/blog/automatedTesting"}>
@@ -176,11 +177,12 @@ function Newblogpage() {
                 </div>
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
+                    <Link to={"/blog/automatedTesting"}>
                   <p className="secondary-text fw-bold fs-5">
-                    People like you — 11 min read
-                  </p>
+                    Automated Testing — 11 min read
+                  </p></Link>
                   <p className="secondary-text">
-                    Cooking as a form of self-expression People like you — 19
+                     Automated Testing and Why You Should Use It.
                   </p>
                   <Link to={"/blog/automatedTesting"}> Read More</Link>
                 </div>
@@ -197,11 +199,12 @@ function Newblogpage() {
                 </div>
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
+                     <Link to={"/blog/devopstestautomation"}>
                   <p className="secondary-text fw-bold fs-5">
-                    People like you — 11 min read
-                  </p>
+                      DevOps Test Automation — 11 min read
+                  </p></Link>
                   <p className="secondary-text">
-                    Cooking as a form of self-expression People like you — 19
+                    How DevOps Test Automation Improves Software Reliability in IT Industry
                   </p>
                   <Link to={"/blog/devopstestautomation"}> Read More</Link>
                 </div>
@@ -218,11 +221,12 @@ function Newblogpage() {
                 </div>
                 <div className="col-md-6" data-aos="fade-up"
                   data-aos-duration="600">
+                    <Link to={"/blog/manualtestingautomationtesting"}>
                   <p className="secondary-text fw-bold fs-5">
-                    People like you — 11 min read
-                  </p>
+                    Manual Testing — 11 min read
+                  </p></Link>
                   <p className="secondary-text">
-                    Cooking as a form of self-expression People like you — 19
+                    Manual Testing and Why You Should Use It.
                   </p>
                   <Link to={"/blog/manualtestingautomationtesting"}> Read More</Link>
                 </div>
@@ -238,8 +242,9 @@ function Newblogpage() {
                   src="../assets/img/Blog/Blog9.png"
                   alt=""
                 />
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0">To Craft A Stellar Resume — 9 min read </p>
+                
                 </Link>
-                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
                 <p className="secondary-text">
                   Use Simple, Standard Font Like Arial Or Times New Roman In Size 10-12 Points.
                 </p>
@@ -254,11 +259,12 @@ function Newblogpage() {
                 <img
                   src="../assets/img/Blog/Blog1.jpg"
                   alt=""
-                 height={"250px"} width={"250px"}/>
+                  height={"290px"} width={"290px"}/>
+                
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Understanding The IT Industry — 9 min read </p>
                 </Link>
-                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
                 <p className="secondary-text">
-                  Six years at Pixelgrade: the adventure comes to an end
+                  Before Diving Into The Job Search, It's Crucial To Understand The IT Industry's Ins And Outs.
                 </p>
                 <p className="secondary-text">
                 The IT Industry Comprises Various Domains, Such As Software Development, Data Analytics, Cloud Computing, Cybersecurity, And Artificial Intelligence. 
@@ -272,13 +278,14 @@ function Newblogpage() {
                   src="../assets/img/Blog/Blog10.png"
                   alt=""
                 />
+                
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Ultimate Guide To Power Words And Phrases — 9 min read </p>
                 </Link>
-                <p className="py-3 secondary-text fw-bold fs-4 mb-0">Along our way — 9 min read </p>
+                {/* <p className="secondary-text">
+                Let Us Take A Brief Overview Of The Most In-Demand Programming Languages In 2024
+                </p> */}
                 <p className="secondary-text">
-                  Six years at Pixelgrade: the adventure comes to an end
-                </p>
-                <p className="secondary-text">
-                In Today's Competitive Job Market, Interviews Play A Crucial Role In Determining One's Career Success.
+                Utilizing Power Words And Phrases Can Significantly Enhance Your Interview Performance. Here Are Some Examples: "I'm Open To Learning And Growing". Demonstrate Your Willingness To Acquire New Skills And Embrace Challenges.
                 </p>
                 <Link to={"/blog/ultimateGuide"}>Read more</Link>
               </div>
@@ -289,17 +296,15 @@ function Newblogpage() {
                   src="../assets/img/Blog/Blog6.png"
                   alt=""
                 />
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">The Booming IT Sector — 9 min read </p>
                 </Link>
-                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
                 <p className="secondary-text">
-                  Six years at Pixelgrade: the adventure comes to an end
+                  The Booming IT Sector In India And Its Employment Opportunities.
                 </p>
                 <p className="secondary-text">
-                  Being the glue that kept the pieces together at pixelgrade for
-                  more than six years was honoring. I am genuinely grateful for
-                  everything I experienced here, and I’ll remain a believer.
-                  Thank you! Read More
-                </p>
+                  In Today's Rapidly Changing World, The Information Technology (IT) Sector Plays A Crucial Role In Driving Economic Growth, And India Stands At The Forefront Of This Revolution.
+                  
+                </p> <p>  </p>
                 <Link to={"/blog/careerCompleteGuide"}>Read more</Link>
               </div>
               <div className="col-md-4 mt-3 pt-3" data-aos="fade-up"
@@ -309,16 +314,14 @@ function Newblogpage() {
                   src="../assets/img/Blog/Blog10.png"
                   alt=""
                 />
+                
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">The Competitive Job Market — 9 min read </p>
                 </Link>
-                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
                 <p className="secondary-text">
-                  Six years at Pixelgrade: the adventure comes to an end
+                The Job Market In 2023 And Beyond Is Going To Be Highly Competitive.
                 </p>
                 <p className="secondary-text">
-                  Being the glue that kept the pieces together at pixelgrade for
-                  more than six years was honoring. I am genuinely grateful for
-                  everything I experienced here, and I’ll remain a believer.
-                  Thank you! Read More
+                In Today's Competitive Job Market, It Can Be Challenging To Stand Out From The Crowd And Catch The Attention Of Recruiters.
                 </p>
                 <Link to={"/blog/competitiveJobMarket"}>Read more</Link>
               </div>
@@ -329,13 +332,14 @@ function Newblogpage() {
                   src="../assets/img/Blog/Blog3.png"
                   alt=""
                 />
+                
+                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">The Job Race — 9 min read </p>
                 </Link>
-                <p className="py-3 secondary-text fw-bold fs-4 mb-0 ">Along our way — 9 min read </p>
                 <p className="secondary-text">
-                  Six years at Pixelgrade: the adventure comes to an end
+                  Programming Languages Are Essential Tools For Software Developers.
                 </p>
                 <p className="secondary-text">
-                here Is A Fact That Every ‘Computer’ Guy Would Agree Upon.“Programming Languages Are Essential Tools For Software Developers.”
+                  They Allow Us, The Developers, To Create Software Applications That Can Run On Various Operating Systems And Devices.
                 </p>
                 <Link to={"/blog/jobRace"}>Read more</Link>
               </div>
@@ -352,21 +356,23 @@ function Newblogpage() {
                   src="../assets/img/Blog/Blog11.png"
                   alt=""
                 />
+                
+                <p className="fw-bold fs-5 py-3 secondary-text mb-0">A Proven Strategy for Success — 8 min read</p>
                 </Link>
-                <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
-                <p className="secondary-text">About page examples for different team structures</p>
+                <p className="secondary-text">In Today's Competitive World, Professional Exams Have Become A Vital Gateway To Achieving Career Goals And Gaining A Competitive Edge In The Job Market. </p>
                 <Link to={"/blog/strategyForSuccess"}>Read more</Link>
               </div>
-              <div data-aos="fade-up"
+              <div data-aos="fade-up" className="mt-3"
                 data-aos-duration="600">
                 <Link to={"/blog/masteringTechnicalInterviews"}>
                 <img
                   src="../assets/img/Blog/Blog12.png"
                   alt=""
                 />
+                
+                <p className="fw-bold fs-5 secondary-text py-3 mb-0">Mastering Technical Interviews — 8 min read</p>
                 </Link>
-                <p className="fw-bold fs-5 secondary-text py-3 mb-0">Imagine your website — 8 min read</p>
-                <p className="secondary-text">About page examples for different team structures</p>
+                <p className="secondary-text">A Guide For College Freshers, In This Blog Post, We'll Provide You With Valuable Insights And Practical Tips To Help You Clear Technical Interviews With Confidence And Showcase Your Skills Effectively.</p>
                 <Link to={"/blog/masteringTechnicalInterviews"}>Read more</Link>   
               </div>
             </div>
@@ -378,17 +384,15 @@ function Newblogpage() {
                   src="../assets/img/Blog/Blog5.png"
                   alt=""
                 />
-                </Link>
+          
               <p className="py-3 secondary-text fw-bold fs-5 mb-0">
-                Build up your website — 12 min read
-              </p>
-              <h6 className="mt-2">
+                 The Dynamics Of The IT Job Market — 12 min read
+              </p></Link>
+              {/* <h6 className="mt-2">
                 How to sell your crafts online using WordPress{" "}
-              </h6>
+              </h6> */}
               <p className="secondary-text">
-                Showcasing and selling online your creative products might look
-                like a danger zone you are about to enter. We help you be safe
-                and shine.
+              The IT Industry Has Witnessed Rapid Growth In Recent Years, With New Technologies Constantly Emerging And Revolutionising Various Sectors. As A Result, The Demand For Skilled IT Professionals Has Skyrocketed.
               </p>
               <Link to={"/blog/dynamicsItJob"}>Read more</Link>
 
@@ -400,22 +404,22 @@ function Newblogpage() {
                 <img
                   src="../assets/img/Blog/Blog8.png"
                   alt=""
-                />
+                />                
+                <p className="fw-bold fs-5 py-3 secondary-text mb-0">How To Ace Your First IT Job Interview — 8 min read</p>
                 </Link>
-                <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
-                <p className="secondary-text">About page examples for different team structures</p>
+                <p className="secondary-text"> In This Blog Post, We're Going To Simulate A Q&A Session Between An Interviewer And A Candidate, Focusing On Essential Tips And Insights That Will Help You Ace Your IT Job Interview.</p>
                 <Link to={"/blog/firstItjobInterview"}>Read more</Link>
               </div>
-              <div data-aos="fade-up"
+              <div data-aos="fade-up" className="mt-3"
                 data-aos-duration="600">
                 <Link to={"/blog/boomingItSector"}>
                 <img
                   src="../assets/img/Blog/Blog9.png"
                   alt=""
-                />
+                />                
+                <p className="fw-bold fs-5 py-3 secondary-text mb-0">The Booming IT Sector In India — 8 min read</p>
                 </Link>
-                <p className="fw-bold fs-5 py-3 secondary-text mb-0">Imagine your website — 8 min read</p>
-                <p className="secondary-text">About page examples for different team structures</p>
+                <p className="secondary-text"> The Information Technology (IT) Sector Plays A Crucial Role In Driving Economic Growth, And India Stands At The Forefront Of This Revolution.</p>
                 <Link to={"/blog/boomingItSector"}>Read more</Link>
               </div>
             </div>
