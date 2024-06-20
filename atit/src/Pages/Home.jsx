@@ -83,7 +83,7 @@ function Home({ setContactState }) {
                   data-aos-easing="ease-in-sine"
                 >
                   <Link
-                    to="/courses"
+                    to="/domains"
                     onClick={() => sessionStorage.setItem('courseList', 'Testing')}
                     className="hero-split-card active card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -109,7 +109,7 @@ function Home({ setContactState }) {
                   className="h-100"
                 >
                   <Link
-                    to="/courses"
+                    to="/domains"
                     onClick={() => sessionStorage.setItem('courseList', 'Development')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -135,7 +135,7 @@ function Home({ setContactState }) {
                   className="h-100"
                 >
                   <Link
-                    to="/courses"
+                    to="/domains"
                     onClick={() => sessionStorage.setItem('courseList', 'AI')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
@@ -162,7 +162,7 @@ function Home({ setContactState }) {
                   className="h-100"
                 >
                   <Link
-                    to="/courses"
+                    to="/domains"
                     onClick={() => sessionStorage.setItem('courseList', 'DevOps')}
                     className="hero-split-card card text-bg-dark rounded-3 overflow-hidden border-0"
                   >
