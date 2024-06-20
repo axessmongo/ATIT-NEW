@@ -9,7 +9,7 @@ function Footer({ setActiveTab, activeTab }) {
         setActiveTab(tabId);
         setTimeout(()=>{
             
-        if(path == "/courses"){
+        if(path == "/domains"){
             window.scrollTo(0,450)
         }
         }, 500)
@@ -71,13 +71,13 @@ function Footer({ setActiveTab, activeTab }) {
                             <div className="text-decoration-none">
                                 <h4>Courses</h4>
                                 <div className="text-decoration-none courses-links">
-                                    <Link to="/courses" onClick={() => handleCourse('Development')} className="text-decoration-none"><strong>Software Development</strong></Link>
+                                    <Link to="/domains" onClick={() => handleCourse('Development')} className="text-decoration-none"><strong>Software Development</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => handleCourse('Testing')} className="text-decoration-none"><strong>Software Testing</strong></Link>
+                                    <Link to="/domains" onClick={() => handleCourse('Testing')} className="text-decoration-none"><strong>Software Testing</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => handleCourse('DevOps')} className="text-decoration-none"><strong>DevOps</strong></Link>
+                                    <Link to="/domains" onClick={() => handleCourse('DevOps')} className="text-decoration-none"><strong>DevOps</strong></Link>
                                     <br />
-                                    <Link to="/courses" onClick={() => handleCourse('AI')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
+                                    <Link to="/domains" onClick={() => handleCourse('AI')} className="text-decoration-none"><strong>Machine Learning & AI</strong></Link>
                                 </div>
                             </div>
                         </div>

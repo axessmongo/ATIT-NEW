@@ -33,7 +33,9 @@ console.log(domainDatas);
       });
     };
   }, []);
-  const [activeTab, setActiveTab] = useState("Testing");
+  const courseList = sessionStorage.getItem('courseList');
+  console.log(courseList);
+  const [activeTab, setActiveTab] = useState(courseList || 'Testing');
 
   useEffect(() => {
     // Function to handle storage changes
