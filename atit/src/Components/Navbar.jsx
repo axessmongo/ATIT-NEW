@@ -118,9 +118,9 @@ function Navbar({ coursePage, blogPage }) {
                                     >PAP
                                     </NavLink>
 
-                                </li>
+                                </li>   
                                 <li className="nav-item">
-                                    <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/blog">Blog</NavLink>
+                                    <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/blogs">Blog</NavLink>
                                 </li>
                                 {/* <li className="nav-item">
                                     <NavLink className="nav-link" activeclassname="navbar__link--active" to="/singaporeJob"
@@ -192,7 +192,7 @@ function Navbar({ coursePage, blogPage }) {
                                 onClick={canvasButton}>PAP</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/blog"
+                            <NavLink className="nav-link py-4" activeclassname="navbar__link--active" to="/blogs"
                                 onClick={canvasButton}>Blog</NavLink>
                         </li>
                     </ul>

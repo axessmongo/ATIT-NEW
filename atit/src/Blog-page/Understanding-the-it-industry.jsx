@@ -130,7 +130,7 @@ function Understandingtheitindustry() {
                                                 Understand The IT Industry's Ins And Outs. Here Are Some
                                                 Topics You Must Delve Into:</p>
 
-                                            <h2 className ="secondary-header mb-3">
+                                            <h2 className ="primary-header fs-2">
                                                 Understanding The Different Domains In The IT Industry
                                             </h2>
                                             <p className ="secondary-text">
@@ -183,7 +183,7 @@ function Understandingtheitindustry() {
                                     </div>
                                     <div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header mb-3">
+                                            <h2 className ="primary-header fs-2">
                                                 Acquire The Relevant Qualifications And Skills
                                             </h2>
                                             <p className ="secondary-text">
@@ -191,7 +191,7 @@ function Understandingtheitindustry() {
                                                 Into The IT Industry. Here Are Some Skills That Can Set You
                                                 Apart From Other Job Seekers:</p>
 
-                                            <h2 className ="secondary-header mb-3">
+                                            <h2 className ="primary-header fs-2">
                                                 Having Relevant Programming Skills
                                             </h2>
                                             <p className ="secondary-text">
@@ -238,7 +238,7 @@ function Understandingtheitindustry() {
                                     </div>
                                     <div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header mb-3">
+                                            <h2 className ="primary-header fs-2">
                                                 Showcasing The Relevant Work Experience
                                             </h2>
                                             <p className ="secondary-text">
@@ -280,7 +280,7 @@ function Understandingtheitindustry() {
                                     </div>
                                     <div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header mb-3">
+                                            <h2 className ="primary-header fs-2">
                                                 Building A Strong Professional Network
                                             </h2>
                                             <p className ="secondary-text">
@@ -329,7 +329,7 @@ function Understandingtheitindustry() {
 
                                     <div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header mb-3">
+                                            <h2 className ="primary-header fs-2">
                                                 Preparing For The Interview
                                             </h2>
                                             <p className ="secondary-text">
@@ -378,7 +378,7 @@ function Understandingtheitindustry() {
                                     </div>
                                     <div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header mb-3">
+                                            <h2 className ="primary-header fs-2">
                                                 Landing The Job
                                             </h2>
                                             <p className ="secondary-text">

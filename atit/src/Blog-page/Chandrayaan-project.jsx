@@ -134,7 +134,7 @@ function Lessonsfromthechandrayaan() {
                                         </div>
                                         <br />
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Don't Orbit Aimlessly - Set A Clear Objective
                                             </h2>
                                             <p className ="secondary-text">
@@ -163,7 +163,7 @@ function Lessonsfromthechandrayaan() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Be Adaptable And Learn From Failure
                                             </h2>
                                             <p className ="secondary-text">
@@ -186,7 +186,7 @@ function Lessonsfromthechandrayaan() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Perform Under Precise Parameters and Pressure
                                             </h2>
                                             <p className ="secondary-text">
@@ -227,7 +227,7 @@ function Lessonsfromthechandrayaan() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">
+                                            <h2 className ="primary-header fs-2">
                                                 Similarly, prepare for your IT job hunt with meticulous
                                                 thoroughness.
                                             </h2>
@@ -256,7 +256,7 @@ function Lessonsfromthechandrayaan() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Collaborate for Success</h2>
+                                            <h2 className ="primary-header fs-2">Collaborate for Success</h2>
                                             <p className ="secondary-text">
                                                 From top scientists to ground crews to complex partnerships
                                                 across space agencies, Chandrayaan 3 brings together

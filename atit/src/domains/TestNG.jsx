@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
 
-export default function Cucumbers() {
+export default function TestNG() {
   return (
     <div>
       <div>
@@ -22,15 +22,14 @@ export default function Cucumbers() {
                   data-aos-duration="500"
                   className="primary-header"
                 >
-                  Cucumber
+                  TestNG
                 </h1>
                 <p
                   className="text-light fs-6 text-capitalize fw-light"
                   data-aos="fade-up"
                   data-aos-duration="700"
                 >
-                  Cucumber is a widely-used testing tool in software development that supports Behavior-Driven Development (BDD).
-                </p>
+TestNG is a powerful testing framework for Java that simplifies test case writing and execution.                </p>
                 <nav
                   data-aos="fade-up"
                   data-aos-duration="800"
@@ -47,7 +46,7 @@ export default function Cucumbers() {
                       className="breadcrumb-item active text-white"
                       aria-current="page"
                     >
-                      Cucumber
+                      TestNG
                     </li>
                   </ol>
                 </nav>
@@ -61,11 +60,12 @@ export default function Cucumbers() {
           <div className="container-fluid ">
             <p className="fw-semibold display-6 text-center text-capitalize justify-content-center linear-gradient-text pt-5"
               data-aos="flip-up" data-aos-duration="900" data-aos-delay="300">
-              Cucumber</p>
+              TestNG</p>
             <div className="mt-4 text-center text-capitalize g-3">
               {/* <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">ATIT API - Rest Assured Training Will Help You Master And Build Your API - Rest Assured Skills With Tools That Matter - Docker Networks, Development Cycles, Puppet, Ansible, Chef, Vagrant, Jenkins, Nagios, And More. Instructors Of ATIT Are Experts At Teaching Both The Essentials And Finer Points Of API - Rest Assured Concepts. This Course Will Take Through The Practical Aspects Of API - Rest Assured And Help You To Apply These Practices In Real-World Project Examples. Enroll In Our API - Rest Assured Certification Course To Transform Your Career Into A API - Rest Assured Engineer.
                             </p> */}
-              <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">These test cases, written in Gherkin syntax, help ensure that the software behaves as expected. By bridging the communication gap between developers and business stakeholders, Cucumber enhances collaboration and improves the overall quality of the software. </p>
+              <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="300"> It supports annotations to configure test methods and enables easy grouping and prioritization of tests. TestNG facilitates parameterization, data-driven testing, and provides detailed reports on test results. It also integrates seamlessly with build tools like Maven and CI/CD pipelines, making it an essential tool for automated testing in Java projects.
+</p>
             </div>
           </div>
         </div>
@@ -74,8 +74,8 @@ export default function Cucumbers() {
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Gherkins</h3>
-              <p class="small">Gherkin is a simple, structured language used in behavior-driven development for writing clear, human-readable test scenarios.</p>
+              <h3>Annotations</h3>
+              <p class="small">TestNG annotations, such as @Test, @BeforeMethod, and @AfterMethod, help manage the setup, execution, and teardown of test methods. </p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -85,8 +85,9 @@ export default function Cucumbers() {
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Step definition</h3>
-              <p class="small">Step definitions in testing map Gherkin steps to code, allowing automated execution of behavior-driven development scenarios.</p>
+              <h3> Assertions</h3>
+              <p class="small">Assert methods for verifying expected outcomes.
+Understanding different assert methods and their usage.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -99,9 +100,11 @@ html
 Copy code
 container hovering">
             <a class="card1_effect" href="#">
-              <h3>Tags</h3>
+              <h3> Parameters and Data Providers</h3>
               <p class="small">
-Tags in testing help organize and selectively run specific test scenarios based on assigned labels.</p>
+              Passing parameters to test methods.
+Using Data Providers to supply test data.
+Parameterizing tests for data-driven testing.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -113,8 +116,10 @@ Tags in testing help organize and selectively run specific test scenarios based 
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Hooks</h3>
-              <p class="small">Hooks in testing allow setup and teardown actions to run at specified points in test execution.</p>
+              <h3>Reporting</h3>
+              <p class="small">Generating test reports.
+Customizing test reports.
+Integrating TestNG with other reporting tools.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -124,9 +129,11 @@ Tags in testing help organize and selectively run specific test scenarios based 
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Report</h3>
+              <h3>Test Suites</h3>
               <p class="small">
-Reports in testing provide detailed insights into test execution results, highlighting successes and failures.</p>
+              Grouping tests into suites.
+Configuring test suite execution.
+Parallel execution of test suites.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>
@@ -136,9 +143,11 @@ Reports in testing provide detailed insights into test execution results, highli
         <div class="col-md-4">
           <div class="container hovering">
             <a class="card1_effect" href="#">
-              <h3>Cucumber Option</h3>
+              <h3>Dependency Testing</h3>
               <p class="small">
-             Cucumber options in testing offer configurable settings for customizing test execution behavior and output formats.</p>
+              Understanding dependencies between test methods.
+Configuring dependencies using TestNG.
+Handling dependencies for test execution.</p>
               <div class="go-corner">
                 <div class="go-arrow">→</div>
               </div>

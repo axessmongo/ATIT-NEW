@@ -248,7 +248,7 @@ function Manualtestingautomationtesting() {
                       data-aos="fade-up"
                       data-aos-duration="600"
                     >
-                      <h2 className="secondary-header">
+                      <h2 className="primary-header fs-2">
                         Manual Testing vs Automated Testing – Key Differences
                         (AI)
                       </h2>
@@ -392,7 +392,7 @@ function Manualtestingautomationtesting() {
                       data-aos="fade-up"
                       data-aos-duration="600"
                     >
-                      <h2 className="secondary-header">
+                      <h2 className="primary-header fs-2">
                         ATIT GUARANTEES 100% JOB PLACEMENT
                       </h2>
                       <p className="secondary-text">
@@ -412,7 +412,7 @@ function Manualtestingautomationtesting() {
                       data-aos="fade-up"
                       data-aos-duration="600"
                     >
-                      <h2 className="secondary-header">
+                      <h2 className="primary-header fs-2">
                         Why Use Automation Testing Over Manual Testing?
                       </h2>
                       <p className="secondary-text">
@@ -433,7 +433,7 @@ function Manualtestingautomationtesting() {
                       data-aos="fade-up"
                       data-aos-duration="600"
                     >
-                      <h2 className="secondary-header">
+                      <h2 className="primary-header fs-2">
                         Some compelling arguments in favour of automation
                         testing over manual testing are as follows:
                       </h2>
@@ -488,7 +488,7 @@ function Manualtestingautomationtesting() {
                       data-aos="fade-up"
                       data-aos-duration="600"
                     >
-                      <h2 className="secondary-header">
+                      <h2 className="primary-header fs-2">
                         Striking the right balance
                       </h2>
                       <p className="secondary-text">
@@ -511,7 +511,7 @@ function Manualtestingautomationtesting() {
                       data-aos="fade-up"
                       data-aos-duration="600"
                     >
-                      <h2 className="secondary-header">
+                      <h2 className="primary-header fs-2">
                         IN WHAT WAYS CAN ATIT HELP YOU LAND A JOB IN AUTOMATION
                         TESTING?
                       </h2>

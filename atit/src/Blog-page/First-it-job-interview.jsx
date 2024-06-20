@@ -109,19 +109,19 @@ function Howtoace() {
                                             <h1 className ="primary-header text-center mb-5">How to Ace Your First IT Job Interview</h1>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's response is impressive as it succinctly highlights the candidate's relevant qualifications and sets the stage for further discussion on their technical skills and experiences.</p>
                                             <p className ="secondary-text">Interviewer: That sounds impressive, Arun! Can you highlight your favorite project and how it challenged you?</p>
                                             <p className ="secondary-text">Candidate: Sure! My favorite project was developing a web application for an e-commerce platform. It was challenging because I had to work with a team and coordinate different aspects of the project, such as frontend design, backend functionality, and database management. But it taught me a lot about collaboration and communication within a team.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's response demonstrates their ability to handle teamwork and manage a complex project, which is highly valuable in an IT job role.</p>
                                             <p className ="secondary-text">Interviewer: Collaboration is crucial in the IT industry. Speaking of teamwork, can you tell me about a time when you faced a conflict within a team project and how you resolved it?</p>
                                             <p className ="secondary-text">Candidate: Certainly! During the e-commerce project, we had a disagreement about the technology stack to use. Some team members favored a particular framework, while others had different preferences. To resolve the conflict, we organized a meeting where everyone presented their arguments. We then collectively evaluated the pros and cons and finally reached a consensus that ensured all team members felt heard and valued.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's response highlights their strong communication and conflict resolution skills, crucial attributes in a team-based work environment.</p>
                                             <p className ="secondary-text">Interviewer: That's a great example of conflict resolution! Moving on, can you share a challenging technical problem you encountered and how you tackled it?</p>
                                             <p className ="secondary-text">Candidate: Of course! During my database management project, we faced an issue with data synchronization between servers. It was affecting the performance and reliability of the application. To resolve it, I researched various database replication techniques and implemented the one that best suited our project's requirements. It took some trial and error, but eventually, we achieved seamless data synchronization.</p>
@@ -135,46 +135,46 @@ function Howtoace() {
                                             </div>
                                             <div className ="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
                                                 data-aos-duration="600">
-                                                <p className ="secondary-header m-0">Interviewer </p>
-                                                <p className ="secondary-header m-0">Candidate </p>
+                                                <p className ="primary-header fs-2 m-0">Interviewer </p>
+                                                <p className ="primary-header fs-2 m-0">Candidate </p>
                                             </div>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's response showcases their problem-solving abilities and their willingness to take the initiative to find solutions to complex technical issues.</p>
                                             <p className ="secondary-text">Interviewer: Problem-solving is a critical skill in IT. Now, let's talk about your experience with continuous learning. How do you keep yourself updated with the latest technology trends?</p>
                                             <p className ="secondary-text">Candidate: Staying updated is essential in the fast-paced IT industry. I follow tech blogs, subscribe to newsletters, and participate in online forums and coding communities. Additionally, I attend webinars and workshops to gain insights from industry experts and learn about emerging technologies.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's response demonstrates their proactive approach to continuous learning and staying abreast of the latest advancements in the IT field.</p>
                                             <p className ="secondary-text">Interviewer: That's commendable, Arun! Employers value candidates who show enthusiasm for learning. Now, let's shift our focus to teamwork. Can you describe your preferred role within a team and how you contribute to group projects effectively?</p>
                                             <p className ="secondary-text">Candidate: In a team, I prefer a role that allows me to leverage my programming skills and also collaborate with others. I enjoy taking ownership of specific modules and ensuring their seamless integration within the overall project. To contribute effectively, I actively listen to my teammates' ideas, share my thoughts, and always strive to maintain a positive and supportive atmosphere.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text"> Arun's response reveals their team-oriented mindset, leadership potential, and their ability to work harmoniously with others.</p>
                                             <p className ="secondary-text">Interviewer: Collaboration and positivity go a long way in a team environment. On a different note, how do you handle tight deadlines and manage your time effectively?</p>
                                             <p className ="secondary-text">Candidate:  Meeting deadlines is crucial in the IT industry, and I've learned to manage my time efficiently. I break down projects into smaller tasks and set achievable milestones. Additionally, I prioritize tasks based on their importance and urgency. If I encounter any roadblocks, I'm not hesitant to seek help or communicate the challenges to my team.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's response demonstrates their excellent time management skills, adaptability, and ability to handle pressure, all of which are valuable traits in the IT job landscape.</p>
                                             <p className ="secondary-text"> Interviewer: That's a great approach to time management, Arun! Now, let's talk about your long-term goals. Where do you see yourself in five years in the IT industry?</p>
                                             <p className ="secondary-text">Candidate: In the next five years, I envision myself as a skilled software developer working on exciting and challenging projects. I aim to continuously learn and grow, taking on more responsibilities and contributing significantly to my team and the organization. Ultimately, I aspire to become a tech leader, inspiring and guiding others to achieve their best potential.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's response exhibits their ambition and clear vision for career growth, showing their dedication to making a positive impact within the industry.</p>
                                             <p className ="secondary-text">Interviewer: It's wonderful to have ambitious goals, Arun! Lastly, do you have any questions for us?</p>
                                             <p className ="secondary-text">Candidate: Yes, thank you! I'd love to know more about the company culture and opportunities for professional development within the organization.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Why the answer is great: </h2>
+                                            <h2 className ="primary-header fs-2">Why the answer is great: </h2>
                                             <p className ="secondary-text">Arun's concluding question reflects their interest in the company, signaling a proactive and enthusiastic attitude towards potential employment.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Conclusion: </h2>
+                                            <h2 className ="primary-header fs-2">Conclusion: </h2>
                                             <p className ="secondary-text">And there you have it, college freshers! A glimpse into a Q&A session that can help you prepare for your first IT job interview. Remember to showcase your technical skills, problem-solving abilities, teamwork, and enthusiasm for learning. With the right approach and a positive attitude, you're well on your way to landing that dream IT job. Best of luck in your future endeavors!</p>
                                         </div>
                                     </div>

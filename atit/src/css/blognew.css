@@ -54,11 +54,11 @@
   padding: 10px;
 }
 .blog-container .primary-header {
-  font-size: 40px;
+  font-size: 44px;
   letter-spacing: 0.5px;
 }
 .blog-container .secondary-text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   font-family: var(--fam2);
   font-weight: 500;
@@ -175,4 +175,8 @@
 }
 .blog-container .secondary-header {
   letter-spacing: unset !important;
+}
+
+#textspacing{
+  letter-spacing: 0.5px;
 }

@@ -122,7 +122,7 @@ function Introductiontothedynamics() {
                             </p>
                             <div>
                                 <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                    <h1 className ="primary-header text-center mb-3">
+                                    <h1 className ="primary-header text-center mb-5" id='textspacing'>
                                         Introduction To The Dynamics Of The IT Job Market And Fresh
                                         Graduates
                                     </h1>
@@ -136,14 +136,14 @@ function Introductiontothedynamics() {
                                             </div>
                                             <div className ="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
                                                 data-aos-duration="600">
-                                                <p className ="secondary-header m-0">python</p>
-                                                <p className ="secondary-header m-0">JavaScript</p>
-                                                <p className ="secondary-header m-0">Node.js</p>
-                                                <p className ="secondary-header m-0">React.js</p>
+                                                <p className ="primary-header fs-2 m-0">python</p>
+                                                <p className ="primary-header fs-2 m-0">JavaScript</p>
+                                                <p className ="primary-header fs-2 m-0">Node.js</p>
+                                                <p className ="primary-header fs-2 m-0">React.js</p>
                                             </div>
                                         </div> --> */}
                                 <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                    <h2 className ="secondary-header">
+                                    <h2 className ="primary-header fs-2" id='textspacing'>
                                         Understanding The Skill Gap Between Fresh Graduates And IT
                                         Job Requirements
                                     </h2>
@@ -190,7 +190,7 @@ function Introductiontothedynamics() {
                                 </p>
                             </div>
                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                <h2 className ="secondary-header">
+                                <h2 className ="primary-header fs-2" id='textspacing'>
                                     Bridging The Gap: Strategies For Fresh Graduates To Enhance Employability
                                 </h2>
                                 <p className ="primary-text">
@@ -239,7 +239,7 @@ function Introductiontothedynamics() {
                                 </p>
                             </div>
                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                <h2 className ="secondary-header">The Importance Of Continuous Learning And Professional
+                                <h2 className ="primary-header fs-2" id='textspacing'>The Importance Of Continuous Learning And Professional
                                     DevelopmentNetworking and Building Professional Connections
                                 </h2>
                                 <p className ="primary-text">
@@ -274,7 +274,7 @@ function Introductiontothedynamics() {
                                 </p>
                             </div>
                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                <h2 className ="secondary-header">
+                                <h2 className ="primary-header fs-2" id='textspacing'>
                                     Navigating The Recruitment Process: Tips For Fresh Graduates
                                 </h2>
                                 <p className ="primary-text">
@@ -311,7 +311,7 @@ function Introductiontothedynamics() {
                                 </p>
                             </div>
                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                <h2 className ="secondary-header">
+                                <h2 className ="primary-header fs-2" id='textspacing'>
                                     Overcoming Common Challenges Faced By Fresh Graduates In IT Jobs
                                 </h2>
                                 <p className ="primary-text">
@@ -347,7 +347,7 @@ function Introductiontothedynamics() {
                                 </p>
                             </div>
                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                <h2 className ="secondary-header">
+                                <h2 className ="primary-header fs-2" id='textspacing'>
                                     Mentorship And Guidance: Finding Support In The IT Industry
                                 </h2>
                                 <p className ="primary-text">
@@ -382,7 +382,7 @@ function Introductiontothedynamics() {
                                 </p>
                             </div>
                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                <h2 className ="secondary-header">
+                                <h2 className ="primary-header fs-2" id='textspacing'>
                                     How To Hit The Ground Running In Your First IT Job
                                 </h2>
                                 <p className ="primary-text">
@@ -415,7 +415,7 @@ function Introductiontothedynamics() {
                                 </p>
                             </div>
                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                <h2 className ="secondary-header">
+                                <h2 className ="primary-header fs-2" id='textspacing'>
                                     Summary: Key Takeaways For Fresh Graduates Aspiring To Succeed In IT Jobs
                                 </h2>
                                 <p className ="primary-text">
@@ -448,7 +448,7 @@ function Introductiontothedynamics() {
                             </div>
                         </div>
                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                            <h2 className ="secondary-header">
+                            <h2 className ="primary-header fs-2" id='textspacing'>
                                 Frequently Asked Questions (FAQs) About Fresh Graduates And IT Jobs
                             </h2>
                             <p className ="primary-text">

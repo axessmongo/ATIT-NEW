@@ -108,7 +108,7 @@ function Wanttogetahead() {
                                             <h1 className ="primary-header text-center mb-5"> Want To Get Ahead Of The Job Race</h1>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">1. JavaScript</h2>
+                                            <h2 className ="primary-header fs-2">1. JavaScript</h2>
                                             <p className ="secondary-text">JavaScript was invented to meet the needs of the evolving landscape of the internet. It is a powerful programming language built for Netscape Navigator in 1995. </p>
                                             <p className ="secondary-text">All modern web browsers have since adopted it for adding functionality to websites and, more recently, web applications for both Computers and Mobiles. </p>
                                             <p className ="secondary-text">Over the years since its inception, JavaScript has grown into a powerhouse. Almost 90% of web applications are built over Java Script.</p>
@@ -125,7 +125,7 @@ function Wanttogetahead() {
                                             <p className ="secondary-text">These frameworks and libraries are widely used by developers to create dynamic and interactive web applications that constitute the modern web.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">2. Python</h2>
+                                            <h2 className ="primary-header fs-2">2. Python</h2>
                                             <p className ="secondary-text">You would have known this already.Python is a high-level programming language that is used for web development, data analysis, artificial intelligence, and scientific computing. It was created in the late 1980s by Guido van Rossum and has since become one of the most popular programming languages in the world.
                                                 Python is known for its simplicity and ease of use. It has a clear and concise syntax that makes it easy to read and write.
                                             </p>
@@ -159,15 +159,15 @@ function Wanttogetahead() {
                                             </div>
                                             <div className ="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
                                                 data-aos-duration="600">
-                                                <p className ="secondary-header m-0">Ruby</p>
-                                                <p className ="secondary-header m-0">Java</p>
-                                                <p className ="secondary-header m-0"> JavaScript </p>
-                                                <p className ="secondary-header m-0">python </p>
-                                                <p className ="secondary-header m-0">C++ </p>
+                                                <p className ="primary-header fs-2 m-0">Ruby</p>
+                                                <p className ="primary-header fs-2 m-0">Java</p>
+                                                <p className ="primary-header fs-2 m-0"> JavaScript </p>
+                                                <p className ="primary-header fs-2 m-0">python </p>
+                                                <p className ="primary-header fs-2 m-0">C++ </p>
                                             </div>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">3. Java</h2>
+                                            <h2 className ="primary-header fs-2">3. Java</h2>
                                             <p className ="secondary-text">Java is a high-level programming language that was first released in 1995. It was created by James Gosling and his team at Sun Microsystems.
                                                 Java is an object-oriented language that is designed to be portable and platform-independent. This means that Java code can run on any platform that has a Java Virtual Machine (JVM) installed. This feature made Java a household name in programming.
                                             </p>
@@ -181,7 +181,7 @@ function Wanttogetahead() {
                                             <p className ="secondary-text">Three powerful features, portability, scalability, and security features make Java unavoidable. It is widely used across various industries and has a large community of developers who contribute to its development.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">4. C++</h2>
+                                            <h2 className ="primary-header fs-2">4. C++</h2>
                                             <p className ="secondary-text">Developed by Bjarne Stroustrup in 1983n C++ is a high-level programming language. It is an extension of the C programming language and is designed for system programming, embedded systems, and game development.</p>
                                             <p className ="secondary-text">There is always a question about C++ in mind, ‘Is it still valid in 2023?’</p>
                                             <p className ="secondary-text">Y.E.S.</p>
@@ -190,7 +190,7 @@ function Wanttogetahead() {
                                             <p className ="secondary-text">C++ is known for its performance and efficiency. It allows developers to write code that runs quickly and uses minimal resources. C++ also provides low-level memory manipulation features that are not available in other high-level languages.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">5. Ruby</h2>
+                                            <h2 className ="primary-header fs-2">5. Ruby</h2>
                                             <p className ="secondary-text">Ruby is a programming language that was created in the mid-1990s by Yukihiro Matsumoto. It is known for its simplicity and elegance, which makes it easy to read and write. Ruby is widely used in web development, especially in the development of web applications using the Ruby on Rails framework.</p>
                                             <p className ="secondary-text">Ruby is also used in the development of automation scripts and other tools. It is known for its flexibility and ease of use. Ruby has a large community of developers who contribute to its development and provide support to other developers.</p>
                                             <p className ="primary-text">Most popular frameworks and libraries of Ruby:</p>
@@ -207,7 +207,7 @@ function Wanttogetahead() {
                                             <p className ="secondary-text">7. CarrierWave - A library for uploading files in Ruby applications.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Final Thoughts: Is it worth learning programming languages in 2023?</h2>
+                                            <h2 className ="primary-header fs-2">Final Thoughts: Is it worth learning programming languages in 2023?</h2>
                                             <p className ="secondary-text">Learning software development in 2023 is an excellent investment in your future career. </p>
                                             <p className ="secondary-text">By learning the most in-demand programming languages, you can increase your chances of landing a lucrative job or creating your own software applications for all devices. </p>
                                             <p className ="secondary-text">Let us know in the comment if you have any other questions regarding your career in software development.</p>

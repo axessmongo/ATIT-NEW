@@ -118,7 +118,7 @@ function DevOpsTestAutomation() {
                                         {/* <!-- content start--> */}
                                         <div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h1 className="primary-header text-center mb-3">
+                                                <h1 className="primary-header text-center mb-5">
                                                     How DevOps Test Automation Improves Software Reliability and Qualitystanding The IT Industry
                                                 </h1>
                                                 <p className="secondary-text">
@@ -130,7 +130,7 @@ function DevOpsTestAutomation() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     Why is Test Automation Important for DevOps?
                                                 </h2>
                                                 <p className="secondary-text">
@@ -138,7 +138,7 @@ function DevOpsTestAutomation() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     Familiarising With The IT Development Life Cycle
                                                 </h2>
                                                 <p className="secondary-text">
@@ -154,7 +154,7 @@ function DevOpsTestAutomation() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     100% PLACEMENT GUARANTEED AT ATIT
                                                 </h2>
                                                 <p className="secondary-text">
@@ -166,7 +166,7 @@ function DevOpsTestAutomation() {
                                         </div>
                                         <div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header mb-3">
+                                                <h2 className="primary-header fs-2 mb-3">
                                                     Benefits of Implementing Automated Testing in DevOps
                                                 </h2>
                                                 <p className="secondary-text">
@@ -174,7 +174,7 @@ function DevOpsTestAutomation() {
                                                     Our training programmes help students discover their skills, investigate several career options, and arrive at wise judgements. To assist students in matching their career goals with market demands, we offer advice on industry trends, the dynamics of the labour market, and skill development.
                                                 </p>
 
-                                                <h2 className="secondary-header mb-3">
+                                                <h2 className="primary-header fs-2 mb-3">
                                                     Accelerated Testing
                                                 </h2>
                                                 <p className="secondary-text">
@@ -184,7 +184,7 @@ function DevOpsTestAutomation() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     Enhanced Software Quality and Reliability
                                                 </h2>
                                                 <p className="secondary-text">
@@ -194,7 +194,7 @@ function DevOpsTestAutomation() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     Easier incident management
                                                 </h2>
                                                 <p className="secondary-text">
@@ -204,7 +204,7 @@ function DevOpsTestAutomation() {
                                                 </p>
                                             </div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header">
+                                                <h2 className="primary-header fs-2">
                                                     CAREER OPPORTUNITY ASSISTANCE WITH ATIT
                                                 </h2>
                                                 <p className="secondary-text">
@@ -214,7 +214,7 @@ function DevOpsTestAutomation() {
                                         </div>
                                         <div>
                                             <div className="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className="secondary-header mb-3">
+                                                <h2 className="primary-header fs-2 mb-3">
                                                     How can ATIT assist you in utilising DevOps for Automation Testing?
                                                 </h2>
                                                 <p className="secondary-text">
@@ -223,7 +223,7 @@ function DevOpsTestAutomation() {
                                                     In today's cutthroat economy, finding a job can be extremely challenging for recent graduates. However, at ATIT, we guarantee our students that, for the majority of our training programmes, they will receive 100% placement, and for the minority of training courses, they will receive
                                                 </p>
 
-                                                <h2 className="secondary-header mb-3">
+                                                <h2 className="primary-header fs-2 mb-3">
                                                     placement assistance.
                                                 </h2>
                                             </div>

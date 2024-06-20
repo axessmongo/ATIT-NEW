@@ -116,15 +116,15 @@ function Heretheframework() {
                                     </div>
                                     <div className ="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
                                         data-aos-duration="600">
-                                        <p className ="secondary-header m-0">python</p>
-                                        <p className ="secondary-header m-0">JavaScript</p>
-                                        <p className ="secondary-header m-0">Node.js</p>
-                                        <p className ="secondary-header m-0">React.js</p>
+                                        <p className ="primary-header fs-2 m-0">python</p>
+                                        <p className ="primary-header fs-2 m-0">JavaScript</p>
+                                        <p className ="primary-header fs-2 m-0">Node.js</p>
+                                        <p className ="primary-header fs-2 m-0">React.js</p>
                                         
                                     </div>
                                 </div> --> */}
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Understanding the Dynamic Indian Job Market</h2>
+                                            <h2 className ="primary-header fs-2">Understanding the Dynamic Indian Job Market</h2>
                                             <p className ="primary-text">A. Overview of the Indian IT Industry</p>
                                             <p className ="secondary-text">	Growth and significance of the IT industry in India</p>
                                             <p className ="secondary-text">The Indian IT industry has witnessed remarkable growth in recent years, making it the backbone of India's economy. With its strong technological capabilities, India has become a global hub for IT services, including software development, data analytics, cloud computing, and cybersecurity. The industry's contribution to employment generation and foreign exchange earnings cannot be overstated, making it a desirable field for individuals seeking exciting career prospects.</p>
@@ -142,7 +142,7 @@ function Heretheframework() {
                                             <p className ="secondary-text">Understanding the landscape of the Indian IT industry is crucial for navigating the job market effectively. Research and analyse the different sectors, companies, and job roles to identify potential career paths that align with your skills, interests, and aspirations. Consider factors such as growth potential, industry demand, and work-life balance to make an informed decision.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Maximising your IT Education and Training</h2>
+                                            <h2 className ="primary-header fs-2">Maximising your IT Education and Training</h2>
                                             <p className ="primary-text">A. Choosing the Right Educational Pathway </p>
                                             <p className ="secondary-text">	Evaluating the advantages of different IT education options</p>
                                             <p className ="secondary-text">When it comes to IT education, you have several options to choose from, including traditional degree programs, online courses, bootcamps, and certifications. Each pathway has its advantages, and it is important to evaluate them based on factors such as flexibility, curriculum relevance, industry recognition, and cost-effectiveness.</p>
@@ -160,7 +160,7 @@ function Heretheframework() {
                                             <p className ="secondary-text">There are numerous resources available for continuous learning and skill development. Online learning platforms, industry-specific blogs, and open-source projects can provide valuable insights and opportunities for honing your skills. Take advantage of these resources to enhance your expertise and keep pace with the ever-evolving IT landscape.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Networking and Building Professional Connections</h2>
+                                            <h2 className ="primary-header fs-2">Networking and Building Professional Connections</h2>
                                             <p className ="primary-text"> A. Leveraging Online Platforms and Communities</p>
                                             <p className ="secondary-text">	Utilising professional networking platforms like LinkedIn</p>
                                             <p className ="secondary-text">LinkedIn, the world's largest professional networking platform, offers immense opportunities for IT professionals to connect with industry experts, recruiters, and potential employers. Create a compelling profile, engage in relevant discussions, and actively seek connections to expand your professional network. Remember to personalise your connection requests and be genuine in your interactions.</p>
@@ -178,7 +178,7 @@ function Heretheframework() {
                                             <p className ="secondary-text">Look for mentorship opportunities within your organisation, professional networks, or through specialised mentorship programs. Approach potential mentors respectfully and share your career goals and aspirations. Cultivate a strong rapport with your mentor by actively seeking their advice, implementing their guidance, and demonstrating your commitment to growth.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Mastering the Art of Job Search and Applications</h2>
+                                            <h2 className ="primary-header fs-2">Mastering the Art of Job Search and Applications</h2>
                                             <p className ="primary-text">A. Crafting an Impressive Resume and Cover Letter </p>
                                             <p className ="secondary-text">	Key elements to include in an IT-focused resume</p>
                                             <p className ="secondary-text">When crafting your IT resume, highlight your technical skills, relevant projects, and certifications prominently. Tailor your resume for each job application, emphasising the specific skills and experience sought by the employer. Use powerful action verbs and quantify your achievements whenever possible to make a strong impact</p>
@@ -196,7 +196,7 @@ function Heretheframework() {
                                             <p className ="secondary-text">Negotiating your salary and benefits requires confidence and preparedness. Clearly articulate your value proposition, highlighting your skills, achievements, and potential contribution to the organisation. Be open to compromise, maintain a positive attitude, and evaluate job offers based on their alignment with your long-term career goals and aspirations.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Thriving in the Indian IT Workplace</h2>
+                                            <h2 className ="primary-header fs-2">Thriving in the Indian IT Workplace</h2>
                                             <p className ="primary-text">A. Embracing Workplace Culture and Team Dynamics </p>
                                             <p className ="secondary-text">	Understanding the work culture and customs in Indian IT companies</p>
                                             <p className ="secondary-text">Indian IT companies have their unique work culture and customs influenced by various factors such as hierarchy, teamwork, and respect for authority. Understand the organisational norms, professional etiquette, and communication styles prevalent in the workplace. Adapt to the culture, build strong relationships, and show respect for colleagues and superiors.</p>
@@ -214,11 +214,11 @@ function Heretheframework() {
                                             <p className ="secondary-text">Continuous professional growth is essential for long-term success. Stay updated with the latest industry trends, enhance your skills through relevant certifications and courses, and seek mentors who can guide your professional development. Take ownership of your career, network strategically, and create opportunities for growth that align with your ambitions.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Summary and Conclusion</h2>
+                                            <h2 className ="primary-header fs-2">Summary and Conclusion</h2>
                                             <p className ="secondary-text">In conclusion, accelerating your IT career journey in India requires strategic planning, continuous learning, networking, and adaptability. Understand the dynamics of the Indian job market, invest in quality education and practical experience, and leverage online platforms for networking. Master the art of job search, embrace workplace culture and team dynamics, and prioritise professional growth. With determination, perseverance, and the right approach, you can crack the code and propel your IT career to new heights of success in India.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">FAQs</h2>
+                                            <h2 className ="primary-header fs-2">FAQs</h2>
                                             <p className ="secondary-text">	How can I stand out in the highly competitive Indian IT job market?</p>
                                             <p className ="secondary-text">	Emphasise your specialised skills in emerging technologies, build a comprehensive portfolio, and leverage networking opportunities to stand out from the competition.</p>
                                             <br /> <p className ="secondary-text">	What are the key elements to include in an IT-focused resume?</p>

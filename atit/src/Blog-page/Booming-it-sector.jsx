@@ -111,7 +111,7 @@ function Theboomingitsector() {
 
                                     <h1 className ="primary-header text-center mb-2" data-aos="fade-up" data-aos-duration="600"> The Booming IT Sector in India</h1>
 
-                                    <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">A. Overview of the Indian
+                                    <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">A. Overview of the Indian
                                         IT Industry</p>
                                     <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Growth and significance of
                                         the IT industry in India</p>
@@ -128,7 +128,7 @@ function Theboomingitsector() {
                                                 cannot be overstated,
                                                 making it a desirable field for individuals seeking exciting career prospects.</p>
 
-                                            <h2 className ="secondary-header" data-aos="fade-up" data-aos-duration="600">B.Current job
+                                            <h2 className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">B.Current job
                                                 market trends and demands </h2>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Keeping up with the
                                                 latest trends and demands in the Indian IT job market is crucial for professionals
@@ -158,7 +158,7 @@ function Theboomingitsector() {
                                                 drive technological advancements. By acquiring expertise in these areas,
                                                 professionals can tap into this
                                                 demand and position themselves for accelerated career growth.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">C. Navigating the
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">C. Navigating the
                                                 Indian Job Market as an IT Professional</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Identifying your
                                                 career goals and aspirations</p>
@@ -177,9 +177,9 @@ function Theboomingitsector() {
                                                 that align with your skills, interests, and aspirations. Consider factors such as
                                                 growth potential, industry
                                                 demand, and work-life balance to make an informed decision.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Maximising your
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Maximising your
                                                 IT Education and Training </p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">A. Choosing the
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">A. Choosing the
                                                 Right Educational Pathway</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Evaluating the
                                                 advantages of different IT education options</p>
@@ -199,7 +199,7 @@ function Theboomingitsector() {
                                                 education in your chosen field and consider factors such as faculty expertise,
                                                 industry collaborations, job placement support, and
                                                 alumni network.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">B. Gaining
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">B. Gaining
                                                 Practical Experience and Building a Strong Portfolio</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Leveraging
                                                 internships, projects, and certifications for hands-on experience</p>
@@ -219,7 +219,7 @@ function Theboomingitsector() {
                                                 expertise and
                                                 accomplishments. Make sure to use industry-relevant terminology and highlight the
                                                 impact of your work.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">C. Continuous
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">C. Continuous
                                                 Learning and Skill Development</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Importance of
                                                 staying updated with industry trends and technological advancements</p>
@@ -241,9 +241,9 @@ function Theboomingitsector() {
                                                 your expertise and
                                                 keep pace with the ever-evolving IT landscape.
                                                 base.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">
                                                 Networking and Building Professional Connections</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">A. Leveraging
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">A. Leveraging
                                                 Online Platforms and Communities</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Utilising
                                                 professional networking platforms like LinkedIn</p>
@@ -263,7 +263,7 @@ function Theboomingitsector() {
                                                 discussions, contribute valuable insights, and build relationships with like-minded
                                                 individuals who can
                                                 support your career growth.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">B. Participating
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">B. Participating
                                                 in Industry Events and Conferences</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600"> Importance of
                                                 attending IT conferences and seminars</p>
@@ -283,7 +283,7 @@ function Theboomingitsector() {
                                                 with. Engage in meaningful conversations, exchange business cards, and follow up
                                                 with your new
                                                 connections after the event to maintain relationships.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">C. Mentorship and
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">C. Mentorship and
                                                 Guidance</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Benefits of having
                                                 a mentor in your IT career journey</p>
@@ -303,9 +303,9 @@ function Theboomingitsector() {
                                                 and aspirations. Cultivate a strong rapport with your mentor by actively seeking
                                                 their advice,
                                                 implementing their guidance, and demonstrating your commitment to growth.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Mastering the Art
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Mastering the Art
                                                 of Job Search and Applications</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">A. Crafting an
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">A. Crafting an
                                                 Impressive Resume and Cover Letter</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Key elements to
                                                 include in an IT-focused resume</p>
@@ -325,7 +325,7 @@ function Theboomingitsector() {
                                                 relevant skills, and accomplishments. Use persuasive language to demonstrate your
                                                 fit for the role and
                                                 explain how you can contribute to the organisation&#39;s success.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">B. Preparing for
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">B. Preparing for
                                                 Interviews and Technical Assessments</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Common interview
                                                 questions for IT roles in India</p>
@@ -348,7 +348,7 @@ function Theboomingitsector() {
                                                 your solutions.
                                                 Collaborate with others through online coding platforms to enhance your skills and
                                                 knowledge.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">C. Understanding
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">C. Understanding
                                                 Salary Negotiations and Benefits</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Researching average
                                                 salaries and compensation packages in the Indian IT industry</p>
@@ -369,8 +369,8 @@ function Theboomingitsector() {
                                                 Be open to compromise, maintain a positive attitude, and evaluate job offers based
                                                 on their alignment
                                                 with your long-term career goals and aspirations.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Thriving in the Indian IT Workplace</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">A. Embracing
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Thriving in the Indian IT Workplace</p>
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">A. Embracing
                                                 Workplace Culture and Team Dynamics</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Understanding the
                                                 work culture and customs in Indian IT companies</p>
@@ -390,7 +390,7 @@ function Theboomingitsector() {
                                                 and offering support. Show appreciation for others&#39; contributions, listen
                                                 attentively, and seek feedback to
                                                 foster a positive work environment.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">B. Overcoming
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">B. Overcoming
                                                 Workplace Challenges</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Dealing with work
                                                 pressure and handling deadlines</p>
@@ -413,7 +413,7 @@ function Theboomingitsector() {
                                                 boundaries between work and personal life, and communicate your needs to maintain a
                                                 healthy
                                                 balance.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">C. Career Growth
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">C. Career Growth
                                                 and Advancement</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Identifying
                                                 opportunities for career growth within the company</p>
@@ -434,7 +434,7 @@ function Theboomingitsector() {
                                                 your professional development. Take ownership of your career, network strategically,
                                                 and create
                                                 opportunities for growth that align with your ambitions.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">Summary and
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">Summary and
                                                 Conclusion</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">In conclusion,
                                                 accelerating your IT career journey in India requires strategic planning, continuous
@@ -462,7 +462,7 @@ function Theboomingitsector() {
                                                 Develop effective time management skills, prioritise tasks, set boundaries, and
                                                 communicate your needs to maintain
                                                 a healthy work-life balance.</p>
-                                            <p className ="secondary-header" data-aos="fade-up" data-aos-duration="600">How important is
+                                            <p className ="primary-header fs-2" data-aos="fade-up" data-aos-duration="600">How important is
                                                 continuous learning and skill development in the IT industry?</p>
                                             <p className ="secondary-text" data-aos="fade-up" data-aos-duration="600">Continuous learning
                                                 is crucial for staying relevant and competitive in the ever-evolving IT industry.

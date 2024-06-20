@@ -249,7 +249,7 @@ console.log(domainDatas);
                     </Link>
                   </div>
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="corejava"
+                    <Link to="testNG"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card7 text-white text-center mb-0">TestNG</h4>
@@ -283,7 +283,7 @@ console.log(domainDatas);
                 <h2 className='primary-color mb-3' data-aos="fade-up" data-aos-duration="600">Python</h2>
                 <div className ="row g-5">
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="apirestassured"
+                    <Link to="Pytest"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card3 text-white text-center mb-0">Pytest</h4>
@@ -342,7 +342,7 @@ console.log(domainDatas);
                   </div>
                   
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="corejava"
+                    <Link to="doctest"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card9 text-white text-center mb-0">Doctest</h4>
@@ -376,7 +376,7 @@ console.log(domainDatas);
                 <h2 className='primary-color mb-3' data-aos="fade-up" data-aos-duration="600">Java Script</h2>
                 <div className ="row g-5">
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="apirestassured"
+                    <Link to="jsplaywright"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card5 text-white text-center mb-0">JS PlayWright</h4>
@@ -405,7 +405,7 @@ console.log(domainDatas);
                     </Link>
                   </div>
                   <div className ="col-md-6 col-lg-4">
-                    <Link to="corejava"
+                    <Link to="tsplaywright"
                       className ="card pap-card overflow-hidden border-0 shadow1 d-block" data-aos="fade-up" data-aos-duration="600">
                       <div className ="w-100 common-card-image">
                         <h4 className ="course-card6 text-white text-center mb-0">TS PlayWright</h4>

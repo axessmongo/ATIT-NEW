@@ -150,7 +150,7 @@ function CompetitiveJobMarket() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Lack Of Visibility</h2>
+                                            <h2 className ="primary-header fs-2">Lack Of Visibility</h2>
                                             <p className ="secondary-text">One Of The Most Common Challenges Job Seekers Encounter Is A
                                                 Lack Of Visibility. Recruiters Receive Numerous Applications For Each Job Posting,
                                                 Making It Crucial For You To Make A Lasting Impression. To Increase Your Visibility,
@@ -168,7 +168,7 @@ function CompetitiveJobMarket() {
                                                 Consider Your Application.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">No Relevant Experience</h2>
+                                            <h2 className ="primary-header fs-2">No Relevant Experience</h2>
                                             <p className ="secondary-text">Many Job Seekers Struggle With A Lack Of Relevant Experience,
                                                 Particularly When Trying To Transition Into A New Industry Or Role. While It May Be
                                                 Challenging, There Are Strategies You Can Employ To Overcome This Obstacle:</p>
@@ -189,7 +189,7 @@ function CompetitiveJobMarket() {
                                                 So Make Sure To Emphasise Your Eagerness To Grow.</p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Time Management</h2>
+                                            <h2 className ="primary-header fs-2">Time Management</h2>
                                             <p className ="secondary-text">
                                                 Finding A Job Can Be Time-Consuming, Particularly If You're Juggling Other
                                                 Responsibilities Or Currently Employed Elsewhere. However, Optimising Your Time
@@ -210,7 +210,7 @@ function CompetitiveJobMarket() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Handling Rejection</h2>
+                                            <h2 className ="primary-header fs-2">Handling Rejection</h2>
                                             <p className ="secondary-text">
                                                 Rejection Is A Common Part Of The Job Search Process, And It Can Be Disheartening.
                                                 However, It's Crucial Not To Let Rejection Discourage You. Instead, Use It As A
@@ -234,7 +234,7 @@ function CompetitiveJobMarket() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Preparing Resume And Other Docs</h2>
+                                            <h2 className ="primary-header fs-2">Preparing Resume And Other Docs</h2>
                                             <p className ="secondary-text">
                                                 Tailoring Your Application Materials, Such As Your Resume And Cover Letter, To Each
                                                 Job Opportunity Is Vital To Stand Out. However, It Can Be Time-Consuming And
@@ -259,7 +259,7 @@ function CompetitiveJobMarket() {
                                             </p>
                                         </div>
                                         <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                            <h2 className ="secondary-header">Clarity In Career Goals</h2>
+                                            <h2 className ="primary-header fs-2">Clarity In Career Goals</h2>
                                             <p className ="secondary-text">
                                                 For Some Job Seekers, The Lack Of Clear Career Goals Can Hinder Their Progress.
                                                 However, By Developing A Clear Vision And Taking Actionable Steps, You Can Overcome
@@ -280,7 +280,7 @@ function CompetitiveJobMarket() {
                                                 Finding Your Ideal Career Path
                                             </p>
                                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className ="secondary-header">Limited Or No Networking</h2>
+                                                <h2 className ="primary-header fs-2">Limited Or No Networking</h2>
                                                 <p className ="secondary-text">
                                                     Networking Plays A Significant Role In A Successful Job Search, Yet Many Job
                                                     Seekers Struggle With It, Particularly If They Lack Experience Or Confidence In
@@ -302,7 +302,7 @@ function CompetitiveJobMarket() {
                                                 </p>
                                             </div>
                                             <div className ="mb-3" data-aos="fade-up" data-aos-duration="600">
-                                                <h2 className ="secondary-header">Key Takeaway</h2>
+                                                <h2 className ="primary-header fs-2">Key Takeaway</h2>
                                                 <p className ="secondary-text">
                                                     Overcoming The Obstacles That Stand Between You And Getting Noticed By
                                                     Recruiters Requires Determination, Strategy, And A Willingness To Improve. </p>
