@@ -44,7 +44,7 @@ function Advancejava() {
                                 >
                                     <ol className ="breadcrumb justify-content-center">
                                         <li className ="breadcrumb-item"><Link to= "/">Home</Link></li>
-                                        <li className ="breadcrumb-item"><Link to= "/courses">Courses</Link></li>
+                                        <li className ="breadcrumb-item"><Link to= "/domains">Domains</Link></li>
                                         <li
                                             className ="breadcrumb-item active text-white"
                                             aria-current="page"

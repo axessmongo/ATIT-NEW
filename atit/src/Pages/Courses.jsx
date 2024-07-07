@@ -103,7 +103,7 @@ console.log(domainDatas);
                       className ="breadcrumb-item active text-white"
                       aria-current="page"
                     >
-                      Courses
+                     Domains
                     </li>
                   </ol>
                 </nav>
@@ -113,7 +113,7 @@ console.log(domainDatas);
         </section>
       </div>
       {/* all group */}
-      <div className ="container course" id='course'>
+      <div className ="container course" id='domains'>
         <section className ="pap-card">
           <ul className ="nav nav-pills mb-5 text-center justify-content-md-evenly justify-content-center my-5 text-capitalize p-10 m-0 w-100"
             id="pills-tab" role="tablist ">
